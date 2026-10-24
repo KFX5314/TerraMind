@@ -1,0 +1,22 @@
+{
+ "events": [
+  {
+   "t": "2026-10-24T17:16:48.043998+00:00",
+   "stage": "completed",
+   "message": "373 requirements exported (re-export of dev-v6-newimg with source-aware dedupe)"
+  }
+ ],
+ "stage": "completed",
+ "message": "373 requirements exported (re-export of dev-v6-newimg with source-aware dedupe)",
+ "progress": 1.0,
+ "updated": "2026-10-24T17:16:48.043998+00:00",
+ "spent_usd": 0.0,
+ "regulations": [
+  "UN R10",
+  "UN R48",
+  "UN R148",
+  "UN R150"
+ ],
+ "n_requirements": 373,
+ "failed_sections": 0
+}

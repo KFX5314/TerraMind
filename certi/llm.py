@@ -159,6 +159,6 @@ async def _stream(kwargs: dict):
 
 def run(coro):
     """Run a coroutine from sync code (CLI / worker thread). Client and semaphore are loop-bound: reset per run."""
-    global _client, _sem
-    _client, _sem = None, None
+    global _client, _sem, _spent
+    _client, _sem, _spent = None, None, 0.0  # MAX_RUN_USD is per run, not per process
     return asyncio.run(coro)

@@ -31,7 +31,9 @@ def words(s: str) -> list[str]:
     s = s.replace("’", "'").replace("“", '"').replace("”", '"').replace("–", "-").replace("‘", "'")
     for pat, rep in EDITORIAL:  # notation-only differences are not amendments
         s = re.sub(pat, rep, s, flags=re.I)
-    return re.findall(r"[0-9A-Za-zÀ-ÿ%°µ]+(?:[.,'/-][0-9A-Za-zÀ-ÿ%°µ]+)*|[<>=±+]", s.casefold())
+    s = s.replace("−", "-")  # unicode minus
+    # a sign directly before a number is part of the value ("-10 V" != "10 V"); inequalities are tokens
+    return re.findall(r"(?<![0-9A-Za-z])[-+±](?=\d)[0-9]+(?:[.,][0-9]+)*|[0-9A-Za-zÀ-ÿ%°µ]+(?:[.,'/-][0-9A-Za-zÀ-ÿ%°µ]+)*|[<>=±+≤≥]", s.casefold())
 
 
 def ratio(a: list[str], b: list[str]) -> float:
