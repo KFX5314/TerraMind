@@ -20,6 +20,16 @@ import os
 CHUNK_CHARS = int(os.environ.get("CERTI_CHUNK_CHARS", "8000"))
 CONTEXT_PARENTS = os.environ.get("CERTI_CONTEXT_PARENTS", "1") == "1"  # prepend out-of-chunk parent clauses
 DEFAULT_THRESHOLD = 0.5  # measured on dev (v1 sweep): best F2; the model probability is not calibrated
+# Annex/appendix candidates (test procedures, conformity of production, forms) need a higher probability: below 0.7
+# their measured hit rate on two dev generations is 6 %, under the F2 break-even (~12-14 %), while main-body items
+# hit 42-45 %. 0.6 keeps almost all annex matches (0.7 would drop five) and stays cautious for unseen products.
+ANNEX_THRESHOLD = float(os.environ.get("CERTI_ANNEX_THRESHOLD", "0.6"))
+
+
+def export_threshold(c: dict, threshold: float) -> float:
+    if c["paragraph"].startswith(("Annex", "Appendix")):
+        return max(threshold, ANNEX_THRESHOLD)
+    return threshold
 ALLOWED_INPUT_SUFFIXES = {".md", ".txt", ".png", ".jpg", ".jpeg", ".webp"}
 
 
@@ -357,7 +367,8 @@ def finalize(run: Run, candidates: list[dict], team_id: str, case_id: str, thres
     uniq.sort(key=lambda c: (order.get(c["regulation"], 999), c["page"], c["paragraph"]))
     for i, c in enumerate(uniq, 1):
         c["id"] = f"R-{i:04d}"
-        c["exported"] = c["probability"] >= threshold
+        c["export_threshold"] = export_threshold(c, threshold)
+        c["exported"] = c["probability"] >= c["export_threshold"]
     run.write("requirements.json", uniq)
     sub = {
         "team_id": team_id,
@@ -378,7 +389,7 @@ def finalize(run: Run, candidates: list[dict], team_id: str, case_id: str, thres
 async def run_pipeline(run: Run, inputs: dict, team_id: str, *, deep_image: bool = False, audit: bool = False,
                        threshold: float = DEFAULT_THRESHOLD, only_regulations: list[str] | None = None) -> dict:
     run.write("inputs.json", {**inputs, "config": {"deep_image": deep_image, "audit": audit, "threshold": threshold,
-                                                   "model": llm.MODEL, "prompt_version": prompts.PROMPT_VERSION, "chunk_chars": CHUNK_CHARS, "context_parents": CONTEXT_PARENTS,
+                                                   "model": llm.MODEL, "prompt_version": prompts.PROMPT_VERSION, "chunk_chars": CHUNK_CHARS, "context_parents": CONTEXT_PARENTS, "annex_threshold": ANNEX_THRESHOLD,
                                                    "parser_version": ingest.PARSER_VERSION}})
     run.status("understanding", "Reading specification and drawing")
     profile = run.read("profile.json") or await understand(inputs, deep_image)
