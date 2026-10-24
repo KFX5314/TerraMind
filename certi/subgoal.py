@@ -27,11 +27,17 @@ NEW_SENTENCE_MAX = 0.6  # a new segment whose best old match is below this is ne
 from ._editorial import EDITORIAL  # noqa: E402
 
 
+_WORD = "[0-9A-Za-zÀ-ÿ%°µ]"
+# a number keeps its leading minus ("at least -10 V" != "at least 10 V"); comparison operators stay whole ("<=", ">=")
+TOKEN_RE = re.compile(rf"(?:(?<!{_WORD})-(?=[0-9]))?{_WORD}+(?:[.,'/-]{_WORD}+)*|[<>]=?|[=±+]")
+
+
 def words(s: str) -> list[str]:
-    s = s.replace("’", "'").replace("“", '"').replace("”", '"').replace("–", "-").replace("‘", "'")
+    s = (s.replace("’", "'").replace("“", '"').replace("”", '"').replace("–", "-").replace("‘", "'")
+         .replace("−", "-").replace("≤", "<=").replace("≥", ">="))
     for pat, rep in EDITORIAL:  # notation-only differences are not amendments
         s = re.sub(pat, rep, s, flags=re.I)
-    return re.findall(r"[0-9A-Za-zÀ-ÿ%°µ]+(?:[.,'/-][0-9A-Za-zÀ-ÿ%°µ]+)*|[<>=±+]", s.casefold())
+    return TOKEN_RE.findall(s.casefold())
 
 
 def ratio(a: list[str], b: list[str]) -> float:
