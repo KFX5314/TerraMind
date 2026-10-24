@@ -11,7 +11,6 @@ import datetime as dt
 import json
 import re
 import traceback
-from difflib import SequenceMatcher
 from pathlib import Path
 
 from . import ingest, llm, paths, prompts, tables
@@ -288,22 +287,23 @@ def fidelity(sentence: str, text: str) -> float:
 
 
 def dedupe(cands: list[dict]) -> list[dict]:
+    """Collapse repeated extraction of the same obligation, preserving distinct constraints.
+
+    Similar wording is not evidence of equivalence: a changed limit, test pulse,
+    polarity, or source occurrence must survive. Keep the highest-confidence copy.
+    """
+    import unicodedata
+
     kept: list[dict] = []
+    seen: set[tuple] = set()
     for c in sorted(cands, key=lambda c: -c["probability"]):
-        n = _norm(c["text"])
-        dup = False
-        for k in kept:
-            if k["regulation"] != c["regulation"]:
-                continue
-            if SequenceMatcher(None, n, k["_n"]).ratio() > 0.9:
-                dup = True
-                k.setdefault("merged", []).append(c["text"])
-                break
-        if not dup:
-            c["_n"] = n
-            kept.append(c)
-    for k in kept:
-        k.pop("_n", None)
+        text = " ".join(unicodedata.normalize("NFC", c["text"]).casefold().split())
+        key = (c["regulation"], c.get("version"), c["paragraph"], text,
+               json.dumps(c.get("condition"), sort_keys=True),
+               json.dumps(c.get("test_case"), sort_keys=True))
+        if key not in seen:
+            seen.add(key)
+            kept.append(dict(c))
     return kept
 
 

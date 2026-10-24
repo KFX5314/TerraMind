@@ -4,6 +4,7 @@
 # Local corpus, generated outputs, and scratch files.
 /data/
 /tmp/
+/artifacts/experiments/
 
 # Run outputs are committed; evaluation files quote expected.json (hackathon-only data) and stay local.
 
