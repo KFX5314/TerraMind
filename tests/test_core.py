@@ -70,3 +70,13 @@ def test_exports_validate():
     for f in sorted(paths.RUNS.glob("*/submission.json"))[:3]:
         r = subprocess.run([sys.executable, str(paths.PKG / "tools" / "validate.py"), str(f)], capture_output=True, text=True)
         assert r.returncode == 0, r.stdout + r.stderr
+
+
+def test_signs_and_inequalities_are_meaningful():
+    assert S.words("at least -10 V") != S.words("at least 10 V")
+    assert S.words("shall be ≤10 N") != S.words("shall be ≥10 N")
+
+
+def test_fidelity_detects_flipped_polarity():
+    assert pipeline.fidelity("The lamp shall not emit white light.", "The lamp shall emit white light.") < 0.5
+    assert pipeline.fidelity("The lamp shall not emit white light.", "The lamp shall not emit white light.") == 1.0

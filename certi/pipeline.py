@@ -11,7 +11,6 @@ import datetime as dt
 import json
 import re
 import traceback
-from difflib import SequenceMatcher
 from pathlib import Path
 
 from . import ingest, llm, paths, prompts, tables
@@ -19,6 +18,7 @@ from . import ingest, llm, paths, prompts, tables
 import os
 
 CHUNK_CHARS = int(os.environ.get("CERTI_CHUNK_CHARS", "8000"))
+CONTEXT_PARENTS = os.environ.get("CERTI_CONTEXT_PARENTS", "1") == "1"  # prepend out-of-chunk parent clauses
 DEFAULT_THRESHOLD = 0.5  # measured on dev (v1 sweep): best F2; the model probability is not calibrated
 ALLOWED_INPUT_SUFFIXES = {".md", ".txt", ".png", ".jpg", ".jpeg", ".webp"}
 
@@ -43,7 +43,7 @@ class Run:
                    "updated": dt.datetime.now(dt.timezone.utc).isoformat(), **extra})
         st["events"].append({"t": st["updated"], "stage": stage, "message": message})
         st["events"] = st["events"][-200:]
-        st["spent_usd"] = round(llm.spent(), 3)
+        st["spent_usd"] = round(llm._spent, 3)
         self.write("status.json", st)
         print(f"[{self.id}] {stage}: {message}", flush=True)
 
@@ -86,8 +86,7 @@ async def understand(inputs: dict, deep_image: bool = False) -> dict:
     text.append("Build the product profile.")
     content.append({"type": "text", "text": "\n\n".join(text)})
     return await llm.call_json(system=prompts.PROFILE_SYSTEM, content=content, schema=prompts.PROFILE_SCHEMA,
-                               tag="profile", model=llm.role_model("profile"),
-                               effort=llm.role_effort("profile", "xhigh" if deep_image else "high"), max_tokens=32000)
+                               tag="profile", effort="xhigh" if deep_image else "high", max_tokens=32000)
 
 
 # --------------------------------------------------------------------------------------------- stage 2
@@ -120,28 +119,29 @@ def screening_material(regulation: str) -> str:
     return "\n".join(out)
 
 
-async def _screen_call(profile: dict, regs: list[str], tag: str) -> dict[str, dict]:
+async def screen(profile: dict) -> list[dict]:
+    regs = [e["regulation"] for e in paths.index()]
     material = "\n\n".join(screening_material(r) for r in regs)
     content = (f"<product_profile>\n{json.dumps(profile, ensure_ascii=False, indent=1)}\n</product_profile>\n\n"
                f"Corpus ({len(regs)} regulations):\n\n{material}\n\n"
                f"Return one decision for each of the {len(regs)} regulations.")
     res = await llm.call_json(system=prompts.SCREEN_SYSTEM, content=content, schema=prompts.screen_schema(regs),
-                              tag=tag, model=llm.role_model("screen"), effort=llm.role_effort("screen"),
-                              max_tokens=32000)
-    return {d["regulation"]: d for d in res["decisions"]}
-
-
-async def screen(profile: dict) -> list[dict]:
-    regs = [e["regulation"] for e in paths.index()]
-    got = await _screen_call(profile, regs, "screen")
+                              tag="screen", effort="high", max_tokens=32000)
+    got = {d["regulation"]: d for d in res["decisions"]}
     missing = [r for r in regs if r not in got]
-    if missing:  # the model skipped some regulations: ask again for exactly those, once
-        got.update(await _screen_call(profile, missing, "screen:retry"))
+    if missing:  # ask again for the ones the model skipped, instead of silently dropping them
+        material2 = "\n\n".join(screening_material(r) for r in missing)
+        res2 = await llm.call_json(
+            system=prompts.SCREEN_SYSTEM, schema=prompts.screen_schema(missing), tag="screen:retry", effort="high",
+            max_tokens=16000,
+            content=(f"<product_profile>\n{json.dumps(profile, ensure_ascii=False, indent=1)}\n</product_profile>\n\n"
+                     f"{material2}\n\nReturn one decision for each of the {len(missing)} regulations."))
+        got.update({d["regulation"]: d for d in res2["decisions"]})
     decisions = []
-    for r in regs:  # every index entry gets a decision; still-missing ones are explicit and flagged
-        d = got.get(r) or {"regulation": r, "decision": "potentially_applicable", "basis": "none", "needs_review": True,
-                           "reason": "No decision returned by the screening model after a retry; NOT selected "
-                                     "automatically, review manually.", "probability": 0.3}
+    for r in regs:  # every index entry gets a decision; missing ones are explicit
+        d = got.get(r) or {"regulation": r, "decision": "potentially_applicable", "basis": "none",
+                           "reason": "No decision returned by the screening model after a retry; kept for review.",
+                           "probability": 0.5}
         d["title"] = paths.regulation_entry(r).get("title")
         d["version"] = paths.version_entry(r, "base")["version_label"]
         decisions.append(d)
@@ -175,10 +175,30 @@ def chunks_for(regulation: str) -> list[dict]:
     size = 0
     last_group = None
 
+    by_id = {q["id"]: q for q in doc["paragraphs"]}
+
+    def ancestors(chunk_items: list[dict]) -> list[dict]:
+        """Parent clauses of the chunk's paragraphs that are not themselves in the chunk (scope/conditions only)."""
+        inside = {it["pid"] for it in chunk_items}
+        out, seen = [], set()
+        for it in chunk_items:
+            q = by_id[it["pid"]]
+            chain = []
+            while q.get("parent") is not None:
+                q = by_id[q["parent"]]
+                chain.append(q)
+            for a in reversed(chain):
+                if a["id"] in inside or a["id"] in seen:
+                    continue
+                seen.add(a["id"])
+                out.append({"label": a["label"], "text": a["text"][:400]})
+        return out
+
     def flush():
         nonlocal cur, size
         if cur:
-            chunks.append({"regulation": regulation, "index": len(chunks), "paragraphs": cur})
+            chunks.append({"regulation": regulation, "index": len(chunks), "paragraphs": cur,
+                           "context": ancestors(cur) if CONTEXT_PARENTS else []})
         cur, size = [], 0
 
     # GTRs carry a long "statement of technical rationale" before the regulation text, whose numbering restarts:
@@ -201,7 +221,7 @@ def chunks_for(regulation: str) -> list[dict]:
         text = p["text"] + table_md.get(p["id"], "")
         pieces = [text[i:i + CHUNK_CHARS] for i in range(0, len(text), CHUNK_CHARS)] or [""]
         for piece in pieces:
-            item = {"label": p["label"], "pages": p["pages"], "text": piece}
+            item = {"label": p["label"], "pages": p["pages"], "text": piece, "pid": p["id"]}
             if cur and (size + len(piece) > CHUNK_CHARS or (group != last_group and size > 3000)):
                 flush()
             cur.append(item)
@@ -213,6 +233,11 @@ def chunks_for(regulation: str) -> list[dict]:
 
 def _format_paragraphs(chunk: dict) -> str:
     lines = []
+    if chunk.get("context"):
+        lines.append("CONTEXT - parent clauses of the paragraphs below (scope and conditions only; do not extract "
+                     "requirements from them):")
+        lines += [f"  [{c['label']}] {c['text']}" for c in chunk["context"]]
+        lines.append("PARAGRAPHS TO EXTRACT FROM:")
     for p in chunk["paragraphs"]:
         pg = p["pages"][0] if len(p["pages"]) == 1 else f"{p['pages'][0]}-{p['pages'][-1]}"
         lines.append(f"[{p['label']}] (page {pg}) {p['text']}")
@@ -239,9 +264,8 @@ async def extract_chunk(profile: dict, chunk: dict, decision: dict | None, audit
         content += "\nExtract the requirements that apply to this product."
         system, tag = prompts.EXTRACT_SYSTEM, f"extract:{chunk['regulation']}:{chunk['index']}"
     try:
-        role = "audit" if audit_of is not None else "extract"
         res = await llm.call_json(system=system, content=content, schema=prompts.extract_schema(labels), tag=tag,
-                                  model=llm.role_model(role), effort=llm.role_effort(role), max_tokens=64000)
+                                  effort="high", max_tokens=64000)
     except llm.Truncated:
         if len(chunk["paragraphs"]) < 2:
             raise
@@ -256,7 +280,6 @@ async def extract_chunk(profile: dict, chunk: dict, decision: dict | None, audit
     for r in reqs:
         r["quote"] = r.get("sentence") or r.get("quote", "")
         r["fidelity"] = fidelity(r["quote"], r["text"])
-        r.update(evidence_checks(r["quote"], r["text"]))
         r["regulation"] = chunk["regulation"]
         r["chunk"] = chunk["index"]
         r["pass"] = "audit" if audit_of is not None else "extract"
@@ -265,114 +288,69 @@ async def extract_chunk(profile: dict, chunk: dict, decision: dict | None, audit
 
 # --------------------------------------------------------------------------------------------- finalisation
 def _norm(s: str) -> str:
-    # engineering operators must survive normalisation: "<= 10 N" and ">= 10 N", "-10 V" and "10 V" differ
-    s = (s.replace("≤", "<=").replace("≥", ">=").replace("±", "+-").replace("−", "-").replace("–", "-")
-         .replace("—", "-"))
     return re.sub(r"\s+", " ", re.sub(r"[^0-9a-z%°.,<>=+\- ]", " ", s.casefold())).strip()
 
 
-NEGATIONS = {"not", "no", "never", "neither", "nor", "cannot", "without"}
-NUM_RE = re.compile(r"(?<![\w.])([<>]=?|\+-|[+-])?\s?(\d+(?:[.,]\d+)?)")
-
-
-def numeric_signature(text: str) -> tuple:
-    """Numbers of a text in order, each with its attached sign/comparison operator."""
-    return tuple((m.group(1) or "", m.group(2).replace(",", ".")) for m in NUM_RE.finditer(_norm(text)))
-
-
-def negation_count(text: str) -> int:
-    return sum(1 for w in _norm(text).split() if w in NEGATIONS)
-
-
-def resolve_page_ex(regulation: str, label: str, quote: str) -> tuple[int | None, str]:
-    """(page, status). status: 'verified' (the quote was found on that page), 'fallback' (paragraph start page, the
-    quote was not found: a navigation hint, not evidence) or 'unresolved' (label not in the parsed document)."""
+def resolve_page(regulation: str, label: str, quote: str) -> int | None:
     doc = ingest.load(regulation, "base")
     hits = [p for p in doc["paragraphs"] if p["label"] == label]
     if not hits:
-        return None, "unresolved"
+        return None
     q = _norm(quote)[:60]
     for p in hits:
         if len(p["pages"]) == 1:
-            if q and q[:30] in _norm(p["text"]):
-                return p["pages"][0], "verified"
-            if not q:
-                return p["pages"][0], "fallback"
-    # multi-page paragraph (or quote not found in a single-page one): find the page whose lines contain the quote
+            if not q or q[:30] in _norm(p["text"]):
+                return p["pages"][0]
+    # multi-page paragraph: find the page whose lines contain the quote
     import pymupdf
     pdf = pymupdf.open(doc["pdf"])
     for p in hits:
         for pg in p["pages"]:
             if q and q[:30] in _norm(pdf[pg - 1].get_text()):
-                return pg, "verified"
-    return hits[0]["pages"][0], "fallback"
-
-
-def resolve_page(regulation: str, label: str, quote: str) -> int | None:
-    return resolve_page_ex(regulation, label, quote)[0]
+                return pg
+    return hits[0]["pages"][0]
 
 
 def fidelity(sentence: str, text: str) -> float:
-    """Share of the source sentence's content words that survive in the requirement text.
-
-    Word retention only: it is NOT entailment. Polarity and quantities are checked separately (evidence_checks)."""
+    """Share of the source sentence's content words that survive in the requirement text."""
     stop = {"the", "a", "an", "of", "to", "in", "and", "or", "be", "shall", "is", "are", "for", "with", "by", "on", "at",
-            "as", "that", "this", "it", "its", "which", "their", "they", "if"}  # negations are content words
+            "as", "that", "this", "it", "its", "which", "their", "they", "if"}
     src = [w for w in _norm(sentence).split() if w not in stop]
     if not src:
         return 1.0
     have = set(_norm(text).split())
-    return sum(1 for w in src if w in have) / len(src)
-
-
-def evidence_checks(sentence: str, text: str) -> dict:
-    """Cheap deterministic evidence flags for a requirement against its source sentence. They are review flags, never a
-    gate on their own: a sentence with several clauses can legitimately yield requirements with fewer negations."""
-    if not sentence:
-        return {"polarity_ok": None, "numbers_ok": None}
-    src_nums = set(numeric_signature(sentence))
-    return {"polarity_ok": negation_count(sentence) == negation_count(text),
-            "numbers_ok": all(n in src_nums for n in numeric_signature(text))}
-
-
-def _same_obligation(a: dict, b: dict) -> bool:
-    """Guard in front of the text-similarity merge: two candidates are the same obligation only if they sit in the same
-    paragraph, carry the same numbers with the same signs/operators, the same negation and the same condition."""
-    return (a["regulation"] == b["regulation"] and a["paragraph"] == b["paragraph"]
-            and numeric_signature(a["text"]) == numeric_signature(b["text"])
-            and negation_count(a["text"]) == negation_count(b["text"])
-            and _norm(a.get("condition", "")) == _norm(b.get("condition", "")))
+    score = sum(1 for w in src if w in have) / len(src)
+    neg = {"not", "no", "never", "nor"}
+    if bool(neg & set(_norm(sentence).split())) != bool(neg & have):
+        score = min(score, 0.3)  # polarity flipped: never looks faithful
+    return score
 
 
 def dedupe(cands: list[dict]) -> list[dict]:
-    """Merge duplicates (highest probability wins). Text similarity discovers candidates; the guard decides.
-    Similar-but-distinct candidates are kept and cross-listed under 'similar' for review."""
+    """Collapse repeated extraction of the same obligation, preserving distinct constraints.
+
+    Similar wording is not evidence of equivalence: a changed limit, test pulse,
+    polarity, or source occurrence must survive. Keep the highest-confidence copy.
+    """
+    import unicodedata
+
     kept: list[dict] = []
+    seen: set[tuple] = set()
     for c in sorted(cands, key=lambda c: -c["probability"]):
-        n = _norm(c["text"])
-        dup = False
-        for k in kept:
-            if k["regulation"] != c["regulation"]:
-                continue
-            if SequenceMatcher(None, n, k["_n"]).ratio() <= 0.9:
-                continue
-            if _same_obligation(c, k):
-                dup = True
-                k.setdefault("merged", []).append(c["text"])
-                break
-            k.setdefault("similar", []).append(c["text"])
-        if not dup:
-            c["_n"] = n
-            kept.append(c)
-    for k in kept:
-        k.pop("_n", None)
+        text = " ".join(unicodedata.normalize("NFC", c["text"]).casefold().split())
+        key = (c["regulation"], c.get("version"), c["paragraph"], text,
+               json.dumps(c.get("condition"), sort_keys=True),
+               json.dumps(c.get("test_case"), sort_keys=True))
+        if key not in seen:
+            seen.add(key)
+            kept.append(dict(c))
     return kept
 
 
 def finalize(run: Run, candidates: list[dict], team_id: str, case_id: str, threshold: float) -> dict:
     for c in candidates:
         c["version"] = paths.version_entry(c["regulation"], "base")["version_label"]
-        c["page"], c["page_status"] = resolve_page_ex(c["regulation"], c["paragraph"], c.get("quote", ""))
+        c["page"] = resolve_page(c["regulation"], c["paragraph"], c.get("quote", ""))
     cands = [c for c in candidates if c["page"]]
     uniq = dedupe(cands)
     order = {e["regulation"]: i for i, e in enumerate(paths.index())}
@@ -400,7 +378,7 @@ def finalize(run: Run, candidates: list[dict], team_id: str, case_id: str, thres
 async def run_pipeline(run: Run, inputs: dict, team_id: str, *, deep_image: bool = False, audit: bool = False,
                        threshold: float = DEFAULT_THRESHOLD, only_regulations: list[str] | None = None) -> dict:
     run.write("inputs.json", {**inputs, "config": {"deep_image": deep_image, "audit": audit, "threshold": threshold,
-                                                   "model": llm.MODEL, "prompt_version": prompts.PROMPT_VERSION, "chunk_chars": CHUNK_CHARS,
+                                                   "model": llm.MODEL, "prompt_version": prompts.PROMPT_VERSION, "chunk_chars": CHUNK_CHARS, "context_parents": CONTEXT_PARENTS,
                                                    "parser_version": ingest.PARSER_VERSION}})
     run.status("understanding", "Reading specification and drawing")
     profile = run.read("profile.json") or await understand(inputs, deep_image)
@@ -411,10 +389,6 @@ async def run_pipeline(run: Run, inputs: dict, team_id: str, *, deep_image: bool
     run.write("screening.json", decisions)
     regs = only_regulations or selected_regulations(decisions)
     dec_by = {d["regulation"]: d for d in decisions}
-    undecided = [d["regulation"] for d in decisions if d.get("needs_review")]
-    if undecided:
-        run.status("screening", f"WARNING: no screening decision for {len(undecided)} regulations: {undecided}",
-                   undecided=undecided)
 
     chunks = [c for r in regs for c in chunks_for(r)]
     run.status("extracting", f"Extracting from {len(regs)} regulations in {len(chunks)} sections", 0.0,

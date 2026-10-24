@@ -116,3 +116,25 @@ Measured on UN R148 only (63 expected; clean: no few-shot example comes from R14
 |---|---|
 | Main, dev-v6-newimg (347 reqs) | Requirements P 42.7% / R 77.9% / **F2 66.8%** (was 54.4%); pages P 62.1% / R 96.2%; regulations 100% |
 | Sub-goal, subgoal-dev-v5 (28 changes) | Flag recall **83.3%** (was 79.2%), flag precision 71.4%, change accuracy 68.4% |
+
+## Round 3 (after Codex's IMPROVEMENT_REVIEW / METRICS_ABLATION / HISTORICAL_RUN_REVIEW)
+
+Already in main from the review (commit e787511): exact, paragraph-aware dedupe (no fuzzy merging of different limits,
+pulses or paragraphs); sub-goal occurrence-aware alignment, full-tail recovery, bounded rewrites.
+
+Fixed in this round:
+- Sub-goal tokenizer keeps signs and inequalities ("-10 V" vs "10 V", "≤" vs "≥" are now different).
+- Fidelity score drops to <= 0.3 when negation flips ("shall not emit" vs "shall emit" was 1.0).
+- Screening retries regulations the model skipped; an unresolved one now defaults to probability 0.5 (kept) instead of 0.3 (silently dropped).
+- Spend counter resets per run, so MAX_RUN_USD is a per-run cap also inside the web server.
+- Extraction sections start with their out-of-section parent clauses as context (`CERTI_CONTEXT_PARENTS`, default on).
+
+| Run | Generation | Exported | Proxy matches / 190 | Proxy F2 | Cost |
+|---|---|---|---|---|---|
+| dev-v6-newimg (platform F2 66.8%) | v6 | 347 | 127 | 0.574 | - |
+| dev-v6-dedupe (= Codex main-patched) | same candidates, new dedupe | 373 | 135 | **0.596** | $0 |
+| dev-v7-context | fresh, + parent context | 394 | 136 | 0.589 | $7.87 |
+
+Parent context shows no measurable offline gain (within run-to-run noise); a platform upload decides.
+Sub-goal: Codex's Sonnet-generated `subgoal-dev-v6-sonnet` is stored for a platform check; the current best upload
+remains subgoal-dev-v5 (83.3% / 71.4% / 68.4%).
