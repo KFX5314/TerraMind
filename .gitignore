@@ -1,0 +1,31 @@
+# Organizer checkout: keep its own Git history and remote; do not redistribute data.
+/industrial-ai-hackathon/
+
+# Local corpus, generated outputs, and scratch files.
+/data/
+/artifacts/
+/tmp/
+
+# Credentials; commit only a sanitized example.
+.env
+.env.*
+!.env.example
+
+# JavaScript dependencies and build outputs.
+node_modules/
+.next/
+dist/
+coverage/
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
