@@ -337,6 +337,7 @@ function Requirements({ run, reqs, query }: { run: Any; reqs: Any[]; query: URLS
                         </span>
                         {r.applicability === 'conditional' && <span className="badge warn">conditional</span>}
                         {r.pass === 'audit' && <span className="badge newver">found by audit</span>}
+                        {r.fidelity !== undefined && r.fidelity < 0.6 && <span className="badge warn" title="wording differs from the source sentence">check wording</span>}
                         {!r.exported && <span className="badge grey">below threshold</span>}
                         <span className="small muted" style={{ marginLeft: 'auto' }}>
                           {r.id}
@@ -422,6 +423,7 @@ function Evidence({ run, r }: { run: Any; r: Any }) {
           <span className="k">Confidence</span>
           <span>
             {Math.round(r.probability * 100)}% {r.pass === 'audit' ? '· added by independent audit' : ''}
+            {r.fidelity !== undefined && <span className="muted"> · {Math.round(r.fidelity * 100)}% of the source words kept</span>}
           </span>
         </div>
         <div className="row" style={{ marginBottom: 12 }}>

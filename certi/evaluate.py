@@ -15,10 +15,15 @@ import sys
 from . import llm, paths
 
 JUDGE_SYSTEM = """You compare two lists of engineering requirements derived from the same UN Regulation for the same
-product: an EXPECTED list (written by regulatory experts) and a SUBMITTED list. Match them one to one: a pair matches
-only if both state the same engineering obligation - same subject/scope, same condition and same constraint (limits,
-units, referenced tests). Wording may differ. A submitted requirement that bundles several expected obligations may
-match at most one of them. Each id may appear in at most one pair. Return only real matches."""
+product: an EXPECTED list (written by regulatory experts) and a SUBMITTED list. Match them one to one. A pair matches
+only if both state the SAME engineering obligation: the same subject and scope (a requirement about "the lamps" does
+not match one about "the rear position lamp" unless the paragraph is about that lamp; a general one does not match a
+narrower one), the same condition(s) (a requirement that drops or adds a qualifier, exception or applicability
+condition does not match), and the same constraint (same limits, units, referenced tables/tests). Wording and clause
+order may differ. A submitted requirement that bundles several expected obligations matches at most one of them, and
+only if it does not add material not in that expected one; a submitted requirement that covers only part of an expected
+obligation (e.g. one of two constraints) does not match. Each id may appear in at most one pair. Be strict: when in
+doubt, do not match."""
 
 JUDGE_SCHEMA = {
     "type": "object", "additionalProperties": False, "required": ["pairs"],
@@ -91,6 +96,17 @@ def report(run_id: str, judge_too: bool = False, judge: bool | None = None) -> d
     for k, v in res["local"].items():
         print(f"{k:<18} P={v['precision']:.3f} R={v['recall']:.3f} F2={f2(v['precision'], v['recall']):.3f}  "
               f"({v['n_submitted']} cited / {v['n_expected']} expected / {v['n_matched']} matched)")
+    from . import proxy
+    sub_doc = json.loads(sub_file.read_text(encoding="utf-8"))
+    exp_doc = json.loads(exp_file.read_text(encoding="utf-8"))
+    px = proxy.match(sub_doc["requirements"], exp_doc["requirements"])
+    res["proxy"] = {k: v for k, v in px.items() if k not in ("pairs", "unmatched_submitted", "unmatched_expected")}
+    print(f"requirement (proxy) P={px['precision']:.3f} R={px['recall']:.3f} F2={px['f2']:.3f}  "
+          f"({px['n_submitted']} submitted / {px['n_expected']} expected / {px['tp']} matched)  [{px['label']}]")
+    cands = json.loads((run_dir / "requirements.json").read_text(encoding="utf-8")) if (run_dir / "requirements.json").exists() else None
+    if cands:
+        for row in proxy.sweep(cands, exp_doc["requirements"]):
+            print(f"   threshold {row['threshold']:.1f}: n={row['n']:>4} tp={row['tp']:>4} P={row['precision']:.3f} R={row['recall']:.3f} F2={row['f2']:.3f}")
     if judge or judge_too:
         sub = json.loads(sub_file.read_text(encoding="utf-8"))
         exp = json.loads(exp_file.read_text(encoding="utf-8"))

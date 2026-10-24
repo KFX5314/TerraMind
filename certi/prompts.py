@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from . import paths
 
-PROMPT_VERSION = "v2"
+PROMPT_VERSION = "v6"
 
 EXAMPLES = (paths.ROOT / "prompts" / "granularity_examples.md").read_text(encoding="utf-8")
 
@@ -107,73 +107,9 @@ def screen_schema(regulations: list[str]) -> dict:
     }
 
 
-EXTRACT_SYSTEM = f"""You are a senior homologation engineer writing the list of engineering requirements a specific
-product must fulfil, from one regulation, one section at a time. Your list is compared one-to-one with the list a
-regulatory expert wrote, so match their granularity and wording style exactly.
+from .extract_prompt import build_extract_system, extract_schema  # noqa: E402
 
-What to output: every obligation in the given paragraphs that applies to THIS product (the device itself, its markings,
-its installation on the vehicle, or the tests/conditions it must pass).
-
-Granularity and wording (critical):
-- One requirement = one independently assessable obligation ("shall", "shall not", "must", "is required").
-  Split aggressively: every sentence that contains an obligation becomes its own requirement; every list item
-  (a), (b), (i), ... and every table row/column that sets its own limit becomes its own requirement, repeating the
-  lead-in condition in each. A paragraph with 7 obligations gives 7 requirements. When in doubt, split.
-- Keep the source wording as closely as possible. Do not paraphrase or summarise; do not add requirements from memory.
-- Make each requirement self-contained: name the subject explicitly ("The rear position lamps shall ..." instead of
-  "They shall ..."), and carry over the conditions that scope it from the sentence, parent paragraph or heading
-  ("For M1 and N1 category vehicles, ...", "When tested according to paragraph 5.1.7., ...", "While X, ...").
-- Keep a limit/range together with its unit and conditions in one requirement. Keep cross-references as written.
-- Pure permissions ("may") are not requirements, but conditional permissions are: "X may be installed on movable
-  components only if ..." becomes a requirement stating the condition.
-- Include the provisions for variants and options of the product's own functions (optional lamps of the same function,
-  replaceable light sources or modules, variable intensity, logos, reciprocally incorporated functions) as separate
-  requirements with applicability "conditional" when the profile leaves the variant open.
-
-Include: construction and design requirements; photometric/colorimetric/performance limits; marking and approval-mark
-requirements that the device must carry; installation requirements on number, position, height, angles of geometric
-visibility, orientation, electrical connections and tell-tales for the functions the product has; test levels and test
-conditions the product must pass when they are stated as obligations in the main text.
-
-Exclude: definitions; application paperwork and documents to submit; communication forms; approval-number allocation and
-other duties of authorities/technical services; conformity-of-production and sanctions; transitional provisions;
-requirements for functions, devices or vehicle categories that the product does not have or is not intended for;
-detailed laboratory procedure steps, test-equipment and calibration descriptions in annexes (keep only annex
-statements that set what the product must achieve or the key test conditions it is exposed to).
-
-For each requirement give:
-- paragraph: the label of the paragraph it comes from, exactly as listed (e.g. "6.10.4.2", "Annex 9 3.1").
-- quote: a verbatim excerpt (10-25 words) of the source sentence it is based on, copied exactly.
-- probability: your estimate (0-1) that the expert list for this product contains this requirement. Use about 0.8+
-  for obligations directly on the product's functions, markings, construction and installation; 0.4-0.6 for
-  peripheral ones (interplay with functions the product does not have, detailed test conditions); below 0.3 for
-  items you include only for completeness.
-- applicability: "applies" or "conditional" (depends on an open product fact); condition: the open fact, or "".
-- test_case: one short sentence on how to verify it (method + pass criterion), grounded in the text.
-If nothing in the section applies, return an empty list.
-
-Examples of the expected granularity and wording (from another product):
-
-{EXAMPLES}
-{UNTRUSTED}"""
-
-
-def extract_schema(labels: list[str]) -> dict:
-    return {
-        "type": "object", "additionalProperties": False, "required": ["requirements"],
-        "properties": {"requirements": {"type": "array", "items": {
-            "type": "object", "additionalProperties": False,
-            "required": ["paragraph", "text", "quote", "probability", "applicability", "condition", "test_case"],
-            "properties": {
-                "paragraph": {"type": "string", "enum": labels},
-                "text": {"type": "string"},
-                "quote": {"type": "string"},
-                "probability": {"type": "number"},
-                "applicability": {"type": "string", "enum": ["applies", "conditional"]},
-                "condition": {"type": "string"},
-                "test_case": {"type": "string"},
-            }}}},
-    }
+EXTRACT_SYSTEM = build_extract_system(EXAMPLES, UNTRUSTED)
 
 
 AUDIT_SYSTEM = EXTRACT_SYSTEM + """

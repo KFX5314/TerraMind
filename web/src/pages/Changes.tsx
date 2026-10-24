@@ -185,6 +185,7 @@ export default function Changes({ runId, query }: { runId?: string; query: URLSe
                             </span>
                           )}
                           {row && row.old?.label !== row.new?.label && row.new && <span className="small muted">formerly § {row.old?.label}</span>}
+                          {row?.det_new_text && <span className="badge grey" title="new text derived by applying the source diff to the old requirement">deterministic</span>}
                         </div>
                         {c.change === 'modified' && row ? (
                           <Diff a={row.text} b={c.new_text} />

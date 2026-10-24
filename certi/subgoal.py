@@ -47,14 +47,17 @@ def segments(doc: dict) -> list[dict]:
         if p["kind"] in ("annex", "part", "heading") and not p["num"]:
             continue
         text = p["text"]
-        if p["title"] and text.startswith(p["title"]) and len(p["title"]) < 80 and p["kind"] == "section":
-            text = text[len(p["title"]):].strip() or text
+        title = (p["title"] or "").strip()
+        # a heading-like first line ("Test procedures", "Electrical connections") is not part of the provision
+        if title and text.startswith(title) and len(text) > len(title) + 20 and (
+                p["kind"] == "section" or (len(title.split()) <= 8 and not title.endswith((".", ";", ":", ",")))):
+            text = text[len(title):].strip() or text
         for i, s in enumerate(x.strip() for x in SEG_RE.split(text) if x.strip()):
             out.append({"pid": p["id"], "label": p["label"], "pages": p["pages"], "i": i, "text": s, "w": words(s)})
     return out
 
 
-def best_window(target: list[str], segs: list[dict], max_len: int = 14) -> tuple[float, int, int]:
+def best_window(target: list[str], segs: list[dict], max_len: int = 400) -> tuple[float, int, int]:
     """Best consecutive window of segments (same paragraph) matching the target words."""
     best = (0.0, 0, 0)
     for i in range(len(segs)):
@@ -257,8 +260,20 @@ async def analyse(case_id: str, team_id: str, out_dir: Path) -> dict:
                      "old": {k: old_loc[k] for k in ("label", "pages", "text", "ratio")} if old_loc else None,
                      "new": {k: new_loc[k] for k in ("label", "pages", "text", "ratio")} if new_loc else None})
 
-    # 2. Claude rewrites modified requirements (and drops changes that don't touch the requirement)
-    rewrites = await rewrite_modified([x for x in rows if x["status"] == "modified"])
+    # 2. apply the source diff to the requirement text in code; the model only handles what cannot be anchored
+    from .subgoal_apply import apply_diff
+    need_model = []
+    for x in rows:
+        if x["status"] != "modified":
+            continue
+        applied = apply_diff(x["text"], x["old"]["text"], x["new"]["text"])
+        if applied is None:
+            need_model.append(x)
+        elif applied == x["text"]:
+            x["status"], x["note"] = "unchanged", "amendment does not touch this requirement's words"
+        else:
+            x["det_new_text"] = applied
+    rewrites = await rewrite_modified(need_model)
     new_pdf_doc = pymupdf.open(new_pdf)
     changes = []
     for x in rows:
@@ -272,7 +287,8 @@ async def analyse(case_id: str, team_id: str, out_dir: Path) -> dict:
             reason = (f"Paragraph {x['new']['label']}{moved} of {regulation} was amended in version {new_v}: "
                       f"{diff_reason(x['old']['text'], x['new']['text'])}.")
             changes.append({"requirement_id": x["id"], "change": "modified",
-                            "new_text": (rw["new_text"] if rw else x["new"]["text"])[:2000], "reason": reason[:2000],
+                            "new_text": (x.get("det_new_text") or (rw["new_text"] if rw else x["new"]["text"]))[:2000],
+                            "reason": reason[:2000],
                             "source": {"page": page_of(new_pdf_doc, x["new"]["pages"], x["new"]["text"]),
                                        "paragraph": x["new"]["label"]}})
         elif x["status"] == "removed":

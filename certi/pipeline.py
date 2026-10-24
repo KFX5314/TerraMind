@@ -14,9 +14,11 @@ import traceback
 from difflib import SequenceMatcher
 from pathlib import Path
 
-from . import ingest, llm, paths, prompts
+from . import ingest, llm, paths, prompts, tables
 
-CHUNK_CHARS = 16000
+import os
+
+CHUNK_CHARS = int(os.environ.get("CERTI_CHUNK_CHARS", "8000"))
 DEFAULT_THRESHOLD = 0.5  # measured on dev (v1 sweep): best F2; the model probability is not calibrated
 ALLOWED_INPUT_SUFFIXES = {".md", ".txt", ".png", ".jpg", ".jpeg", ".webp"}
 
@@ -156,6 +158,7 @@ def _top_title(doc: dict, p: dict) -> str:
 
 def chunks_for(regulation: str) -> list[dict]:
     doc = ingest.load(regulation, "base")
+    table_md = tables.attach(doc["paragraphs"], tables.tables_for(Path(doc["pdf"]), f"{paths.slug(regulation)}_base"))
     top_titles: dict[str, str] = {}
     chunks: list[dict] = []
     cur: list[dict] = []
@@ -185,7 +188,7 @@ def chunks_for(regulation: str) -> list[dict]:
         if not p["scope"] and re.match(r"definitions?\b", top_titles[key], re.I):
             continue  # definitions are context, not obligations
         group = p["scope"] or "main"
-        text = p["text"]
+        text = p["text"] + table_md.get(p["id"], "")
         pieces = [text[i:i + CHUNK_CHARS] for i in range(0, len(text), CHUNK_CHARS)] or [""]
         for piece in pieces:
             item = {"label": p["label"], "pages": p["pages"], "text": piece}
@@ -240,6 +243,8 @@ async def extract_chunk(profile: dict, chunk: dict, decision: dict | None, audit
         return out
     reqs = res["requirements"]
     for r in reqs:
+        r["quote"] = r.get("sentence") or r.get("quote", "")
+        r["fidelity"] = fidelity(r["quote"], r["text"])
         r["regulation"] = chunk["regulation"]
         r["chunk"] = chunk["index"]
         r["pass"] = "audit" if audit_of is not None else "extract"
@@ -269,6 +274,17 @@ def resolve_page(regulation: str, label: str, quote: str) -> int | None:
             if q and q[:30] in _norm(pdf[pg - 1].get_text()):
                 return pg
     return hits[0]["pages"][0]
+
+
+def fidelity(sentence: str, text: str) -> float:
+    """Share of the source sentence's content words that survive in the requirement text."""
+    stop = {"the", "a", "an", "of", "to", "in", "and", "or", "be", "shall", "is", "are", "for", "with", "by", "on", "at",
+            "as", "that", "this", "it", "its", "which", "their", "they", "not", "if"}
+    src = [w for w in _norm(sentence).split() if w not in stop]
+    if not src:
+        return 1.0
+    have = set(_norm(text).split())
+    return sum(1 for w in src if w in have) / len(src)
 
 
 def dedupe(cands: list[dict]) -> list[dict]:
@@ -322,7 +338,7 @@ def finalize(run: Run, candidates: list[dict], team_id: str, case_id: str, thres
 async def run_pipeline(run: Run, inputs: dict, team_id: str, *, deep_image: bool = False, audit: bool = False,
                        threshold: float = DEFAULT_THRESHOLD, only_regulations: list[str] | None = None) -> dict:
     run.write("inputs.json", {**inputs, "config": {"deep_image": deep_image, "audit": audit, "threshold": threshold,
-                                                   "model": llm.MODEL, "prompt_version": prompts.PROMPT_VERSION,
+                                                   "model": llm.MODEL, "prompt_version": prompts.PROMPT_VERSION, "chunk_chars": CHUNK_CHARS,
                                                    "parser_version": ingest.PARSER_VERSION}})
     run.status("understanding", "Reading specification and drawing")
     profile = run.read("profile.json") or await understand(inputs, deep_image)

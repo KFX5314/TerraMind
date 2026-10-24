@@ -72,3 +72,40 @@ Tuning with that proxy (no further uploads needed):
 - Sub-goal: the 7 modified/removed flags are right, so the platform gap is in `added` items. The added-extraction prompt
   now teaches the expected patterns ("The procedure for ... shall be to ...", named actor, one requirement per
   "shall"/"may" clause). This is pending a platform upload of artifacts/subgoal/subgoal-dev-v4/changes.json.
+
+## Round 2 (after the first platform scores): comparing our rear-lamp output with expected.json
+
+Calibrated offline metrics (`certi/proxy.py`, `certi/evaluate.py`):
+- Lexical proxy: one-to-one matches with word similarity >= 0.65 reproduces the platform (119 vs 120 matches, P 0.347 / R 0.626 vs 0.350 / 0.632). Conservative: does not credit reordered clauses.
+- Strict LLM judge (same scope, condition and constraint; bundling or narrowing = no match): 111 matches, P 0.324 / R 0.584.
+
+Where the 190 expected requirements went (frozen v2 file, lexical proxy): 127 matched; 3 filtered by the threshold;
+**51 have a close candidate with different wording or granularity**; 9 not extracted (mostly table rows). The 51 are
+counted as extras too, so fixing them helps precision and recall together. On UN R148 the causes were: ~10 clause order
+only (gold: "The approval marking shall be placed on both ... if the outer lens ..."), ~10 under-splitting (gold makes one
+requirement per "shall", e.g. 4.5.5 has 4), ~5 skipped content (telegraphic "Colour: ... shall be red" entries,
+conformity-of-production tolerance limits, annex compliance statements), ~3 gold paraphrases.
+Of the 224 extras, 163 come from paragraphs the expert list does not touch at all; the per-probability hit rates
+(p=0.8: 50 %, 0.7: 22 %, 0.6: 17 %, 0.5: 21 %) are all above the F2 break-even (~11 %), so the threshold stays at 0.5.
+
+Changes made (architecture):
+1. Extraction prompt v5/v6 (`certi/extract_prompt.py`): the requirement is the source sentence copied with a closed list
+   of allowed edits; one requirement per "shall" predicate (incl. relative clauses and consecutive "shall" sentences);
+   telegraphic entries become sentences; CoP tolerance limits and annex compliance statements included. The model also
+   returns the verbatim source sentence; code computes a fidelity score (share of source words kept) shown in the UI.
+2. Structured tables (`certi/tables.py`): PyMuPDF `find_tables` with cell text rebuilt from word boxes, rendered as
+   markdown and attached to the owning paragraph, so table rows become one requirement each (R10 6.9.1 test pulses).
+3. Sections of 8 000 characters instead of 16 000: the model overlooked plain "shall" sentences in 44-paragraph sections.
+4. Sub-goal: `new_text` of modified requirements is produced by applying the old->new source diff to the old requirement
+   text in code (`certi/subgoal_apply.py`); the model is only used when an edited phrase cannot be anchored. All 6
+   modified items on dev are now deterministic (similarity to the expected text: 0.72-0.97). Heading titles merged into
+   paragraph text are stripped before diffing; the locator no longer caps the search window for long requirements.
+
+Measured on UN R148 only (63 expected; clean: no few-shot example comes from R148):
+
+| Config | Candidates | Exported | Lexical proxy F2 @0.5 | Strict judge matched / F2 |
+|---|---|---|---|---|
+| v2 frozen | 153 | 103 | 0.479 | 35 / 0.493 |
+| v5 | 137 | 89 | 0.484 | 40 / 0.587 |
+| v6, 16k sections | 158 | 105 | 0.518 | - |
+| **v6, 8k sections** | 166 | 108 | **0.528** | **48 / 0.667** |
