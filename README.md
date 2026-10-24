@@ -1,4 +1,4 @@
-# HackathonbUVC
+# TerraMind
 
 Our project for the Certivity challenge at the Industrial Agents Hackathon.
 
