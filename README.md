@@ -1,4 +1,4 @@
-# HackathonbUVC: Certivity Requirements Agent
+# TerraMind: Certivity Requirements Agent
 
 From a product specification and/or exploded view to the UN-Regulation requirements it must fulfil, each one cited
 with regulation, version, page and paragraph and linked to the highlighted source passage. A second flow shows which
