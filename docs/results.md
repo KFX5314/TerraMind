@@ -109,3 +109,10 @@ Measured on UN R148 only (63 expected; clean: no few-shot example comes from R14
 | v5 | 137 | 89 | 0.484 | 40 / 0.587 |
 | v6, 16k sections | 158 | 105 | 0.518 | - |
 | **v6, 8k sections** | 166 | 108 | **0.528** | **48 / 0.667** |
+
+### Platform after round 2 (24 Oct, new labelled rear-lamp drawing)
+
+| Upload | Platform result |
+|---|---|
+| Main, dev-v6-newimg (347 reqs) | Requirements P 42.7% / R 77.9% / **F2 66.8%** (was 54.4%); pages P 62.1% / R 96.2%; regulations 100% |
+| Sub-goal, subgoal-dev-v5 (28 changes) | Flag recall **83.3%** (was 79.2%), flag precision 71.4%, change accuracy 68.4% |
