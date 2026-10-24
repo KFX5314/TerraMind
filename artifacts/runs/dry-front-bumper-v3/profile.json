@@ -1,0 +1,338 @@
+{
+ "product_name": "Front Bumper Assembly (dry-run test product)",
+ "product_type": "Front bumper assembly: an exterior front-end module of a passenger car. It combines the bumper fascia, energy absorber, reinforcement beam with crash boxes, integrated LED front fog lamps and LED front direction indicators, ultrasonic parking sensors, a radar sensor bracket with radome emblem, and a registration plate holder.",
+ "summary": "This is a front bumper module for an M1 passenger car (spec_stated). It provides low-speed impact protection and pedestrian lower-leg protection. It integrates LED front fog lamps and LED front direction indicators at the side corners, four ultrasonic parking sensors with a wiring harness, and a mounting with a metallised PC radome emblem for a front radar used for adaptive cruise and emergency braking. It also carries the front registration plate holder and a towing eye cover. Materials are representative values only and must be confirmed against the actual bill of materials. No drawing was provided, so no observed facts or dimensions are available. The specification is a team-written dry-run product, not an organizer case.",
+ "vehicle_categories": [
+  "M1"
+ ],
+ "components": [
+  {
+   "name": "Bumper fascia (painted)",
+   "function": "Outer exterior skin of the front end. Defines the external surface relevant to external projections and the pedestrian impact zone.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Energy absorber (EPP foam)",
+   "function": "Absorbs energy in low-speed impacts and in pedestrian lower-leg impacts.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Reinforcement beam with crash boxes",
+   "function": "Structural front beam. The crash boxes absorb low-speed impact energy and protect the body structure.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Lower grille and air intake",
+   "function": "Supplies cooling air and forms part of the exterior styling surface.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Front fog lamps (LED) with bezels",
+   "function": "Front fog lighting function. Bezels trim the lamps into the fascia.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Front direction indicator lamps (LED), side corners",
+   "function": "Front direction-indicator signalling function.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "LED light sources / LED modules and any electronic control gear within the lamps",
+   "function": "Light generation for the fog and indicator lamps. Whether the light sources are replaceable or non-replaceable is not stated.",
+   "status": "inferred",
+   "source": "specification"
+  },
+  {
+   "name": "Ultrasonic parking sensors (4)",
+   "function": "Parking distance sensing at the front. These are electronic sub-assemblies.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Wiring harness (parking sensors, and likely lamps)",
+   "function": "Electrical connection of the sensors to the vehicle. A harness for the lamps is inferred, because the LED lamps need power.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Parking sensor control unit (ECU)",
+   "function": "Processes the ultrasonic signals. Whether it is part of the bumper assembly or a vehicle-side ECU is not stated.",
+   "status": "unknown",
+   "source": "none"
+  },
+  {
+   "name": "Radar sensor bracket",
+   "function": "Mounts the front radar sensor behind the emblem.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Front radar sensor",
+   "function": "Supports adaptive cruise control and emergency braking. It is not clear whether the radar unit itself is supplied with the bumper or only its mounting.",
+   "status": "unknown",
+   "source": "specification"
+  },
+  {
+   "name": "Radome emblem (PC with metallised indium layer)",
+   "function": "Brand emblem that is transparent to radar. Exterior-mounted part in front of the radar.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Registration plate holder",
+   "function": "Mounts the front registration plate.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Towing eye cover",
+   "function": "Removable cover over the front towing eye access point. The presence of a towing eye attachment point is inferred.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Fasteners / clips (PA, steel)",
+   "function": "Attach the fascia and sub-components to the vehicle and to each other.",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Retro-reflectors / front position lamps / DRL / side marker lamps",
+   "function": "None are listed in the specification. Their presence must be confirmed.",
+   "status": "unknown",
+   "source": "none"
+  }
+ ],
+ "functions": [
+  "Low-speed impact protection of the vehicle front end",
+  "Pedestrian protection (lower leg impact zone)",
+  "Front fog lamp (LED) lighting",
+  "Front direction indicator (LED) signalling, side corners",
+  "Ultrasonic parking distance sensing (4 sensors)",
+  "Front radar mounting and radome for adaptive cruise / emergency braking",
+  "Front registration plate mounting",
+  "Towing eye access (cover)",
+  "Cooling air intake via lower grille"
+ ],
+ "facts": [
+  {
+   "attribute": "Vehicle category",
+   "value": "M1 (passenger car)",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Stated explicitly. Applicability to N1 or other derivatives is not stated."
+  },
+  {
+   "attribute": "Product type",
+   "value": "Front bumper assembly / front-end exterior module",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": ""
+  },
+  {
+   "attribute": "Mounting location",
+   "value": "Vehicle front exterior",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Exterior-mounted parts are relevant to external projections, pedestrian protection and front protective device requirements."
+  },
+  {
+   "attribute": "Pedestrian protection",
+   "value": "Designed for the lower leg impact zone",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Upper leg / bumper height and test-zone geometry are not given."
+  },
+  {
+   "attribute": "Low-speed impact protection",
+   "value": "Yes",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Impact speeds and performance targets are not stated."
+  },
+  {
+   "attribute": "Front fog lamps",
+   "value": "Integrated, LED, with bezels",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Class (e.g. F3), photometric values and number of lamps are not stated. A pair is inferred but not confirmed."
+  },
+  {
+   "attribute": "Front direction indicators",
+   "value": "Integrated in the side corners, LED",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Indicator category, intensities and number of lamps are not stated."
+  },
+  {
+   "attribute": "LED light source type",
+   "value": "LED",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Whether LEDs are non-replaceable modules or replaceable LED light sources is unknown."
+  },
+  {
+   "attribute": "Number of ultrasonic parking sensors",
+   "value": "4",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Supplied with a wiring harness."
+  },
+  {
+   "attribute": "Radar function",
+   "value": "Front radar behind emblem for adaptive cruise / emergency braking",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Radar frequency band and whether the radar unit is in the assembly scope are not stated."
+  },
+  {
+   "attribute": "Electrical/electronic content",
+   "value": "LED lamps, ultrasonic sensors, wiring harness; possibly radar sensor",
+   "status": "inferred",
+   "source": "specification",
+   "note": "The assembly contains electrical/electronic sub-assemblies, so electromagnetic compatibility is relevant."
+  },
+  {
+   "attribute": "Registration plate holder",
+   "value": "Front registration plate mounting",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Plate size/format and target markets are not stated."
+  },
+  {
+   "attribute": "Towing eye",
+   "value": "Towing eye cover present; towing eye attachment point inferred",
+   "status": "inferred",
+   "source": "specification",
+   "note": "A cover implies an access point, but the towing eye itself is not listed."
+  },
+  {
+   "attribute": "Bumper fascia material",
+   "value": "PP/EPDM-TD20, painted",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials."
+  },
+  {
+   "attribute": "Energy absorber material",
+   "value": "EPP foam",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials."
+  },
+  {
+   "attribute": "Reinforcement beam material",
+   "value": "Aluminium extrusion",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials."
+  },
+  {
+   "attribute": "Lower grille material",
+   "value": "PC/ABS",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials."
+  },
+  {
+   "attribute": "Lamp lens material",
+   "value": "PC (hard-coated)",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials. Plastic lenses are subject to material durability tests in lamp regulations."
+  },
+  {
+   "attribute": "Radome emblem material",
+   "value": "PC with metallised indium layer",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials."
+  },
+  {
+   "attribute": "Fastener / clip material",
+   "value": "PA, steel",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative values — confirm against actual bill of materials."
+  },
+  {
+   "attribute": "Dimensions, mounting heights, edge radii",
+   "value": "Not available",
+   "status": "unknown",
+   "source": "none",
+   "note": "No drawing was provided. These values are needed for lamp installation geometry, external projection radii and pedestrian test zones."
+  },
+  {
+   "attribute": "Drawing",
+   "value": "Not provided",
+   "status": "unknown",
+   "source": "none",
+   "note": "No observed facts are available."
+  },
+  {
+   "attribute": "Document status",
+   "value": "Dry-run test product written by the team, not an organizer case",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": ""
+  }
+ ],
+ "unknowns": [
+  "Fog lamp class and photometric performance; number of fog lamps",
+  "Direction indicator category, intensities and number of lamps",
+  "Whether LED light sources are replaceable (approved light source categories) or non-replaceable LED modules; presence of electronic light source control gear",
+  "Presence of other lighting/signalling or reflective devices in the bumper (front position lamps, DRL, side marker lamps, front retro-reflectors, cornering lamps)",
+  "Whether the front radar sensor is part of the delivered assembly or only its bracket and radome",
+  "Radar frequency band and power",
+  "Whether the parking sensor ECU is included in the assembly",
+  "Lamp mounting heights, spacing and angles of geometric visibility (no drawing)",
+  "External surface radii and projections of fascia, grille, emblem, plate holder and towing eye cover",
+  "Bumper reference lines / bumper height and pedestrian test zone geometry",
+  "Vehicle mass and dimensions of the target M1 vehicle",
+  "Target markets (UN/EU type approval vs other), front registration plate format",
+  "Whether the towing eye itself is supplied with the assembly",
+  "Low-speed impact performance targets (e.g. impact speed)",
+  "Whether the bumper is also used on N1 or other vehicle variants",
+  "Confirmed bill-of-materials materials (current values are representative only)"
+ ],
+ "questions": [
+  {
+   "question": "What class are the front fog lamps (e.g. F3), and are they approved as separate devices or as part of a combined/grouped lamp?",
+   "why_it_matters": "This determines the applicable front fog lamp device regulation and photometric requirements, and how installation provisions apply."
+  },
+  {
+   "question": "What category are the front direction indicators, and do the corner lamps contain any other functions (position lamp, DRL, side marker, cornering lamp, retro-reflector)?",
+   "why_it_matters": "Each additional lighting, signalling or reflective function brings its own device approval requirement and installation requirements."
+  },
+  {
+   "question": "Do the LED lamps use replaceable LED light sources or non-replaceable LED modules, and is there separate electronic light source control gear?",
+   "why_it_matters": "Replaceable light sources must be approved light source categories. Non-replaceable modules and control gear change the device approval scope and the electromagnetic compatibility treatment."
+  },
+  {
+   "question": "Is the front radar sensor (and the parking sensor ECU) part of the delivered assembly, and what frequency band does the radar use?",
+   "why_it_matters": "This decides whether electronic sub-assembly EMC approval is needed for these units and whether radio equipment rules apply. It also defines whether the radome affects vehicle-level emergency braking / ACC system approvals."
+  },
+  {
+   "question": "Will this bumper be fitted to any N1 (or other category) vehicle variants besides M1?",
+   "why_it_matters": "Vehicle category affects the applicability of pedestrian protection, front protective device and external projection requirements, and the lamp installation requirements."
+  },
+  {
+   "question": "Is the assembly intended for approval as a separate technical unit / component, or only as part of whole-vehicle type approval?",
+   "why_it_matters": "This determines whether pedestrian protection, external projection and front protective device requirements are assessed on the bumper alone or at vehicle level."
+  },
+  {
+   "question": "Is the towing eye itself supplied with the bumper assembly?",
+   "why_it_matters": "If supplied, towing device provisions and their external projection treatment apply to the assembly."
+  },
+  {
+   "question": "What are the target markets and the front registration plate format?",
+   "why_it_matters": "This determines which registration plate space and mounting provisions apply to the plate holder."
+  }
+ ]
+}

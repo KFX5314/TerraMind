@@ -1,0 +1,506 @@
+[
+ {
+  "regulation": "UN R3",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "No retro-reflectors are confirmed in the bumper. R3 is consolidated into R150, which is used if reflectors are present.",
+  "probability": 0.12,
+  "title": "Retro-reflecting devices",
+  "version": "2.17.0"
+ },
+ {
+  "regulation": "UN R6",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Direction indicators are now approved under the consolidated R148. R6 ceases to grant approvals.",
+  "probability": 0.2,
+  "title": "Direction indicators",
+  "version": "2.0.0"
+ },
+ {
+  "regulation": "UN R7",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "No position lamps are confirmed in the bumper, and R7 is superseded by R148.",
+  "probability": 0.08,
+  "title": "Position, stop and end-outline lamps",
+  "version": "3.0.0"
+ },
+ {
+  "regulation": "UN R10",
+  "decision": "applicable",
+  "basis": "component_requirements",
+  "reason": "The assembly contains ESAs (LED lamps, control gear, ultrasonic sensors, harness, possibly radar). These are subject to ESA EMC requirements.",
+  "probability": 0.85,
+  "title": "Electromagnetic compatibility",
+  "version": "7.2.0"
+ },
+ {
+  "regulation": "UN R13H",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Braking system regulation; it does not concern the bumper.",
+  "probability": 0.03,
+  "title": "Light vehicle braking",
+  "version": "2.1.0"
+ },
+ {
+  "regulation": "UN R19",
+  "decision": "potentially_applicable",
+  "basis": "device_approval",
+  "reason": "Legacy front fog lamp regulation. Fog lamps may still carry R19 approvals, but new approvals follow the consolidated R149.",
+  "probability": 0.35,
+  "title": "Front fog lamps",
+  "version": "4.10.0"
+ },
+ {
+  "regulation": "UN R23",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "No reversing or manoeuvring lamps in a front bumper.",
+  "probability": 0.03,
+  "title": "Reversing lamps",
+  "version": "0.22.0"
+ },
+ {
+  "regulation": "UN R26",
+  "decision": "applicable",
+  "basis": "vehicle_level_design",
+  "reason": "External projections of M1. The fascia, grille, emblem, plate holder and tow eye cover are exterior surfaces subject to radius and projection requirements. Bumpers are explicitly addressed.",
+  "probability": 0.85,
+  "title": "External projections of passenger cars",
+  "version": "4.0.0"
+ },
+ {
+  "regulation": "UN R32",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Rear-end collision; not relevant to the front bumper.",
+  "probability": 0.03,
+  "title": "Rear-end collision",
+  "version": "0.1.0"
+ },
+ {
+  "regulation": "UN R37",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "The lamps are LED. Filament light sources are not used.",
+  "probability": 0.08,
+  "title": "Filament light sources",
+  "version": "3.48.0"
+ },
+ {
+  "regulation": "UN R38",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Rear fog lamps are not part of a front bumper.",
+  "probability": 0.03,
+  "title": "Rear fog lamps",
+  "version": "0.19.0"
+ },
+ {
+  "regulation": "UN R39",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Speedometer; unrelated.",
+  "probability": 0.01,
+  "title": "Speedometer and odometer",
+  "version": "2.1.0"
+ },
+ {
+  "regulation": "UN R40",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Motorcycle emissions.",
+  "probability": 0.01,
+  "title": "Emission of gaseous pollutants by motorcycles",
+  "version": "1.1.0"
+ },
+ {
+  "regulation": "UN R42",
+  "decision": "applicable",
+  "basis": "vehicle_level_design",
+  "reason": "Front protective devices of M1 in low-speed collisions. The bumper beam, crash boxes and absorber are the protective device.",
+  "probability": 0.8,
+  "title": "Front and rear protective devices",
+  "version": "0.2.0"
+ },
+ {
+  "regulation": "UN R43",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Safety glazing; lamp lenses are excluded.",
+  "probability": 0.04,
+  "title": "Safety glazing",
+  "version": "1.12.0"
+ },
+ {
+  "regulation": "UN R48",
+  "decision": "applicable",
+  "basis": "installation",
+  "reason": "Installation requirements cover the front fog lamps and front direction indicators (positions, visibility angles, switching, tell-tales).",
+  "probability": 0.9,
+  "title": "Installation of lighting and light-signalling devices",
+  "version": "9.3.0"
+ },
+ {
+  "regulation": "UN R49",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Heavy-duty engine emissions.",
+  "probability": 0.01,
+  "title": "Emissions of C.I. and P.I. (LPG and CNG) engines",
+  "version": "7.3.1"
+ },
+ {
+  "regulation": "UN R51",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle sound emissions.",
+  "probability": 0.02,
+  "title": "Sound of M and N categories of vehicles",
+  "version": "3.10.0"
+ },
+ {
+  "regulation": "UN R53",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "L3 lighting installation; the product is for M1.",
+  "probability": 0.02,
+  "title": "Installation of lighting and light-signalling devices for L3 vehicles",
+  "version": "4.0.0"
+ },
+ {
+  "regulation": "UN R62",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Anti-theft for L-category vehicles.",
+  "probability": 0.01,
+  "title": "Anti-theft (mopeds/motorcycles)",
+  "version": "1.0.0"
+ },
+ {
+  "regulation": "UN R64",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Spare units and tyres.",
+  "probability": 0.01,
+  "title": "Temporary use spare unit, run flat tyres",
+  "version": "3.1.0"
+ },
+ {
+  "regulation": "UN R67",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "LPG equipment.",
+  "probability": 0.01,
+  "title": "LPG vehicles",
+  "version": "4.2.0"
+ },
+ {
+  "regulation": "UN R79",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Steering equipment. The radar mounting does not make the bumper a steering component.",
+  "probability": 0.05,
+  "title": "Steering equipment",
+  "version": "4.11.0"
+ },
+ {
+  "regulation": "UN R83",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Emissions.",
+  "probability": 0.01,
+  "title": "Emissions of M1 and N1 vehicles",
+  "version": "9.0.0"
+ },
+ {
+  "regulation": "UN R89",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Speed limiters.",
+  "probability": 0.02,
+  "title": "Speed limitation devices",
+  "version": "0.3.0"
+ },
+ {
+  "regulation": "UN R92",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Motorcycle exhaust systems.",
+  "probability": 0.01,
+  "title": "Replacement exhaust silencing systems for motorcycles",
+  "version": "2.0.0"
+ },
+ {
+  "regulation": "UN R94",
+  "decision": "potentially_applicable",
+  "basis": "vehicle_level_design",
+  "reason": "The reinforcement beam and crash boxes form part of the front structure that influences frontal offset crash performance at vehicle level.",
+  "probability": 0.4,
+  "title": "Frontal collision protection",
+  "version": "5.1.0"
+ },
+ {
+  "regulation": "UN R100",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Electric powertrain safety; unrelated.",
+  "probability": 0.02,
+  "title": "Electric power trained vehicles",
+  "version": "5.0.0"
+ },
+ {
+  "regulation": "UN R101",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "CO2 and fuel consumption.",
+  "probability": 0.02,
+  "title": "CO2 emission/fuel consumption",
+  "version": "1.12.0"
+ },
+ {
+  "regulation": "UN R102",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Close-coupling devices for heavy vehicles.",
+  "probability": 0.01,
+  "title": "Close-coupling device (CCD)",
+  "version": "0.0.0"
+ },
+ {
+  "regulation": "UN R103",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Replacement pollution control devices.",
+  "probability": 0.01,
+  "title": "Replacement pollution control devices",
+  "version": "0.3.0"
+ },
+ {
+  "regulation": "UN R104",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Retro-reflective markings for heavy vehicles; not M1.",
+  "probability": 0.02,
+  "title": "Retro-reflective markings",
+  "version": "0.9.0"
+ },
+ {
+  "regulation": "UN R107",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Buses (M2/M3).",
+  "probability": 0.01,
+  "title": "M2 and M3 vehicles",
+  "version": "11.1.0"
+ },
+ {
+  "regulation": "UN R114",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Replacement airbags.",
+  "probability": 0.01,
+  "title": "Airbag module for a replacement airbag system",
+  "version": "0.0.0"
+ },
+ {
+  "regulation": "UN R116",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Anti-theft and alarm systems.",
+  "probability": 0.02,
+  "title": "Anti-theft and alarm systems",
+  "version": "1.3.0"
+ },
+ {
+  "regulation": "UN R123",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "AFS is not part of the product, and R123 is superseded by R149.",
+  "probability": 0.04,
+  "title": "Adaptive front lighting systems (AFS)",
+  "version": "2.1.0"
+ },
+ {
+  "regulation": "UN R127",
+  "decision": "applicable",
+  "basis": "vehicle_level_design",
+  "reason": "Pedestrian safety for M1. The bumper is designed for the lower-leg impact test zone.",
+  "probability": 0.9,
+  "title": "Pedestrian safety",
+  "version": "4.3.0"
+ },
+ {
+  "regulation": "UN R128",
+  "decision": "potentially_applicable",
+  "basis": "component_requirements",
+  "reason": "Applies only if the lamps use replaceable LED light sources of approved categories. This is not stated.",
+  "probability": 0.35,
+  "title": "Light-Emitting Diode (LED) light sources",
+  "version": "0.11.0"
+ },
+ {
+  "regulation": "UN R131",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "AEBS for heavy vehicles; the product is for M1.",
+  "probability": 0.03,
+  "title": "Advanced emergency braking systems (AEBS)",
+  "version": "2.3.0"
+ },
+ {
+  "regulation": "UN R132",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Retrofit emission control.",
+  "probability": 0.01,
+  "title": "Retrofit rmission control devices (REC)",
+  "version": "1.0.0"
+ },
+ {
+  "regulation": "UN R137",
+  "decision": "potentially_applicable",
+  "basis": "vehicle_level_design",
+  "reason": "Full-width frontal impact performance depends on the front beam and crash boxes. This is assessed at vehicle level.",
+  "probability": 0.35,
+  "title": "Restraint system in front impact",
+  "version": "4.0.0"
+ },
+ {
+  "regulation": "UN R148",
+  "decision": "applicable",
+  "basis": "device_approval",
+  "reason": "The LED front direction indicators are approved under R148. It would also cover any position lamps, DRL or side marker lamps if present.",
+  "probability": 0.9,
+  "title": "Light-Signalling Devices (LSD)",
+  "version": "1.6.0"
+ },
+ {
+  "regulation": "UN R149",
+  "decision": "applicable",
+  "basis": "device_approval",
+  "reason": "Front fog lamps are approved under the consolidated road illumination device regulation.",
+  "probability": 0.85,
+  "title": "Road illumination devices and systems",
+  "version": "1.6.0"
+ },
+ {
+  "regulation": "UN R150",
+  "decision": "potentially_applicable",
+  "basis": "device_approval",
+  "reason": "Applies only if front or side retro-reflectors are integrated in the bumper. Their presence is unknown.",
+  "probability": 0.3,
+  "title": "Retro-Reflective Devices (RRD)",
+  "version": "1.2.1"
+ },
+ {
+  "regulation": "UN R152",
+  "decision": "potentially_applicable",
+  "basis": "vehicle_level_design",
+  "reason": "The radar bracket and radome affect the performance of the AEBS sensor. This is relevant to vehicle-level AEBS approval, especially if the radar is supplied with the assembly.",
+  "probability": 0.35,
+  "title": "Advanced Emergency Braking System (AEBS) for light vehicles",
+  "version": "2.5.0"
+ },
+ {
+  "regulation": "UN R155",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Cyber security is a vehicle and management-system matter, not a bumper matter.",
+  "probability": 0.05,
+  "title": "Cyber security and cyber security management system",
+  "version": "0.2.0"
+ },
+ {
+  "regulation": "UN R156",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Software update management is a vehicle-level process.",
+  "probability": 0.04,
+  "title": "Software update and software updates management system",
+  "version": "0.1.0"
+ },
+ {
+  "regulation": "UN R157",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "ALKS is not relevant.",
+  "probability": 0.03,
+  "title": "Automated Lane Keeping System (ALKS)",
+  "version": "1.4.0"
+ },
+ {
+  "regulation": "UN R161",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Devices against unauthorized use.",
+  "probability": 0.01,
+  "title": "Devices for Protection against Unauthorized Use",
+  "version": "0.5.0"
+ },
+ {
+  "regulation": "UN R162",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Immobilizers.",
+  "probability": 0.01,
+  "title": "Approval of immobilizers and approval of a vehicle with regard to its immobilizer",
+  "version": "0.6.0"
+ },
+ {
+  "regulation": "UN R163",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle alarm systems.",
+  "probability": 0.01,
+  "title": "Vehicle Alarm Systems",
+  "version": "0.3.0"
+ },
+ {
+  "regulation": "UN R164",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Studded tyres.",
+  "probability": 0.01,
+  "title": "Approval of studded tyres with regard to their snow performance",
+  "version": "0.0.0"
+ },
+ {
+  "regulation": "UN R171",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "DCAS is a vehicle system approval. The bumper only hosts the radar mounting.",
+  "probability": 0.08,
+  "title": "Driver control assistance system (DCAS)",
+  "version": "1.1.0"
+ },
+ {
+  "regulation": "UN R174",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Safety-belt reminders.",
+  "probability": 0.01,
+  "title": "Safety-belt reminders",
+  "version": "1.0.1"
+ },
+ {
+  "regulation": "UN R175",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "ACPE is a vehicle system. Parking sensors may feed it, but this is not a bumper requirement.",
+  "probability": 0.08,
+  "title": "Acceleration control for pedal error (ACPE)",
+  "version": "0.1.0"
+ },
+ {
+  "regulation": "UN GTR 9",
+  "decision": "applicable",
+  "basis": "vehicle_level_design",
+  "reason": "Global pedestrian safety requirements apply to the vehicle front surfaces, including bumper lower-leg impact.",
+  "probability": 0.6,
+  "title": "GTR 9 - Pedestrian safety",
+  "version": "0.3.0"
+ }
+]

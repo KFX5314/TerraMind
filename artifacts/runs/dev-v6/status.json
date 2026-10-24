@@ -1,0 +1,667 @@
+{
+ "events": [
+  {
+   "t": "2026-10-24T15:20:59.364097+00:00",
+   "stage": "understanding",
+   "message": "Reading specification and drawing"
+  },
+  {
+   "t": "2026-10-24T15:20:59.381241+00:00",
+   "stage": "screening",
+   "message": "Screening all 56 regulations in the index"
+  },
+  {
+   "t": "2026-10-24T15:22:07.511149+00:00",
+   "stage": "extracting",
+   "message": "Extracting from 4 regulations in 125 sections"
+  },
+  {
+   "t": "2026-10-24T15:22:07.965608+00:00",
+   "stage": "extracting",
+   "message": "1/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.052347+00:00",
+   "stage": "extracting",
+   "message": "2/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.076665+00:00",
+   "stage": "extracting",
+   "message": "3/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.101815+00:00",
+   "stage": "extracting",
+   "message": "4/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.119515+00:00",
+   "stage": "extracting",
+   "message": "5/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.147752+00:00",
+   "stage": "extracting",
+   "message": "6/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.166773+00:00",
+   "stage": "extracting",
+   "message": "7/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.185912+00:00",
+   "stage": "extracting",
+   "message": "8/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.207394+00:00",
+   "stage": "extracting",
+   "message": "9/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.220706+00:00",
+   "stage": "extracting",
+   "message": "10/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.247413+00:00",
+   "stage": "extracting",
+   "message": "11/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.260058+00:00",
+   "stage": "extracting",
+   "message": "12/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.276226+00:00",
+   "stage": "extracting",
+   "message": "13/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.296351+00:00",
+   "stage": "extracting",
+   "message": "14/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.318871+00:00",
+   "stage": "extracting",
+   "message": "15/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.351565+00:00",
+   "stage": "extracting",
+   "message": "16/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.371720+00:00",
+   "stage": "extracting",
+   "message": "17/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:08.397547+00:00",
+   "stage": "extracting",
+   "message": "18/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:14.081305+00:00",
+   "stage": "extracting",
+   "message": "19/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:14.285995+00:00",
+   "stage": "extracting",
+   "message": "20/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:21.981957+00:00",
+   "stage": "extracting",
+   "message": "21/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:23.048951+00:00",
+   "stage": "extracting",
+   "message": "22/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:23.256744+00:00",
+   "stage": "extracting",
+   "message": "23/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:25.573247+00:00",
+   "stage": "extracting",
+   "message": "24/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:26.938946+00:00",
+   "stage": "extracting",
+   "message": "25/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:30.569337+00:00",
+   "stage": "extracting",
+   "message": "26/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:34.035439+00:00",
+   "stage": "extracting",
+   "message": "27/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:34.688845+00:00",
+   "stage": "extracting",
+   "message": "28/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:35.871228+00:00",
+   "stage": "extracting",
+   "message": "29/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:36.856123+00:00",
+   "stage": "extracting",
+   "message": "30/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:37.221103+00:00",
+   "stage": "extracting",
+   "message": "31/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:38.376978+00:00",
+   "stage": "extracting",
+   "message": "32/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:39.222774+00:00",
+   "stage": "extracting",
+   "message": "33/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:40.683737+00:00",
+   "stage": "extracting",
+   "message": "34/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:41.148047+00:00",
+   "stage": "extracting",
+   "message": "35/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:41.595304+00:00",
+   "stage": "extracting",
+   "message": "36/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:41.723033+00:00",
+   "stage": "extracting",
+   "message": "37/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:41.779525+00:00",
+   "stage": "extracting",
+   "message": "38/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:41.914282+00:00",
+   "stage": "extracting",
+   "message": "39/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:44.510953+00:00",
+   "stage": "extracting",
+   "message": "40/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:45.972796+00:00",
+   "stage": "extracting",
+   "message": "41/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:46.361681+00:00",
+   "stage": "extracting",
+   "message": "42/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:46.763786+00:00",
+   "stage": "extracting",
+   "message": "43/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:47.963223+00:00",
+   "stage": "extracting",
+   "message": "44/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:52.588854+00:00",
+   "stage": "extracting",
+   "message": "45/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:54.814466+00:00",
+   "stage": "extracting",
+   "message": "46/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:56.416980+00:00",
+   "stage": "extracting",
+   "message": "47/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:22:57.865318+00:00",
+   "stage": "extracting",
+   "message": "48/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:00.039314+00:00",
+   "stage": "extracting",
+   "message": "49/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:01.961625+00:00",
+   "stage": "extracting",
+   "message": "50/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:03.004250+00:00",
+   "stage": "extracting",
+   "message": "51/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:04.114717+00:00",
+   "stage": "extracting",
+   "message": "52/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:04.867263+00:00",
+   "stage": "extracting",
+   "message": "53/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:07.138242+00:00",
+   "stage": "extracting",
+   "message": "54/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:07.907929+00:00",
+   "stage": "extracting",
+   "message": "55/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:08.549536+00:00",
+   "stage": "extracting",
+   "message": "56/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:09.056728+00:00",
+   "stage": "extracting",
+   "message": "57/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:10.686864+00:00",
+   "stage": "extracting",
+   "message": "58/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:10.728949+00:00",
+   "stage": "extracting",
+   "message": "59/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:11.292303+00:00",
+   "stage": "extracting",
+   "message": "60/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:18.203808+00:00",
+   "stage": "extracting",
+   "message": "61/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:21.928427+00:00",
+   "stage": "extracting",
+   "message": "62/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:22.201363+00:00",
+   "stage": "extracting",
+   "message": "63/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:24.062789+00:00",
+   "stage": "extracting",
+   "message": "64/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:25.688469+00:00",
+   "stage": "extracting",
+   "message": "65/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:25.775651+00:00",
+   "stage": "extracting",
+   "message": "66/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:30.791634+00:00",
+   "stage": "extracting",
+   "message": "67/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:36.404569+00:00",
+   "stage": "extracting",
+   "message": "68/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:38.740565+00:00",
+   "stage": "extracting",
+   "message": "69/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:45.148923+00:00",
+   "stage": "extracting",
+   "message": "70/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:45.409111+00:00",
+   "stage": "extracting",
+   "message": "71/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:49.062301+00:00",
+   "stage": "extracting",
+   "message": "72/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:57.277854+00:00",
+   "stage": "extracting",
+   "message": "73/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:58.368274+00:00",
+   "stage": "extracting",
+   "message": "74/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:58.869791+00:00",
+   "stage": "extracting",
+   "message": "75/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:23:59.209935+00:00",
+   "stage": "extracting",
+   "message": "76/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:01.973209+00:00",
+   "stage": "extracting",
+   "message": "77/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:02.349691+00:00",
+   "stage": "extracting",
+   "message": "78/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:03.339175+00:00",
+   "stage": "extracting",
+   "message": "79/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:04.187423+00:00",
+   "stage": "extracting",
+   "message": "80/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:05.175912+00:00",
+   "stage": "extracting",
+   "message": "81/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:05.828152+00:00",
+   "stage": "extracting",
+   "message": "82/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:08.133907+00:00",
+   "stage": "extracting",
+   "message": "83/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:08.426786+00:00",
+   "stage": "extracting",
+   "message": "84/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:08.881227+00:00",
+   "stage": "extracting",
+   "message": "85/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:11.801966+00:00",
+   "stage": "extracting",
+   "message": "86/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:12.114300+00:00",
+   "stage": "extracting",
+   "message": "87/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:12.551585+00:00",
+   "stage": "extracting",
+   "message": "88/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:13.595600+00:00",
+   "stage": "extracting",
+   "message": "89/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:16.842285+00:00",
+   "stage": "extracting",
+   "message": "90/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:16.871698+00:00",
+   "stage": "extracting",
+   "message": "91/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:17.807374+00:00",
+   "stage": "extracting",
+   "message": "92/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:20.558658+00:00",
+   "stage": "extracting",
+   "message": "93/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:21.043300+00:00",
+   "stage": "extracting",
+   "message": "94/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:22.219422+00:00",
+   "stage": "extracting",
+   "message": "95/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:22.868453+00:00",
+   "stage": "extracting",
+   "message": "96/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:25.482561+00:00",
+   "stage": "extracting",
+   "message": "97/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:28.323136+00:00",
+   "stage": "extracting",
+   "message": "98/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:31.023123+00:00",
+   "stage": "extracting",
+   "message": "99/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:32.100648+00:00",
+   "stage": "extracting",
+   "message": "100/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:36.484781+00:00",
+   "stage": "extracting",
+   "message": "101/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:36.587986+00:00",
+   "stage": "extracting",
+   "message": "102/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:38.759250+00:00",
+   "stage": "extracting",
+   "message": "103/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:40.048095+00:00",
+   "stage": "extracting",
+   "message": "104/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:40.221834+00:00",
+   "stage": "extracting",
+   "message": "105/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:41.920571+00:00",
+   "stage": "extracting",
+   "message": "106/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:46.731571+00:00",
+   "stage": "extracting",
+   "message": "107/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:51.591794+00:00",
+   "stage": "extracting",
+   "message": "108/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:53.550562+00:00",
+   "stage": "extracting",
+   "message": "109/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:53.847681+00:00",
+   "stage": "extracting",
+   "message": "110/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:54.255663+00:00",
+   "stage": "extracting",
+   "message": "111/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:55.583475+00:00",
+   "stage": "extracting",
+   "message": "112/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:57.244175+00:00",
+   "stage": "extracting",
+   "message": "113/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:24:58.666841+00:00",
+   "stage": "extracting",
+   "message": "114/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:04.264386+00:00",
+   "stage": "extracting",
+   "message": "115/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:08.189163+00:00",
+   "stage": "extracting",
+   "message": "116/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:11.328258+00:00",
+   "stage": "extracting",
+   "message": "117/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:11.465789+00:00",
+   "stage": "extracting",
+   "message": "118/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:14.138685+00:00",
+   "stage": "extracting",
+   "message": "119/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:15.544814+00:00",
+   "stage": "extracting",
+   "message": "120/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:16.382858+00:00",
+   "stage": "extracting",
+   "message": "121/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:18.365454+00:00",
+   "stage": "extracting",
+   "message": "122/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:20.527058+00:00",
+   "stage": "extracting",
+   "message": "123/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:25.412643+00:00",
+   "stage": "extracting",
+   "message": "124/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:52.923208+00:00",
+   "stage": "extracting",
+   "message": "125/125 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:25:52.936217+00:00",
+   "stage": "finalizing",
+   "message": "Deduplicating, resolving pages, exporting"
+  },
+  {
+   "t": "2026-10-24T15:26:22.912341+00:00",
+   "stage": "completed",
+   "message": "363 requirements exported from 4 regulations"
+  }
+ ],
+ "stage": "completed",
+ "message": "363 requirements exported from 4 regulations",
+ "progress": 1.0,
+ "updated": "2026-10-24T15:26:22.912341+00:00",
+ "spent_usd": 9.962,
+ "regulations": [
+  "UN R10",
+  "UN R48",
+  "UN R148",
+  "UN R150"
+ ],
+ "n_requirements": 363,
+ "failed_sections": 0
+}

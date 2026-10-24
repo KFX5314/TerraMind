@@ -1,0 +1,104 @@
+{
+ "events": [
+  {
+   "t": "2026-10-24T15:18:45.285881+00:00",
+   "stage": "understanding",
+   "message": "Reading specification and drawing"
+  },
+  {
+   "t": "2026-10-24T15:18:45.303354+00:00",
+   "stage": "screening",
+   "message": "Screening all 56 regulations in the index"
+  },
+  {
+   "t": "2026-10-24T15:18:45.694793+00:00",
+   "stage": "extracting",
+   "message": "Extracting from 1 regulations in 13 sections"
+  },
+  {
+   "t": "2026-10-24T15:18:49.125476+00:00",
+   "stage": "extracting",
+   "message": "1/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:18:52.623558+00:00",
+   "stage": "extracting",
+   "message": "2/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:18:59.459286+00:00",
+   "stage": "extracting",
+   "message": "3/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:12.940933+00:00",
+   "stage": "extracting",
+   "message": "4/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:13.331824+00:00",
+   "stage": "extracting",
+   "message": "5/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:16.570683+00:00",
+   "stage": "extracting",
+   "message": "6/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:16.635444+00:00",
+   "stage": "extracting",
+   "message": "7/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:18.294254+00:00",
+   "stage": "extracting",
+   "message": "8/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:18.842653+00:00",
+   "stage": "extracting",
+   "message": "9/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:36.541388+00:00",
+   "stage": "extracting",
+   "message": "10/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:46.622283+00:00",
+   "stage": "extracting",
+   "message": "11/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:49.868048+00:00",
+   "stage": "extracting",
+   "message": "12/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:20:06.616717+00:00",
+   "stage": "extracting",
+   "message": "13/13 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:20:06.634258+00:00",
+   "stage": "finalizing",
+   "message": "Deduplicating, resolving pages, exporting"
+  },
+  {
+   "t": "2026-10-24T15:20:17.721768+00:00",
+   "stage": "completed",
+   "message": "105 requirements exported from 1 regulations"
+  }
+ ],
+ "stage": "completed",
+ "message": "105 requirements exported from 1 regulations",
+ "progress": 1.0,
+ "updated": "2026-10-24T15:20:17.721768+00:00",
+ "spent_usd": 1.896,
+ "regulations": [
+  "UN R148"
+ ],
+ "n_requirements": 105,
+ "failed_sections": 0
+}

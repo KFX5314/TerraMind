@@ -1,0 +1,129 @@
+{
+ "events": [
+  {
+   "t": "2026-10-24T15:18:45.301879+00:00",
+   "stage": "understanding",
+   "message": "Reading specification and drawing"
+  },
+  {
+   "t": "2026-10-24T15:18:45.310488+00:00",
+   "stage": "screening",
+   "message": "Screening all 56 regulations in the index"
+  },
+  {
+   "t": "2026-10-24T15:18:45.695863+00:00",
+   "stage": "extracting",
+   "message": "Extracting from 1 regulations in 18 sections"
+  },
+  {
+   "t": "2026-10-24T15:18:55.347181+00:00",
+   "stage": "extracting",
+   "message": "1/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:07.496204+00:00",
+   "stage": "extracting",
+   "message": "2/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:10.141259+00:00",
+   "stage": "extracting",
+   "message": "3/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:13.229344+00:00",
+   "stage": "extracting",
+   "message": "4/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:14.328754+00:00",
+   "stage": "extracting",
+   "message": "5/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:16.261354+00:00",
+   "stage": "extracting",
+   "message": "6/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:25.624461+00:00",
+   "stage": "extracting",
+   "message": "7/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:26.664459+00:00",
+   "stage": "extracting",
+   "message": "8/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:28.762202+00:00",
+   "stage": "extracting",
+   "message": "9/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:29.325152+00:00",
+   "stage": "extracting",
+   "message": "10/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:32.238247+00:00",
+   "stage": "extracting",
+   "message": "11/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:36.974851+00:00",
+   "stage": "extracting",
+   "message": "12/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:41.782025+00:00",
+   "stage": "extracting",
+   "message": "13/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:42.384328+00:00",
+   "stage": "extracting",
+   "message": "14/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:46.129264+00:00",
+   "stage": "extracting",
+   "message": "15/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:46.652682+00:00",
+   "stage": "extracting",
+   "message": "16/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:48.168516+00:00",
+   "stage": "extracting",
+   "message": "17/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:59.779181+00:00",
+   "stage": "extracting",
+   "message": "18/18 sections processed"
+  },
+  {
+   "t": "2026-10-24T15:19:59.796655+00:00",
+   "stage": "finalizing",
+   "message": "Deduplicating, resolving pages, exporting"
+  },
+  {
+   "t": "2026-10-24T15:20:12.132122+00:00",
+   "stage": "completed",
+   "message": "108 requirements exported from 1 regulations"
+  }
+ ],
+ "stage": "completed",
+ "message": "108 requirements exported from 1 regulations",
+ "progress": 1.0,
+ "updated": "2026-10-24T15:20:12.132122+00:00",
+ "spent_usd": 2.085,
+ "regulations": [
+  "UN R148"
+ ],
+ "n_requirements": 108,
+ "failed_sections": 0
+}

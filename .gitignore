@@ -3,8 +3,11 @@
 
 # Local corpus, generated outputs, and scratch files.
 /data/
-/artifacts/
 /tmp/
+
+# Run outputs are committed; evaluation files quote expected.json (hackathon-only data) and stay local.
+/artifacts/**/eval*.json
+/artifacts/subgoal/_*/
 
 # Credentials; commit only a sanitized example.
 .env

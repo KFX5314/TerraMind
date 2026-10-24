@@ -1,0 +1,301 @@
+{
+ "product_name": "Rear Lamp",
+ "product_type": "Rear combination lamp: an exterior lighting and signalling module combining rear position, stop and reversing lamps, an outer lens and a retro-reflector in one housing",
+ "summary": "An LED rear combination lamp for an M1 passenger car. The specification states five elements: rear position lamp, stop lamp, reversing lamp, outer lens and retro-reflector. The attached two-view drawing is unscaled and unlabelled. It shows the internal module with the lens removed and the closed lens. The internal view shows an array of 24 reflector cups (3 rows of 8), a row of 8 small circular elements, an elongated upper channel, an empty rectangular compartment, and a lower-right compartment with a faceted curved reflector. The lens view shows a textured rectangular area at the lower right. The specification does not say which compartment carries which function. The spec describes the lens as red-tinted, yet a reversing lamp must emit white light, so the lens colour zoning needs confirmation. Materials are representative values only and must be confirmed against the bill of materials.",
+ "vehicle_categories": [
+  "M1"
+ ],
+ "components": [
+  {
+   "name": "Rear position lamp",
+   "function": "Rear position signalling (presence/visibility), red",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Stop lamp",
+   "function": "Braking indication, red",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Reversing lamp",
+   "function": "Reversing illumination, white",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Outer lens",
+   "function": "Light transmission, colour definition and sealing cover; spec gives PMMA, red-tinted, UV-stabilised (representative)",
+   "status": "spec_stated",
+   "source": "both"
+  },
+  {
+   "name": "Retro-reflector",
+   "function": "Passive conspicuity; spec gives moulded PMMA prism optics (representative). Its location is not identified in the drawing; the textured rectangle at lower right of the lens is a candidate only",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Housing",
+   "function": "Structural carrier for optics and electronics; spec gives PP or ASA/PC (representative)",
+   "status": "spec_stated",
+   "source": "both"
+  },
+  {
+   "name": "Reflector surfaces",
+   "function": "Light distribution; spec gives PC with vacuum-metallised aluminium (representative)",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "LED modules on PCB",
+   "function": "Light sources for the lamp functions; electronic content",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Seal / gasket",
+   "function": "Sealing between lens and housing; spec gives TPE or silicone (representative)",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Fasteners / clips",
+   "function": "Mounting and assembly; spec gives PA, POM or steel (representative)",
+   "status": "spec_stated",
+   "source": "specification"
+  },
+  {
+   "name": "Reflector cup array (3 rows x 8 = 24 cups)",
+   "function": "Multi-LED optical array. Likely the stop and/or position lamp, inferred from its size and the red-function zone; not confirmed",
+   "status": "observed",
+   "source": "drawing"
+  },
+  {
+   "name": "Row of 8 small circular elements above the cup array",
+   "function": "Could be LEDs, light-guide in-couplers or mounting/locating bosses; purpose not determinable from the drawing",
+   "status": "observed",
+   "source": "drawing"
+  },
+  {
+   "name": "Elongated upper channel / strip",
+   "function": "Possibly a light guide or a position-lamp signature strip; not confirmed",
+   "status": "observed",
+   "source": "drawing"
+  },
+  {
+   "name": "Empty rectangular compartment",
+   "function": "Function unknown; could be a reversing lamp, retro-reflector seat or another function chamber",
+   "status": "observed",
+   "source": "drawing"
+  },
+  {
+   "name": "Lower-right compartment with faceted curved reflector and semicircular element",
+   "function": "Possibly the reversing lamp reflector and light source, inferred from its separate chamber and multi-facet reflector; not confirmed",
+   "status": "observed",
+   "source": "drawing"
+  },
+  {
+   "name": "Textured rectangular area on lens (lower right, vertical flutes)",
+   "function": "Optic area aligned with the lower-right compartment; possibly the reversing lamp outer optic or the retro-reflector",
+   "status": "observed",
+   "source": "drawing"
+  },
+  {
+   "name": "Electrical connector / wiring harness interface",
+   "function": "Power and signal connection to the vehicle; not shown or specified",
+   "status": "unknown",
+   "source": "none"
+  },
+  {
+   "name": "LED driver / control electronics",
+   "function": "Current regulation and possibly failure monitoring; presence not stated",
+   "status": "unknown",
+   "source": "none"
+  }
+ ],
+ "functions": [
+  "Rear position lamp (red)",
+  "Stop lamp (red)",
+  "Reversing lamp (white)",
+  "Rear retro-reflector (passive, red, non-triangular assumed)",
+  "Outer lens light transmission and colour definition"
+ ],
+ "facts": [
+  {
+   "attribute": "Product type",
+   "value": "Rear combination lamp (exterior lighting and signalling module)",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": ""
+  },
+  {
+   "attribute": "Vehicle category",
+   "value": "M1 passenger car",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Spec notes that the referenced UNECE lighting regulations apply across M and N categories"
+  },
+  {
+   "attribute": "Lighting functions",
+   "value": "Rear position, stop, reversing",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "No direction indicator, rear fog or other function is stated"
+  },
+  {
+   "attribute": "Passive reflective device",
+   "value": "Retro-reflector, moulded PMMA prism optics",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative material - confirm against bill of materials. Class (e.g. IA/IB) not stated"
+  },
+  {
+   "attribute": "Light source technology",
+   "value": "LED modules on PCB",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative - confirm against BOM. Replaceable vs non-replaceable not stated"
+  },
+  {
+   "attribute": "Outer lens material and colour",
+   "value": "PMMA, red-tinted, UV-stabilised",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative. The reversing lamp must emit white light, so a clear/white zone is required; zoning not specified"
+  },
+  {
+   "attribute": "Housing material",
+   "value": "PP or ASA/PC",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative - confirm against bill of materials"
+  },
+  {
+   "attribute": "Reflector surface material",
+   "value": "PC with aluminium vacuum-metallised coating",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative - confirm against bill of materials"
+  },
+  {
+   "attribute": "Seal material",
+   "value": "TPE or silicone",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative - confirm against bill of materials"
+  },
+  {
+   "attribute": "Fastener material",
+   "value": "PA, POM or steel",
+   "status": "spec_stated",
+   "source": "specification",
+   "note": "Representative - confirm against bill of materials"
+  },
+  {
+   "attribute": "Optical cup array count",
+   "value": "24 cups (3 rows of 8) plus a row of 8 small circular elements",
+   "status": "observed",
+   "source": "drawing",
+   "note": "Count of visible features only; their assignment to functions is unknown"
+  },
+  {
+   "attribute": "Number of separate chambers/zones",
+   "value": "At least 4 distinct zones: cup array, upper channel, rectangular compartment, lower-right reflector compartment",
+   "status": "observed",
+   "source": "drawing",
+   "note": "No labels in the drawing"
+  },
+  {
+   "attribute": "Lens texture zone",
+   "value": "Rectangular fluted area at lower right of lens",
+   "status": "observed",
+   "source": "drawing",
+   "note": "Function not identified"
+  },
+  {
+   "attribute": "Drawing scale / dimensions",
+   "value": "Not available",
+   "status": "unknown",
+   "source": "drawing",
+   "note": "Unscaled drawing; no dimensions, apparent surfaces or mounting heights can be derived"
+  },
+  {
+   "attribute": "Lamp is a single-housing combination unit",
+   "value": "Yes",
+   "status": "inferred",
+   "source": "both",
+   "note": "Spec states a single housing; the drawing shows one continuous housing and lens"
+  },
+  {
+   "attribute": "Exterior mounting",
+   "value": "Mounted on vehicle rear exterior",
+   "status": "inferred",
+   "source": "specification",
+   "note": "Inferred from its role as a rear signalling lamp; the exact body/tailgate position is not stated"
+  },
+  {
+   "attribute": "Photometric values, intensity categories, variable intensity",
+   "value": "Not stated",
+   "status": "unknown",
+   "source": "none",
+   "note": ""
+  },
+  {
+   "attribute": "Electronic control / failure monitoring",
+   "value": "Not stated",
+   "status": "unknown",
+   "source": "none",
+   "note": ""
+  }
+ ],
+ "unknowns": [
+  "Which drawing compartment corresponds to the position, stop and reversing functions, and to the retro-reflector",
+  "Lens colour zoning (clear zone for the reversing lamp versus red zone)",
+  "Retro-reflector class and its location in the assembly",
+  "Light source type in regulatory terms (non-replaceable LED module vs replaceable LED/filament light source)",
+  "Whether the position and stop lamps share LEDs (reciprocally incorporated) or are separate",
+  "Intensity categories (e.g. R1/R2, S1/S2) and any variable-intensity control",
+  "Presence of LED driver/ECU electronics, connector type, rated voltage",
+  "Whether the lamp is split between body and tailgate/boot lid, or forms a single unit",
+  "Mounting position, orientation, and apparent surface dimensions on the vehicle",
+  "Whether additional functions (direction indicator, rear fog, rear marking/end-outline) are integrated",
+  "Left/right handed variants and number of lamps per vehicle side",
+  "Confirmed bill of materials"
+ ],
+ "questions": [
+  {
+   "question": "Which compartment carries each function, and are any additional functions (rear direction indicator, rear fog lamp, end-outline marker) integrated?",
+   "why_it_matters": "Each extra function brings its own photometric, colour and installation requirements under UN R148/R48 and changes the approval marking."
+  },
+  {
+   "question": "Is the light source a non-replaceable LED module, a replaceable LED light source, or a filament lamp per R37/R128?",
+   "why_it_matters": "This determines whether light-source approval under R37/R128 or light-source-module provisions apply, and how failure provisions are handled."
+  },
+  {
+   "question": "Does the lamp contain active electronics (LED driver, ECU, failure-detection circuitry)?",
+   "why_it_matters": "Electronic sub-assemblies may need UN R10 EMC approval, and failure-mode requirements of R48/R148 may apply."
+  },
+  {
+   "question": "Are the position and stop lamps reciprocally incorporated, and do they use variable intensity (R2/S2)?",
+   "why_it_matters": "This changes the R148 category marking, the test conditions, and the installation provisions."
+  },
+  {
+   "question": "What is the retro-reflector class (e.g. IA, IB) and is it non-triangular red?",
+   "why_it_matters": "This determines the applicable R150 class requirements and whether separate retro-reflector approval or marking is needed."
+  },
+  {
+   "question": "Is the lamp split across a movable component such as the tailgate or boot lid?",
+   "why_it_matters": "R48 imposes specific provisions on lamps mounted on movable components, including geometric visibility with the component open."
+  },
+  {
+   "question": "How is the white reversing-lamp zone achieved given the red-tinted lens in the spec?",
+   "why_it_matters": "Colorimetric compliance for the reversing lamp (white) and the red functions must each be demonstrated separately under R148."
+  },
+  {
+   "question": "What are the mounting height, lateral position and apparent surface on the target M1 vehicle?",
+   "why_it_matters": "These determine compliance with the R48 installation requirements for each function."
+  }
+ ]
+}

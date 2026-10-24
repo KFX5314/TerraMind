@@ -1,0 +1,15 @@
+{
+ "case_id": "dev-rear-lamp",
+ "spec": "# file: spec.md\n# spec: Rear Lamp\n\n## Product Type\n\nRear lamp  — exterior lighting & signalling module combining multiple light functions, lens, and retro-reflector in a single housing.\n\n## Vehicle Category\n\nM1 — passenger car. UNECE lighting regulations referenced apply across M and N categories.\n\n## Function\n\n- Rear position signalling (presence/visibility)\n- Braking indication (stop lamp)\n- Reversing illumination\n- Passive conspicuity (retro-reflector)\n- Light transmission & color definition (outer lens)\n\n## Main Parts\n\n- Rear position lamp\n- Stop lamp\n- Reversing lamp\n- Outer lens\n- Retro-reflector\n\n## Materials\n\nRepresentative values — confirm against actual bill of materials.\n\n\n| Component         | Typical material(s)                         |\n| ------------------- | --------------------------------------------- |\n| Outer lens        | PMMA (red-tinted, UV-stabilised)            |\n| Housing           | PP or ASA/PC                                |\n| Reflector surface | PC with aluminium vacuum-metallised coating |\n| Retro-reflector   | PMMA (molded prism optics)                  |\n| Light source      | LED modules on PCB                          |\n| Seal / gasket     | TPE or silicone                             |\n| Fasteners / clips | PA, POM, or steel                           |\n",
+ "images": [
+  "C:\\Users\\alvar\\Desktop\\HackathonbUVC\\industrial-ai-hackathon\\cases\\dev-rear-lamp\\exploded_view.png"
+ ],
+ "config": {
+  "deep_image": false,
+  "audit": false,
+  "threshold": 0.5,
+  "model": "claude-opus-5-5",
+  "prompt_version": "v3",
+  "parser_version": "p8"
+ }
+}

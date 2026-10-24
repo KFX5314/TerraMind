@@ -1,0 +1,13 @@
+{
+ "case_id": "dry-front-bumper",
+ "spec": "# file: spec.md\n# spec: Front Bumper (dry-run test product written by the team, not an organizer case)\n\n## Product Type\n\nFront bumper assembly — exterior front-end module of a passenger car, combining the bumper fascia, energy absorber,\nreinforcement beam, integrated lamps and driver-assistance sensors.\n\n## Vehicle Category\n\nM1 — passenger car.\n\n## Function\n\n- Low-speed impact protection of the vehicle front end\n- Pedestrian protection (lower leg impact zone)\n- Front fog lamp integration\n- Front direction indicator integration (side corners)\n- Parking distance sensing (ultrasonic sensors)\n- Front radar sensor mounting behind the emblem (adaptive cruise / emergency braking)\n- Front registration plate mounting\n\n## Main Parts\n\n- Bumper fascia (painted)\n- Energy absorber\n- Reinforcement beam with crash boxes\n- Lower grille and air intake\n- Front fog lamps (LED) with bezels\n- Front direction indicator lamps (LED)\n- Ultrasonic parking sensors (4) with wiring harness\n- Radar sensor bracket and radome emblem\n- Registration plate holder\n- Towing eye cover\n\n## Materials\n\nRepresentative values — confirm against actual bill of materials.\n\n| Component             | Typical material(s)              |\n| --------------------- | -------------------------------- |\n| Bumper fascia         | PP/EPDM-TD20, painted            |\n| Energy absorber       | EPP foam                         |\n| Reinforcement beam    | Aluminium extrusion              |\n| Lower grille          | PC/ABS                           |\n| Lamp lenses           | PC (hard-coated)                 |\n| Radome emblem         | PC with metallised indium layer  |\n| Fasteners / clips     | PA, steel                        |\n",
+ "images": [],
+ "config": {
+  "deep_image": false,
+  "audit": false,
+  "threshold": 0.5,
+  "model": "claude-opus-5-5",
+  "prompt_version": "v3",
+  "parser_version": "p8"
+ }
+}
