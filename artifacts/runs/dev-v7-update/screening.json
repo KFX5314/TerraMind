@@ -1,0 +1,506 @@
+[
+ {
+  "regulation": "UN R3",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Retro-reflector approval is now covered by the consolidated UN R150, which replaces R3.",
+  "probability": 0.25,
+  "title": "Retro-reflecting devices",
+  "version": "2.17.0"
+ },
+ {
+  "regulation": "UN R6",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "No direction indicator is stated. R6 is also superseded by R148.",
+  "probability": 0.1,
+  "title": "Direction indicators",
+  "version": "2.0.0"
+ },
+ {
+  "regulation": "UN R7",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Superseded by R148, which now covers position and stop lamps. R7 ceases to grant approvals.",
+  "probability": 0.25,
+  "title": "Position, stop and end-outline lamps",
+  "version": "3.0.0"
+ },
+ {
+  "regulation": "UN R10",
+  "decision": "potentially_applicable",
+  "basis": "component_requirements",
+  "reason": "The LED PCB may carry electronic driver/control circuitry. If so, EMC requirements apply to it as an electronic sub-assembly (ESA).",
+  "probability": 0.6,
+  "title": "Electromagnetic compatibility",
+  "version": "7.2.0"
+ },
+ {
+  "regulation": "UN R13H",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Braking system regulation; it does not concern the lamp.",
+  "probability": 0.02,
+  "title": "Light vehicle braking",
+  "version": "2.1.0"
+ },
+ {
+  "regulation": "UN R19",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Front fog lamps; not part of this product.",
+  "probability": 0.01,
+  "title": "Front fog lamps",
+  "version": "4.10.0"
+ },
+ {
+  "regulation": "UN R23",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Reversing lamps are consolidated into R148, so the reversing function is approved under R148.",
+  "probability": 0.25,
+  "title": "Reversing lamps",
+  "version": "0.22.0"
+ },
+ {
+  "regulation": "UN R26",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "External projection requirements relate to the vehicle body. A flush rear lamp is not a primary concern of R26.",
+  "probability": 0.15,
+  "title": "External projections of passenger cars",
+  "version": "4.0.0"
+ },
+ {
+  "regulation": "UN R32",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Concerns passenger compartment behaviour in a rear-end collision; it does not constrain the lamp design.",
+  "probability": 0.03,
+  "title": "Rear-end collision",
+  "version": "0.1.0"
+ },
+ {
+  "regulation": "UN R37",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "The product uses LED modules, not filament light sources.",
+  "probability": 0.08,
+  "title": "Filament light sources",
+  "version": "3.48.0"
+ },
+ {
+  "regulation": "UN R38",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "No rear fog lamp is stated. R38 is also superseded by R148.",
+  "probability": 0.1,
+  "title": "Rear fog lamps",
+  "version": "0.19.0"
+ },
+ {
+  "regulation": "UN R39",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Speedometer regulation; unrelated to the lamp.",
+  "probability": 0.01,
+  "title": "Speedometer and odometer",
+  "version": "2.1.0"
+ },
+ {
+  "regulation": "UN R40",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Emissions regulation for motorcycles; unrelated.",
+  "probability": 0.01,
+  "title": "Emission of gaseous pollutants by motorcycles",
+  "version": "1.1.0"
+ },
+ {
+  "regulation": "UN R42",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Concerns bumper protective devices, not the lamp.",
+  "probability": 0.05,
+  "title": "Front and rear protective devices",
+  "version": "0.2.0"
+ },
+ {
+  "regulation": "UN R43",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Explicitly excludes glazing for lighting and light-signalling devices.",
+  "probability": 0.03,
+  "title": "Safety glazing",
+  "version": "1.12.0"
+ },
+ {
+  "regulation": "UN R48",
+  "decision": "applicable",
+  "basis": "installation",
+  "reason": "Sets installation requirements for the rear position, stop and reversing lamps and the rear retro-reflector on M1 vehicles: position, geometric visibility, electrical connections and colour.",
+  "probability": 0.95,
+  "title": "Installation of lighting and light-signalling devices",
+  "version": "9.3.0"
+ },
+ {
+  "regulation": "UN R49",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Engine emissions regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Emissions of C.I. and P.I. (LPG and CNG) engines",
+  "version": "7.3.1"
+ },
+ {
+  "regulation": "UN R51",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle sound emission regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Sound of M and N categories of vehicles",
+  "version": "3.10.0"
+ },
+ {
+  "regulation": "UN R53",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Lighting installation for L3 motorcycles; the product is for M1.",
+  "probability": 0.02,
+  "title": "Installation of lighting and light-signalling devices for L3 vehicles",
+  "version": "4.0.0"
+ },
+ {
+  "regulation": "UN R62",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Anti-theft for L-category vehicles; unrelated.",
+  "probability": 0.01,
+  "title": "Anti-theft (mopeds/motorcycles)",
+  "version": "1.0.0"
+ },
+ {
+  "regulation": "UN R64",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Spare unit and run-flat tyre regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Temporary use spare unit, run flat tyres",
+  "version": "3.1.0"
+ },
+ {
+  "regulation": "UN R67",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "LPG equipment regulation; unrelated.",
+  "probability": 0.01,
+  "title": "LPG vehicles",
+  "version": "4.2.0"
+ },
+ {
+  "regulation": "UN R79",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Steering equipment regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Steering equipment",
+  "version": "4.11.0"
+ },
+ {
+  "regulation": "UN R83",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle emissions regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Emissions of M1 and N1 vehicles",
+  "version": "9.0.0"
+ },
+ {
+  "regulation": "UN R89",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Speed limitation devices; unrelated.",
+  "probability": 0.01,
+  "title": "Speed limitation devices",
+  "version": "0.3.0"
+ },
+ {
+  "regulation": "UN R92",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Replacement exhaust systems for motorcycles; unrelated.",
+  "probability": 0.01,
+  "title": "Replacement exhaust silencing systems for motorcycles",
+  "version": "2.0.0"
+ },
+ {
+  "regulation": "UN R94",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Frontal collision protection; unrelated to a rear lamp.",
+  "probability": 0.01,
+  "title": "Frontal collision protection",
+  "version": "5.1.0"
+ },
+ {
+  "regulation": "UN R100",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Electric powertrain safety regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Electric power trained vehicles",
+  "version": "5.0.0"
+ },
+ {
+  "regulation": "UN R101",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "CO2 emissions and fuel consumption regulation; unrelated.",
+  "probability": 0.01,
+  "title": "CO2 emission/fuel consumption",
+  "version": "1.12.0"
+ },
+ {
+  "regulation": "UN R102",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Close-coupling devices for heavy vehicles; unrelated.",
+  "probability": 0.01,
+  "title": "Close-coupling device (CCD)",
+  "version": "0.0.0"
+ },
+ {
+  "regulation": "UN R103",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Replacement pollution control devices; unrelated.",
+  "probability": 0.01,
+  "title": "Replacement pollution control devices",
+  "version": "0.3.0"
+ },
+ {
+  "regulation": "UN R104",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Retro-reflective marking materials for heavy vehicles, not M1. Also superseded by R150.",
+  "probability": 0.03,
+  "title": "Retro-reflective markings",
+  "version": "0.9.0"
+ },
+ {
+  "regulation": "UN R107",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Applies to M2/M3 buses only.",
+  "probability": 0.01,
+  "title": "M2 and M3 vehicles",
+  "version": "11.1.0"
+ },
+ {
+  "regulation": "UN R114",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Replacement airbag regulation; unrelated.",
+  "probability": 0.01,
+  "title": "Airbag module for a replacement airbag system",
+  "version": "0.0.0"
+ },
+ {
+  "regulation": "UN R116",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Anti-theft and alarm systems; unrelated.",
+  "probability": 0.02,
+  "title": "Anti-theft and alarm systems",
+  "version": "1.3.0"
+ },
+ {
+  "regulation": "UN R123",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Adaptive front-lighting systems; not part of a rear lamp.",
+  "probability": 0.01,
+  "title": "Adaptive front lighting systems (AFS)",
+  "version": "2.1.0"
+ },
+ {
+  "regulation": "UN R127",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Pedestrian safety regulation covering the vehicle front only.",
+  "probability": 0.01,
+  "title": "Pedestrian safety",
+  "version": "4.3.0"
+ },
+ {
+  "regulation": "UN R128",
+  "decision": "potentially_applicable",
+  "basis": "component_requirements",
+  "reason": "Applies only if the lamp uses replaceable LED light sources; the profile leaves open whether the LEDs are replaceable.",
+  "probability": 0.25,
+  "title": "Light-Emitting Diode (LED) light sources",
+  "version": "0.11.0"
+ },
+ {
+  "regulation": "UN R131",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "AEBS for heavy vehicles; unrelated.",
+  "probability": 0.01,
+  "title": "Advanced emergency braking systems (AEBS)",
+  "version": "2.3.0"
+ },
+ {
+  "regulation": "UN R132",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Retrofit emission control devices; unrelated.",
+  "probability": 0.01,
+  "title": "Retrofit rmission control devices (REC)",
+  "version": "1.0.0"
+ },
+ {
+  "regulation": "UN R137",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Frontal impact restraint systems; unrelated.",
+  "probability": 0.01,
+  "title": "Restraint system in front impact",
+  "version": "4.0.0"
+ },
+ {
+  "regulation": "UN R148",
+  "decision": "applicable",
+  "basis": "device_approval",
+  "reason": "Device approval regulation for the rear position, stop and reversing lamp functions, covering photometry, colour and the test conditions for this lamp.",
+  "probability": 0.97,
+  "title": "Light-Signalling Devices (LSD)",
+  "version": "1.6.0"
+ },
+ {
+  "regulation": "UN R149",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Road illumination devices (headlamps, front fog and cornering lamps); not part of this product.",
+  "probability": 0.03,
+  "title": "Road illumination devices and systems",
+  "version": "1.6.0"
+ },
+ {
+  "regulation": "UN R150",
+  "decision": "applicable",
+  "basis": "device_approval",
+  "reason": "The integrated rear retro-reflector requires approval as a Class IA/IB retro-reflector under R150.",
+  "probability": 0.9,
+  "title": "Retro-Reflective Devices (RRD)",
+  "version": "1.2.1"
+ },
+ {
+  "regulation": "UN R152",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "AEBS for light vehicles; unrelated.",
+  "probability": 0.01,
+  "title": "Advanced Emergency Braking System (AEBS) for light vehicles",
+  "version": "2.5.0"
+ },
+ {
+  "regulation": "UN R155",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle-level cybersecurity regulation; not relevant to a simple lamp.",
+  "probability": 0.02,
+  "title": "Cyber security and cyber security management system",
+  "version": "0.2.0"
+ },
+ {
+  "regulation": "UN R156",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle-level software update regulation; not relevant to this lamp.",
+  "probability": 0.02,
+  "title": "Software update and software updates management system",
+  "version": "0.1.0"
+ },
+ {
+  "regulation": "UN R157",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Automated Lane Keeping System; unrelated.",
+  "probability": 0.01,
+  "title": "Automated Lane Keeping System (ALKS)",
+  "version": "1.4.0"
+ },
+ {
+  "regulation": "UN R161",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Devices against unauthorized use; unrelated.",
+  "probability": 0.01,
+  "title": "Devices for Protection against Unauthorized Use",
+  "version": "0.5.0"
+ },
+ {
+  "regulation": "UN R162",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Immobilizers; unrelated.",
+  "probability": 0.01,
+  "title": "Approval of immobilizers and approval of a vehicle with regard to its immobilizer",
+  "version": "0.6.0"
+ },
+ {
+  "regulation": "UN R163",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Vehicle alarm systems; not relevant to this lamp.",
+  "probability": 0.02,
+  "title": "Vehicle Alarm Systems",
+  "version": "0.3.0"
+ },
+ {
+  "regulation": "UN R164",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Studded tyres; unrelated.",
+  "probability": 0.01,
+  "title": "Approval of studded tyres with regard to their snow performance",
+  "version": "0.0.0"
+ },
+ {
+  "regulation": "UN R171",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Driver control assistance systems; unrelated.",
+  "probability": 0.01,
+  "title": "Driver control assistance system (DCAS)",
+  "version": "1.1.0"
+ },
+ {
+  "regulation": "UN R174",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Safety-belt reminders; unrelated.",
+  "probability": 0.01,
+  "title": "Safety-belt reminders",
+  "version": "1.0.1"
+ },
+ {
+  "regulation": "UN R175",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Acceleration control for pedal error; unrelated.",
+  "probability": 0.01,
+  "title": "Acceleration control for pedal error (ACPE)",
+  "version": "0.1.0"
+ },
+ {
+  "regulation": "UN GTR 9",
+  "decision": "not_applicable",
+  "basis": "none",
+  "reason": "Pedestrian safety requirements for the vehicle front only.",
+  "probability": 0.01,
+  "title": "GTR 9 - Pedestrian safety",
+  "version": "0.3.0"
+ }
+]

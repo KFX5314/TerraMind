@@ -1,0 +1,29 @@
+{
+ "local": {
+  "regulation_level": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "n_submitted": 4,
+   "n_expected": 4,
+   "n_matched": 4
+  },
+  "page_level": {
+   "precision": 0.6447368421052632,
+   "recall": 0.8679245283018868,
+   "f1": 0.7398654193336617,
+   "n_submitted": 76,
+   "n_expected": 53,
+   "n_matched": 49
+  }
+ },
+ "proxy": {
+  "label": "lexical proxy (sim>=0.65), calibrated to the platform",
+  "precision": 0.39104477611940297,
+  "recall": 0.6894736842105263,
+  "f2": 0.5981735159817352,
+  "tp": 131,
+  "n_submitted": 335,
+  "n_expected": 190
+ }
+}
