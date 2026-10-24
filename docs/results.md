@@ -54,3 +54,21 @@ misses are composite labels such as "5.1.4.4.1. Table 3". All 92 PDFs in the ind
 The deterministic alignment (source sentence located anywhere in the new text, word diff, editorial normalisation
 of "6 seconds" → "6 s" and "70%" → "70 per cent") alone reproduces the 7 expected flags exactly. Claude only rewrites
 the modified texts and splits new text into atomic added requirements.
+
+## Platform scores (worked examples, uploaded 24 Oct)
+
+| Upload | Platform result |
+|---|---|
+| Main, dev-v2-frozen (343 reqs) | Requirements P 35.0% / R 63.2% / F1 45.0% / **F2 54.4%**; pages P 64.6% / R 94.3%; regulations 100% / 100% |
+| Sub-goal, subgoal-dev v1 (27 changes) | Flag recall 79.2%, flag precision 70.4%, change accuracy 66.7% |
+
+The platform judge is stricter than our internal judge (recall 0.63 vs 0.79). A lexical proxy (one-to-one matches with
+word similarity >= 0.7) tracks the platform closely (P 0.32 / R 0.58 on the same file) and is now used for offline tuning.
+
+Tuning with that proxy (no further uploads needed):
+- Export threshold sweep 0 / 0.3 / 0.4 / **0.5** / 0.6 / 0.7: proxy F2 0.43 / 0.44 / 0.47 / **0.50** / 0.48 / 0.46, so 0.5 stays.
+- Dropping annex requirements lowers proxy F2 (0.50 to 0.47), so annexes stay.
+- Prompt v4 (subject first, never specialise to the product, keep all qualifiers): proxy F2 0.48 vs 0.50 for v2. Reverted.
+- Sub-goal: the 7 modified/removed flags are right, so the platform gap is in `added` items. The added-extraction prompt
+  now teaches the expected patterns ("The procedure for ... shall be to ...", named actor, one requirement per
+  "shall"/"may" clause). This is pending a platform upload of artifacts/subgoal/subgoal-dev-v4/changes.json.

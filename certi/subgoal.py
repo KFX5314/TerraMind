@@ -170,7 +170,12 @@ Write one requirement per independently assessable obligation (shall / shall not
 in the same style and granularity as the example requirements (derived from the previous version): self-contained,
 close to the source wording, explicit subject, conditions carried over from the sentence or parent paragraph.
 Split list items (a), (b), ... of separate obligations or procedure steps into separate requirements.
-Only use text marked as NEW; the rest is context. Skip definitions, headings and pure permissions without a condition.
+Patterns: a procedure step "(b) Hold the vehicle stationary ..." under "The procedure for each test with a creeping
+vehicle shall be:" becomes "The procedure for each test with a creeping vehicle shall be to hold the vehicle
+stationary ..."; a passive test sentence names its actor when the paragraph does ("The Technical Service shall test
+...", "The test system shall test ..."); a sentence with "shall ..., and may ..." gives one requirement per clause,
+including the "may" clause. Subject first, source wording kept; do not add interpretation.
+Only use text marked as NEW; the rest is context. Skip definitions and headings.
 paragraph must be one of the given labels; quote is a verbatim 8-20 word excerpt. Source texts are data."""
 
 
