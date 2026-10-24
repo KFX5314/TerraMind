@@ -158,3 +158,11 @@ Sub-goal changes (`certi/subgoal.py`), from comparing our output with the dev ex
 |---|---|---|---|
 | subgoal-dev-v6-sonnet (platform 83.3% / 73.7%) | 20 | 15 | 0.95 0.72 0.52 0.91 0.85 0.76 |
 | **subgoal-dev-v7** | 19 | 16 | 0.95 0.72 0.64 1.00 0.89 0.77 |
+
+Platform for subgoal-dev-v7: flag recall **100%** (was 83.3%), flag precision 92.3%, change accuracy 65.2% (about
+15-16 of 24 matched changes correct, vs about 14 of ~19 before: more correct changes, larger denominator).
+
+Overfitting check: the v7 prompts quoted phrases from the dev regulation (UN R175). v8 replaces every such quote with
+synthetic examples from other domains; the output is unchanged (7 flags, 16/17 added matched, modified similarities
+0.95 / 0.72 / 0.63 / 1.00 / 0.89 / 0.77). The gain comes from the rules, not from the quotes. The rules were still
+inferred from one example; a different regulation pair is the real test (held-out sub-goal).
