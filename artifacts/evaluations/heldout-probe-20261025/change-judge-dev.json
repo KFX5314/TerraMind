@@ -1,0 +1,106 @@
+{
+ "C000": {
+  "p": 0.75,
+  "why": "Adds a substantive condition ('resulting in continuous acceleration') to the misapplication trigger definition, changing what the system must detect."
+ },
+ "C001": {
+  "p": 0.85,
+  "why": "Extends the ACPE obligation from standstill only to also cover creeping."
+ },
+ "C002": {
+  "p": 0.85,
+  "why": "Major change to the core performance requirement: new distance range, new obstacle types and new boundary conditions."
+ },
+ "C003": {
+  "p": 0.6,
+  "why": "Test lateral offset tolerance widened from 0.2 m to the vehicle edge, a substantive test change."
+ },
+ "C004": {
+  "p": 0.55,
+  "why": "Test now defined by the trigger distance rather than the start position; substantive, though phrased as a Technical Service action."
+ },
+ "C005": {
+  "p": 0.25,
+  "why": "Mostly editorial; only the word 'relevant' was added."
+ },
+ "C006": {
+  "p": 0.35,
+  "why": "Removes a manufacturer-requested pre-test allowance; this is a test-procedure allowance, so moderate likelihood."
+ },
+ "C007": {
+  "p": 0.65,
+  "why": "New exemption conditions (AEBS active, speed above 10 km/h) that change the ACPE obligation."
+ },
+ "C008": {
+  "p": 0.8,
+  "why": "New performance requirement for collisions while creeping."
+ },
+ "C009": {
+  "p": 0.2,
+  "why": "Describes what the technical service must ensure during testing."
+ },
+ "C010": {
+  "p": 0.6,
+  "why": "New pedestrian test target specification."
+ },
+ "C011": {
+  "p": 0.4,
+  "why": "Defines the vehicle reference point; close to a definition, but part of the test setup."
+ },
+ "C012": {
+  "p": 0.55,
+  "why": "New test condition for the pedestrian lateral offset."
+ },
+ "C013": {
+  "p": 0.15,
+  "why": "Technical service discretion only."
+ },
+ "C014": {
+  "p": 0.35,
+  "why": "Vehicle target orientation with technical service choice; a test parameter."
+ },
+ "C015": {
+  "p": 0.5,
+  "why": "Tests with and without the target are now an explicit requirement for a stationary vehicle."
+ },
+ "C016": {
+  "p": 0.3,
+  "why": "Minor test-procedure allowance."
+ },
+ "C017": {
+  "p": 0.15,
+  "why": "Permissive allowance, not an obligation."
+ },
+ "C018": {
+  "p": 0.4,
+  "why": "New creeping test procedure, but at technical service discretion."
+ },
+ "C019": {
+  "p": 0.5,
+  "why": "New creeping test condition targeting the forward creeping speed."
+ },
+ "C020": {
+  "p": 0.5,
+  "why": "New creeping test condition targeting 4 km/h in the rearward direction."
+ },
+ "C021": {
+  "p": 0.35,
+  "why": "Test procedure step for creeping tests."
+ },
+ "C022": {
+  "p": 0.3,
+  "why": "Test procedure step for creeping tests."
+ },
+ "C023": {
+  "p": 0.3,
+  "why": "Test procedure step for creeping tests."
+ },
+ "C024": {
+  "p": 0.4,
+  "why": "Test procedure step linking the trigger to the Table 1 distance."
+ },
+ "C025": {
+  "p": 0.45,
+  "why": "This is a new test-procedure provision tied to a performance requirement (5.1.6.2) for cases where a collision is not prevented. However, it is phrased as a duty to demonstrate to the technical service, which experts often treat as evidence submission. It sits within a newly added test section, so it is likely relevant but borderline."
+ }
+}

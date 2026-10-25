@@ -1,0 +1,1442 @@
+{
+ "R-0001": {
+  "p": 0.55,
+  "why": "ESA sample marking applies to the bumper's electronic modules, but it reads partly as an approval-sample formality."
+ },
+ "R-0004": {
+  "p": 0.4,
+  "why": "Applies only if the keyless aerial or radar is an intentional RF transmitter; installation guidelines are partly documentation."
+ },
+ "R-0007": {
+  "p": 0.5,
+  "why": "Approval-mark marking on the ESA is a product marking obligation."
+ },
+ "R-0008": {
+  "p": 0.3,
+  "why": "Approval mark format detail is largely administrative."
+ },
+ "R-0009": {
+  "p": 0.3,
+  "why": "Approval mark format detail is largely administrative."
+ },
+ "R-0011": {
+  "p": 0.7,
+  "why": "General design and fitting obligation that covers the bumper's ESAs."
+ },
+ "R-0012": {
+  "p": 0.75,
+  "why": "Core ESA test obligation for the integrated sensors and electronics."
+ },
+ "R-0021": {
+  "p": 0.65,
+  "why": "Broadband emission measurement applies to the ESA."
+ },
+ "R-0022": {
+  "p": 0.7,
+  "why": "Broadband emission limits the ESA must meet."
+ },
+ "R-0023": {
+  "p": 0.7,
+  "why": "Broadband emission limit the ESA must meet."
+ },
+ "R-0024": {
+  "p": 0.7,
+  "why": "ESA must stay below the broadband limits."
+ },
+ "R-0025": {
+  "p": 0.65,
+  "why": "Narrowband emission measurement applies to the ESA."
+ },
+ "R-0026": {
+  "p": 0.7,
+  "why": "Narrowband emission limits the ESA must meet."
+ },
+ "R-0027": {
+  "p": 0.7,
+  "why": "Narrowband emission limit the ESA must meet."
+ },
+ "R-0028": {
+  "p": 0.7,
+  "why": "ESA must stay below the narrowband limits."
+ },
+ "R-0029": {
+  "p": 0.65,
+  "why": "Transient conducted emission test on the supply lines applies to the ESA."
+ },
+ "R-0030": {
+  "p": 0.65,
+  "why": "Positive-polarity transient amplitude limit applies to the ESA."
+ },
+ "R-0031": {
+  "p": 0.65,
+  "why": "Negative-polarity transient amplitude limit applies to the ESA."
+ },
+ "R-0032": {
+  "p": 0.65,
+  "why": "Radiated immunity test applies to the ESA."
+ },
+ "R-0033": {
+  "p": 0.65,
+  "why": "Radiated immunity test severity applies to the ESA."
+ },
+ "R-0034": {
+  "p": 0.65,
+  "why": "Radiated immunity minimum test level applies to the ESA."
+ },
+ "R-0035": {
+  "p": 0.6,
+  "why": "Radiated immunity test method applies to the ESA."
+ },
+ "R-0037": {
+  "p": 0.75,
+  "why": "No degradation of immunity-related functions; sensors and lighting are relevant."
+ },
+ "R-0038": {
+  "p": 0.65,
+  "why": "Conducted transient immunity test applies to the ESA."
+ },
+ "R-0039": {
+  "p": 0.6,
+  "why": "Pulse 1 immunity level the ESA must meet."
+ },
+ "R-0040": {
+  "p": 0.6,
+  "why": "Pulse 2a immunity level the ESA must meet."
+ },
+ "R-0041": {
+  "p": 0.6,
+  "why": "Pulse 2b immunity level the ESA must meet."
+ },
+ "R-0042": {
+  "p": 0.6,
+  "why": "Pulse 3a immunity level the ESA must meet."
+ },
+ "R-0043": {
+  "p": 0.6,
+  "why": "Pulse 3b immunity level the ESA must meet."
+ },
+ "R-0044": {
+  "p": 0.5,
+  "why": "FPSC classification is a test-evaluation detail."
+ },
+ "R-0045": {
+  "p": 0.4,
+  "why": "Conducted-immunity starting-profile classification applies to the bumper's ESAs, but it reads as test methodology."
+ },
+ "R-0046": {
+  "p": 0.45,
+  "why": "12 V starting-profile functional class is a real limit for these ESAs; it applies only when the vehicle has an ICE starter."
+ },
+ "R-0047": {
+  "p": 0.35,
+  "why": "24 V system is less relevant for an M1 car."
+ },
+ "R-0051": {
+  "p": 0.35,
+  "why": "The keyless aerial or radar may count as an RF transmitter, which the spec leaves uncertain."
+ },
+ "R-0052": {
+  "p": 0.35,
+  "why": "Spurious-emission rule applies only if the bumper contains an RF transmitter."
+ },
+ "R-0154": {
+  "p": 0.1,
+  "why": "Conformity of production; excluded."
+ },
+ "R-0156": {
+  "p": 0.05,
+  "why": "COP emission tolerance; excluded."
+ },
+ "R-0157": {
+  "p": 0.05,
+  "why": "COP immunity tolerance; excluded."
+ },
+ "R-0158": {
+  "p": 0.05,
+  "why": "COP conducted tolerance; excluded."
+ },
+ "R-0159": {
+  "p": 0.65,
+  "why": "ESA broadband emission limit applies to the bumper's electronics."
+ },
+ "R-0160": {
+  "p": 0.65,
+  "why": "ESA broadband emission limit applies to the bumper's electronics."
+ },
+ "R-0161": {
+  "p": 0.65,
+  "why": "ESA broadband emission limit applies to the bumper's electronics."
+ },
+ "R-0162": {
+  "p": 0.65,
+  "why": "ESA narrowband emission limit applies to the bumper's electronics."
+ },
+ "R-0163": {
+  "p": 0.65,
+  "why": "ESA narrowband emission limit applies to the bumper's electronics."
+ },
+ "R-0164": {
+  "p": 0.65,
+  "why": "ESA narrowband emission limit applies to the bumper's electronics."
+ },
+ "R-0216": {
+  "p": 0.45,
+  "why": "Sets the CISPR 25 test basis; method-level obligation."
+ },
+ "R-0217": {
+  "p": 0.45,
+  "why": "Operating condition of the ESA during the emission test."
+ },
+ "R-0219": {
+  "p": 0.4,
+  "why": "Requires the ALSE test method."
+ },
+ "R-0222": {
+  "p": 0.2,
+  "why": "Ambient measurement is a test-equipment detail."
+ },
+ "R-0223": {
+  "p": 0.2,
+  "why": "Ambient noise margin is a test-setup detail."
+ },
+ "R-0224": {
+  "p": 0.4,
+  "why": "Defines the frequency range over which the limits apply."
+ },
+ "R-0225": {
+  "p": 0.3,
+  "why": "Detector correction is a measurement detail."
+ },
+ "R-0226": {
+  "p": 0.2,
+  "why": "Specifies equipment; excluded."
+ },
+ "R-0233": {
+  "p": 0.25,
+  "why": "Harness configuration is a test-setup detail."
+ },
+ "R-0238": {
+  "p": 0.45,
+  "why": "Sets the CISPR 25 basis for the narrowband test."
+ },
+ "R-0239": {
+  "p": 0.45,
+  "why": "Operating condition of the ESA during the narrowband test."
+ },
+ "R-0240": {
+  "p": 0.4,
+  "why": "Requires the ALSE method for the narrowband test."
+ },
+ "R-0244": {
+  "p": 0.4,
+  "why": "Defines the frequency range for the narrowband limits."
+ },
+ "R-0245": {
+  "p": 0.3,
+  "why": "Detector choice is a measurement detail."
+ },
+ "R-0256": {
+  "p": 0.45,
+  "why": "Lists the immunity test method options for ESAs."
+ },
+ "R-0258": {
+  "p": 0.45,
+  "why": "Basis for immunity tests on the ESA's sensors; partly a general test-condition statement."
+ },
+ "R-0259": {
+  "p": 0.45,
+  "why": "Test conditions for the ESA under test; procedural."
+ },
+ "R-0260": {
+  "p": 0.5,
+  "why": "ESA operating state during the test applies to the bumper's sensors."
+ },
+ "R-0261": {
+  "p": 0.5,
+  "why": "Normal operation stimulation of the ESA during the test."
+ },
+ "R-0262": {
+  "p": 0.4,
+  "why": "Arrangement of the ESA under test; generic."
+ },
+ "R-0273": {
+  "p": 0.55,
+  "why": "Frequency range of the immunity test the ESA must pass."
+ },
+ "R-0274": {
+  "p": 0.45,
+  "why": "Modulation detail for the immunity test."
+ },
+ "R-0275": {
+  "p": 0.45,
+  "why": "Modulation detail for the immunity test."
+ },
+ "R-0276": {
+  "p": 0.45,
+  "why": "Modulation detail for the immunity test."
+ },
+ "R-0277": {
+  "p": 0.35,
+  "why": "Step size and dwell time are test-equipment detail."
+ },
+ "R-0279": {
+  "p": 0.35,
+  "why": "Method-specific field calibration for the absorber chamber."
+ },
+ "R-0280": {
+  "p": 0.35,
+  "why": "Method-specific polarisation detail."
+ },
+ "R-0282": {
+  "p": 0.35,
+  "why": "Optional test method; only one immunity method is chosen."
+ },
+ "R-0283": {
+  "p": 0.4,
+  "why": "BCI method is commonly used but optional."
+ },
+ "R-0284": {
+  "p": 0.33,
+  "why": "Optional stripline method."
+ },
+ "R-0285": {
+  "p": 0.33,
+  "why": "Optional reverberation chamber method."
+ },
+ "R-0289": {
+  "p": 0.4,
+  "why": "Purpose statement of the transient test method."
+ },
+ "R-0290": {
+  "p": 0.4,
+  "why": "Purpose statement of the transient test method."
+ },
+ "R-0291": {
+  "p": 0.6,
+  "why": "Transient immunity pulses apply to the 12 V sensor ESAs."
+ },
+ "R-0292": {
+  "p": 0.5,
+  "why": "Starting profile applies; vehicle may be an EV, which would exempt it."
+ },
+ "R-0293": {
+  "p": 0.6,
+  "why": "Conducted transient emission test applies to the ESAs."
+ },
+ "R-0337": {
+  "p": 0.9,
+  "why": "Core general external-projection requirement; applies to the bumper fascia."
+ },
+ "R-0338": {
+  "p": 0.85,
+  "why": "General no-catching requirement for the external surface; applies to the bumper."
+ },
+ "R-0339": {
+  "p": 0.85,
+  "why": "Radius rule for protruding parts of the external surface such as fascia and trim."
+ },
+ "R-0340": {
+  "p": 0.75,
+  "why": "Blunting of small protrusions on the external surface; relevant to the bumper."
+ },
+ "R-0341": {
+  "p": 0.5,
+  "why": "Permissive exemption for soft materials; partly relevant."
+ },
+ "R-0342": {
+  "p": 0.35,
+  "why": "Test method detail for the hardness exemption."
+ },
+ "R-0345": {
+  "p": 0.45,
+  "why": "Grille ornaments; it is unclear whether the grille carries ornaments."
+ },
+ "R-0346": {
+  "p": 0.4,
+  "why": "Added ornaments only; the spec mentions decorative lighting but no ornaments."
+ },
+ "R-0347": {
+  "p": 0.3,
+  "why": "Follow-on to the added-ornament provision; ornaments not confirmed."
+ },
+ "R-0350": {
+  "p": 0.5,
+  "why": "Protective strips or shielding may be present on the bumper."
+ },
+ "R-0351": {
+  "p": 0.8,
+  "why": "Applies to the radiator grille gaps."
+ },
+ "R-0352": {
+  "p": 0.8,
+  "why": "Applies to the radiator grille element spacing."
+ },
+ "R-0353": {
+  "p": 0.7,
+  "why": "Grille exemption from paragraph 5.4, with conditions on spacing and purpose."
+ },
+ "R-0354": {
+  "p": 0.4,
+  "why": "Reference to the measurement method."
+ },
+ "R-0355": {
+  "p": 0.75,
+  "why": "Blunting of grille element junctions; applies to the grille."
+ },
+ "R-0356": {
+  "p": 0.95,
+  "why": "Bumper end requirement."
+ },
+ "R-0357": {
+  "p": 0.9,
+  "why": "Bumper radius requirement."
+ },
+ "R-0358": {
+  "p": 0.8,
+  "why": "Defines the zone for the bumper 5 mm radius rule."
+ },
+ "R-0359": {
+  "p": 0.75,
+  "why": "Small protrusions on the bumper must be blunted."
+ },
+ "R-0360": {
+  "p": 0.7,
+  "why": "Bumper cover is the fascia, which this product has."
+ },
+ "R-0365": {
+  "p": 0.8,
+  "why": "The product includes a licence plate holder."
+ },
+ "R-0366": {
+  "p": 0.3,
+  "why": "Keyless-entry aerial is internal; this rule concerns external aerials with an unattached end."
+ },
+ "R-0367": {
+  "p": 0.3,
+  "why": "Keyless-entry aerial is likely concealed, so external aerial rules are unlikely to apply."
+ },
+ "R-0369": {
+  "p": 0.25,
+  "why": "Aerial base projection is unlikely to be relevant for a concealed aerial."
+ },
+ "R-0377": {
+  "p": 0.35,
+  "why": "Measurement method detail in an annex."
+ },
+ "R-0380": {
+  "p": 0.8,
+  "why": "Bumper integrates signalling lighting; post-impact lighting operation is a core R42 performance requirement."
+ },
+ "R-0381": {
+  "p": 0.6,
+  "why": "Post-impact bonnet/door operability is a vehicle-level outcome of the bumper's protective function."
+ },
+ "R-0382": {
+  "p": 0.5,
+  "why": "Side doors not opening is a vehicle-level outcome; it is only indirectly tied to the bumper."
+ },
+ "R-0383": {
+  "p": 0.65,
+  "why": "Cooling-system integrity behind the front bumper is a post-impact requirement the bumper protects."
+ },
+ "R-0384": {
+  "p": 0.55,
+  "why": "Operability of caps is relevant; the bumper also carries an EV charge port cap."
+ },
+ "R-0386": {
+  "p": 0.6,
+  "why": "Post-impact systems requirement; its explicit sensor exception relates to the bumper-mounted sensors."
+ },
+ "R-0387": {
+  "p": 0.6,
+  "why": "Same as R-0386: systems must operate normally, with the driver-assist sensor exception relevant here."
+ },
+ "R-0388": {
+  "p": 0.15,
+  "why": "Conformity-of-production provision, which experts exclude."
+ },
+ "R-0401": {
+  "p": 0.6,
+  "why": "Requires the protective device to be intersected by the reference plane, a geometric design requirement."
+ },
+ "R-0402": {
+  "p": 0.5,
+  "why": "First contact on the protective device is effectively a design requirement on bumper geometry."
+ },
+ "R-0403": {
+  "p": 0.45,
+  "why": "Reference height of 445 mm defines the bumper position, but it is a test parameter."
+ },
+ "R-0410": {
+  "p": 0.45,
+  "why": "Defines the longitudinal impact test configuration the bumper must pass."
+ },
+ "R-0411": {
+  "p": 0.35,
+  "why": "Detail of impact locations within the test procedure."
+ },
+ "R-0414": {
+  "p": 0.55,
+  "why": "4 km/h longitudinal impact speed is a key test limit."
+ },
+ "R-0415": {
+  "p": 0.45,
+  "why": "Defines the corner impact test configuration."
+ },
+ "R-0417": {
+  "p": 0.3,
+  "why": "Impactor angle is a test-setup detail."
+ },
+ "R-0418": {
+  "p": 0.3,
+  "why": "First-contact tolerance is a test-setup detail."
+ },
+ "R-0420": {
+  "p": 0.55,
+  "why": "2.5 km/h corner impact speed is a key test limit."
+ },
+ "R-0399": {
+  "p": 0.25,
+  "why": "Impactor mass is a test-equipment detail."
+ },
+ "R-0421": {
+  "p": 0.3,
+  "why": "Self-restoring materials could apply to the EPP absorber, but this is a procedural provision."
+ },
+ "R-0425": {
+  "p": 0.7,
+  "why": "General fitting requirement applies to the signalling lamps integrated in the bumper."
+ },
+ "R-0426": {
+  "p": 0.55,
+  "why": "Lamp mounting in the bumper must not allow inadvertent maladjustment."
+ },
+ "R-0428": {
+  "p": 0.6,
+  "why": "Reference axis orientation applies to the integrated signalling lamps."
+ },
+ "R-0429": {
+  "p": 0.5,
+  "why": "Axis orientation for front signalling devices mounted in the bumper."
+ },
+ "R-0430": {
+  "p": 0.45,
+  "why": "Manufacturer fitting instructions for the bumper signalling lamps."
+ },
+ "R-0431": {
+  "p": 0.55,
+  "why": "Side signalling lighting in the bumper is likely side-marker lamps."
+ },
+ "R-0432": {
+  "p": 0.45,
+  "why": "Verification condition for lamp height and orientation."
+ },
+ "R-0433": {
+  "p": 0.5,
+  "why": "Paired bumper lamps must be fitted symmetrically."
+ },
+ "R-0434": {
+  "p": 0.45,
+  "why": "Paired lamps must be symmetrical to one another."
+ },
+ "R-0435": {
+  "p": 0.45,
+  "why": "Paired lamps must meet the same colorimetric requirements."
+ },
+ "R-0436": {
+  "p": 0.45,
+  "why": "Paired lamps must have substantially identical photometry."
+ },
+ "R-0437": {
+  "p": 0.3,
+  "why": "Logo lamps are possible via decorative lighting, but this is uncertain."
+ },
+ "R-0438": {
+  "p": 0.3,
+  "why": "Logo prohibition is possible via decorative lighting, but this is uncertain."
+ },
+ "R-0440": {
+  "p": 0.45,
+  "why": "Grouped or combined lamps are likely within the bumper lighting."
+ },
+ "R-0441": {
+  "p": 0.4,
+  "why": "Photometric condition applies to grouped or combined functions."
+ },
+ "R-0442": {
+  "p": 0.3,
+  "why": "Applies only if a position lamp is reciprocally incorporated, which is uncertain."
+ },
+ "R-0449": {
+  "p": 0.4,
+  "why": "Front white light, possibly from decorative lighting, must not be visible from the rear."
+ },
+ "R-0450": {
+  "p": 0.45,
+  "why": "Height measurement method for the bumper lamps."
+ },
+ "R-0452": {
+  "p": 0.45,
+  "why": "No intentional variation of lamp photometry while ON; relevant to decorative and signalling lamps."
+ },
+ "R-0453": {
+  "p": 0.45,
+  "why": "Side signalling lamps may be direction indicators or amber side-markers, which must flash."
+ },
+ "R-0454": {
+  "p": 0.35,
+  "why": "Photometric variation provision for lamps."
+ },
+ "R-0457": {
+  "p": 0.3,
+  "why": "Test procedure for white light visibility towards the rear."
+ },
+ "R-0459": {
+  "p": 0.35,
+  "why": "Electrical connection requirement if side-marker or position lamps are present."
+ },
+ "R-0464": {
+  "p": 0.4,
+  "why": "Concealment of signalling lamps behind bumper parts is prohibited."
+ },
+ "R-0466": {
+  "p": 0.45,
+  "why": "Applies if the bumper includes a direction indicator, which is plausible."
+ },
+ "R-0468": {
+  "p": 0.25,
+  "why": "No fog lamp is listed in the specification."
+ },
+ "R-0469": {
+  "p": 0.5,
+  "why": "Side signalling lamp is likely a side-marker lamp, which must emit amber light."
+ },
+ "R-0479": {
+  "p": 0.35,
+  "why": "General requirement on the number of lamps."
+ },
+ "R-0488": {
+  "p": 0.55,
+  "why": "Bumper parts must not obstruct the geometric visibility of the lamps."
+ },
+ "R-0490": {
+  "p": 0.5,
+  "why": "Lamps partly hidden by bumper parts must still meet photometry."
+ },
+ "R-0494": {
+  "p": 0.6,
+  "why": "The bumper carries signalling lamps, which must be type approved under the relevant device Regulations."
+ },
+ "R-0495": {
+  "p": 0.3,
+  "why": "Logo lamps are possible given the decorative lighting, but are not stated in the spec."
+ },
+ "R-0496": {
+  "p": 0.35,
+  "why": "Light source approval applies to the integrated lamps, but the lamps are likely LED, which makes this marginal."
+ },
+ "R-0551": {
+  "p": 0.35,
+  "why": "Arrangement A is a vehicle-level requirement; it is relevant only through the side indicator."
+ },
+ "R-0552": {
+  "p": 0.35,
+  "why": "Mandatory presence is a vehicle-level obligation, weakly tied to the bumper."
+ },
+ "R-0553": {
+  "p": 0.55,
+  "why": "A side indicator integrated in the bumper must be approved under R6 or R148."
+ },
+ "R-0554": {
+  "p": 0.35,
+  "why": "The number of lamps is a vehicle-level arrangement matter."
+ },
+ "R-0558": {
+  "p": 0.45,
+  "why": "A category 5 side indicator may well be the bumper's side signalling lamp."
+ },
+ "R-0564": {
+  "p": 0.6,
+  "why": "The minimum mounting height of a side indicator is critical for a bumper-mounted lamp."
+ },
+ "R-0565": {
+  "p": 0.45,
+  "why": "The maximum height also applies, though it is less critical for a bumper."
+ },
+ "R-0568": {
+  "p": 0.55,
+  "why": "The longitudinal position of a side indicator in a front bumper is relevant."
+ },
+ "R-0569": {
+  "p": 0.55,
+  "why": "The vertical geometric visibility requirements apply to a side indicator."
+ },
+ "R-0570": {
+  "p": 0.55,
+  "why": "Horizontal visibility is relevant because the bumper shape could obstruct the lamp."
+ },
+ "R-0571": {
+  "p": 0.4,
+  "why": "This applies only if the side indicator is category 6."
+ },
+ "R-0576": {
+  "p": 0.4,
+  "why": "Orientation per the manufacturer's installation specification applies to the lamp."
+ },
+ "R-0577": {
+  "p": 0.3,
+  "why": "Switching is a vehicle electrical function, not a bumper obligation."
+ },
+ "R-0578": {
+  "p": 0.3,
+  "why": "In-phase flashing is a vehicle-level electrical requirement."
+ },
+ "R-0579": {
+  "p": 0.25,
+  "why": "Control logic is a vehicle-level matter."
+ },
+ "R-0580": {
+  "p": 0.35,
+  "why": "Applies only if an amber side-marker lamp is fitted in the bumper, which is plausible."
+ },
+ "R-0586": {
+  "p": 0.3,
+  "why": "Flash frequency is set by the vehicle electronics, not the bumper."
+ },
+ "R-0587": {
+  "p": 0.25,
+  "why": "Signal timing is a vehicle-level electrical matter."
+ },
+ "R-0588": {
+  "p": 0.25,
+  "why": "Failure behaviour is a vehicle-level electrical matter."
+ },
+ "R-0589": {
+  "p": 0.25,
+  "why": "The hazard warning signal is a vehicle function."
+ },
+ "R-0659": {
+  "p": 0.4,
+  "why": "Side-marker lamps are possible in the bumper corners, but this is uncertain."
+ },
+ "R-0661": {
+  "p": 0.3,
+  "why": "This is an optionality statement for other vehicles."
+ },
+ "R-0662": {
+  "p": 0.4,
+  "why": "Approval applies if a side-marker lamp is integrated, which is uncertain."
+ },
+ "R-0663": {
+  "p": 0.3,
+  "why": "The minimum number of side-marker lamps is a vehicle-level matter."
+ },
+ "R-0664": {
+  "p": 0.45,
+  "why": "The height of a side-marker lamp mounted in the bumper would be relevant."
+ },
+ "R-0665": {
+  "p": 0.4,
+  "why": "Longitudinal positioning applies if a side-marker lamp is fitted."
+ },
+ "R-0668": {
+  "p": 0.4,
+  "why": "Visibility applies if a side-marker lamp is fitted."
+ },
+ "R-0669": {
+  "p": 0.6,
+  "why": "The bumper's side signalling lighting is likely a side-marker lamp, so its vertical visibility angles apply."
+ },
+ "R-0670": {
+  "p": 0.45,
+  "why": "Applies only if the side-marker supplements reduced visibility of other lamps; that is conditional."
+ },
+ "R-0671": {
+  "p": 0.6,
+  "why": "Orientation requirement for the side-marker lamp integrated in the bumper."
+ },
+ "R-0672": {
+  "p": 0.45,
+  "why": "Optional flashing provision for amber side-markers on M1 vehicles; relevant but optional."
+ },
+ "R-0674": {
+  "p": 0.25,
+  "why": "Tell-tale is a vehicle-level item rather than part of the bumper."
+ },
+ "R-0727": {
+  "p": 0.25,
+  "why": "Emergency stop signal is a vehicle function; the bumper may at most host a direction indicator."
+ },
+ "R-0734": {
+  "p": 0.25,
+  "why": "Emergency stop signal flash frequency is a vehicle-level control function."
+ },
+ "R-0769": {
+  "p": 0.3,
+  "why": "Answer-back could use the bumper lighting with the keyless aerial, but this is uncertain."
+ },
+ "R-0772": {
+  "p": 0.3,
+  "why": "Answer-back lamp constraints; the bumper lighting might be used for it, which is uncertain."
+ },
+ "R-0773": {
+  "p": 0.3,
+  "why": "Answer-back activation linked to keyless entry; uncertain whether it is implemented."
+ },
+ "R-0775": {
+  "p": 0.3,
+  "why": "Answer-back duration limit; uncertain whether the function exists."
+ },
+ "R-0779": {
+  "p": 0.1,
+  "why": "Conformity-of-production provision, which experts exclude."
+ },
+ "R-0781": {
+  "p": 0.1,
+  "why": "Conformity-of-production provision, which experts exclude."
+ },
+ "R-0786": {
+  "p": 0.12,
+  "why": "Conformity-of-production annex, which experts exclude."
+ },
+ "R-0788": {
+  "p": 0.12,
+  "why": "Conformity-of-production annex, which experts exclude."
+ },
+ "R-0790": {
+  "p": 0.6,
+  "why": "Overall frontal offset test pass condition; the bumper's energy-management structure contributes to the vehicle result."
+ },
+ "R-0795": {
+  "p": 0.35,
+  "why": "Dummy head HPC limit is vehicle-level occupant protection; only indirect bumper influence."
+ },
+ "R-0796": {
+  "p": 0.35,
+  "why": "Head acceleration limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0797": {
+  "p": 0.3,
+  "why": "Neck injury criterion is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0798": {
+  "p": 0.3,
+  "why": "Neck bending moment limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0799": {
+  "p": 0.32,
+  "why": "Thorax compression limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0800": {
+  "p": 0.3,
+  "why": "Thorax viscous criterion is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0801": {
+  "p": 0.3,
+  "why": "Femur force limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0802": {
+  "p": 0.3,
+  "why": "Tibia compression limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0803": {
+  "p": 0.3,
+  "why": "Tibia index limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0804": {
+  "p": 0.28,
+  "why": "Knee joint sliding limit is an occupant criterion; only indirect bumper influence."
+ },
+ "R-0837": {
+  "p": 0.12,
+  "why": "Conformity-of-production clause; administrative, normally excluded."
+ },
+ "R-0839": {
+  "p": 0.4,
+  "why": "Test vehicle must be series-representative, which implies a production-standard bumper; partly procedural."
+ },
+ "R-0847": {
+  "p": 0.5,
+  "why": "Impact speed sets the energy the bumper structure must manage."
+ },
+ "R-0859": {
+  "p": 0.8,
+  "why": "Defines which bumper legform test applies; core to the bumper."
+ },
+ "R-0860": {
+  "p": 0.85,
+  "why": "Lower legform knee MCL elongation limit is a bumper performance limit."
+ },
+ "R-0861": {
+  "p": 0.85,
+  "why": "ACL/PCL elongation limit is a bumper performance limit."
+ },
+ "R-0862": {
+  "p": 0.85,
+  "why": "Tibia bending moment limit is a bumper performance limit."
+ },
+ "R-0863": {
+  "p": 0.7,
+  "why": "Relaxation zone limit for the bumper test; a performance limit, though it includes a Contracting Party option."
+ },
+ "R-0864": {
+  "p": 0.65,
+  "why": "Applicability rule by bumper height; front bumper height is not specified."
+ },
+ "R-0865": {
+  "p": 0.55,
+  "why": "Upper legform applies only at high bumper heights, unlikely for an M1 passenger car."
+ },
+ "R-0867": {
+  "p": 0.55,
+  "why": "Upper legform force limit applies only if the bumper is high, which is unlikely for M1."
+ },
+ "R-0868": {
+  "p": 0.55,
+  "why": "Upper legform bending moment limit applies only if the bumper is high, which is unlikely for M1."
+ },
+ "R-0889": {
+  "p": 0.3,
+  "why": "Cut-body test setup is a test-procedure detail."
+ },
+ "R-0893": {
+  "p": 0.35,
+  "why": "Components in multiple fixed positions; a generic vehicle provision."
+ },
+ "R-0896": {
+  "p": 0.5,
+  "why": "Test impact velocity is a test-condition parameter."
+ },
+ "R-0897": {
+  "p": 0.5,
+  "why": "Test points must lie in the bumper test area."
+ },
+ "R-0898": {
+  "p": 0.55,
+  "why": "Minimum number of tests on the bumper."
+ },
+ "R-0911": {
+  "p": 0.35,
+  "why": "Upper legform velocity; conditional and procedural."
+ },
+ "H-R127-1-13": {
+  "p": 0.25,
+  "why": "Impactor pre-impact condition is a test-equipment detail."
+ },
+ "H-R127-1-9": {
+  "p": 0.25,
+  "why": "Impactor orientation tolerance is a test-procedure detail."
+ },
+ "R-0899": {
+  "p": 0.45,
+  "why": "Spacing of test points; procedural."
+ },
+ "R-0900": {
+  "p": 0.45,
+  "why": "Tests must cover different structure types; procedural."
+ },
+ "R-0905": {
+  "p": 0.35,
+  "why": "Upper legform test count; conditional on bumper height."
+ },
+ "R-0906": {
+  "p": 0.3,
+  "why": "Upper legform tests on different structures; conditional and procedural."
+ },
+ "R-0907": {
+  "p": 0.3,
+  "why": "Upper legform test point spacing; conditional and procedural."
+ },
+ "R-0894": {
+  "p": 0.3,
+  "why": "Impact tolerance is a test-procedure detail."
+ },
+ "R-0928": {
+  "p": 0.6,
+  "why": "General marking-space requirement for the integrated signalling lamps."
+ },
+ "R-0929": {
+  "p": 0.6,
+  "why": "Legibility and indelibility apply to all lamp markings."
+ },
+ "R-0930": {
+  "p": 0.4,
+  "why": "Mark-size detail; experts may list it or treat it as administrative."
+ },
+ "R-0931": {
+  "p": 0.5,
+  "why": "Approval mark composition; content of the marking on the lamp."
+ },
+ "R-0932": {
+  "p": 0.4,
+  "why": "Approval number content in the marking; partly administrative."
+ },
+ "R-0933": {
+  "p": 0.35,
+  "why": "Placement detail of the approval number."
+ },
+ "R-0934": {
+  "p": 0.5,
+  "why": "Function symbols for the side signalling lamps."
+ },
+ "R-0935": {
+  "p": 0.4,
+  "why": "Regulation number and series in the marking."
+ },
+ "R-0936": {
+  "p": 0.45,
+  "why": "Side-mounted signalling lamps are likely handed (left/right)."
+ },
+ "R-0939": {
+  "p": 0.4,
+  "why": "Applies if the side signalling is a category 5/6 direction indicator; the spec leaves this open."
+ },
+ "R-0941": {
+  "p": 0.3,
+  "why": "D marking only for assemblies of two independent lamps; uncertain."
+ },
+ "R-0942": {
+  "p": 0.3,
+  "why": "Y marking only for interdependent lamp systems; uncertain."
+ },
+ "R-0943": {
+  "p": 0.25,
+  "why": "Reduced light distribution is a niche case."
+ },
+ "R-0944": {
+  "p": 0.65,
+  "why": "Core requirement for lamps to bear the approval marking."
+ },
+ "R-0945": {
+  "p": 0.6,
+  "why": "Trade name marking on the lamp."
+ },
+ "R-0946": {
+  "p": 0.4,
+  "why": "Applies only to replaceable light sources; integrated bumper lamps are likely LED."
+ },
+ "R-0947": {
+  "p": 0.25,
+  "why": "LED substitute light sources are unlikely."
+ },
+ "R-0948": {
+  "p": 0.35,
+  "why": "Applies only if the lamp has an electronic control gear."
+ },
+ "R-0949": {
+  "p": 0.5,
+  "why": "Bumper lamps likely use non-replaceable LEDs."
+ },
+ "R-0950": {
+  "p": 0.25,
+  "why": "Variable intensity control is unlikely."
+ },
+ "R-0951": {
+  "p": 0.25,
+  "why": "Secondary operating mode is unlikely."
+ },
+ "R-0952": {
+  "p": 0.3,
+  "why": "Replaceable light source modules are uncertain."
+ },
+ "R-0953": {
+  "p": 0.3,
+  "why": "Module identification code; applies only if modules are used."
+ },
+ "R-0954": {
+  "p": 0.25,
+  "why": "Detail of the module identification code format."
+ },
+ "R-0955": {
+  "p": 0.28,
+  "why": "Module voltage marking; applies only if modules are used."
+ },
+ "R-0956": {
+  "p": 0.28,
+  "why": "Lamp marking of the module code; applies only if modules are used."
+ },
+ "R-0957": {
+  "p": 0.28,
+  "why": "Lamp voltage marking with modules; applies only if modules are used."
+ },
+ "R-0959": {
+  "p": 0.3,
+  "why": "External control gear marking; possible but uncertain."
+ },
+ "R-0960": {
+  "p": 0.55,
+  "why": "Placement of the marking on a non-separable part of the lamp."
+ },
+ "R-0961": {
+  "p": 0.55,
+  "why": "Marking must be visible when installed; relevant to bumper integration."
+ },
+ "R-0962": {
+  "p": 0.4,
+  "why": "Marking of a detachable lens. Only relevant if the integrated signalling lamp has a separable outer lens, which the spec does not say."
+ },
+ "R-0963": {
+  "p": 0.35,
+  "why": "Shared outer lens across several devices. Possible in a bumper module but not stated in the spec."
+ },
+ "R-0964": {
+  "p": 0.55,
+  "why": "Approval marking must be on the lamp. This is a product marking for the integrated signalling lamps."
+ },
+ "R-0965": {
+  "p": 0.4,
+  "why": "Component marking for light source modules. Applies only if such modules are used, which is not specified."
+ },
+ "R-0967": {
+  "p": 0.4,
+  "why": "Optional single approval mark for grouped or combined lamps. Uncertain whether the bumper lamps are grouped."
+ },
+ "R-0968": {
+  "p": 0.35,
+  "why": "Condition attached to the optional single mark, so it is uncertain for the same reason."
+ },
+ "R-0969": {
+  "p": 0.3,
+  "why": "Size of a single approval mark. A conditional marking detail that experts may well omit."
+ },
+ "R-0970": {
+  "p": 0.6,
+  "why": "General conformity requirement for each lamp. The bumper integrates signalling lamps."
+ },
+ "R-0971": {
+  "p": 0.45,
+  "why": "Cross-reference to installation regulations. Partly a generic background statement."
+ },
+ "R-0972": {
+  "p": 0.45,
+  "why": "Applies installation requirements at lamp approval. Plausible but generic."
+ },
+ "R-0973": {
+  "p": 0.7,
+  "why": "Durability under vibration is a core construction requirement. Especially relevant for a lamp mounted in a bumper."
+ },
+ "R-0981": {
+  "p": 0.5,
+  "why": "Definition for multi-source lamps. LED lamps are likely, so it may be listed."
+ },
+ "R-0982": {
+  "p": 0.6,
+  "why": "Failure behaviour of multi-source lamps. Relevant to LED signalling lamps."
+ },
+ "R-0985": {
+  "p": 0.55,
+  "why": "Permitted light source types. A general lamp design requirement."
+ },
+ "R-0987": {
+  "p": 0.4,
+  "why": "Applies only to replaceable approved light sources. Bumper lamps are likely LED, so uncertain."
+ },
+ "R-0988": {
+  "p": 0.35,
+  "why": "Holder conformity for replaceable sources, which are uncertain here."
+ },
+ "R-0990": {
+  "p": 0.6,
+  "why": "EMC requirement for electronic lamps. Relevant to the integrated electronics."
+ },
+ "R-0991": {
+  "p": 0.45,
+  "why": "Applies only if replaceable light source modules exist, which is not specified."
+ },
+ "R-0992": {
+  "p": 0.45,
+  "why": "Tamperproof module design. Conditional on replaceable light source modules."
+ },
+ "R-0993": {
+  "p": 0.45,
+  "why": "Non-interchangeability of modules. Conditional on replaceable light source modules."
+ },
+ "R-0994": {
+  "p": 0.4,
+  "why": "Photometry after module replacement. Conditional on replaceable light source modules."
+ },
+ "R-0995": {
+  "p": 0.4,
+  "why": "Measurement conditions are close to a test method description, which experts usually omit."
+ },
+ "R-0998": {
+  "p": 0.4,
+  "why": "Test condition for LED lamps. Measurement-procedure flavour lowers the likelihood of listing."
+ },
+ "R-1008": {
+  "p": 0.35,
+  "why": "Determination of apparent surface. A test procedure detail."
+ },
+ "R-1009": {
+  "p": 0.45,
+  "why": "Test voltage condition. Sometimes listed as a test parameter."
+ },
+ "R-1016": {
+  "p": 0.6,
+  "why": "Minimum intensity on the reference axis. A core photometric limit."
+ },
+ "R-1017": {
+  "p": 0.6,
+  "why": "Maximum intensity limit. A core photometric limit."
+ },
+ "R-1018": {
+  "p": 0.55,
+  "why": "Intensity distribution outside the reference axis. A photometric limit."
+ },
+ "R-1019": {
+  "p": 0.55,
+  "why": "Minimum intensity within the angles of geometric visibility. A photometric limit."
+ },
+ "R-1020": {
+  "p": 0.45,
+  "why": "Local variation provisions. A secondary photometric detail."
+ },
+ "R-1028": {
+  "p": 0.6,
+  "why": "Luminous intensity test per Annex 8 applies to the integrated signalling lamps"
+ },
+ "R-1029": {
+  "p": 0.55,
+  "why": "Colour measurement applies to the signalling lamps"
+ },
+ "R-1030": {
+  "p": 0.45,
+  "why": "Colour uniformity requirement for the lamp"
+ },
+ "R-1031": {
+  "p": 0.4,
+  "why": "Test procedure reference"
+ },
+ "R-1055": {
+  "p": 0.5,
+  "why": "Applies if the side signalling lamp is a side direction indicator"
+ },
+ "R-1059": {
+  "p": 0.5,
+  "why": "Category 5 is the side indicator category used on M1"
+ },
+ "R-1060": {
+  "p": 0.2,
+  "why": "Category 6 is for long vehicles, unlikely on an M1 bumper"
+ },
+ "R-1076": {
+  "p": 0.4,
+  "why": "Failure provisions for direction indicators"
+ },
+ "R-1077": {
+  "p": 0.5,
+  "why": "Amber colour for direction indicators"
+ },
+ "R-1078": {
+  "p": 0.5,
+  "why": "Side marker lamp likely in the bumper side lighting"
+ },
+ "R-1079": {
+  "p": 0.3,
+  "why": "SM1 is less likely on an M1"
+ },
+ "R-1080": {
+  "p": 0.45,
+  "why": "SM2 is the side marker category typical for M1"
+ },
+ "R-1082": {
+  "p": 0.4,
+  "why": "Failure provisions for side marker lamps"
+ },
+ "R-1083": {
+  "p": 0.5,
+  "why": "Side marker lamp colour amber"
+ },
+ "R-1090": {
+  "p": 0.1,
+  "why": "COP item, excluded"
+ },
+ "R-1093": {
+  "p": 0.1,
+  "why": "COP item, excluded"
+ },
+ "R-1094": {
+  "p": 0.1,
+  "why": "COP item, excluded"
+ },
+ "R-1105": {
+  "p": 0.45,
+  "why": "Geometric visibility of category 5 side indicators"
+ },
+ "R-1110": {
+  "p": 0.3,
+  "why": "SM1 visibility, less likely on M1"
+ },
+ "R-1111": {
+  "p": 0.4,
+  "why": "SM2 visibility"
+ },
+ "R-1113": {
+  "p": 0.4,
+  "why": "Photometric rule for low-mounted lamps; bumper lamps are low"
+ },
+ "R-1114": {
+  "p": 0.35,
+  "why": "Light distribution grid rule"
+ },
+ "R-1120": {
+  "p": 0.08,
+  "why": "COP item"
+ },
+ "R-1123": {
+  "p": 0.08,
+  "why": "COP item"
+ },
+ "R-1128": {
+  "p": 0.05,
+  "why": "COP sampling item"
+ },
+ "R-1131": {
+  "p": 0.05,
+  "why": "COP item"
+ },
+ "R-1146": {
+  "p": 0.25,
+  "why": "Incandescent lamps are unlikely; integrated lamps are probably LED"
+ },
+ "R-1147": {
+  "p": 0.4,
+  "why": "LED intensity stability test"
+ },
+ "R-1148": {
+  "p": 0.35,
+  "why": "Flashing mode applies if the lamp is a direction indicator"
+ },
+ "R-1150": {
+  "p": 0.35,
+  "why": "Time-point checks per light source technology"
+ },
+ "R-1159": {
+  "p": 0.4,
+  "why": "The bumper integrates signalling lamps, which are likely LED. This intensity-stability rule for LED-only lamps is a test provision of moderate relevance to the product."
+ },
+ "R-0940": {
+  "p": 0.45,
+  "why": "The spec lists side signalling lighting, which could be a category 6 direction indicator. If so, the R/L marking obligation would apply to this product, but the lamp category is not confirmed."
+ },
+ "R-1152": {
+  "p": 0.4,
+  "why": "This test is conditional on the side lamp being a category 5 or 6 direction indicator, which the spec leaves open."
+ },
+ "R-1173": {
+  "p": 0.6,
+  "why": "Applicability rule based on lower bumper height; bumper-specific."
+ },
+ "R-1174": {
+  "p": 0.55,
+  "why": "Applicability choice for the intermediate bumper-height range."
+ },
+ "R-1175": {
+  "p": 0.55,
+  "why": "Applicability rule for high bumpers."
+ },
+ "R-1176": {
+  "p": 0.5,
+  "why": "Lower legform verification method; borderline test reference."
+ },
+ "R-1177": {
+  "p": 0.45,
+  "why": "Upper legform verification method; borderline test reference."
+ },
+ "R-1178": {
+  "p": 0.85,
+  "why": "Core MCL elongation performance limit for the bumper."
+ },
+ "R-1179": {
+  "p": 0.85,
+  "why": "Core ACL/PCL elongation performance limit."
+ },
+ "R-1180": {
+  "p": 0.85,
+  "why": "Core tibia bending moment limit."
+ },
+ "R-1181": {
+  "p": 0.65,
+  "why": "Relaxation zone performance limit applies to the bumper."
+ },
+ "R-1182": {
+  "p": 0.75,
+  "why": "Upper legform force limit; applies only to high bumpers."
+ },
+ "R-1183": {
+  "p": 0.75,
+  "why": "Upper legform bending moment limit."
+ },
+ "R-1192": {
+  "p": 0.3,
+  "why": "Test specimen (cut-body) setup detail."
+ },
+ "R-1196": {
+  "p": 0.4,
+  "why": "Covers variable-shape components, possibly relevant to the bumper."
+ },
+ "R-1199": {
+  "p": 0.2,
+  "why": "Impactor handling procedure detail."
+ },
+ "R-1200": {
+  "p": 0.4,
+  "why": "Target points must be in the bumper test area."
+ },
+ "R-1201": {
+  "p": 0.35,
+  "why": "Impact direction test condition."
+ },
+ "R-1202": {
+  "p": 0.3,
+  "why": "Impact direction tolerance detail."
+ },
+ "R-1203": {
+  "p": 0.3,
+  "why": "Impactor orientation tolerance detail."
+ },
+ "R-1204": {
+  "p": 0.35,
+  "why": "Impactor height test condition."
+ },
+ "R-1206": {
+  "p": 0.3,
+  "why": "Free-flight test condition."
+ },
+ "R-1208": {
+  "p": 0.25,
+  "why": "Yaw tolerance detail."
+ },
+ "R-1209": {
+  "p": 0.3,
+  "why": "Impact location tolerance detail."
+ },
+ "R-1210": {
+  "p": 0.25,
+  "why": "Test condition detail."
+ },
+ "R-1211": {
+  "p": 0.45,
+  "why": "Key test parameter: impact velocity."
+ },
+ "R-1216": {
+  "p": 0.35,
+  "why": "Upper legform target points within the bumper test area."
+ },
+ "R-1217": {
+  "p": 0.3,
+  "why": "Upper legform impact direction test condition."
+ },
+ "R-1218": {
+  "p": 0.3,
+  "why": "Upper legform vertical positioning detail."
+ },
+ "R-1219": {
+  "p": 0.25,
+  "why": "Upper legform lateral tolerance detail."
+ },
+ "R-1220": {
+  "p": 0.4,
+  "why": "Upper legform impact velocity."
+ }
+}

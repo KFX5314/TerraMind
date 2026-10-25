@@ -1,0 +1,342 @@
+{
+ "C000": {
+  "p": 0.85,
+  "why": "Substantive change: system or feature now leaves active mode instead of transitioning to stand-by, with an exception for driver unavailability response."
+ },
+ "C001": {
+  "p": 0.85,
+  "why": "Adds a new 2-second disengagement condition before a manoeuvre may be initiated."
+ },
+ "C002": {
+  "p": 0.45,
+  "why": "Mainly a cross-reference update after renumbering, though the referenced content may differ."
+ },
+ "C003": {
+  "p": 0.6,
+  "why": "The 7-second EOR restriction on initiating a manoeuvre is removed; likely flagged unless it was moved elsewhere."
+ },
+ "C004": {
+  "p": 0.3,
+  "why": "Only changes the examples in a manufacturer description duty in the safety concept, which is documentation."
+ },
+ "C005": {
+  "p": 0.6,
+  "why": "Removes the highway-only restriction on manoeuvres, a substantive scope change, though it may have been relocated."
+ },
+ "C006": {
+  "p": 0.7,
+  "why": "Extends the obligation to highway-like roads."
+ },
+ "C007": {
+  "p": 0.5,
+  "why": "Narrows RMF compliance to the driver unavailability response; moderate substance."
+ },
+ "C008": {
+  "p": 0.45,
+  "why": "Rewording of the safe-stop requirement; minor change."
+ },
+ "C009": {
+  "p": 0.45,
+  "why": "Responsibility for the lane changes shifts from the RMF to the system; mostly rewording."
+ },
+ "C010": {
+  "p": 0.8,
+  "why": "Adds a concrete 3-second minimum for providing visual information ahead of a manoeuvre."
+ },
+ "C011": {
+  "p": 0.65,
+  "why": "Removal of the additional-modality announcement for lane change initiation is substantive."
+ },
+ "C012": {
+  "p": 0.85,
+  "why": "Reverses the rule: dashboard may now count as a relevant area for up to 3 seconds while manoeuvre information is shown."
+ },
+ "C013": {
+  "p": 0.6,
+  "why": "Dashboard and instrument panel are now excluded from areas counting toward reengagement."
+ },
+ "C014": {
+  "p": 0.3,
+  "why": "The 200 ms minimum is unchanged; overlaps with C013."
+ },
+ "C015": {
+  "p": 0.5,
+  "why": "Adds gaze-direction change as an example assessment strategy; minor."
+ },
+ "C016": {
+  "p": 0.3,
+  "why": "Countermeasure obligation is essentially unchanged."
+ },
+ "C017": {
+  "p": 0.6,
+  "why": "Removal of the request to read driver information material is a substantive obligation change."
+ },
+ "C018": {
+  "p": 0.85,
+  "why": "New obligation to switch DCAS off upon ADS activation."
+ },
+ "C019": {
+  "p": 0.8,
+  "why": "New obligation preventing DCAS from being switched on while ADS is active."
+ },
+ "C020": {
+  "p": 0.6,
+  "why": "New requirement on DCA timing, though framed as a manufacturer consideration."
+ },
+ "C021": {
+  "p": 0.5,
+  "why": "Additional timing consideration when HORs are withheld."
+ },
+ "C022": {
+  "p": 0.75,
+  "why": "New requirement not to initiate manoeuvres that violate signage or performance requirements."
+ },
+ "C023": {
+  "p": 0.65,
+  "why": "New permission for collision-mitigation manoeuvres, which changes system behaviour."
+ },
+ "C024": {
+  "p": 0.8,
+  "why": "New obligation to give a DCA after a collision-mitigation manoeuvre."
+ },
+ "C025": {
+  "p": 0.65,
+  "why": "New system obligation: disable after a collision-mitigation manoeuvre."
+ },
+ "C026": {
+  "p": 0.35,
+  "why": "Describe-and-justify duty to the authority; partly documentation."
+ },
+ "C027": {
+  "p": 0.3,
+  "why": "Assessment per Annex 3 is an authority activity."
+ },
+ "C028": {
+  "p": 0.65,
+  "why": "New functional obligation for non-highway operation."
+ },
+ "C029": {
+  "p": 0.65,
+  "why": "New obligation on how relevant situations are managed."
+ },
+ "C030": {
+  "p": 0.65,
+  "why": "New DCA obligation when approaching a system boundary."
+ },
+ "C031": {
+  "p": 0.5,
+  "why": "Test coverage requirement on VUT speeds."
+ },
+ "C032": {
+  "p": 0.4,
+  "why": "Permissive clause, but establishes a new capability."
+ },
+ "C033": {
+  "p": 0.65,
+  "why": "Restricting condition on the system's behaviour."
+ },
+ "C034": {
+  "p": 0.35,
+  "why": "Justification duty to the authority."
+ },
+ "C035": {
+  "p": 0.65,
+  "why": "New driver information requirement."
+ },
+ "C036": {
+  "p": 0.65,
+  "why": "New driver information requirement."
+ },
+ "C037": {
+  "p": 0.7,
+  "why": "New HMI visualization requirement."
+ },
+ "C038": {
+  "p": 0.55,
+  "why": "Aim-style HMI requirement."
+ },
+ "C039": {
+  "p": 0.6,
+  "why": "New behavioural obligation for HOR withholding."
+ },
+ "C040": {
+  "p": 0.7,
+  "why": "Concrete new criteria (500 m / 30 s)."
+ },
+ "C041": {
+  "p": 0.3,
+  "why": "Permissive alternative to the criteria."
+ },
+ "C042": {
+  "p": 0.25,
+  "why": "Documentation and demonstration duty."
+ },
+ "C043": {
+  "p": 0.55,
+  "why": "Demonstration of safe operation with cyclists; a substantive capability."
+ },
+ "C044": {
+  "p": 0.6,
+  "why": "Specific test-based collision avoidance requirement."
+ },
+ "C045": {
+  "p": 0.7,
+  "why": "Concrete 7 s HOR timing requirement."
+ },
+ "C046": {
+  "p": 0.65,
+  "why": "New driver-position monitoring obligation."
+ },
+ "C047": {
+  "p": 0.25,
+  "why": "Documentation and assessment by the authority."
+ },
+ "C048": {
+  "p": 0.75,
+  "why": "Concrete 10 s HOR trigger."
+ },
+ "C049": {
+  "p": 0.4,
+  "why": "Permissive clause; the source also contains a 'shall only resume' condition."
+ },
+ "C050": {
+  "p": 0.8,
+  "why": "New functional obligation about when HOR withholding resumes after the driver is deemed disengaged."
+ },
+ "C051": {
+  "p": 0.65,
+  "why": "New driver information obligation on the system."
+ },
+ "C052": {
+  "p": 0.75,
+  "why": "New driver state monitoring obligation to assess drowsiness."
+ },
+ "C053": {
+  "p": 0.75,
+  "why": "New eye-gaze engagement monitoring obligation."
+ },
+ "C054": {
+  "p": 0.8,
+  "why": "New functional restriction on system-initiated manoeuvres when the driver is not engaged."
+ },
+ "C055": {
+  "p": 0.65,
+  "why": "New countermeasure obligation on the system."
+ },
+ "C056": {
+  "p": 0.3,
+  "why": "Documentation duty and authority assessment; experts usually do not list these."
+ },
+ "C057": {
+  "p": 0.7,
+  "why": "Functional timing requirement for disablement."
+ },
+ "C058": {
+  "p": 0.75,
+  "why": "New re-enable condition requiring a deliberate driver action."
+ },
+ "C059": {
+  "p": 0.45,
+  "why": "Permissive clause that alters the lane change behaviour obligation."
+ },
+ "C060": {
+  "p": 0.3,
+  "why": "Explanation and evidence submission duty."
+ },
+ "C061": {
+  "p": 0.75,
+  "why": "Extends the 6.3 provisions to straight crossing at intersections, a substantive obligation."
+ },
+ "C062": {
+  "p": 0.85,
+  "why": "New functional condition for drive-off from standstill."
+ },
+ "C063": {
+  "p": 0.3,
+  "why": "Demonstration of safety management system compliance to the authority; an audit duty."
+ },
+ "C064": {
+  "p": 0.45,
+  "why": "Process obligation for in-use monitoring; borderline."
+ },
+ "C065": {
+  "p": 0.3,
+  "why": "Evidence submission duty."
+ },
+ "C066": {
+  "p": 0.25,
+  "why": "Scope of the evidence to be submitted."
+ },
+ "C067": {
+  "p": 0.2,
+  "why": "Explanation duty only."
+ },
+ "C068": {
+  "p": 0.3,
+  "why": "Evidence submission duty."
+ },
+ "C069": {
+  "p": 0.25,
+  "why": "Scope of the evidence to be submitted."
+ },
+ "C070": {
+  "p": 0.35,
+  "why": "Validation evidence duty; could be listed as a validation obligation."
+ },
+ "C071": {
+  "p": 0.35,
+  "why": "Requires real-world test results in the validation evidence."
+ },
+ "C072": {
+  "p": 0.5,
+  "why": "New test obligation in the approval process."
+ },
+ "C073": {
+  "p": 0.3,
+  "why": "Further tests depend on a request by the authority."
+ },
+ "C074": {
+  "p": 0.3,
+  "why": "Evidence submission duty."
+ },
+ "C075": {
+  "p": 0.2,
+  "why": "Describes an authority action (identifying scenarios); not an engineering obligation."
+ },
+ "C076": {
+  "p": 0.35,
+  "why": "Conditional replacement of test scenarios that depends on evidence; this is procedural but does affect the test obligations."
+ },
+ "C077": {
+  "p": 0.15,
+  "why": "Documentation duty for the test report."
+ },
+ "C078": {
+  "p": 0.45,
+  "why": "Manufacturer explanation and agreement on test parameterization for non-repeatable systems; partly procedural but affects testing."
+ },
+ "C079": {
+  "p": 0.65,
+  "why": "New test-condition parameter for the bicycle target in a new test scenario."
+ },
+ "C080": {
+  "p": 0.6,
+  "why": "New test-condition requirement for the blocking vehicle."
+ },
+ "C081": {
+  "p": 0.6,
+  "why": "New test-execution requirement covering target types."
+ },
+ "C082": {
+  "p": 0.6,
+  "why": "New test setup requirement for an obstructing static target."
+ },
+ "C083": {
+  "p": 0.6,
+  "why": "New test parameter for cyclist target speed and position."
+ },
+ "C084": {
+  "p": 0.55,
+  "why": "New test-coordination parameter; it may be merged with the cyclist speed requirement."
+ }
+}

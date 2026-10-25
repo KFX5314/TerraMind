@@ -1,0 +1,1494 @@
+{
+ "R-0001": {
+  "p": 0.6,
+  "why": "Sample marking with trade name and type designation is a product marking obligation for the LED lamp as an ESA."
+ },
+ "R-0005": {
+  "p": 0.6,
+  "why": "The lamp, as a separately approved ESA, must carry the R10 approval mark."
+ },
+ "R-0006": {
+  "p": 0.45,
+  "why": "Approval mark layout detail (circle with E); a marking rule but close to boilerplate."
+ },
+ "R-0007": {
+  "p": 0.45,
+  "why": "Approval mark layout detail (regulation number and approval number); a marking rule but close to boilerplate."
+ },
+ "R-0009": {
+  "p": 0.55,
+  "why": "General design obligation for the ESA so the vehicle can comply."
+ },
+ "R-0010": {
+  "p": 0.7,
+  "why": "Core obligation to test the ESA for emissions and immunity."
+ },
+ "R-0011": {
+  "p": 0.6,
+  "why": "Broadband radiated emission measurement applies to LED driver electronics."
+ },
+ "R-0012": {
+  "p": 0.6,
+  "why": "Broadband emission limits for 30-400 MHz apply to the LED lamp."
+ },
+ "R-0013": {
+  "p": 0.6,
+  "why": "Broadband emission limit for 400-1000 MHz applies to the LED lamp."
+ },
+ "R-0014": {
+  "p": 0.6,
+  "why": "Measured broadband values must be below the approval limits."
+ },
+ "R-0015": {
+  "p": 0.45,
+  "why": "Narrowband measurement applies only if the lamp contains digital or clocked electronics, which the spec leaves open."
+ },
+ "R-0016": {
+  "p": 0.45,
+  "why": "Narrowband limits for 30-400 MHz; applicability depends on unconfirmed microprocessor content."
+ },
+ "R-0017": {
+  "p": 0.45,
+  "why": "Narrowband limit for 400-1000 MHz; applicability depends on unconfirmed microprocessor content."
+ },
+ "R-0018": {
+  "p": 0.45,
+  "why": "Narrowband compliance with limits; applicability depends on unconfirmed microprocessor content."
+ },
+ "R-0019": {
+  "p": 0.55,
+  "why": "Conducted transient emission test applies to a switched ESA such as the lamp."
+ },
+ "R-0020": {
+  "p": 0.55,
+  "why": "Positive transient emission amplitude limits apply to the lamp."
+ },
+ "R-0021": {
+  "p": 0.55,
+  "why": "Negative transient emission amplitude limits apply to the lamp."
+ },
+ "R-0022": {
+  "p": 0.6,
+  "why": "Radiated immunity test applies because stop and position lamps are immunity-related functions."
+ },
+ "R-0023": {
+  "p": 0.55,
+  "why": "Radiated immunity test by Annex 9; largely duplicates R-0022."
+ },
+ "R-0024": {
+  "p": 0.55,
+  "why": "Radiated immunity test severity over 90% of the band (Table 2a) applies to the lamp."
+ },
+ "R-0025": {
+  "p": 0.5,
+  "why": "Minimum radiated immunity test level over the whole band (Table 2b) applies to the lamp."
+ },
+ "R-0027": {
+  "p": 0.6,
+  "why": "Immunity pass criterion: no degradation of the lamp's immunity-related functions."
+ },
+ "R-0028": {
+  "p": 0.55,
+  "why": "Conducted transient immunity and starting-profile testing applies to the lamp."
+ },
+ "R-0029": {
+  "p": 0.5,
+  "why": "Pulse 1 immunity level applies to the lamp."
+ },
+ "R-0030": {
+  "p": 0.5,
+  "why": "Pulse 2a immunity level applies to the lamp."
+ },
+ "R-0031": {
+  "p": 0.5,
+  "why": "Pulse 2b immunity level applies to the lamp."
+ },
+ "R-0032": {
+  "p": 0.5,
+  "why": "Pulse 3a immunity level applies to the lamp."
+ },
+ "R-0033": {
+  "p": 0.5,
+  "why": "Pulse 3b immunity level applies to the lamp."
+ },
+ "R-0034": {
+  "p": 0.35,
+  "why": "Starting-profile classification method is procedural, so less likely to be listed."
+ },
+ "R-0035": {
+  "p": 0.35,
+  "why": "FPSC classification method is procedural, so less likely to be listed."
+ },
+ "R-0036": {
+  "p": 0.4,
+  "why": "The LED rear lamp is an ESA, so the transient starting-profile immunity class plausibly applies to it."
+ },
+ "R-0045": {
+  "p": 0.15,
+  "why": "Conformity of production; excluded."
+ },
+ "R-0047": {
+  "p": 0.15,
+  "why": "Conformity-of-production verification limits; excluded."
+ },
+ "R-0048": {
+  "p": 0.15,
+  "why": "Conformity-of-production verification; excluded."
+ },
+ "R-0049": {
+  "p": 0.15,
+  "why": "Conformity-of-production verification; excluded."
+ },
+ "R-0050": {
+  "p": 0.15,
+  "why": "Conformity-of-production verification; excluded."
+ },
+ "R-0051": {
+  "p": 0.7,
+  "why": "Broadband emission limit applies to the LED lamp as an ESA."
+ },
+ "R-0052": {
+  "p": 0.7,
+  "why": "Broadband emission limit for the 75-400 MHz band applies to the lamp."
+ },
+ "R-0053": {
+  "p": 0.7,
+  "why": "Broadband emission limit for the 400-1,000 MHz band applies to the lamp."
+ },
+ "R-0054": {
+  "p": 0.55,
+  "why": "Narrowband limit applies only if the LED driver has an oscillator or microcontroller, which is likely but not stated."
+ },
+ "R-0055": {
+  "p": 0.55,
+  "why": "Narrowband limit for 75-400 MHz; same condition on driver electronics."
+ },
+ "R-0056": {
+  "p": 0.55,
+  "why": "Narrowband limit for 400-1,000 MHz; same condition on driver electronics."
+ },
+ "R-0064": {
+  "p": 0.45,
+  "why": "Broadband emission test is performed to CISPR 25; a test-method reference."
+ },
+ "R-0065": {
+  "p": 0.45,
+  "why": "ESA operating condition during the broadband emission test."
+ },
+ "R-0066": {
+  "p": 0.4,
+  "why": "ALSE method; leans toward test-equipment detail."
+ },
+ "R-0070": {
+  "p": 0.4,
+  "why": "Frequency range over which the broadband limits apply."
+ },
+ "R-0071": {
+  "p": 0.35,
+  "why": "Peak-detector correction factor; a measurement detail."
+ },
+ "R-0084": {
+  "p": 0.4,
+  "why": "Narrowband emission test is performed to CISPR 25."
+ },
+ "R-0085": {
+  "p": 0.4,
+  "why": "ESA operating condition during the narrowband emission test."
+ },
+ "R-0086": {
+  "p": 0.35,
+  "why": "ALSE method for narrowband emissions; a test-method detail."
+ },
+ "R-0090": {
+  "p": 0.35,
+  "why": "Frequency range over which the narrowband limits apply."
+ },
+ "R-0091": {
+  "p": 0.3,
+  "why": "Detector type is a measurement detail."
+ },
+ "R-0102": {
+  "p": 0.3,
+  "why": "Optional choice of immunity test method."
+ },
+ "R-0107": {
+  "p": 0.35,
+  "why": "Immunity test is based on ISO 11452-1; a test-method reference."
+ },
+ "R-0108": {
+  "p": 0.35,
+  "why": "Test conditions follow ISO 11452-1."
+ },
+ "R-0109": {
+  "p": 0.4,
+  "why": "ESA must be switched on during the immunity test."
+ },
+ "R-0110": {
+  "p": 0.4,
+  "why": "ESA must be in normal operating condition during the immunity test."
+ },
+ "R-0111": {
+  "p": 0.35,
+  "why": "Test arrangement of the ESA; a test-setup detail."
+ },
+ "R-0116": {
+  "p": 0.4,
+  "why": "Frequency range of the immunity test."
+ },
+ "R-0117": {
+  "p": 0.35,
+  "why": "Modulation of the immunity test signal; a test detail."
+ },
+ "R-0118": {
+  "p": 0.3,
+  "why": "Test signal modulation detail for radiated immunity; reads as a test-setup parameter rather than a product obligation."
+ },
+ "R-0119": {
+  "p": 0.3,
+  "why": "Test signal modulation parameter; a test-setup detail that may not be listed."
+ },
+ "R-0120": {
+  "p": 0.25,
+  "why": "Frequency step size and dwell time are test-procedure detail."
+ },
+ "R-0122": {
+  "p": 0.3,
+  "why": "Absorber chamber field-calibration method is a test-equipment detail."
+ },
+ "R-0123": {
+  "p": 0.3,
+  "why": "Polarization is a test-setup detail."
+ },
+ "R-0125": {
+  "p": 0.4,
+  "why": "BCI immunity test applies if the LED lamp electronics form an ESA, but the text is largely method detail."
+ },
+ "R-0131": {
+  "p": 0.55,
+  "why": "The LED lamp is supplied from the 12 V lines, so transient immunity testing applies."
+ },
+ "R-0132": {
+  "p": 0.45,
+  "why": "Starting-profile immunity applies to the supply lines; whether an exception applies depends on the vehicle."
+ },
+ "R-0133": {
+  "p": 0.55,
+  "why": "Emission of conducted transients from the LED driver electronics applies."
+ },
+ "R-0134": {
+  "p": 0.75,
+  "why": "General fitting requirement that applies to all lamps, so it covers this rear lamp's installation."
+ },
+ "R-0135": {
+  "p": 0.6,
+  "why": "Maladjustment requirement applies to the lamp, though it is often grouped with the fitting requirement."
+ },
+ "R-0137": {
+  "p": 0.65,
+  "why": "Reference axis alignment applies to light-signalling devices, which this lamp is."
+ },
+ "R-0138": {
+  "p": 0.6,
+  "why": "Applies because the product is not a side retro-reflector or side-marker lamp."
+ },
+ "R-0139": {
+  "p": 0.6,
+  "why": "The ±3° reference axis tolerance applies to this device when fitted."
+ },
+ "R-0140": {
+  "p": 0.55,
+  "why": "Manufacturer fitting instructions must be complied with for this device."
+ },
+ "R-0141": {
+  "p": 0.45,
+  "why": "Describes a verification condition, closer to test procedure than a product obligation."
+ },
+ "R-0142": {
+  "p": 0.6,
+  "why": "Rear lamps are fitted as a pair, so symmetric fitting applies."
+ },
+ "R-0143": {
+  "p": 0.6,
+  "why": "Pair symmetry of the lamps themselves applies."
+ },
+ "R-0144": {
+  "p": 0.6,
+  "why": "The lamp pair must meet the same colorimetric requirements."
+ },
+ "R-0145": {
+  "p": 0.6,
+  "why": "The lamp pair must have substantially identical photometric characteristics."
+ },
+ "R-0146": {
+  "p": 0.3,
+  "why": "The specification does not mention a logo."
+ },
+ "R-0147": {
+  "p": 0.3,
+  "why": "The specification does not mention a logo."
+ },
+ "R-0149": {
+  "p": 0.7,
+  "why": "The product is a combined lamp grouping several functions, so this applies directly."
+ },
+ "R-0150": {
+  "p": 0.65,
+  "why": "Applies because functions are grouped, combined or incorporated in one housing."
+ },
+ "R-0151": {
+  "p": 0.55,
+  "why": "Position and stop lamp are possibly reciprocally incorporated, so colour with both on is relevant."
+ },
+ "R-0153": {
+  "p": 0.35,
+  "why": "Only relevant if the apparent surface has multiple distinct parts, which the specification does not state."
+ },
+ "R-0159": {
+  "p": 0.7,
+  "why": "The lamp emits red light from the rear, so the no-red-to-front rule applies."
+ },
+ "R-0161": {
+  "p": 0.4,
+  "why": "A height measurement method rather than a product obligation."
+ },
+ "R-0162": {
+  "p": 0.3,
+  "why": "A measurement detail for reducing geometric visibility angles."
+ },
+ "R-0164": {
+  "p": 0.55,
+  "why": "No intentional variation of photometric characteristics while the lamp is switched on."
+ },
+ "R-0165": {
+  "p": 0.35,
+  "why": "A permissive provision allowing variation with ambient light."
+ },
+ "R-0166": {
+  "p": 0.4,
+  "why": "Permissive, but relevant because the lamp combines functions that switch on and off."
+ },
+ "R-0167": {
+  "p": 0.35,
+  "why": "A permissive provision for lamps used to provide another lighting function."
+ },
+ "R-0168": {
+  "p": 0.55,
+  "why": "The verification method for red light visibility to the front, applicable to this red lamp."
+ },
+ "R-0170": {
+  "p": 0.5,
+  "why": "The 0.25 cd limit for red light to the front is a concrete limit for this lamp."
+ },
+ "R-0171": {
+  "p": 0.55,
+  "why": "The electrical connection rule applies to the rear position lamp in this product."
+ },
+ "R-0174": {
+  "p": 0.5,
+  "why": "The concealment prohibition applies to this rear lamp."
+ },
+ "R-0175": {
+  "p": 0.8,
+  "why": "The product includes a reversing lamp, so its white colour applies."
+ },
+ "R-0176": {
+  "p": 0.8,
+  "why": "The product includes a stop lamp, so its red colour applies."
+ },
+ "R-0177": {
+  "p": 0.75,
+  "why": "Rear position lamp colour applies directly to this product."
+ },
+ "R-0178": {
+  "p": 0.7,
+  "why": "Product includes a non-triangular rear retro-reflector, so its red colour applies."
+ },
+ "R-0179": {
+  "p": 0.4,
+  "why": "Vehicle-level lamp count; relevance to a single lamp product is generic."
+ },
+ "R-0180": {
+  "p": 0.3,
+  "why": "Movable-component permission is permissive; the spec does not say the lamp sits on a tailgate."
+ },
+ "R-0181": {
+  "p": 0.4,
+  "why": "Covers rear position lamps on movable components; installation location is open."
+ },
+ "R-0186": {
+  "p": 0.3,
+  "why": "Applies only if the lamp is on a movable component, which is unknown."
+ },
+ "R-0187": {
+  "p": 0.3,
+  "why": "Applies only if the lamp is on a movable component, which is unknown."
+ },
+ "R-0188": {
+  "p": 0.35,
+  "why": "Concerns rear position lamps and retro-reflectors near movable components; conditional."
+ },
+ "R-0197": {
+  "p": 0.35,
+  "why": "Variable intensity control is an optional feature not stated in the spec."
+ },
+ "R-0198": {
+  "p": 0.3,
+  "why": "Variable intensity control is an optional feature not stated in the spec."
+ },
+ "R-0203": {
+  "p": 0.3,
+  "why": "Voltage limit has an exemption for electronic light source control gear, which LED modules likely have."
+ },
+ "R-0205": {
+  "p": 0.5,
+  "why": "Geometric visibility obstacle rule is an installation requirement for the lamp."
+ },
+ "R-0207": {
+  "p": 0.4,
+  "why": "Partial hiding of the apparent surface is conditional on vehicle design."
+ },
+ "R-0211": {
+  "p": 0.55,
+  "why": "General requirement that installed lamps be type approved."
+ },
+ "R-0213": {
+  "p": 0.2,
+  "why": "Light uses non-replaceable LED modules, which are excluded."
+ },
+ "R-0216": {
+  "p": 0.4,
+  "why": "Mandatory fitting of reversing lamp is a vehicle-level obligation."
+ },
+ "R-0217": {
+  "p": 0.55,
+  "why": "Number of reversing lamps for M1 relates directly to this product."
+ },
+ "R-0218": {
+  "p": 0.7,
+  "why": "Type approval of the reversing lamp device applies."
+ },
+ "R-0219": {
+  "p": 0.75,
+  "why": "Reversing lamp mounting height applies."
+ },
+ "R-0220": {
+  "p": 0.65,
+  "why": "Reversing lamp position at the rear applies."
+ },
+ "R-0221": {
+  "p": 0.75,
+  "why": "Reversing lamp geometric visibility angles apply."
+ },
+ "R-0222": {
+  "p": 0.7,
+  "why": "Reversing lamp rearward orientation applies."
+ },
+ "R-0223": {
+  "p": 0.6,
+  "why": "Reversing lamp electrical connection requirement applies."
+ },
+ "R-0224": {
+  "p": 0.55,
+  "why": "Reversing lamp switching restriction applies."
+ },
+ "R-0230": {
+  "p": 0.35,
+  "why": "Tell-tale is optional and vehicle-level."
+ },
+ "R-0231": {
+  "p": 0.5,
+  "why": "Stop lamp is mandatory; product has a stop lamp."
+ },
+ "R-0233": {
+  "p": 0.7,
+  "why": "Stop lamp type approval applies."
+ },
+ "R-0234": {
+  "p": 0.55,
+  "why": "Number of stop lamps applies; the S3 portion is not part of this product."
+ },
+ "R-0235": {
+  "p": 0.7,
+  "why": "Stop lamp lateral position for M1 applies."
+ },
+ "R-0236": {
+  "p": 0.75,
+  "why": "Stop lamp mounting height applies."
+ },
+ "R-0238": {
+  "p": 0.7,
+  "why": "Installation position of the stop lamp, a function this product has."
+ },
+ "R-0239": {
+  "p": 0.72,
+  "why": "Horizontal geometric visibility of the stop lamp."
+ },
+ "R-0240": {
+  "p": 0.72,
+  "why": "Vertical geometric visibility of the stop lamp."
+ },
+ "R-0241": {
+  "p": 0.7,
+  "why": "Orientation of the stop lamp."
+ },
+ "R-0242": {
+  "p": 0.45,
+  "why": "Electrical switching depends on the vehicle braking system; only partly a lamp matter."
+ },
+ "R-0244": {
+  "p": 0.3,
+  "why": "Dashboard tell-tale is a vehicle-level item and is optional."
+ },
+ "R-0245": {
+  "p": 0.5,
+  "why": "Mandatory presence is a vehicle-level statement, though it concerns this function."
+ },
+ "R-0246": {
+  "p": 0.6,
+  "why": "Number of lamps and required approval reference apply to this product."
+ },
+ "R-0247": {
+  "p": 0.72,
+  "why": "Width position of the rear position lamp."
+ },
+ "R-0249": {
+  "p": 0.75,
+  "why": "Mounting height of the rear position lamp."
+ },
+ "R-0250": {
+  "p": 0.7,
+  "why": "Length position of the rear position lamp."
+ },
+ "R-0251": {
+  "p": 0.75,
+  "why": "Horizontal geometric visibility of the rear position lamp."
+ },
+ "R-0252": {
+  "p": 0.75,
+  "why": "Vertical geometric visibility of the rear position lamp."
+ },
+ "R-0253": {
+  "p": 0.4,
+  "why": "Optional M1/N1 alternative that applies only if a rear side-marker lamp is fitted; not stated in spec."
+ },
+ "R-0254": {
+  "p": 0.38,
+  "why": "Same optional alternative, conditional on a rear side-marker lamp."
+ },
+ "R-0255": {
+  "p": 0.38,
+  "why": "Applies only when the optional alternative is used."
+ },
+ "R-0256": {
+  "p": 0.7,
+  "why": "Orientation of the rear position lamp."
+ },
+ "R-0257": {
+  "p": 0.45,
+  "why": "Electrical connection rule; the direction-indicator exception does not apply as the product has no indicator."
+ },
+ "R-0258": {
+  "p": 0.35,
+  "why": "Dashboard tell-tale is a vehicle-level item."
+ },
+ "R-0259": {
+  "p": 0.28,
+  "why": "Combination with the front position lamp tell-tale is a vehicle-level item."
+ },
+ "R-0260": {
+  "p": 0.3,
+  "why": "Failure tell-tale applies only if the component regulation requires it."
+ },
+ "R-0264": {
+  "p": 0.5,
+  "why": "Mandatory presence of the retro-reflector is a vehicle-level statement."
+ },
+ "R-0265": {
+  "p": 0.6,
+  "why": "Number of retro-reflectors and required approval class."
+ },
+ "R-0267": {
+  "p": 0.72,
+  "why": "Width position of the retro-reflector."
+ },
+ "R-0269": {
+  "p": 0.75,
+  "why": "Mounting height of the retro-reflector, including the grouped-with-rear-lamp case."
+ },
+ "R-0270": {
+  "p": 0.68,
+  "why": "Length position of the retro-reflector."
+ },
+ "R-0271": {
+  "p": 0.73,
+  "why": "Horizontal geometric visibility of the retro-reflector."
+ },
+ "R-0272": {
+  "p": 0.73,
+  "why": "Vertical geometric visibility of the retro-reflector."
+ },
+ "R-0273": {
+  "p": 0.68,
+  "why": "Orientation of the retro-reflector."
+ },
+ "R-0274": {
+  "p": 0.55,
+  "why": "Permission for shared surfaces is relevant because the reflector is integrated in this combined lamp."
+ },
+ "R-0276": {
+  "p": 0.75,
+  "why": "Retro-reflector is part of product; geometric visibility applies."
+ },
+ "R-0277": {
+  "p": 0.75,
+  "why": "Vertical visibility of retro-reflector, product has it."
+ },
+ "R-0278": {
+  "p": 0.7,
+  "why": "Orientation of retro-reflector; installation requirement."
+ },
+ "R-0279": {
+  "p": 0.55,
+  "why": "Permissive provision about shared surface; relevant to combined lamp design."
+ },
+ "R-0282": {
+  "p": 0.3,
+  "why": "DRL switching; vehicle electrical logic, product has rear position lamp though."
+ },
+ "R-0283": {
+  "p": 0.3,
+  "why": "Emergency stop signal optional vehicle function involving stop lamps."
+ },
+ "R-0290": {
+  "p": 0.25,
+  "why": "ESS flashing frequency; optional vehicle function."
+ },
+ "R-0313": {
+  "p": 0.1,
+  "why": "COP check."
+ },
+ "R-0314": {
+  "p": 0.1,
+  "why": "COP check."
+ },
+ "R-0315": {
+  "p": 0.1,
+  "why": "COP check."
+ },
+ "R-0316": {
+  "p": 0.08,
+  "why": "COP check."
+ },
+ "R-0317": {
+  "p": 0.1,
+  "why": "COP check."
+ },
+ "R-0318": {
+  "p": 0.1,
+  "why": "COP check."
+ },
+ "R-0319": {
+  "p": 0.08,
+  "why": "COP check."
+ },
+ "R-0320": {
+  "p": 0.1,
+  "why": "COP check."
+ },
+ "R-0321": {
+  "p": 0.08,
+  "why": "COP check."
+ },
+ "R-0323": {
+  "p": 0.55,
+  "why": "Combined multi-function unit; grouping provision applies, though worded partly as an approval condition."
+ },
+ "R-0324": {
+  "p": 0.4,
+  "why": "Approval-grant phrasing makes this more administrative than a product obligation."
+ },
+ "R-0330": {
+  "p": 0.75,
+  "why": "Space for the approval marking is a construction requirement on the lamp."
+ },
+ "R-0331": {
+  "p": 0.8,
+  "why": "Markings must be legible and indelible; core marking requirement."
+ },
+ "R-0332": {
+  "p": 0.55,
+  "why": "Minimum marking size is a concrete marking detail."
+ },
+ "R-0333": {
+  "p": 0.65,
+  "why": "Defines the content of the approval mark, which the lamp must carry."
+ },
+ "R-0334": {
+  "p": 0.55,
+  "why": "Sequential number is part of the approval marking."
+ },
+ "R-0335": {
+  "p": 0.5,
+  "why": "Placement detail for the sequential number."
+ },
+ "R-0336": {
+  "p": 0.6,
+  "why": "Function symbols (R, S, AR) are required in the marking."
+ },
+ "R-0337": {
+  "p": 0.55,
+  "why": "Regulation number and series must appear in the marking."
+ },
+ "R-0338": {
+  "p": 0.55,
+  "why": "Rear lamps are typically side-specific, so the horizontal arrow likely applies."
+ },
+ "R-0339": {
+  "p": 0.5,
+  "why": "Arrow direction for rear position lamps, which this product has."
+ },
+ "R-0340": {
+  "p": 0.35,
+  "why": "Only relevant for reversing lamps with reduced light distribution; not stated in spec."
+ },
+ "R-0343": {
+  "p": 0.3,
+  "why": "Reduced light distribution not stated in spec."
+ },
+ "R-0344": {
+  "p": 0.8,
+  "why": "Basic obligation for the lamp to bear the approval marking."
+ },
+ "R-0345": {
+  "p": 0.8,
+  "why": "Trade name or mark of the applicant is required on the lamp."
+ },
+ "R-0346": {
+  "p": 0.35,
+  "why": "LED modules on PCB are likely non-replaceable, so the light-source category marking may not apply."
+ },
+ "R-0348": {
+  "p": 0.7,
+  "why": "Non-replaceable LED sources likely, so rated-voltage marking applies."
+ },
+ "R-0349": {
+  "p": 0.45,
+  "why": "Electronic control gear is plausible for LEDs but not stated."
+ },
+ "R-0352": {
+  "p": 0.35,
+  "why": "Replaceable light source module status unknown."
+ },
+ "R-0353": {
+  "p": 0.35,
+  "why": "Depends on replaceable modules, which are unknown."
+ },
+ "R-0354": {
+  "p": 0.3,
+  "why": "Detailed module code format; depends on replaceable modules."
+ },
+ "R-0355": {
+  "p": 0.33,
+  "why": "Depends on replaceable modules, which are unknown."
+ },
+ "R-0356": {
+  "p": 0.33,
+  "why": "Depends on replaceable modules, which are unknown."
+ },
+ "R-0357": {
+  "p": 0.33,
+  "why": "Depends on replaceable modules, which are unknown."
+ },
+ "R-0360": {
+  "p": 0.7,
+  "why": "Placement of the approval marking on the lamp."
+ },
+ "R-0361": {
+  "p": 0.7,
+  "why": "Marking must be visible when the lamp is fitted on the vehicle."
+ },
+ "R-0362": {
+  "p": 0.45,
+  "why": "Applies only if the outer lens is detachable, which is uncertain."
+ },
+ "R-0363": {
+  "p": 0.4,
+  "why": "Applies if a shared lens covers several devices with different approval markings; possible here."
+ },
+ "R-0364": {
+  "p": 0.65,
+  "why": "Markings must be affixed on the lamp."
+ },
+ "R-0366": {
+  "p": 0.55,
+  "why": "Combined lamp; single approval mark marking provision plausibly listed."
+ },
+ "R-0367": {
+  "p": 0.55,
+  "why": "Marking visibility for combined lamp single mark."
+ },
+ "R-0368": {
+  "p": 0.55,
+  "why": "Marking condition for combined lamp."
+ },
+ "R-0369": {
+  "p": 0.45,
+  "why": "Single mark size; marking requirement."
+ },
+ "R-0370": {
+  "p": 0.5,
+  "why": "General conformity statement; somewhat generic."
+ },
+ "R-0371": {
+  "p": 0.35,
+  "why": "Cross-reference to other regulations; background-ish."
+ },
+ "R-0372": {
+  "p": 0.35,
+  "why": "Generic applicability statement."
+ },
+ "R-0373": {
+  "p": 0.75,
+  "why": "Core design/vibration durability requirement."
+ },
+ "R-0377": {
+  "p": 0.4,
+  "why": "Applies only if rear position and stop are reciprocally incorporated; spec says combined module, unclear."
+ },
+ "R-0378": {
+  "p": 0.6,
+  "why": "Product has stop and reversing lamps; logo prohibition applies."
+ },
+ "R-0379": {
+  "p": 0.35,
+  "why": "Logo optional; not specified."
+ },
+ "R-0380": {
+  "p": 0.3,
+  "why": "Logo optional."
+ },
+ "R-0381": {
+  "p": 0.3,
+  "why": "Logo optional."
+ },
+ "R-0383": {
+  "p": 0.55,
+  "why": "LED modules, multiple light sources likely."
+ },
+ "R-0384": {
+  "p": 0.6,
+  "why": "Multiple LED sources failure provision."
+ },
+ "R-0385": {
+  "p": 0.25,
+  "why": "R2 variable intensity not specified."
+ },
+ "R-0386": {
+  "p": 0.25,
+  "why": "S2 variable intensity not specified."
+ },
+ "R-0387": {
+  "p": 0.55,
+  "why": "Light source type permitted; LEDs."
+ },
+ "R-0388": {
+  "p": 0.2,
+  "why": "Replaceable approved sources not used (LED modules)."
+ },
+ "R-0389": {
+  "p": 0.2,
+  "why": "Replaceable sources not used."
+ },
+ "R-0390": {
+  "p": 0.6,
+  "why": "EMC for LED electronics applies."
+ },
+ "R-0391": {
+  "p": 0.35,
+  "why": "Replaceable LED module possible but unspecified."
+ },
+ "R-0392": {
+  "p": 0.35,
+  "why": "Same, module tamperproof."
+ },
+ "R-0393": {
+  "p": 0.35,
+  "why": "Same."
+ },
+ "R-0394": {
+  "p": 0.35,
+  "why": "Same."
+ },
+ "R-0398": {
+  "p": 0.4,
+  "why": "Test procedure for LED lamps; test condition."
+ },
+ "R-0408": {
+  "p": 0.3,
+  "why": "Test procedure detail."
+ },
+ "R-0409": {
+  "p": 0.4,
+  "why": "Test voltage condition."
+ },
+ "R-0416": {
+  "p": 0.7,
+  "why": "Photometric minimum on axis."
+ },
+ "R-0417": {
+  "p": 0.7,
+  "why": "Photometric maximum limit."
+ },
+ "R-0418": {
+  "p": 0.75,
+  "why": "General photometric distribution requirement that applies to every lamp function this product has."
+ },
+ "R-0419": {
+  "p": 0.72,
+  "why": "Minimum intensity within the geometric visibility angles applies to the rear position and stop functions."
+ },
+ "R-0420": {
+  "p": 0.55,
+  "why": "Local intensity variation provision in Annex 3 applies to the lamp's light distribution."
+ },
+ "R-0426": {
+  "p": 0.35,
+  "why": "Applies only to variable-intensity categories (R2/S2); the spec does not say which category is used."
+ },
+ "R-0429": {
+  "p": 0.68,
+  "why": "Rear position and stop functions are likely reciprocally incorporated in the combined rear lamp, so the 5:1 ratio applies."
+ },
+ "R-0430": {
+  "p": 0.45,
+  "why": "Mostly a test-method reference to Annex 8."
+ },
+ "R-0431": {
+  "p": 0.5,
+  "why": "Colour measurement field requirement; partly a test-procedure statement."
+ },
+ "R-0432": {
+  "p": 0.5,
+  "why": "No sharp colour variation outside the grid; relevant because the LEDs are non-replaceable."
+ },
+ "R-0433": {
+  "p": 0.4,
+  "why": "Test procedure reference only."
+ },
+ "R-0435": {
+  "p": 0.8,
+  "why": "Core photometric requirement for the rear position lamp (Table 4)."
+ },
+ "R-0436": {
+  "p": 0.7,
+  "why": "R1 steady category values; most likely category, but not confirmed by the spec."
+ },
+ "R-0438": {
+  "p": 0.62,
+  "why": "Rear position minimum intensity within geometric visibility angles."
+ },
+ "R-0439": {
+  "p": 0.58,
+  "why": "Failure provisions of 4.6 for the rear position lamp; relevant to multi-LED sources."
+ },
+ "R-0440": {
+  "p": 0.85,
+  "why": "Rear position lamp colour must be red."
+ },
+ "R-0441": {
+  "p": 0.8,
+  "why": "Core photometric requirement for the stop lamp (Table 7)."
+ },
+ "R-0442": {
+  "p": 0.65,
+  "why": "S1 steady category values; likely category, but not confirmed by the spec."
+ },
+ "R-0443": {
+  "p": 0.38,
+  "why": "S2 variable category; not indicated in the spec."
+ },
+ "R-0444": {
+  "p": 0.62,
+  "why": "Stop lamp minimum intensity within geometric visibility angles."
+ },
+ "R-0445": {
+  "p": 0.58,
+  "why": "Failure provisions of 4.6 for the stop lamp."
+ },
+ "R-0446": {
+  "p": 0.85,
+  "why": "Stop lamp colour must be red."
+ },
+ "R-0447": {
+  "p": 0.75,
+  "why": "Core photometric requirement for the reversing lamp (Table 10)."
+ },
+ "R-0448": {
+  "p": 0.72,
+  "why": "AR category intensity values for the reversing lamp."
+ },
+ "R-0449": {
+  "p": 0.45,
+  "why": "Optional pair-installation provision; largely duplicates R-0447."
+ },
+ "R-0451": {
+  "p": 0.82,
+  "why": "Reversing lamp colour must be white."
+ },
+ "R-0452": {
+  "p": 0.2,
+  "why": "Paragraph 5.12 likely concerns manoeuvring lamps, a function this product does not have."
+ },
+ "R-0455": {
+  "p": 0.2,
+  "why": "Paragraph 5.12 colour clause likely belongs to a manoeuvring lamp, which the product does not have."
+ },
+ "R-0456": {
+  "p": 0.15,
+  "why": "Conformity of production; administrative."
+ },
+ "R-0458": {
+  "p": 0.15,
+  "why": "Conformity-of-production deviation tolerance."
+ },
+ "R-0465": {
+  "p": 0.55,
+  "why": "Geometric visibility angles for the rear position lamp."
+ },
+ "R-0466": {
+  "p": 0.55,
+  "why": "Geometric visibility angles for the stop lamp."
+ },
+ "R-0467": {
+  "p": 0.75,
+  "why": "Photometric grid rounding rule that applies directly to the position and stop lamps; the product has both."
+ },
+ "R-0468": {
+  "p": 0.75,
+  "why": "Rule for intensities between grid lines; applies to the product's lamps."
+ },
+ "R-0469": {
+  "p": 0.75,
+  "why": "Local intensity variation check for reversing lamps; the product has a reversing lamp."
+ },
+ "R-0470": {
+  "p": 0.85,
+  "why": "Light distribution requirement for rear position lamps, a function the product has."
+ },
+ "R-0471": {
+  "p": 0.85,
+  "why": "Light distribution requirement for stop lamps (S1, S2, MS); the product has a stop lamp."
+ },
+ "R-0472": {
+  "p": 0.85,
+  "why": "Minimum intensities for reversing lamps, a function the product has."
+ },
+ "R-0473": {
+  "p": 0.15,
+  "why": "Conformity-of-production mechanical and geometric tolerance; experts exclude CoP."
+ },
+ "R-0474": {
+  "p": 0.15,
+  "why": "Conformity-of-production photometric check; excluded."
+ },
+ "R-0476": {
+  "p": 0.2,
+  "why": "Chromaticity compliance stated within the conformity-of-production annex; likely excluded."
+ },
+ "R-0479": {
+  "p": 0.1,
+  "why": "Conformity-of-production sampling annex; excluded."
+ },
+ "R-0480": {
+  "p": 0.1,
+  "why": "Conformity-of-production sampling annex; excluded."
+ },
+ "R-0482": {
+  "p": 0.12,
+  "why": "Chromaticity check within the conformity-of-production sampling annex; excluded."
+ },
+ "R-0483": {
+  "p": 0.08,
+  "why": "Conformity-of-production sample deviation limit; excluded."
+ },
+ "R-0485": {
+  "p": 0.7,
+  "why": "Intensity stability after 1 and 10 minutes for non-incandescent reversing lamps; the product uses LEDs."
+ },
+ "R-0487": {
+  "p": 0.7,
+  "why": "Intensity stability over operating time for the other LED lamps (position and stop)."
+ },
+ "R-0493": {
+  "p": 0.5,
+  "why": "LED-only deemed-compliance provision; more of a test-procedure simplification, so uncertain."
+ },
+ "R-0496": {
+  "p": 0.5,
+  "why": "Marking of approval number on the retro-reflector device; product-level marking."
+ },
+ "R-0498": {
+  "p": 0.55,
+  "why": "Class IA symbol likely applies to a rear retro-reflector in a sealed housing."
+ },
+ "R-0499": {
+  "p": 0.35,
+  "why": "Class IB applies only if combined with non-watertight lamps, which is uncertain."
+ },
+ "R-0500": {
+  "p": 0.55,
+  "why": "Space for the approval marking is a device requirement."
+ },
+ "R-0501": {
+  "p": 0.65,
+  "why": "Legible, indelible markings are a typical listed obligation."
+ },
+ "R-0502": {
+  "p": 0.4,
+  "why": "Marking size detail."
+ },
+ "R-0503": {
+  "p": 0.5,
+  "why": "Composition of the approval mark."
+ },
+ "R-0504": {
+  "p": 0.45,
+  "why": "Sequential number in the marking."
+ },
+ "R-0505": {
+  "p": 0.4,
+  "why": "Placement of the sequential number."
+ },
+ "R-0506": {
+  "p": 0.5,
+  "why": "Class symbol included in the marking."
+ },
+ "R-0507": {
+  "p": 0.45,
+  "why": "Regulation number in the marking."
+ },
+ "R-0509": {
+  "p": 0.6,
+  "why": "Trade name marking."
+ },
+ "R-0510": {
+  "p": 0.4,
+  "why": "TOP marking is required only if necessary to fix the orientation."
+ },
+ "R-0511": {
+  "p": 0.5,
+  "why": "Legibility of markings on the device."
+ },
+ "R-0512": {
+  "p": 0.45,
+  "why": "Combined lamp, so a single-mark provision may apply; it is permissive."
+ },
+ "R-0513": {
+  "p": 0.45,
+  "why": "Combined lamp: light-transmitting parts must not be removable without removing the mark."
+ },
+ "R-0514": {
+  "p": 0.35,
+  "why": "Size of a single combined mark."
+ },
+ "R-0515": {
+  "p": 0.2,
+  "why": "Conformity-of-production statement."
+ },
+ "R-0516": {
+  "p": 0.3,
+  "why": "Generic cross-reference to installation regulations."
+ },
+ "R-0517": {
+  "p": 0.3,
+  "why": "Generic applicability statement."
+ },
+ "R-0518": {
+  "p": 0.65,
+  "why": "Core construction requirement."
+ },
+ "R-0519": {
+  "p": 0.6,
+  "why": "No defect in design or manufacture."
+ },
+ "R-0520": {
+  "p": 0.55,
+  "why": "Components must not be easily dismantled."
+ },
+ "R-0521": {
+  "p": 0.6,
+  "why": "Outer surface must be easy to clean."
+ },
+ "R-0522": {
+  "p": 0.55,
+  "why": "Outer surface must not be rough."
+ },
+ "R-0523": {
+  "p": 0.6,
+  "why": "No access to the inner surface in normal use."
+ },
+ "R-0524": {
+  "p": 0.5,
+  "why": "Optical unit and filter must be inseparable; applies if a filter is present."
+ },
+ "R-0525": {
+  "p": 0.55,
+  "why": "Colouring by paint or varnish is prohibited."
+ },
+ "R-0527": {
+  "p": 0.65,
+  "why": "Colour limits for the red retro-reflector."
+ },
+ "R-0528": {
+  "p": 0.35,
+  "why": "Test-method detail for colour measurement."
+ },
+ "R-0530": {
+  "p": 0.85,
+  "why": "Core Class IA/IB retro-reflector shape and dimension requirement, applicable to the integrated red retro-reflector."
+ },
+ "R-0531": {
+  "p": 0.88,
+  "why": "Core photometric and colorimetric requirement for the retro-reflector."
+ },
+ "R-0532": {
+  "p": 0.82,
+  "why": "Physical and mechanical test requirements apply to the retro-reflector."
+ },
+ "R-0533": {
+  "p": 0.55,
+  "why": "Heat resistance test sequence the product must pass, but worded as a test procedure."
+ },
+ "R-0539": {
+  "p": 0.6,
+  "why": "Colour limit that must still be met after the heat resistance test."
+ },
+ "R-0540": {
+  "p": 0.6,
+  "why": "RI limit that must still be met after the heat resistance test."
+ },
+ "R-0541": {
+  "p": 0.4,
+  "why": "Verification-angle detail of the post-test check; procedural."
+ },
+ "R-0544": {
+  "p": 0.45,
+  "why": "Defines the illuminating surface used for measurement; partly design-related."
+ },
+ "R-0545": {
+  "p": 0.45,
+  "why": "100 cm2 limit on the illuminating surface; a measurement-scope rule."
+ },
+ "R-0547": {
+  "p": 0.85,
+  "why": "Minimum RI values for red retro-reflectors; the device is red."
+ },
+ "R-0548": {
+  "p": 0.8,
+  "why": "Specific red Class IA/IB RI values at 20' divergence."
+ },
+ "R-0549": {
+  "p": 0.8,
+  "why": "Specific red Class IA/IB RI values at 1°30' divergence."
+ },
+ "R-0550": {
+  "p": 0.6,
+  "why": "Prohibits lower RI values within the specified solid angle."
+ },
+ "R-0551": {
+  "p": 0.45,
+  "why": "Applies only if mounted below 750 mm; mounting height is not known from the spec."
+ },
+ "R-0552": {
+  "p": 0.45,
+  "why": "Points to the colour test method; procedural."
+ },
+ "R-0553": {
+  "p": 0.8,
+  "why": "Night-time colour limits (red) for the retro-reflector."
+ },
+ "R-0565": {
+  "p": 0.1,
+  "why": "Conformity-of-production clause; excluded."
+ },
+ "R-0566": {
+  "p": 0.12,
+  "why": "Conformity-of-production photometric tolerance; excluded."
+ },
+ "R-0567": {
+  "p": 0.1,
+  "why": "Conformity-of-production chromaticity; excluded."
+ },
+ "R-0570": {
+  "p": 0.08,
+  "why": "Conformity-of-production clause; excluded."
+ },
+ "R-0571": {
+  "p": 0.1,
+  "why": "Conformity-of-production clause; excluded."
+ },
+ "R-0573": {
+  "p": 0.08,
+  "why": "Conformity-of-production clause; excluded."
+ },
+ "R-0577": {
+  "p": 0.25,
+  "why": "Measurement procedure detail (mirror-effect check)."
+ },
+ "R-0578": {
+  "p": 0.25,
+  "why": "Measurement procedure detail (reading at -5°)."
+ },
+ "R-0579": {
+  "p": 0.35,
+  "why": "Minimum RI for devices not marked TOP; partly a measurement-position rule."
+ },
+ "R-0580": {
+  "p": 0.25,
+  "why": "Test positioning procedure."
+ },
+ "R-0581": {
+  "p": 0.25,
+  "why": "Test positioning procedure."
+ },
+ "R-0582": {
+  "p": 0.3,
+  "why": "Applies only if the device is marked TOP; unknown from the spec."
+ },
+ "R-0584": {
+  "p": 0.2,
+  "why": "Measurement procedure detail."
+ },
+ "R-0586": {
+  "p": 0.2,
+  "why": "Test illuminant description; test-equipment detail."
+ },
+ "R-0599": {
+  "p": 0.75,
+  "why": "Shape requirement for Class IA/IB retro-reflector, which a rear lamp likely has."
+ },
+ "R-0601": {
+  "p": 0.6,
+  "why": "Heat resistance test applies to a moulded plastic (PMMA) retro-reflector."
+ },
+ "R-0602": {
+  "p": 0.5,
+  "why": "Heat test procedure step (cooling period)."
+ },
+ "R-0603": {
+  "p": 0.75,
+  "why": "Pass criterion of the heat resistance test."
+ },
+ "R-0604": {
+  "p": 0.55,
+  "why": "Water penetration test procedure for a retro-reflector that is part of a lamp."
+ },
+ "R-0605": {
+  "p": 0.45,
+  "why": "Procedural detail of the water penetration test."
+ },
+ "R-0606": {
+  "p": 0.45,
+  "why": "Procedural detail of the water penetration test."
+ },
+ "R-0607": {
+  "p": 0.75,
+  "why": "Pass criterion of the water penetration test."
+ },
+ "R-0608": {
+  "p": 0.6,
+  "why": "Pass/fail evaluation of the water penetration test."
+ },
+ "R-0609": {
+  "p": 0.5,
+  "why": "RI check when water presence is doubtful."
+ },
+ "R-0610": {
+  "p": 0.35,
+  "why": "Optional alternative test for Class IB only; class not stated."
+ },
+ "R-0612": {
+  "p": 0.3,
+  "why": "Water spray procedure, part of the optional moisture/dust test."
+ },
+ "R-0616": {
+  "p": 0.35,
+  "why": "Lamp operation cycle during the optional spray test; this is a combined lamp."
+ },
+ "R-0619": {
+  "p": 0.35,
+  "why": "Criterion of the optional moisture test."
+ },
+ "R-0620": {
+  "p": 0.3,
+  "why": "RI measurement in the optional moisture test."
+ },
+ "R-0622": {
+  "p": 0.3,
+  "why": "Optional dust exposure test."
+ },
+ "R-0627": {
+  "p": 0.3,
+  "why": "Optional dust test RI measurement."
+ },
+ "R-0628": {
+  "p": 0.7,
+  "why": "General design requirement for corrosion and humidity resistance."
+ },
+ "R-0629": {
+  "p": 0.5,
+  "why": "Corrosion check provision."
+ },
+ "R-0630": {
+  "p": 0.6,
+  "why": "Salt mist test applies to a device combined with a lamp."
+ },
+ "R-0632": {
+  "p": 0.7,
+  "why": "Corrosion test pass criterion."
+ },
+ "R-0633": {
+  "p": 0.5,
+  "why": "RA limit applies to retro-reflective areas, possibly sheeting rather than this device."
+ },
+ "R-0643": {
+  "p": 0.55,
+  "why": "Fuel resistance test applies to the retro-reflector."
+ },
+ "R-0644": {
+  "p": 0.7,
+  "why": "Pass criterion of the fuel resistance test."
+ },
+ "R-0645": {
+  "p": 0.5,
+  "why": "Fuel resistance test procedure."
+ },
+ "R-0646": {
+  "p": 0.45,
+  "why": "Fuel resistance test procedure."
+ },
+ "R-0647": {
+  "p": 0.6,
+  "why": "RI check after the lubricating oil test for a Class IA/IB moulded reflector."
+ },
+ "R-0648": {
+  "p": 0.5,
+  "why": "Lubricating oil test procedure."
+ },
+ "R-0649": {
+  "p": 0.45,
+  "why": "Lubricating oil test procedure."
+ },
+ "R-0651": {
+  "p": 0.4,
+  "why": "Marking layout example in Annex 10; partly administrative."
+ },
+ "R-0652": {
+  "p": 0.35,
+  "why": "Annex 10 of R150 covers approval mark arrangement for retro-reflectors. The product has a retro-reflector, so its marking applies. However, Annex 10 is example layout material that experts may skip."
+ },
+ "R-0653": {
+  "p": 0.35,
+  "why": "Class symbol placement in the retro-reflector approval mark example annex. It is a marking provision for the retro-reflector, but it may be treated as an illustrative example and left out."
+ }
+}
