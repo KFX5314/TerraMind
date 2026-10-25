@@ -1,0 +1,261 @@
+{
+  "baseline": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-offline-alternatives-20261025\\eval-balanced-source-faithful.json",
+  "baseline_sha256": "9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936",
+  "candidate": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-final-offline-20261025\\AB-combined-468.json",
+  "candidate_sha256": "0b910b76e2d502657fb6bb82e9e6a4c6dfdf550904efd56e2d7d0437dcc84300",
+  "count": 468,
+  "changes": [
+    {
+      "action": "add",
+      "id": "R-0362",
+      "regulation": "UN R26",
+      "source_page": 8,
+      "source_paragraph": "6.12.1",
+      "saved_probability": 0.45,
+      "saved_condition": "The grill/air-guide parts include movable air intake or outlet flaps (e.g. active grille shutters).",
+      "source_quote": "Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. above in all positions of use.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0368",
+      "regulation": "UN R26",
+      "source_page": 9,
+      "source_paragraph": "6.17.3",
+      "saved_probability": 0.45,
+      "saved_condition": "Keyless-entry aerial has an external shaft with an unattached end",
+      "source_quote": "Shafts of aerials may have radii of curvature of less than 2.5 mm. However, the unattached ends shall be fitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0708",
+      "regulation": "UN R48",
+      "source_page": 63,
+      "source_paragraph": "6.21.1.1",
+      "saved_probability": 0.4,
+      "saved_condition": "",
+      "source_quote": "Prohibited: on vehicles of categories M1 and O1.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0053",
+      "regulation": "UN R10",
+      "source_page": 13,
+      "source_paragraph": "7.1.1",
+      "saved_probability": 0.35,
+      "saved_condition": "Vehicle is an EV with REESS charging mode coupled to the power grid and the ESA is active during charging",
+      "source_quote": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be so designed, constructed and fitted as to enable the vehicle, in configuration \"REESS charging mode coupled to the power grid\", to comply with the requirements of this Regulation.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0126",
+      "regulation": "UN R10",
+      "source_page": 22,
+      "source_paragraph": "7.13.2.1",
+      "saved_probability": 0.3,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the AC power grid",
+      "source_quote": "If measurements are made using the method described in Annex 19, the limits on AC power lines are those defined in IEC 61000-6-3 and given in Table 16. Table 16 ... 0.15 to 0.5 66 to 56 dBµV 56 to 46 dBµV (linearly decreasing with logarithm of frequency)",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0127",
+      "regulation": "UN R10",
+      "source_page": 22,
+      "source_paragraph": "7.13.2.1",
+      "saved_probability": 0.3,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the AC power grid",
+      "source_quote": "If measurements are made using the method described in Annex 19, the limits on AC power lines are those defined in IEC 61000-6-3 and given in Table 16. Table 16 ... 0.5 to 5 56 dBµV 46 dBµV",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0128",
+      "regulation": "UN R10",
+      "source_page": 22,
+      "source_paragraph": "7.13.2.1",
+      "saved_probability": 0.3,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the AC power grid",
+      "source_quote": "If measurements are made using the method described in Annex 19, the limits on AC power lines are those defined in IEC 61000-6-3 and given in Table 16. Table 16 ... 5 to 30 60 dBµV 50 dBµV",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0129",
+      "regulation": "UN R10",
+      "source_page": 22,
+      "source_paragraph": "7.13.2.2",
+      "saved_probability": 0.3,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to a DC charging supply",
+      "source_quote": "If measurements are made using the method described in Annex 19, the limits on DC power lines are those defined in IEC 61000-6-3 and given in Table 17. Table 17 ... 0.15 to 0.5 79 dBµV 66 dBµV",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0130",
+      "regulation": "UN R10",
+      "source_page": 22,
+      "source_paragraph": "7.13.2.2",
+      "saved_probability": 0.3,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to a DC charging supply",
+      "source_quote": "If measurements are made using the method described in Annex 19, the limits on DC power lines are those defined in IEC 61000-6-3 and given in Table 17. Table 17 ... 0.5 to 30 73 dBµV 60 dBµV",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0132",
+      "regulation": "UN R10",
+      "source_page": 22,
+      "source_paragraph": "7.15.2.1",
+      "saved_probability": 0.35,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the power grid",
+      "source_quote": "If tests are made using the methods described in Annex 21, the immunity test levels, for AC or DC power lines, shall be: ± 2 kV test voltage in open circuit, with a rise time (Tr) of 5 ns, and a hold time (Th) of 50 ns and a repetition rate of 5 kHz for at least 1 minute.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0133",
+      "regulation": "UN R10",
+      "source_page": 23,
+      "source_paragraph": "7.15.2.2",
+      "saved_probability": 0.35,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the power grid",
+      "source_quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 21, there shall be no degradation of performance of the charging function as defined in paragraph 2.1. of Annex 21.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0135",
+      "regulation": "UN R10",
+      "source_page": 23,
+      "source_paragraph": "7.16.2.1",
+      "saved_probability": 0.35,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the AC power grid",
+      "source_quote": "If tests are made using the methods described in Annex 22, the immunity test levels shall be: (a) For AC power lines: ±2 kV test voltage in open circuit between line and earth and ±1 kV between lines with a rise time (Tr) of 1.2 µs, and a hold time (Th) of 50 µs.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0136",
+      "regulation": "UN R10",
+      "source_page": 23,
+      "source_paragraph": "7.16.2.1",
+      "saved_probability": 0.35,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to a DC charging supply",
+      "source_quote": "(b) For DC power lines: ±0.5 kV test voltage in open circuit between line and earth and ±0.5 kV between lines with a rise time (Tr) of 1.2 µs, and a hold time (Th) of 50 µs.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0140",
+      "regulation": "UN R10",
+      "source_page": 23,
+      "source_paragraph": "7.16.2.2",
+      "saved_probability": 0.35,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the power grid",
+      "source_quote": "The ESA representative of its type shall be considered as complying with immunity requirements if, during the tests performed in accordance with Annex 22, there shall be no degradation of performance of the charging function as defined in paragraph 2.1. of Annex 22.",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0142",
+      "regulation": "UN R10",
+      "source_page": 23,
+      "source_paragraph": "7.17.1",
+      "saved_probability": 0.4,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the power grid",
+      "source_quote": "Table 18 Maximum allowed pulse amplitude ... Positive +75 V +150 V",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "add",
+      "id": "R-0143",
+      "regulation": "UN R10",
+      "source_page": 23,
+      "source_paragraph": "7.17.1",
+      "saved_probability": 0.4,
+      "saved_condition": "The module contains an ESA operating in REESS charging mode coupled to the power grid",
+      "source_quote": "Table 18 Maximum allowed pulse amplitude ... Negative -100 V -450 V",
+      "reason": "Previously filtered independent clause; applicable under the stated product configuration."
+    },
+    {
+      "action": "replace",
+      "id": "R-0380",
+      "reason": "Separate operation from visibility; both are explicit in R42 6.1.1 PDF page 3.",
+      "original": {
+        "id": "R-0380",
+        "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the lighting and signalling devices shall continue to operate correctly and to remain visible, except that should the adjustment of the factory-fitted lighting devices be disturbed, it may be corrected to conform to the required specifications, provided this can be done by the normal means of adjustment, and bulbs may be replaced in the event of filament failure.",
+        "source": {
+          "regulation": "UN R42",
+          "version": "0.2.0",
+          "page": 3,
+          "paragraph": "6.1.1"
+        },
+        "test_case": "After each Annex 3 pendulum/barrier impact, switch on all lighting and signalling devices (incl. bumper-integrated side signalling lamp) and verify correct operation and unobstructed visibility, with only normal-means re-aiming or bulb replacement allowed."
+      }
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0380-OPERATE",
+      "from": "R-0380",
+      "source_page": 3,
+      "source_paragraph": "6.1.1"
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0380-VISIBLE",
+      "from": "R-0380",
+      "source_page": 3,
+      "source_paragraph": "6.1.1"
+    },
+    {
+      "action": "replace",
+      "id": "R-0383",
+      "reason": "Separate leakage from passage constriction; both are explicit in R42 6.1.3 PDF page 3.",
+      "original": {
+        "id": "R-0383",
+        "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle's fuel and cooling systems shall have neither leaks nor constricted fluid passages which prevent normal functioning.",
+        "source": {
+          "regulation": "UN R42",
+          "version": "0.2.0",
+          "page": 3,
+          "paragraph": "6.1.3"
+        },
+        "test_case": "After each Annex 3 impact, inspect radiator/cooling circuit behind grill and fuel system for leaks and deformed lines; pass if no leak and no flow-restricting constriction."
+      }
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0383-LEAK",
+      "from": "R-0383",
+      "source_page": 3,
+      "source_paragraph": "6.1.3"
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0383-FLOW",
+      "from": "R-0383",
+      "source_page": 3,
+      "source_paragraph": "6.1.3"
+    },
+    {
+      "action": "correct_citation",
+      "id": "R-0864",
+      "before": "5.1.1",
+      "after": "5.1",
+      "source_page": 18,
+      "reason": "PDF page 18 places the bumper-height selection branches in paragraph 5.1."
+    },
+    {
+      "action": "correct_citation",
+      "id": "R-0865",
+      "before": "5.1.1",
+      "after": "5.1",
+      "source_page": 18,
+      "reason": "PDF page 18 places the bumper-height selection branches in paragraph 5.1."
+    }
+  ]
+}

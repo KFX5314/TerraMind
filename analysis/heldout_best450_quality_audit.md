@@ -1,0 +1,45 @@
+# Held-out front-bumper: offline quality audit of the scored 450
+
+25 October 2026. This is a source and artifact audit, not an estimate of hidden expert matches. The audited submission is `artifacts/evaluations/heldout-f2-offline-alternatives-20261025/eval-balanced-source-faithful.json` (SHA-256 `9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936`). Its official result was 61.2% requirement F2, 75.5% recall, and 34.9% precision. The most recent 451-item upload scored 60.4%, so this 450 remains the confirmed best. The file was not edited. The organizer's `validate.py --strict` reports `OK ... (450 requirements)`.
+
+## Quantified inventory
+
+The saved run has 1,281 extracted candidates across eight screened-in regulations and 157/157 completed coverage chunks. The table compares those saved candidates with the **current best 450**, which includes later offline changes. A `>300 chars` count is a review queue for compound wording, not a false-positive count. A `conditional` count means the saved candidate had a nonempty applicability condition; it does not mean the exported sentence necessarily omitted it.
+
+| Regulation | Saved candidates | In best 450 | Best cited to annex/appendix | Best >300 chars | Saved conditions on best items | Close-wording pairs reviewed in same page/paragraph |
+|---|---:|---:|---:|---:|---:|---:|
+| UN R10 | 330 | 81 | 36 | 10 | 17 | 14 |
+| UN R26 | 47 | 26 | 1 | 9 | 12 | 0 |
+| UN R42 | 47 | 20 | 12 | 6 | 1 | 1 |
+| UN R48 | 365 | 130 | 9 | 33 | 103 | 4 |
+| UN R94 | 69 | 14 | 2 | 0 | 0 | 0 |
+| UN R127 | 57 | 26 | 16 | 3 | 16 | 1 |
+| UN R148 | 247 | 123 | 25 | 27 | 92 | 7 |
+| UN GTR 9 | 119 | 30 | 0 | 2 | 19 | 0 |
+| **Total** | **1,281** | **450** | **101** | **90** | **260** | **27** |
+
+The 27 same-page/paragraph pairs have text similarity over 0.90. A further 14 high-similarity pairs across pages/paragraphs were checked. None is safe to collapse solely on similarity: examples include R10 broadband versus narrowband (R-0023/R-0027), 12 V versus 24 V starting profiles (R-0046/R-0047), R42 remaining in adjustment versus operating normally (R-0386/R-0387), R127 lower versus upper legform velocity (R-0896/R-0911), R148 SM1 versus SM2 intensity (R-1079/R-1080), and R48 indicator spacing at three distinct distance bands (R-0555/R-0556/R-0557). There are no byte-identical requirement texts within the same regulation in the best 450.
+
+## Confirmed source findings
+
+1. **Two semantic duplicate pairs in UN R10.** R-0023 and R-0161 both state the **63 dBµV/m broadband limit for 400–1,000 MHz** for the ESA; R-0027 and R-0164 both state the **53 dBµV/m narrowband limit for that same band**. PDF page 10, paragraphs 6.5.2.1/6.6.2.1, explicitly direct the reader to Appendices 6/7; PDF pages 33/34 repeat those limits as the final table column. The appendix entries add the 120 kHz bandwidth and use the term `reference limit`, so a grader could prefer either citation or level of detail. R-0022/R-0026 also summarize two other bands whose exact equations appear as R-0159/R-0160 and R-0162/R-0163; these are **aggregate/detail overlaps**, not independently safe deletions.
+2. **Compound outputs exist; scoring effect is unknown.** R42 R-0380 combines post-impact operation and visibility, with adjustment and bulb exceptions, from PDF page 3 paragraph 6.1.1. R-0383 combines no leaks and no obstructed passages from 6.1.3. R48 R-0459 covers several lamp groups and four exceptions from PDF page 22 paragraphs 5.11–5.11.1. R148 R-1056 through R-1060 each combine minimum intensity, maximum intensity for one lamp, maximum for a `D` lamp, distribution and visibility from Table 8 on PDF pages 20–21. The R148 table preamble separately specifies the reference axis for categories 1/1a/1b and direction A for categories 5/6; R-1054/R-1055 preserve that context. Splitting any of these entries would change the number and matching granularity of requirements; the hidden scoring effect cannot be determined offline.
+3. **Two R127 paragraph labels are inaccurate.** R-0864 and R-0865 cite paragraph 5.1.1, but their 425–500 mm and ≥500 mm bumper-height selection rules are in paragraph **5.1** on PDF page 18. Their text and PDF page are source-supported. This is a citation-label defect, not evidence of a missing obligation; a similar isolated citation correction was included in an earlier unsuccessful candidate bundle.
+
+The earlier 479-item page-quote audit covers 449 of these 450 IDs. Its contiguous-prefix check succeeds for 438/449. The other 11 are **review flags**, not 11 unsupported claims: tables, formatting and multi-sentence paraphrases break contiguous text extraction. The remaining R-0894 is the separately verified Annex 5 1.10 ±10 mm horizontal/vertical tolerance. No systematic unsupported source claim was established by this check.
+
+## Annex and applicability review
+
+- **UN R127:** All 12 saved chunks finished; 9 contain annex labels, with 0 reported coverage-audit gaps. Of 57 raw candidates, 33 are absent from the best 450, including 17 annex candidates. Eight filtered Annex 5 bumper-test details have close counterparts already exported under GTR 9 (ground contact, velocity-vector direction, 75 mm impactor height, free flight, upper-legform test location and alignment). This preserves the engineering check but creates a **regulation-specific citation risk** if the expert expects R127 as a separate source. Five other filtered annex candidates concern laboratory setup/vehicle positioning; four concern adult headform testing outside the bumper impact zone. The best 450 retains the 425/500 mm applicability branches, lower-legform injury limits, upper-legform force/moment limits, 11.1 ±0.2 m/s lower and upper impact speeds, three test positions, 84 mm spacing, ±10 mm location tolerance, and pre-impact tibia-moment limit. No newly missing independent bumper outcome limit was established.
+- **UN R42:** All 5 saved chunks finished; 3 contain annex labels, with 0 reported coverage-audit gaps. Of 47 raw candidates, 27 are absent from the best 450, including 24 Annex 3 candidates. Most are laboratory/impactor preparation, conditional pendulum or moving-barrier setup, optional methods, or clauses whose source uses `should`. The best 450 retains 12 annex entries: impactor first contact and 445 mm height, two front/two rear longitudinal impacts, frontal impact positioning, 4 km/h speed, corner impacts, 60 ±5° angle, ±25 mm first-contact tolerance, 2.5 km/h speed, mass and material recovery. R-0414/R-0420 correctly retain the source's `should` modality. The filtered R-0385 exhaust-system outcome is source-supported but its product applicability is not established from the front-bumper specification; adding it would be a scope assumption.
+- **Source scope:** The specification describes M1 front-bumper impact management, radar/LIDAR/camera/PDC electronics, decorative and side-signalling lighting, and a possible EV charge-port feature. This supports examining R26 exterior projections, R42/R127 impact tests, R10 EMC and R48/R148 lighting. It does not establish a specific side-indicator category, every optional lighting function, a particular 12/24 V architecture, or an EV-only vehicle. Thus omission of a component from the drawing is not proof that its conditional obligation is inapplicable. R94's full-vehicle occupant criteria and GTR 9's overlap with R127 remain uncertain at module scope, not clearly contradicted. No defensible regulation-wide deletion was found.
+
+`coverage.json` records completion of extraction jobs, not semantic completeness of all PDF obligations. Zero coverage-audit gaps cannot prove that a sentence was not missed. In particular, the 17 filtered R127 annex clauses are a real candidate-level fact, but whether restoring any one increases hidden recall is unknown.
+
+## Decision and change ledger
+
+No submission candidate is generated. There are **zero changes** to the scored 450 file. The two R10 duplicate pairs are real, but removing both duplicate entries can yield at most a small precision-only gain and could lose a match if the hidden evaluator favors the removed main-paragraph citation. The compound entries and R127 label errors do not provide a defensible, materially better 450 replacement before official testing. Earlier broad filtering (438: 61.0% F2) and conditional additions (451: 60.4% F2) already showed that plausible offline edits can reduce official F2. Preserve the 450 as the final manual-upload baseline.
+
+For scale only, rounded official precision and recall are consistent with approximately 157 matches among 450 outputs against 208 expert items. Under a simple one-to-one F2 calculation, deleting two unmatched entries would raise F2 from about 61.23% to 61.33%; deleting one matched and one unmatched entry would lower it to about 60.94%. This is a conditional arithmetic scenario, **not** a claim about which R10 entry matched or a prediction of the platform score.
+
+No model/API calls, pipeline changes, uploads, pushes, or merges were made for this audit.

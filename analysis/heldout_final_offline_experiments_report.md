@@ -1,0 +1,44 @@
+# Final offline experiments: held-out front bumper
+
+25 October 2026. The scored 450-item baseline remains unchanged at `artifacts/evaluations/heldout-f2-offline-alternatives-20261025/eval-balanced-source-faithful.json`, SHA-256 `9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936`. Official baseline: 61.2% F2, 75.5% recall, 34.9% precision. None of the files below has an official platform score. The current last upload, a different 451-item file, scored 60.4% F2.
+
+## Largest remaining quality risks
+
+1. **Unresolved charging-ESA scope.** The saved UN R10 pool contains **101 conditional chapter 7 candidates, zero of which are exported** in the 450; all have saved probability below the 0.5 export threshold, and 40 have probability at least 0.3. The product profile mentions an EV charge-port feature. It does **not** establish that a charging ESA, rather than a passive inlet, resides in the bumper. This is the largest source-supported recall opportunity and the largest potential false-positive cluster. Experiment A makes that condition explicit. It does not assert that every bumper has this configuration.
+2. **Source sentence boundaries.** UN R42 6.1.1 combines post-impact operation and visibility; 6.1.3 combines leakage and unobstructed fluid passages. Each is separately inspectable. Experiment B splits two existing records into four while retaining their source and exceptions. The expert may instead score each entire source sentence as one requirement, so the F2 effect remains uncertain. Two R127 425/500 mm selection entries also have confirmed paragraph-label errors (5.1.1 versus source 5.1).
+3. **Main-paragraph/appendix limit repetition.** Two UN R10 pairs state the same ESA limit for the same 400–1,000 MHz band (63 dBµV/m broadband and 53 dBµV/m narrowband) in a main paragraph and appendix table. Experiment C removes the shorter main-paragraph copy and retains the appendix copy with 120 kHz bandwidth. This is a true engineering overlap but may lose citation-specific matching. Other near-wording pairs have different components, categories, voltage systems, bands, impactors, or conditions and were preserved.
+
+The previous [450 quality audit](heldout_best450_quality_audit.md) provides per-regulation baseline counts and annex review. R127/GTR9 bumper-test overlaps were **not** added again; R42 low-speed impact speeds and test positions remain in every experiment. No reflector, optional-lamp or fuel-flap group was broadly filtered.
+
+## Candidates and exact changes
+
+Every candidate has `team-10`, `heldout-front-bumper`, unique IDs, and organizer `validate.py --strict` result **OK**. All paths below are relative to the evaluation worktree root. Per-item source quotes, saved conditions, reasons, originals and changes are in the adjacent JSON ledgers.
+
+| Experiment | File | Count | Add / remove / correct | Regulation changes | SHA-256 |
+|---|---|---:|---|---|---|
+| A, high recall | `artifacts/evaluations/heldout-final-offline-20261025/A-high-recall-466.json` | 466 | +16 / 0 / 0 | R10 +13; R26 +2; R48 +1 | `af5805d180a2aa595625a528b2285480e960b7d928174f927ba51107efb98e38` |
+| B, atomic normalization | `artifacts/evaluations/heldout-final-offline-20261025/B-atomic-normalization-452.json` | 452 | +4 / -2 / 2 citations | R42 net +2 | `51b0f2f53b05cfe6684d84707135434ae38e2ae0d17b910333978987b9838b95` |
+| C, exact redundancy | `artifacts/evaluations/heldout-final-offline-20261025/C-exact-redundancy-448.json` | 448 | 0 / -2 / 0 | R10 -2 | `a824a13b172ad5e97b3352f8aa9da4adb12206724db526009c2f3939a2398e28` |
+| AB, compatible combination | `artifacts/evaluations/heldout-final-offline-20261025/AB-combined-468.json` | 468 | +20 / -2 / 2 citations | R10 +13; R26 +2; R42 net +2; R48 +1 | `0b910b76e2d502657fb6bb82e9e6a4c6dfdf550904efd56e2d7d0437dcc84300` |
+
+**A ledger:** `A-high-recall-466-ledger.json`. R26 R-0362 is the all-positions air-intake/outlet-flap constraint from PDF page 8, 6.12.1; it requires actual movable flaps. R-0368 is the 2.5 mm capping radius for an external unattached aerial end from page 9, 6.17.3; it requires that aerial configuration. R48 R-0708 is the M1/O1 conspicuity-marking prohibition from page 63, 6.21.1.1; M1 is explicit in the product profile. Thirteen R10 additions concern an ESA operating during grid-connected charging: design compliance (R-0053), five distinct AC/DC power-line emission bands (R-0126 through R-0130), electrical fast transient and surge levels and no-degradation outcomes (R-0132/133/135/136/140), and positive/negative 12/24 V transient limits (R-0142/143). The five table-row limits were checked against Tables 16/17 on PDF page 22; the two pulse values against Table 18 on page 23. Nine of the 16 saved source quotes are contiguous in PDF text extraction; five table-row quotes have an exact 45-character prefix on the cited page; two Table 18 quotes use ellipses but their polarity/voltages appear in the table. All 16 source pages and paragraphs were manually inspected or checked against the PDF. **Risk:** an EV charging inlet does not establish an active bumper-mounted charging ESA; 13 R10 additions depend on that configuration and could be false positives.
+
+**B ledger:** `B-atomic-normalization-452-ledger.json`. R-0380 becomes operation and visibility requirements under R42 6.1.1; R-0383 becomes leakage and flow requirements under 6.1.3. Both paragraphs are on PDF page 3. R-0864/R-0865 retain their text and page 18 but change the R127 paragraph label to 5.1. **Risk:** splitting one source sentence can create an extra unmatched record; leakage/flow remain vehicle-level outcomes in a bumper-module submission.
+
+**C ledger:** `C-exact-redundancy-448-ledger.json`. Removes R-0023 while retaining R-0161 (63 dBµV/m broadband) and removes R-0027 while retaining R-0164 (53 dBµV/m narrowband). R10 page 10 explicitly references Appendix 6/7 on pages 33/34. **Risk:** the hidden expert may favor the main-body paragraph citation rather than the appendix table; a semantic duplicate is not proof that a particular record was unmatched.
+
+**AB ledger:** `AB-combined-468-ledger.json`. It applies A and B independently; their IDs and source passages do not conflict. It inherits both uncertainty sets. C is kept separate to avoid conflating precision deletion with recall recovery.
+
+## Offline evaluation and recommendation
+
+The official metrics are rounded, but are consistent with approximately 157 matches among 450 outputs against 208 expert items. Under a simple one-to-one F2 calculation, A's 16 additions require **at least two additional matches** merely to beat the baseline. Even if all 16 matched without changing previous matches, its ceiling would be about **66.6% F2**. AB's analogous optimistic ceiling, assuming both splits also gain matches without losing the originals, is about **67.3%**. These are conditional arithmetic bounds, not official predictions or claims about hidden labels. A 70% score cannot be supported by these modest offline changes alone. C can gain only about 0.1 percentage point if both deletions were unmatched, and can regress if either was matched.
+
+**Final-submission recommendation: retain or manually restore the scored 450.** Its 61.2% is the only confirmed best. If there is time for a development-platform experiment with a reliable manual rollback before the last-upload deadline, test **A** first for the most informative new recall hypothesis; its charging-ESA scope is a material risk. B is the narrower source-quality experiment, but its likely F2 upside is small and uncertain. C is lowest priority. Do not upload AB before testing A and B separately. The platform counts the **last valid upload**, so an unsuccessful test must be followed by manual upload of the exact 450 baseline before the deadline.
+
+## Implementation finding
+
+`certi/pipeline.py` constructs paragraph chunks with parent-clause context but slices a single long paragraph every `CHUNK_CHARS` characters. Its `dedupe()` removes only identical normalized text within the same regulation, version and paragraph **and** identical condition/test case; the saved run removed no candidates through that deduplication path. `finalize()` applies a per-candidate probability threshold, with a separate annex threshold. The saved 1,281 candidates and 157 completed jobs allow deterministic reuse of extracted items, but cannot reconstruct obligations that Claude never generated. No production pipeline, backend or frontend file was modified; no API call, push, merge or upload was made.
+
+## Restore exact confirmed best
+
+Upload `C:\Users\saish\Certivity\main-f2-eval\artifacts\evaluations\heldout-f2-offline-alternatives-20261025\eval-balanced-source-faithful.json` manually. Verify SHA-256 `9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936` and `validate.py --strict` reports 450 requirements. Do not upload a ledger or Git commit.

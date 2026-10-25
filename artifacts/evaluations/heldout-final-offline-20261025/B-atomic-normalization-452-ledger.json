@@ -1,0 +1,85 @@
+{
+  "baseline": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-offline-alternatives-20261025\\eval-balanced-source-faithful.json",
+  "baseline_sha256": "9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936",
+  "candidate": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-final-offline-20261025\\B-atomic-normalization-452.json",
+  "candidate_sha256": "51b0f2f53b05cfe6684d84707135434ae38e2ae0d17b910333978987b9838b95",
+  "count": 452,
+  "changes": [
+    {
+      "action": "replace",
+      "id": "R-0380",
+      "reason": "Separate operation from visibility; both are explicit in R42 6.1.1 PDF page 3.",
+      "original": {
+        "id": "R-0380",
+        "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the lighting and signalling devices shall continue to operate correctly and to remain visible, except that should the adjustment of the factory-fitted lighting devices be disturbed, it may be corrected to conform to the required specifications, provided this can be done by the normal means of adjustment, and bulbs may be replaced in the event of filament failure.",
+        "source": {
+          "regulation": "UN R42",
+          "version": "0.2.0",
+          "page": 3,
+          "paragraph": "6.1.1"
+        },
+        "test_case": "After each Annex 3 pendulum/barrier impact, switch on all lighting and signalling devices (incl. bumper-integrated side signalling lamp) and verify correct operation and unobstructed visibility, with only normal-means re-aiming or bulb replacement allowed."
+      }
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0380-OPERATE",
+      "from": "R-0380",
+      "source_page": 3,
+      "source_paragraph": "6.1.1"
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0380-VISIBLE",
+      "from": "R-0380",
+      "source_page": 3,
+      "source_paragraph": "6.1.1"
+    },
+    {
+      "action": "replace",
+      "id": "R-0383",
+      "reason": "Separate leakage from passage constriction; both are explicit in R42 6.1.3 PDF page 3.",
+      "original": {
+        "id": "R-0383",
+        "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle's fuel and cooling systems shall have neither leaks nor constricted fluid passages which prevent normal functioning.",
+        "source": {
+          "regulation": "UN R42",
+          "version": "0.2.0",
+          "page": 3,
+          "paragraph": "6.1.3"
+        },
+        "test_case": "After each Annex 3 impact, inspect radiator/cooling circuit behind grill and fuel system for leaks and deformed lines; pass if no leak and no flow-restricting constriction."
+      }
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0383-LEAK",
+      "from": "R-0383",
+      "source_page": 3,
+      "source_paragraph": "6.1.3"
+    },
+    {
+      "action": "add_split",
+      "id": "N-R42-0383-FLOW",
+      "from": "R-0383",
+      "source_page": 3,
+      "source_paragraph": "6.1.3"
+    },
+    {
+      "action": "correct_citation",
+      "id": "R-0864",
+      "before": "5.1.1",
+      "after": "5.1",
+      "source_page": 18,
+      "reason": "PDF page 18 places the bumper-height selection branches in paragraph 5.1."
+    },
+    {
+      "action": "correct_citation",
+      "id": "R-0865",
+      "before": "5.1.1",
+      "after": "5.1",
+      "source_page": 18,
+      "reason": "PDF page 18 places the bumper-height selection branches in paragraph 5.1."
+    }
+  ]
+}

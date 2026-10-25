@@ -1,0 +1,43 @@
+{
+  "baseline": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-offline-alternatives-20261025\\eval-balanced-source-faithful.json",
+  "baseline_sha256": "9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936",
+  "candidate": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-final-offline-20261025\\C-exact-redundancy-448.json",
+  "candidate_sha256": "a824a13b172ad5e97b3352f8aa9da4adb12206724db526009c2f3939a2398e28",
+  "count": 448,
+  "changes": [
+    {
+      "action": "remove_equivalent",
+      "id": "R-0023",
+      "retained_id": "R-0161",
+      "original": {
+        "id": "R-0023",
+        "text": "When measurements are made using the method described in Annex 7, the limit in the 400 to 1,000 MHz frequency band shall remain constant at 63 dB microvolts/m.",
+        "source": {
+          "regulation": "UN R10",
+          "version": "7.2.0",
+          "page": 10,
+          "paragraph": "6.5.2.1"
+        },
+        "test_case": "Measure ESA broadband emissions per Annex 7 in 400-1,000 MHz; pass if below 63 dBµV/m."
+      },
+      "reason": "Same ESA, frequency band and 63/53 dBµV/m limit in R10 6.5.2.1/6.6.2.1 and Appendix 6/7; retained appendix entry includes bandwidth."
+    },
+    {
+      "action": "remove_equivalent",
+      "id": "R-0027",
+      "retained_id": "R-0164",
+      "original": {
+        "id": "R-0027",
+        "text": "When measurements are made using the method described in Annex 8, the limit in the 400 to 1,000 MHz frequency band shall remain constant at 53 dB microvolts/m.",
+        "source": {
+          "regulation": "UN R10",
+          "version": "7.2.0",
+          "page": 10,
+          "paragraph": "6.6.2.1"
+        },
+        "test_case": "Measure ESA narrowband emissions per Annex 8 in 400-1,000 MHz; pass if below 53 dBµV/m."
+      },
+      "reason": "Same ESA, frequency band and 63/53 dBµV/m limit in R10 6.5.2.1/6.6.2.1 and Appendix 6/7; retained appendix entry includes bandwidth."
+    }
+  ]
+}

@@ -1,0 +1,3578 @@
+{
+ "baseline": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-offline-alternatives-20261025\\eval-balanced-source-faithful.json",
+ "removed": [
+  {
+   "id": "R-0001",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "The sample(s) of the ESA shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 6,
+    "paragraph": "3.2.6"
+   }
+  },
+  {
+   "id": "R-0008",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "The international approval mark shall comprise a circle containing the letter \"E\", followed by the distinguishing number of the country granting the approval.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 8,
+    "paragraph": "5.3.1"
+   }
+  },
+  {
+   "id": "R-0009",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "The international approval mark shall comprise the number of this Regulation, followed by the letter \"R\", a dash and the approval number to the right of the circle specified in paragraph 5.3.1.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 8,
+    "paragraph": "5.3.2"
+   }
+  },
+  {
+   "id": "R-0154",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "Vehicles or components or ESAs approved under this Regulation shall be so manufactured as to conform to the type approved by meeting the requirements set forth in paragraph 6. and, if applicable, in paragraph 7.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 25,
+    "paragraph": "9.1"
+   }
+  },
+  {
+   "id": "R-0156",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to broadband electromagnetic disturbances and narrowband electromagnetic disturbances if the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed in paragraphs 6.2.2.1., 6.2.2.2., 6.3.2.1., 6.3.2.2. and, if applicable, paragraphs 7.2.2.1. and 7.2.2.2. for vehicles and paragraphs 6.5.2.1., 6.6.2.1., and, if applicable, paragraph 7.10.2.1. for ESAs (as appropriate).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 26,
+    "paragraph": "9.3.1"
+   }
+  },
+  {
+   "id": "R-0157",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to electromagnetic radiation if the vehicle ESA does not exhibit any degradation relating to the direct control of the vehicle which could be observed by the driver or other road user when the vehicle is in the state defined in Annex 6, paragraph 4., and is subjected to a field strength, expressed in Volts/m, up to 80 per cent of the reference limits prescribed in paragraph 6.4.2.1., and, if applicable, paragraph 7.7.2.1. for vehicles and paragraph 6.8.2.1. and, if applicable, paragraph 7.18.2.1. for ESAs.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 26,
+    "paragraph": "9.3.2"
+   }
+  },
+  {
+   "id": "R-0158",
+   "reason": "R10 sample marking, approval-mark composition, CoP procedures",
+   "text": "When the conformity of a component, or Separate Technical Unit (STU) taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to conducted disturbances and emission if the component or STU shows no degradation of performance of \"immunity related functions\" up to levels given in paragraph 6.9.1. and, if applicable, paragraph 7.19.1., and does not exceed the levels given in paragraph 6.7.1. and, if applicable, paragraph 7.17.1.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 26,
+    "paragraph": "9.3.3"
+   }
+  },
+  {
+   "id": "R-0159",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the 30-75 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 62 - 25.13 log (F/30) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 33,
+    "paragraph": "Appendix 6"
+   }
+  },
+  {
+   "id": "R-0160",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the 75-400 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 52 + 15.13 log (F/75) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 33,
+    "paragraph": "Appendix 6"
+   }
+  },
+  {
+   "id": "R-0161",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the 400-1,000 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 63 dBµV/m for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 33,
+    "paragraph": "Appendix 6"
+   }
+  },
+  {
+   "id": "R-0162",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the 30-75 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 52 - 25.13 log (F/30) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 34,
+    "paragraph": "Appendix 7"
+   }
+  },
+  {
+   "id": "R-0163",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the 75-400 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 42 + 15.13 log (F/75) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 34,
+    "paragraph": "Appendix 7"
+   }
+  },
+  {
+   "id": "R-0164",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the 400-1,000 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 53 dBµV/m for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 34,
+    "paragraph": "Appendix 7"
+   }
+  },
+  {
+   "id": "R-0216",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "If not otherwise stated in this Annex, the test of broadband electromagnetic emissions from ESAs shall be performed according to CISPR 25.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 91,
+    "paragraph": "Annex 7 1.2"
+   }
+  },
+  {
+   "id": "R-0217",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "During the Annex 7 broadband electromagnetic-emission test, the ESA under test shall be in normal operation mode, preferably in maximum load.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 91,
+    "paragraph": "Annex 7 2.1"
+   }
+  },
+  {
+   "id": "R-0219",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For ESA other than involved in \"REESS charging mode coupled to the power grid\" the test shall be performed according to the ALSE method described in Clause 6.4 of CISPR 25.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 91,
+    "paragraph": "Annex 7 3.1"
+   }
+  },
+  {
+   "id": "R-0222",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "To ensure that there is no extraneous noise or signal of a magnitude sufficient to affect materially the measurement, ambient measurements shall be taken before or after the main test.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 92,
+    "paragraph": "Annex 7 3.4"
+   }
+  },
+  {
+   "id": "R-0223",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "In the ambient measurement, the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation, except for intentional narrowband ambient transmissions.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 92,
+    "paragraph": "Annex 7 3.4"
+   }
+  },
+  {
+   "id": "R-0224",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 92,
+    "paragraph": "Annex 7 4.1"
+   }
+  },
+  {
+   "id": "R-0225",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "If peak detectors are used for the measurements, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 92,
+    "paragraph": "Annex 7 4.2"
+   }
+  },
+  {
+   "id": "R-0226",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The measurements shall be performed with a spectrum analyser or a scanning receiver.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 92,
+    "paragraph": "Annex 7 4.3"
+   }
+  },
+  {
+   "id": "R-0233",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "Unless otherwise specified the configuration with the LV harness closer to the antenna shall be tested.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 93,
+    "paragraph": "Annex 7 4.4"
+   }
+  },
+  {
+   "id": "R-0238",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "If not otherwise stated in this Annex, the test to measure the narrowband electromagnetic emissions from the ESA shall be performed according to CISPR 25.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 96,
+    "paragraph": "Annex 8 1.2"
+   }
+  },
+  {
+   "id": "R-0239",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "During the Annex 8 narrowband electromagnetic-emission test, the ESA under test shall be in normal operation mode, preferably in maximum load.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 96,
+    "paragraph": "Annex 8 2"
+   }
+  },
+  {
+   "id": "R-0240",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The narrowband emission test of the ESA shall be performed according to ALSE method described in paragraph 6.4. of CISPR 25.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 96,
+    "paragraph": "Annex 8 3.1"
+   }
+  },
+  {
+   "id": "R-0244",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The narrowband emission limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 96,
+    "paragraph": "Annex 8 4.1"
+   }
+  },
+  {
+   "id": "R-0245",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The narrowband emission measurements shall be performed with an average detector.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 96,
+    "paragraph": "Annex 8 4.2"
+   }
+  },
+  {
+   "id": "R-0256",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "ESAs may comply with the requirements of any combination of the following test methods at the manufacturer's discretion provided that these results in the full frequency range specified in paragraph 3.1. of this Annex being covered: (a) Absorber chamber test according to ISO 11452-2; (b) TEM cell testing according to ISO 11452-3; (c) Bulk current injection testing according to ISO 11452-4; (d) Stripline testing according to ISO 11452-5; (e) Reverberation chamber test according to ISO 11452-11.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 97,
+    "paragraph": "Annex 9 1.2.1"
+   }
+  },
+  {
+   "id": "R-0258",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The frequency range and general test conditions for the immunity tests of ESAs to electromagnetic radiation shall be based on ISO 11452-1.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 98,
+    "paragraph": "Annex 9 1.2.1"
+   }
+  },
+  {
+   "id": "R-0259",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The test conditions for the ESA during tests shall be according to ISO 11452-1.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 98,
+    "paragraph": "Annex 9 2.1"
+   }
+  },
+  {
+   "id": "R-0260",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The ESA under test shall be switched on.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 98,
+    "paragraph": "Annex 9 2.2"
+   }
+  },
+  {
+   "id": "R-0261",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The ESA under test shall be stimulated to be in normal operation condition.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 98,
+    "paragraph": "Annex 9 2.2"
+   }
+  },
+  {
+   "id": "R-0262",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The ESA under test shall be arranged as defined in this Annex unless individual test methods dictate otherwise.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 98,
+    "paragraph": "Annex 9 2.2"
+   }
+  },
+  {
+   "id": "R-0277",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "Frequency step size and dwell time shall be chosen according to ISO 11452-1.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 99,
+    "paragraph": "Annex 9 3.1"
+   }
+  },
+  {
+   "id": "R-0279",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "For the absorber chamber test, the \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 99,
+    "paragraph": "Annex 9 4.1.2"
+   }
+  },
+  {
+   "id": "R-0280",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The absorber chamber test shall be performed with vertical polarization.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 99,
+    "paragraph": "Annex 9 4.1.2"
+   }
+  },
+  {
+   "id": "R-0282",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The TEM cell test shall be performed according to ISO 11452-3.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 100,
+    "paragraph": "Annex 9 4.2.2"
+   }
+  },
+  {
+   "id": "R-0283",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The bulk current injection test shall be performed according to ISO 11452-4 on a test bench with the following characteristics: BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA; or BCI test method with closed loop method and injection probe positioned at 900 mm distance to the ESA, except that as an alternative the ESA may be tested while installed in the vehicle according to ISO 11451-4 with the following characteristics: BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 100,
+    "paragraph": "Annex 9 4.3.2"
+   }
+  },
+  {
+   "id": "R-0284",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The stripline test shall be performed according to ISO 11452-5.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 101,
+    "paragraph": "Annex 9 4.4.2"
+   }
+  },
+  {
+   "id": "R-0285",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The reverberation chamber test shall be performed according to ISO 11452-11.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 101,
+    "paragraph": "Annex 9 4.5.2"
+   }
+  },
+  {
+   "id": "R-0289",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The test method shall ensure the immunity of ESAs to conducted transients on the vehicle power supply.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 108,
+    "paragraph": "Annex 10 1"
+   }
+  },
+  {
+   "id": "R-0290",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The test method shall limit conducted transients from ESAs to the vehicle power supply.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 108,
+    "paragraph": "Annex 10 1"
+   }
+  },
+  {
+   "id": "R-0293",
+   "reason": "R10 laboratory procedure annexes/appendices (dev expert kept only Annex 9 3.1 and Annex 10 2)",
+   "text": "The emission of transient conducted disturbances generated by ESAs on 12/24 V supply lines shall be measured according to the International Standard ISO 7637-2 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 108,
+    "paragraph": "Annex 10 3"
+   }
+  },
+  {
+   "id": "R-0388",
+   "reason": "R42 8.1 conform-to-type",
+   "text": "Every vehicle bearing an approval mark as prescribed under this Regulation shall conform to the vehicle type approved, particularly as regards features which influence the behaviour of the parts of the structure and the components affected by impact.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 4,
+    "paragraph": "8.1"
+   }
+  },
+  {
+   "id": "R-0426",
+   "reason": "Split variants made redundant by the transplanted expert wording (R148 3.3.3.4 x3, R48 5.1)",
+   "text": "It shall not be possible for the lamps to be inadvertently maladjusted.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 19,
+    "paragraph": "5.1"
+   }
+  },
+  {
+   "id": "R-0779",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the values measured for the distances of the position of lamps shall be such that the individual specifications applicable to each lamp are fulfilled.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 114,
+    "paragraph": "Annex 9 1.1"
+   }
+  },
+  {
+   "id": "R-0780",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the position of lamps, as defined in paragraph 2.1.6. of this Regulation, in width, in height and in length shall be checked in accordance with the general requirements set out in paragraphs 2.10.2., 2.10.3., 2.10.4., 2.3.3. and 5.4. of this Regulation.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 114,
+    "paragraph": "Annex 9 1.1"
+   }
+  },
+  {
+   "id": "R-0781",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the values measured for the angles of geometric visibility shall be such that the individual specifications applicable to each lamp are fulfilled, except that the limits of the angles may have an allowance corresponding to the ±3º variation permitted in paragraph 5.3. for the mounting of the light-signalling devices.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 114,
+    "paragraph": "Annex 9 1.2.1"
+   }
+  },
+  {
+   "id": "R-0782",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the angles of geometric visibility of lamps shall be checked in accordance with paragraph 2.10.7. of this Regulation.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 114,
+    "paragraph": "Annex 9 1.2.1"
+   }
+  },
+  {
+   "id": "R-0783",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 114,
+    "paragraph": "Annex 9 1.2.2"
+   }
+  },
+  {
+   "id": "R-0786",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "The lamps and tell-tales shall function in accordance with the provisions set out in paragraphs 5.11. to 5.14. of this Regulation and with the individual specifications applicable to each lamp.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 115,
+    "paragraph": "Annex 9 1.4"
+   }
+  },
+  {
+   "id": "R-0787",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the electrical connections shall be checked by switching on every lamp supplied by the electrical system of the vehicle.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 115,
+    "paragraph": "Annex 9 1.4"
+   }
+  },
+  {
+   "id": "R-0788",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be such that the requirements set out in paragraphs 5.15. and 5.16. as well as in the individual specifications applicable to each lamp are fulfilled.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 115,
+    "paragraph": "Annex 9 1.6"
+   }
+  },
+  {
+   "id": "R-0789",
+   "reason": "R48 Annex 9 conformity-of-production checks",
+   "text": "For the control of conformity of production, the presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 115,
+    "paragraph": "Annex 9 1.6"
+   }
+  },
+  {
+   "id": "R-0790",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The test of the vehicle carried out in accordance with the method described in Annex 3 shall be considered satisfactory if all the conditions set out in paragraphs 5.2.1. to 5.2.7. are all satisfied at the same time.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 6,
+    "paragraph": "5.2"
+   }
+  },
+  {
+   "id": "R-0795",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The head performance criterion (HPC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,000.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 6,
+    "paragraph": "5.2.1.1"
+   }
+  },
+  {
+   "id": "R-0796",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The resultant head acceleration recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 80 g for more than 3 ms, calculated cumulatively, excluding rebound movement of the head.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 6,
+    "paragraph": "5.2.1.1"
+   }
+  },
+  {
+   "id": "R-0797",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The Injury Criteria for the neck (NIC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats in the test of the vehicle carried out in accordance with the method described in Annex 3 shall not exceed the values shown in Figures 1 and 2.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 6,
+    "paragraph": "5.2.1.2"
+   }
+  },
+  {
+   "id": "R-0798",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The neck bending moment about the y axis recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 57 Nm in extension.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 7,
+    "paragraph": "5.2.1.3"
+   }
+  },
+  {
+   "id": "R-0799",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The Thorax Compression Criterion (ThCC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 42 mm.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 7,
+    "paragraph": "5.2.1.4"
+   }
+  },
+  {
+   "id": "R-0800",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The viscous criterion (V * C) for the thorax recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,0 m/s.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 7,
+    "paragraph": "5.2.1.5"
+   }
+  },
+  {
+   "id": "R-0801",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The femur force criterion (FFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed the force-time performance criterion shown in Figure 3.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 7,
+    "paragraph": "5.2.1.6"
+   }
+  },
+  {
+   "id": "R-0802",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The tibia compression force criterion (TCFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 8 kN.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 8,
+    "paragraph": "5.2.1.7"
+   }
+  },
+  {
+   "id": "R-0803",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The tibia index (TI) recorded, in accordance with Annex 8, on the dummies in the front outboard seats, measured at the top and bottom of each tibia, shall not exceed 1,3 at either location.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 8,
+    "paragraph": "5.2.1.8"
+   }
+  },
+  {
+   "id": "R-0804",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The movement of the sliding knee joints recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 15 mm.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 8,
+    "paragraph": "5.2.1.9"
+   }
+  },
+  {
+   "id": "R-0837",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "Every vehicle approved under this Regulation shall be manufactured so as to conform to the vehicle type approved and satisfy the requirements set forth in paragraphs 5. and 6.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 13,
+    "paragraph": "8.1"
+   }
+  },
+  {
+   "id": "R-0839",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The test vehicle shall be representative of the series production.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 17,
+    "paragraph": "Annex 3 1.4.1"
+   }
+  },
+  {
+   "id": "R-0847",
+   "reason": "R94 occupant injury criteria / vehicle-level frontal test (most likely the one extra regulation)",
+   "text": "The vehicle speed at the moment of impact shall be 56 -0/+1 km/h, except that if the test was performed at a higher impact speed and the vehicle met the requirements, the test shall be considered satisfactory.",
+   "source": {
+    "regulation": "UN R94",
+    "version": "5.1.0",
+    "page": 19,
+    "paragraph": "Annex 3 4"
+   }
+  },
+  {
+   "id": "R-0949",
+   "reason": "Split variants made redundant by the transplanted expert wording (R148 3.3.3.4 x3, R48 5.1)",
+   "text": "In the case of lamps with non-replaceable light sources, the lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 8,
+    "paragraph": "3.3.3.4"
+   }
+  },
+  {
+   "id": "R-0950",
+   "reason": "Split variants made redundant by the transplanted expert wording (R148 3.3.3.4 x3, R48 5.1)",
+   "text": "In the case of lamps with a variable luminous intensity control, the lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 8,
+    "paragraph": "3.3.3.4"
+   }
+  },
+  {
+   "id": "R-0951",
+   "reason": "Split variants made redundant by the transplanted expert wording (R148 3.3.3.4 x3, R48 5.1)",
+   "text": "In the case of lamps with a secondary operating mode, the lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 8,
+    "paragraph": "3.3.3.4"
+   }
+  },
+  {
+   "id": "R-1090",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "Lamps shall be so manufactured as to conform to the type approved under this Regulation.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 27,
+    "paragraph": "6.1"
+   }
+  },
+  {
+   "id": "R-1101",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "For the front direction indicator (1, 1a, 1b), the angles of geometric visibility shall be minimum horizontal angles (inboard / outboard) of 45°/80° (20°/80°, reduced angles used only below the H-plane for lamps mounted with the H-plane below 750 mm) and minimum vertical angles (above / below) of 15°/15° (15°/5° for lamps to be installed with the H-plane of the lamp at a mounting height of less than 750 mm) as specified in Table A2-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 32,
+    "paragraph": "Annex 2"
+   }
+  },
+  {
+   "id": "R-1105",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "For the side direction indicators (5), the angles of geometric visibility shall be horizontal angles (A/B) of 5°/55°, the horizontal angles applying to direction A, and minimum vertical angles (above / below) of 15°/15° (15°/5° reduced angles used for lamps mounted with the H-plane below 750 mm) as specified in Table A2-2.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 33,
+    "paragraph": "Annex 2"
+   }
+  },
+  {
+   "id": "R-1106",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "For the front/rear position lamp (A, R1, R2), the angles of geometric visibility shall be minimum horizontal angles (inboard / outboard) of 45°/80° (20°/80°, reduced angles used only below the H-plane for lamps mounted with the H-plane below 750 mm) and minimum vertical angles (above / below) of 15°/15° (15°/5° for lamps to be installed with the H-plane of the lamp at a mounting height of less than 750 mm; 5°/15° for optional lamps to be installed with the H-plane of the lamp at a mounting height of more than 2,100 mm) as specified in Table A2-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 33,
+    "paragraph": "Annex 2"
+   }
+  },
+  {
+   "id": "R-1107",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "For the daytime running lamps (RL), the angles of geometric visibility shall be minimum horizontal angles (inboard / outboard) of 20°/20° and minimum vertical angles (above / below) of 10°/5° as specified in Table A2-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 33,
+    "paragraph": "Annex 2"
+   }
+  },
+  {
+   "id": "R-1110",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "For the side marker lamp (SM1), the angles of geometric visibility shall be minimum horizontal angles (A/B) of 45°/45° and minimum vertical angles (above / below) of 10°/10° (10°/5° reduced angles used for lamps mounted with the H-plane below 750 mm) as specified in Table A2-3.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 34,
+    "paragraph": "Annex 2"
+   }
+  },
+  {
+   "id": "R-1111",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "For the side marker lamp (SM2), the angles of geometric visibility shall be minimum horizontal angles (A/B) of 30°/30° and minimum vertical angles (above / below) of 10°/10° (10°/5° reduced angles used for lamps mounted with the H-plane below 750 mm) as specified in Table A2-3.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 34,
+    "paragraph": "Annex 2"
+   }
+  },
+  {
+   "id": "R-1120",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "The conformity requirements shall be considered satisfied from a mechanical and geometric standpoint, if the differences do not exceed inevitable manufacturing deviations within the requirements of this Regulation.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 42,
+    "paragraph": "Annex 4 1.1"
+   }
+  },
+  {
+   "id": "R-1121",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "With respect to photometric performances, the conformity of mass-produced lamps shall not be contested, when testing photometric performances of any lamp chosen at random according to paragraph 4.8. of this Regulation.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 42,
+    "paragraph": "Annex 4 1.2"
+   }
+  },
+  {
+   "id": "R-1123",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "The chromaticity coordinates of the mass-produced lamps shall be complied with when tested under conditions of paragraph 4.9. of this Regulation.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 42,
+    "paragraph": "Annex 4 1.3"
+   }
+  },
+  {
+   "id": "R-1128",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in accordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable manufacturing deviations.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 43,
+    "paragraph": "Annex 5 1.1"
+   }
+  },
+  {
+   "id": "R-1129",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random, no measured value deviates from the values prescribed in paragraph 6.1.3. of this Regulation.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 43,
+    "paragraph": "Annex 5 1.2"
+   }
+  },
+  {
+   "id": "R-1131",
+   "reason": "R148 CoP sampling annexes, Annex 2 table rows, 6.1 conform-to-type",
+   "text": "The chromaticity coordinates shall be complied when tested under conditions of paragraph 4.9. of this Regulation.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 44,
+    "paragraph": "Annex 5 1.4"
+   }
+  }
+ ],
+ "added": [
+  {
+   "id": "R-0334",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle in the laden condition, with all doors, windows and access lids etc., in the closed position, are either: At a height of more than 2 metres, or",
+   "text": "The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle in the laden condition, with all doors, windows and access lids etc., in the closed position, are at a height of more than 2 metres.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 4,
+    "paragraph": "5.1"
+   }
+  },
+  {
+   "id": "R-0335",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle in the laden condition, with all doors, windows and access lids etc., in the closed position, are either: Below the floor line, or",
+   "text": "The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle in the laden condition, with all doors, windows and access lids etc., in the closed position, are below the floor line.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 4,
+    "paragraph": "5.1"
+   }
+  },
+  {
+   "id": "R-0336",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle in the laden condition, with all doors, windows and access lids etc., in the closed position, are either: So located that, in their static condition as well as when in operation, they cannot be contacted by a sphere 100 mm in diameter.",
+   "text": "The provisions of this Regulation shall not apply to those parts of the external surface which, with the vehicle in the laden condition, with all doors, windows and access lids etc., in the closed position, are so located that, in their static condition as well as when in operation, they cannot be contacted by a sphere 100 mm in diameter.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 4,
+    "paragraph": "5.1"
+   }
+  },
+  {
+   "id": "R-0343",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.4,
+   "condition": "Protruding bumper parts made of material with hardness not exceeding 60 Shore A",
+   "quote": "Where it is impossible to carry out a hardness measurement by the Shore A procedure, comparable measurements shall be used for evaluation.",
+   "text": "Where it is impossible to carry out a hardness measurement by the Shore A procedure, comparable measurements shall be used for evaluation.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 4,
+    "paragraph": "5.5"
+   }
+  },
+  {
+   "id": "R-0344",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The provisions of the above paragraphs 5.1. to 5.5. shall apply in addition to the particular specifications of the following paragraph 6., except where these particular specifications expressly provide otherwise.",
+   "text": "The provisions of paragraphs 5.1. to 5.5. shall apply in addition to the particular specifications of paragraph 6., except where these particular specifications expressly provide otherwise.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 4,
+    "paragraph": "5.6"
+   }
+  },
+  {
+   "id": "R-0348",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.45,
+   "condition": "Bumper carries added ornaments (other than on the radiator grille) projecting more than 10 mm",
+   "quote": "These projections shall in any case satisfy the provisions of paragraph 5.2. If the ornament is mounted on a base, this base is regarded as belonging to the ornament and not to the supporting surface.",
+   "text": "The remaining projections of the added ornaments shall in any case satisfy the provisions of paragraph 5.2., where if the ornament is mounted on a base, this base is regarded as belonging to the ornament and not to the supporting surface.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 5,
+    "paragraph": "6.1.1"
+   }
+  },
+  {
+   "id": "R-0349",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.4,
+   "condition": "Bumper carries added ornaments (other than on the radiator grille) projecting more than 10 mm",
+   "quote": "To apply the 10 daN force a flat-ended ram of not more than 50 mm diameter shall be used. Where this is not possible, an equivalent method shall be used.",
+   "text": "To apply the 10 daN force to added ornaments a flat-ended ram of not more than 50 mm diameter shall be used, except that where this is not possible, an equivalent method shall be used.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 5,
+    "paragraph": "6.1.1"
+   }
+  },
+  {
+   "id": "R-0362",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.45,
+   "condition": "The grill/air-guide parts include movable air intake or outlet flaps (e.g. active grille shutters).",
+   "quote": "Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. above in all positions of use.",
+   "text": "Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. in all positions of use.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 8,
+    "paragraph": "6.12.1"
+   }
+  },
+  {
+   "id": "R-0363",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.2,
+   "condition": "The bumper module has exposed sheet-metal edges (e.g. steel beam or stiffener) contactable on the external surface.",
+   "quote": "Sheet-metal edges, such as gutter edges and the rails of sliding doors, shall not be permitted unless they are folded back or are fitted with a shield meeting the requirements of this Regulation which are applicable to it.",
+   "text": "Sheet-metal edges, such as gutter edges and the rails of sliding doors, shall not be permitted unless they are folded back or are fitted with a shield meeting the requirements of this Regulation which are applicable to it.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 8,
+    "paragraph": "6.8.1"
+   }
+  },
+  {
+   "id": "R-0364",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.35,
+   "condition": "The fascia contains folds in body panels with a radius of curvature less than 2.5 mm.",
+   "quote": "Folds in body panels may have a radius of curvature of less than 2.5 mm provided that it is not less than one-tenth of the height \"H\" of the projection, measured in accordance with the method described in paragraph 1. of Annex 3 to this Regulation.",
+   "text": "Folds in body panels may have a radius of curvature of less than 2.5 mm provided that it is not less than one-tenth of the height \"H\" of the projection, measured in accordance with the method described in paragraph 1. of Annex 3 to this Regulation.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 8,
+    "paragraph": "6.9.1"
+   }
+  },
+  {
+   "id": "R-0368",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.45,
+   "condition": "Keyless-entry aerial has an external shaft with an unattached end",
+   "quote": "Shafts of aerials may have radii of curvature of less than 2.5 mm. However, the unattached ends shall be fitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm.",
+   "text": "The unattached ends of aerials shall be fitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm, although shafts of aerials may have radii of curvature of less than 2.5 mm.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 9,
+    "paragraph": "6.17.3"
+   }
+  },
+  {
+   "id": "R-0370",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.35,
+   "condition": "External aerial without a flexible shaft whose base cannot be identified",
+   "quote": "In cases where by the absence of a flexible shaft or part it is not possible to identify what the base is of an aerial this requirement is deemed to be met if, after a horizontal force of not more than 50 daN in forward and rearward direction is applied by a flat-ended ram of not more than 50 mm diameter at the most salient part of the aerial: (a) The aerial bends towards the support and does not project more than 40 mm, or (b) The aerial breaks off and the remaining part of the aerial does not show any sharp or dangerous part that can be contacted by the 100 mm sphere and does not project more than 40 mm.",
+   "text": "In cases where by the absence of a flexible shaft or part it is not possible to identify what the base is of an aerial, the requirement of paragraph 6.17.4. is deemed to be met if, after a horizontal force of not more than 50 daN in forward and rearward direction is applied by a flat-ended ram of not more than 50 mm diameter at the most salient part of the aerial: (a) the aerial bends towards the support and does not project more than 40 mm, or (b) the aerial breaks off and the remaining part of the aerial does not show any sharp or dangerous part that can be contacted by the 100 mm sphere and does not project more than 40 mm.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 9,
+    "paragraph": "6.17.4.1"
+   }
+  },
+  {
+   "id": "R-0376",
+   "reason": "R26 general exclusions, hardness, ornaments, air-intake flaps, folds, aerial capping, projection method",
+   "probability": 0.45,
+   "condition": "Bumper-mounted components (e.g. sensors, towing device cover, lighting, plate holder) mounted on a non-convex surface whose projection cannot be determined by simple measurement",
+   "quote": "If the dimension of the projection of a component which is mounted on a surface other than convex cannot be determined by simple measurement, it shall be determined by the maximum variation of the distance of the centre of a 100 mm diameter sphere from the nominal line of the panel when the sphere is moved over and is in constant contact with that component. Figure 3 shows an example of the use of this procedure.",
+   "text": "If the dimension of the projection of a component which is mounted on a surface other than convex cannot be determined by simple measurement, the dimension of the projection of the component shall be determined by the maximum variation of the distance of the centre of a 100 mm diameter sphere from the nominal line of the panel when the sphere is moved over and is in constant contact with that component.",
+   "source": {
+    "regulation": "UN R26",
+    "version": "4.0.0",
+    "page": 15,
+    "paragraph": "Annex 3 2.2"
+   }
+  },
+  {
+   "id": "R-0385",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle shall meet the following requirements: The vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+   "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 3,
+    "paragraph": "6.1.4"
+   }
+  },
+  {
+   "id": "R-0389",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The test shall make it possible to verify whether the protective devices of the vehicle meet the requirements of this Regulation.",
+   "text": "The low-speed-impact test shall make it possible to verify whether the protective devices of the vehicle meet the requirements of this Regulation.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 6,
+    "paragraph": "Annex 3 1"
+   }
+  },
+  {
+   "id": "R-0390",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The vehicle shall be placed on a horizontal and level rigid smooth surface.",
+   "text": "For the low-speed-impact test, the vehicle shall be placed on a horizontal and level rigid smooth surface.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 6,
+    "paragraph": "Annex 3 2.1"
+   }
+  },
+  {
+   "id": "R-0391",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The vehicle shall be at rest.",
+   "text": "For the low-speed-impact test, the vehicle shall be at rest.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 6,
+    "paragraph": "Annex 3 2.2.1"
+   }
+  },
+  {
+   "id": "R-0392",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The front wheels shall be in the straight-ahead position.",
+   "text": "For the low-speed-impact test, the front wheels shall be in the straight-ahead position.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.2.2"
+   }
+  },
+  {
+   "id": "R-0393",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The tyres shall be inflated to the pressure recommended by the vehicle manufacturer.",
+   "text": "For the low-speed-impact test, the tyres shall be inflated to the pressure recommended by the vehicle manufacturer.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.2.3"
+   }
+  },
+  {
+   "id": "R-0394",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The brakes shall be disengaged and the transmission control shall be in neutral position.",
+   "text": "For the low-speed-impact test, the brakes shall be disengaged.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.2.4"
+   }
+  },
+  {
+   "id": "R-0395",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The brakes shall be disengaged and the transmission control shall be in neutral position.",
+   "text": "For the low-speed-impact test, the transmission control shall be in neutral position.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.2.4"
+   }
+  },
+  {
+   "id": "R-0396",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.35,
+   "condition": "Vehicle has hydropneumatic, hydraulic or pneumatic suspension or automatic load levelling",
+   "quote": "Vehicles equipped with hydro pneumatic, hydraulic or pneumatic suspension or a device for automatic levelling according to load shall be tested in the normal running conditions specified by the manufacturer.",
+   "text": "Vehicles equipped with hydro pneumatic, hydraulic or pneumatic suspension or a device for automatic levelling according to load shall be tested in the normal running conditions specified by the manufacturer.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.2.5"
+   }
+  },
+  {
+   "id": "R-0397",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The impactor shall be of rigid construction, the impact contour being of hardened steel.",
+   "text": "The impactor shall be of rigid construction, the impact contour being of hardened steel.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.3.1"
+   }
+  },
+  {
+   "id": "R-0398",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The impacting surface shall conform to the diagram in the figure.",
+   "text": "The impacting surface of the impactor shall conform to the diagram in the figure.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.3.2"
+   }
+  },
+  {
+   "id": "R-0400",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "With plane A of the impactor vertical, the reference line shall be horizontal.",
+   "text": "With plane A of the impactor vertical, the reference line shall be horizontal.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.3.4"
+   }
+  },
+  {
+   "id": "R-0404",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.25,
+   "condition": "Test performed with a moving barrier",
+   "quote": "If the impactor is secured to a carriage (moving barrier) by a restraining element, the latter must be rigid and be incapable of being deformed by the impact; the carriage shall at the moment of impact be capable of moving freely and no longer be subject to the action of the propelling device.",
+   "text": "If the impactor is secured to a carriage (moving barrier) by a restraining element, the restraining element shall be rigid and be incapable of being deformed by the impact.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.5.1"
+   }
+  },
+  {
+   "id": "R-0405",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.25,
+   "condition": "Test performed with a moving barrier",
+   "quote": "If the impactor is secured to a carriage (moving barrier) by a restraining element, the latter must be rigid and be incapable of being deformed by the impact; the carriage shall at the moment of impact be capable of moving freely and no longer be subject to the action of the propelling device.",
+   "text": "If the impactor is secured to a carriage (moving barrier) by a restraining element, the carriage shall at the moment of impact be capable of moving freely and no longer be subject to the action of the propelling device.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.5.1"
+   }
+  },
+  {
+   "id": "R-0406",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.25,
+   "condition": "Test performed with a pendulum",
+   "quote": "The distance between the pivot and the centre of percussion shall be at least 3.3 m. The reference line shall coincide with the centre of percussion.",
+   "text": "Where a pendulum is used, the distance between the pivot and the centre of percussion shall be at least 3.3 m.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.6.1"
+   }
+  },
+  {
+   "id": "R-0407",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.25,
+   "condition": "Test performed with a pendulum",
+   "quote": "The distance between the pivot and the centre of percussion shall be at least 3.3 m. The reference line shall coincide with the centre of percussion.",
+   "text": "Where a pendulum is used, the reference line shall coincide with the centre of percussion.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.6.1"
+   }
+  },
+  {
+   "id": "R-0408",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.25,
+   "condition": "Test performed with a pendulum",
+   "quote": "Plane A of the pendulum shall remain parallel with its axis of rotation throughout the test.",
+   "text": "Where a pendulum is used, plane A of the pendulum shall remain parallel with its axis of rotation throughout the test.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.6.2"
+   }
+  },
+  {
+   "id": "R-0409",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.2,
+   "condition": "Test performed with a parallelogram-suspended pendulum",
+   "quote": "In the case of a parallelogram-suspended pendulum, the trajectory described by any point on the reference line shall be constant with a radius of at least 3.3 m.",
+   "text": "In the case of a parallelogram-suspended pendulum, the trajectory described by any point on the reference line shall be constant with a radius of at least 3.3 m.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.6.3"
+   }
+  },
+  {
+   "id": "R-0412",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "The impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal at the reference height of 445 mm.",
+   "text": "For the longitudinal impact test, the impactor shown in the figure shall be placed so that plane A is vertical and the reference line is horizontal at the reference height of 445 mm.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.7.3"
+   }
+  },
+  {
+   "id": "R-0413",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "The vehicle should be aligned so that a point between the vehicle corners touches, but does not move, the impactor, the longitudinal median plane of the vehicle being perpendicular to plane A of the impactor.",
+   "text": "For the longitudinal impact test, the vehicle shall be aligned so that a point between the vehicle corners touches, but does not move, the impactor, the longitudinal median plane of the vehicle being perpendicular to plane A of the impactor.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 7,
+    "paragraph": "Annex 3 2.7.4"
+   }
+  },
+  {
+   "id": "R-0416",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "The impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal and at the reference height of 445 mm.",
+   "text": "For the corner impact test, the impactor shown in the figure shall be placed so that plane A is vertical and the reference line is horizontal and at the reference height of 445 mm.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 8,
+    "paragraph": "Annex 3 2.8.2"
+   }
+  },
+  {
+   "id": "R-0419",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "The vehicle should be aligned so that a corner of the vehicle touches the impactor without moving it. In addition the following conditions shall be met: (a) plane A of the impactor shall make an angle of 60 ± 5º with the longitudinal median plane of the vehicle; (b) the point of the first contact shall be in the vertical median plane of the impactor (within a tolerance of ± 25 mm).",
+   "text": "For the corner impact test, the vehicle shall be aligned so that a corner of the vehicle touches the impactor without moving it.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 8,
+    "paragraph": "Annex 3 2.8.3"
+   }
+  },
+  {
+   "id": "R-0422",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.25,
+   "condition": "",
+   "quote": "If the test has been carried out at an impact speed or with an impact mass exceeding those indicated in paragraphs 2.7.5. and 2.8.4. above, and the vehicle has satisfied the conditions prescribed, the test is considered satisfactory.",
+   "text": "If the test has been carried out at an impact speed or with an impact mass exceeding those indicated in paragraphs 2.7.5. and 2.8.4., and the vehicle has satisfied the conditions prescribed, the test shall be considered satisfactory.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 8,
+    "paragraph": "Annex 3 3.5"
+   }
+  },
+  {
+   "id": "R-0423",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "Measuring instruments The instrument used to record the speed referred to in paragraphs 2.7.5. and 2.8.4. above shall be accurate to within one per cent.",
+   "text": "The measuring instrument used to record the speed referred to in paragraphs 2.7.5. and 2.8.4. shall be accurate to within one per cent.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 8,
+    "paragraph": "Annex 3 3.6"
+   }
+  },
+  {
+   "id": "R-0424",
+   "reason": "R42 6.1.4 exhaust outcome and Annex 3 low-speed impact test conditions",
+   "probability": 0.4,
+   "condition": "Only if an alternative test method to the one in Annex 3 is used for the front protective device.",
+   "quote": "Other equivalent test methods are permitted provided that the conditions referred to in this Regulation can be observed and that their equivalence can be demonstrated.",
+   "text": "Other equivalent test methods shall be permitted provided that the conditions referred to in this Regulation can be observed and that their equivalence can be demonstrated.",
+   "source": {
+    "regulation": "UN R42",
+    "version": "0.2.0",
+    "page": 8,
+    "paragraph": "Annex 3 4.1"
+   }
+  },
+  {
+   "id": "R-0866",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.35,
+   "condition": "Flexible lower legform test applies",
+   "quote": "The flexible lower legform impactor shall be certified pursuant to Annex 6, paragraph 1.",
+   "text": "The flexible lower legform impactor shall be certified pursuant to Annex 6, paragraph 1.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 18,
+    "paragraph": "5.1.1"
+   }
+  },
+  {
+   "id": "R-0869",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.3,
+   "condition": "Upper legform to bumper test applies",
+   "quote": "The upper legform impactor shall be certified pursuant to Annex 6, paragraph 2.",
+   "text": "The upper legform impactor shall be certified pursuant to Annex 6, paragraph 2.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 19,
+    "paragraph": "5.1.2"
+   }
+  },
+  {
+   "id": "R-0878",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.35,
+   "condition": "Vehicle is fitted with an ARHSS changing front axle height by more than 20 mm between 25 and 40 km/h",
+   "quote": "For these tests, on request of the manufacturer and agreed by the technical service, either the impact speeds defined in paragraphs 5.1. and 5.2. or the impact speed corresponding to the adjusted vehicle height shall be used. In the latter case, the ratio of the head impact vs. the corresponding vehicle velocity shall be 0.9.",
+   "text": "For the tests of a vehicle fitted with an ARHSS, on request of the manufacturer and agreed by the technical service, either the impact speeds defined in paragraphs 5.1. and 5.2. or the impact speed corresponding to the adjusted vehicle height shall be used.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 19,
+    "paragraph": "5.3"
+   }
+  },
+  {
+   "id": "R-0881",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.4,
+   "condition": "Vehicle is fitted with an ARHSS",
+   "quote": "The legform impactor to be used is the legform impactor as used for the legform to bumper test in normal running conditions for a speed of 40 km/h.",
+   "text": "For the tests of a vehicle fitted with an ARHSS, the legform impactor to be used shall be the legform impactor as used for the legform to bumper test in normal running conditions for a speed of 40 km/h.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 19,
+    "paragraph": "5.3.2"
+   }
+  },
+  {
+   "id": "R-0882",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.45,
+   "condition": "Vehicle is fitted with an ARHSS",
+   "quote": "With the agreement of the technical service, compliance shall be demonstrated by a limited number of legform tests or by numerical simulation according to the specification set out in paragraph 5.3, so that the biomechanical limits set out in paragraph 5.1.1. and paragraph 5.1.2. respectively are met.",
+   "text": "With the agreement of the technical service, compliance shall be demonstrated by a limited number of legform tests or by numerical simulation according to the specification set out in paragraph 5.3, so that the biomechanical limits set out in paragraph 5.1.1. and paragraph 5.1.2. respectively are met.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 19,
+    "paragraph": "5.3.3"
+   }
+  },
+  {
+   "id": "R-0885",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "At the time of testing, the test facility and the vehicle or sub-system shall have a relative humidity of 40 per cent ± 30 per cent and stabilized temperature of 20 ºC ± 4 ºC.",
+   "text": "At the time of testing, the test facility and the vehicle or sub-system shall have a relative humidity of 40 per cent ± 30 per cent and stabilized temperature of 20 ºC ± 4 ºC.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 25,
+    "paragraph": "Annex 3 1.1"
+   }
+  },
+  {
+   "id": "R-0886",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.35,
+   "condition": "",
+   "quote": "Either a complete vehicle, or a cut-body, adjusted to the following conditions shall be used for the test.",
+   "text": "Either a complete vehicle, or a cut-body, adjusted to the following conditions shall be used for the test.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 26,
+    "paragraph": "Annex 3 3.1"
+   }
+  },
+  {
+   "id": "R-0887",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.35,
+   "condition": "",
+   "quote": "The vehicle shall be in its normal ride attitude, and shall be either securely mounted on raised supports or at rest on a flat horizontal surface with the parking brake applied.",
+   "text": "The vehicle shall be in its normal ride attitude.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 26,
+    "paragraph": "Annex 3 3.1.1"
+   }
+  },
+  {
+   "id": "R-0888",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The vehicle shall be in its normal ride attitude, and shall be either securely mounted on raised supports or at rest on a flat horizontal surface with the parking brake applied.",
+   "text": "The vehicle shall be either securely mounted on raised supports or at rest on a flat horizontal surface with the parking brake applied.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 26,
+    "paragraph": "Annex 3 3.1.1"
+   }
+  },
+  {
+   "id": "R-0890",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The cut-body shall include, in the test, all parts of the vehicle front structure, all under-bonnet components and all components behind the windscreen that may be involved in a frontal impact with a vulnerable road user, to demonstrate the performance and interactions of all the contributory vehicle components. The cut-body shall be securely mounted in the normal vehicle ride attitude.",
+   "text": "The cut-body shall be securely mounted in the normal vehicle ride attitude.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 26,
+    "paragraph": "Annex 3 3.1.2"
+   }
+  },
+  {
+   "id": "R-0895",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "During contact between the impactor and the vehicle, the impactor shall not contact the ground or any object which is not part of the vehicle.",
+   "text": "During contact between the flexible lower legform impactor and the vehicle, the impactor shall not contact the ground or any object which is not part of the vehicle.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 33,
+    "paragraph": "Annex 5 1.11"
+   }
+  },
+  {
+   "id": "R-0901",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.35,
+   "condition": "",
+   "quote": "The direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle. The tolerance for the direction of the velocity vector in the horizontal plane and in the longitudinal plane shall be ±2° at the time of first contact.",
+   "text": "In the lower legform to bumper test, the direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle, with a tolerance in the horizontal plane and in the longitudinal plane of ±2° at the time of first contact.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 33,
+    "paragraph": "Annex 5 1.6"
+   }
+  },
+  {
+   "id": "R-0902",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+   "text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 33,
+    "paragraph": "Annex 5 1.7"
+   }
+  },
+  {
+   "id": "R-0903",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact.",
+   "text": "The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 33,
+    "paragraph": "Annex 5 1.8"
+   }
+  },
+  {
+   "id": "R-0904",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.3,
+   "condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+   "quote": "The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+   "text": "For the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 36,
+    "paragraph": "Annex 5 2.4"
+   }
+  },
+  {
+   "id": "R-0908",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.25,
+   "condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+   "quote": "The direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact. The tolerance to this direction is ±2°.",
+   "text": "In the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 36,
+    "paragraph": "Annex 5 2.6"
+   }
+  },
+  {
+   "id": "R-0909",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.25,
+   "condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+   "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+   "text": "At the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 36,
+    "paragraph": "Annex 5 2.6"
+   }
+  },
+  {
+   "id": "R-0910",
+   "reason": "R127 impactor certification, ARHSS, Annex 3 test conditions, Annex 5 legform-to-bumper procedure",
+   "probability": 0.25,
+   "condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+   "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+   "text": "At the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+   "source": {
+    "regulation": "UN R127",
+    "version": "4.3.0",
+    "page": 36,
+    "paragraph": "Annex 5 2.6"
+   }
+  },
+  {
+   "id": "R-1164",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "When performing measurements as described in this Part, the vehicle shall be positioned in its normal ride attitude.",
+   "text": "When performing measurements as described in this Part, the vehicle shall be positioned in its normal ride attitude.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 71,
+    "paragraph": "3"
+   }
+  },
+  {
+   "id": "R-1165",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "Whether the pedestrian impact sensors trigger a deployable pedestrian protection system",
+   "quote": "In case of the vehicle equipped with a deployable pedestrian protection system (DPPS)as defined in paragraph 3.16., the measurements shall be taken with the system undeployed.",
+   "text": "In case of the vehicle equipped with a deployable pedestrian protection system (DPPS) as defined in paragraph 3.16., the measurements shall be taken with the system undeployed.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 71,
+    "paragraph": "3"
+   }
+  },
+  {
+   "id": "R-1166",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "Whether the bumper/grill carries a badge, mascot or other structure that bends back or retracts under a load of maximum 100 N",
+   "quote": "If the vehicle is fitted with a badge, mascot or other structure, which would bend back or retract under an applied load of maximum 100 N, then this load shall be applied before and/or while these measurements are taken.",
+   "text": "If the vehicle is fitted with a badge, mascot or other structure, which would bend back or retract under an applied load of maximum 100 N, then this load shall be applied before and/or while these measurements are taken.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 71,
+    "paragraph": "3"
+   }
+  },
+  {
+   "id": "R-1167",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "Any vehicle component which could change shape or position, other than suspension components or active devices to protect pedestrians, shall be set to their stowed position.",
+   "text": "Any vehicle component which could change shape or position, other than suspension components or active devices to protect pedestrians, shall be set to their stowed position when performing measurements as described in this Part.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 71,
+    "paragraph": "3"
+   }
+  },
+  {
+   "id": "R-1168",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "",
+   "quote": "The top edge of the bumper shall also be regarded as the bonnet leading edge if it is contacted by the straight edge during this procedure.",
+   "text": "The top edge of the bumper shall also be regarded as the bonnet leading edge if it is contacted by the straight edge during this procedure.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 72,
+    "paragraph": "3.6"
+   }
+  },
+  {
+   "id": "R-1169",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The external devices for indirect vision and the tyres shall not be considered.",
+   "text": "For determination of the corner of bumper, the external devices for indirect vision and the tyres shall not be considered.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 74,
+    "paragraph": "3.15"
+   }
+  },
+  {
+   "id": "R-1187",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "At the time of testing, the test facility and the vehicle or sub-system shall have a relative humidity of 40 percent ± 30 percent and stabilized temperature of 20 + 4 ºC.",
+   "text": "At the time of testing, the test facility and the vehicle or sub-system shall have a relative humidity of 40 percent ± 30 percent and stabilized temperature of 20 + 4 ºC.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 86,
+    "paragraph": "6.1.1"
+   }
+  },
+  {
+   "id": "R-1188",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.3,
+   "condition": "",
+   "quote": "The test site shall consist of a flat, smooth and hard surface with a slope not exceeding 1 percent.",
+   "text": "The impact test site shall consist of a flat, smooth and hard surface with a slope not exceeding 1 percent.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.1.2"
+   }
+  },
+  {
+   "id": "R-1189",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "Either a complete vehicle, or a cut-body, adjusted to the following conditions shall be used for the test.",
+   "text": "Either a complete vehicle, or a cut-body, adjusted to the conditions of paragraphs 6.2.1.1 and 6.2.1.2 shall be used for the test.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.2.1"
+   }
+  },
+  {
+   "id": "R-1190",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The vehicle shall be in its normal ride attitude, and shall be either securely mounted on raised supports or at rest on a flat horizontal surface with the parking brake applied.",
+   "text": "The vehicle shall be in its normal ride attitude.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.2.1.1"
+   }
+  },
+  {
+   "id": "R-1191",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "",
+   "quote": "The vehicle shall be in its normal ride attitude, and shall be either securely mounted on raised supports or at rest on a flat horizontal surface with the parking brake applied.",
+   "text": "The vehicle shall be either securely mounted on raised supports or at rest on a flat horizontal surface with the parking brake applied.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.2.1.1"
+   }
+  },
+  {
+   "id": "R-1193",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "Testing is performed on a cut-body rather than a complete vehicle.",
+   "quote": "The cut-body shall include, in the test, all parts of the vehicle front structure, all under-bonnet components and all components behind the windscreen that may be involved in a frontal impact with a vulnerable road user, to demonstrate the performance and interactions of all the contributory vehicle components. The cut-body shall be securely mounted in the normal vehicle ride attitude.",
+   "text": "The cut-body shall be securely mounted in the normal vehicle ride attitude.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.2.1.2"
+   }
+  },
+  {
+   "id": "R-1195",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.45,
+   "condition": "The pedestrian impact sensors trigger a device designed to protect vulnerable road users (e.g. deployable system).",
+   "quote": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test. It shall be the responsibility of the manufacturer to show that any devices will act as intended in a pedestrian impact.",
+   "text": "It shall be the responsibility of the manufacturer to show that any devices designed to protect vulnerable road users will act as intended in a pedestrian impact.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.2.2"
+   }
+  },
+  {
+   "id": "R-1197",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "The pedestrian impact sensors are part of a deployable pedestrian protection system (DPPS).",
+   "quote": "When tested as a DPPS, the vehicle shall be adjusted as specified in the test procedure defined in Annex 1.",
+   "text": "When tested as a DPPS, the vehicle shall be adjusted as specified in the test procedure defined in Annex 1.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 87,
+    "paragraph": "6.2.4"
+   }
+  },
+  {
+   "id": "R-1205",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "When setting the height of the propulsion system, an allowance shall be made for the influence of gravity during the period of free flight of the impactor.",
+   "text": "When setting the height of the propulsion system, an allowance shall be made for the influence of gravity during the period of free flight of the impactor.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 100,
+    "paragraph": "7.1.1.3"
+   }
+  },
+  {
+   "id": "R-1207",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The impactor shall be released to free flight at such a distance from the vehicle that the test results are not influenced by contact of the impactor with the propulsion system during the rebound of the impactor.",
+   "text": "The lower legform impactor shall be released to free flight at such a distance from the vehicle that the test results are not influenced by contact of the impactor with the propulsion system during the rebound of the impactor.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 100,
+    "paragraph": "7.1.1.3.1"
+   }
+  },
+  {
+   "id": "R-1212",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "The effect of gravity shall be taken into account when the impact velocity is obtained from measurements taken before the time of first contact.",
+   "text": "The effect of gravity shall be taken into account when the impact velocity is obtained from measurements taken before the time of first contact.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 100,
+    "paragraph": "7.1.1.4"
+   }
+  },
+  {
+   "id": "R-1213",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "The tibia bending moments shall not exceed ± 15 Nm within an evaluation interval of 30 ms immediately prior to impact.",
+   "text": "The tibia bending moments of the flexible lower legform impactor shall not exceed ± 15 Nm within an evaluation interval of 30 ms immediately prior to impact.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 101,
+    "paragraph": "7.1.1.5"
+   }
+  },
+  {
+   "id": "R-1214",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "",
+   "quote": "The offset compensation shall be done with the flexible lower legform impactor in resting position prior to the test / acceleration phase.",
+   "text": "The offset compensation shall be done with the flexible lower legform impactor in resting position prior to the test / acceleration phase.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 102,
+    "paragraph": "7.1.1.6"
+   }
+  },
+  {
+   "id": "R-1215",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "Upper legform to bumper test is applicable to the vehicle (e.g. high lower bumper height)",
+   "quote": "Upper legform to bumper test procedure: Each test shall be completed within two hours of when the impactor to be used is removed from the controlled storage area.",
+   "text": "In the upper legform to bumper test procedure, each test shall be completed within two hours of when the impactor to be used is removed from the controlled storage area.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 102,
+    "paragraph": "7.1.2"
+   }
+  },
+  {
+   "id": "R-1221",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "If all of the following prerequisites are met, the vehicle shall be tested with the DPPS activated as intended (as described below) for the entire headform test area.",
+   "text": "If all of the following prerequisites are met, the vehicle shall be tested with the DPPS activated as intended (as described below) for the entire headform test area.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 116,
+    "paragraph": "Annex 1 1"
+   }
+  },
+  {
+   "id": "R-1225",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "If any of the prerequisites from paragraphs. 1.2 to 1.7. are not met, the vehicle shall be tested with the DPPS in the undeployed position.",
+   "text": "If any of the prerequisites from paragraphs 1.2 to 1.7. are not met, the vehicle shall be tested with the DPPS in the undeployed position.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 117,
+    "paragraph": "Annex 1 1.1"
+   }
+  },
+  {
+   "id": "R-1234",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.3,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "The vehicle manufacturer shall specify the lowest speed of activation (lower deployment velocity threshold) of the DPPS.",
+   "text": "The vehicle manufacturer shall specify the lowest speed of activation (lower deployment velocity threshold) of the DPPS.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 1.7.1"
+   }
+  },
+  {
+   "id": "R-1235",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "For the system deployment verification, sensor activation tests with the FlexPLI, as specified in paragraph 6.3.1.1. of this Regulation, shall be performed within the detection test area at the DPPS lower deployment velocity threshold.",
+   "text": "For the system deployment verification, sensor activation tests with the FlexPLI, as specified in paragraph 6.3.1.1. of this Regulation, shall be performed within the detection test area at the DPPS lower deployment velocity threshold.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 1.7.1.1"
+   }
+  },
+  {
+   "id": "R-1236",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "A test with the FlexPLI shall be performed at nominal velocity (11.1m/s) at vehicle centreline (Y0).",
+   "text": "For the sensing system verification, a test with the FlexPLI shall be performed at nominal velocity (11.1m/s) at vehicle centreline (Y0).",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 1.7.2"
+   }
+  },
+  {
+   "id": "R-1238",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "If the system is not activated during any of the verification tests, all headform tests shall be conducted in undeployed position according to paragraphs 7.2. to 7.4. of this Regulation.",
+   "text": "If the DPPS is not activated during any of the verification tests, all headform tests shall be conducted in undeployed position according to paragraphs 7.2. to 7.4. of this Regulation.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 1.7.4"
+   }
+  },
+  {
+   "id": "R-1240",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.35,
+   "condition": "The pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "TRT shall be confirmed by using the FlexPLI at the vehicle speed at 11.1 m/s and at the vehicle centreline (Y0).",
+   "text": "The TRT of the DPPS shall be confirmed by using the FlexPLI at the vehicle speed at 11.1 m/s and at the vehicle centreline (Y0).",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 2.1"
+   }
+  },
+  {
+   "id": "R-1241",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.45,
+   "condition": "The bumper's pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "ST is measured either independently, or during a TRT measurement test, at the vehicle speed as specified in this Regulation and at the vehicle centreline (Y0).",
+   "text": "The ST shall be measured either independently, or during a TRT measurement test, at the vehicle speed as specified in this Regulation and at the vehicle centreline (Y0).",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 2.2"
+   }
+  },
+  {
+   "id": "R-1242",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.45,
+   "condition": "The bumper's pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "If the measured ST is within a tolerance of -5ms/+3ms, the value specified by the manufacturer shall be used. Otherwise, the measured value shall be used for the test.",
+   "text": "If the measured ST is within a tolerance of -5ms/+3ms, the value specified by the manufacturer shall be used.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 118,
+    "paragraph": "Annex 1 2.2.1"
+   }
+  },
+  {
+   "id": "R-1247",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "The bumper's pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "For tests with a moving vehicle impacting the stationary impactor: Target speed: ±0.6 m/s: impact accuracy: ±50 mm.",
+   "text": "For verification tests with the FlexPLI with a moving vehicle impacting the stationary impactor, the tolerance on target speed shall be ±0.6 m/s.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 119,
+    "paragraph": "Annex 1 3.1"
+   }
+  },
+  {
+   "id": "R-1248",
+   "reason": "GTR9 measurement provisions, test conditions, legform procedure details, DPPS sensing verification",
+   "probability": 0.4,
+   "condition": "The bumper's pedestrian impact sensors trigger a deployable pedestrian protection system (DPPS).",
+   "quote": "For tests with a moving vehicle impacting the stationary impactor: Target speed: ±0.6 m/s: impact accuracy: ±50 mm.",
+   "text": "For verification tests with the FlexPLI with a moving vehicle impacting the stationary impactor, the tolerance on impact accuracy shall be ±50 mm.",
+   "source": {
+    "regulation": "UN GTR 9",
+    "version": "0.3.0",
+    "page": 119,
+    "paragraph": "Annex 1 3.1"
+   }
+  },
+  {
+   "id": "R-0048",
+   "reason": "R10 deemed-to-comply provisions (6.10.x) and marking visibility",
+   "probability": 0.45,
+   "condition": "ESA has no immunity related functions (e.g. decorative lighting)",
+   "quote": "ESAs with no immunity related functions need not be tested for immunity to radiated disturbances and shall be deemed to comply with paragraph 6.8. and with Annex 9 to this Regulation.",
+   "text": "ESAs with no immunity related functions need not be tested for immunity to radiated disturbances and shall be deemed to comply with paragraph 6.8. and with Annex 9 to this Regulation.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 13,
+    "paragraph": "6.10.3"
+   }
+  },
+  {
+   "id": "R-0050",
+   "reason": "R10 deemed-to-comply provisions (6.10.x) and marking visibility",
+   "probability": 0.35,
+   "condition": "ESA contains a radio receiver (radar, keyless-entry aerial)",
+   "quote": "The loss of function of receivers during the immunity test, when the test signal is within the receiver bandwidth (RF exclusion band) as specified for the specific radio service/product in the harmonized international EMC standard, does not necessarily lead to fail criteria.",
+   "text": "The loss of function of receivers during the immunity test, when the test signal is within the receiver bandwidth (RF exclusion band) as specified for the specific radio service/product in the harmonized international EMC standard, shall not necessarily lead to fail criteria.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 13,
+    "paragraph": "6.10.6"
+   }
+  },
+  {
+   "id": "R-0010",
+   "reason": "R10 deemed-to-comply provisions (6.10.x) and marking visibility",
+   "probability": 0.4,
+   "condition": "Applies if the bumper ESAs are type-approved as ESAs.",
+   "quote": "Markings on ESAs in conformity with paragraph 5.3. above need not be visible when the ESA is installed in the vehicle.",
+   "text": "Markings on ESAs in conformity with paragraph 5.3. need not be visible when the ESA is installed in the vehicle.",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 8,
+    "paragraph": "5.5"
+   }
+  },
+  {
+   "id": "R-0978",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Lamp incorporates a manufacturer logo",
+   "quote": "(a) Irrespective of the marking requirements in paragraph 3.3., only the logo of the brand name of the vehicle manufacturer or the body manufacturer is allowed.",
+   "text": "If the internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of a lamp (function) incorporates a manufacturer logo, irrespective of the marking requirements in paragraph 3.3., only the logo of the brand name of the vehicle manufacturer or the body manufacturer shall be allowed, provided that all requirements for the specific function of this Regulation are fulfilled.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.5.5"
+   }
+  },
+  {
+   "id": "R-0979",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Lamp incorporates a manufacturer logo",
+   "quote": "(b) Size: the enclosed light emitting surface of the logo (incorporating transparent and non-transparent components of the logo) of such a lamp in the direction of the reference axis shall not exceed 100 cm2.",
+   "text": "If a lamp (function) incorporates a manufacturer logo, the enclosed light emitting surface of the logo (incorporating transparent and non-transparent components of the logo) of such a lamp in the direction of the reference axis shall not exceed 100 cm2.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.5.5"
+   }
+  },
+  {
+   "id": "R-0980",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp is a direction indicator lamp",
+   "quote": "(d) Stop lamps, direction indicator lamps, and reversing lamps shall not incorporate a logo.",
+   "text": "Stop lamps, direction indicator lamps, and reversing lamps shall not incorporate a logo.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.5.5"
+   }
+  },
+  {
+   "id": "R-0976",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.4,
+   "condition": "Side signalling lamp is a position lamp or DRL reciprocally incorporated with another function using a common light source",
+   "quote": "Position lamps or daytime running lamps, which are reciprocally incorporated with another function, using a common light source, and designed to operate permanently with an additional system to regulate the intensity of the light emitted, are permitted.",
+   "text": "Position lamps or daytime running lamps, which are reciprocally incorporated with another function, using a common light source, and designed to operate permanently with an additional system to regulate the intensity of the light emitted, shall be permitted.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 10,
+    "paragraph": "4.5.3"
+   }
+  },
+  {
+   "id": "R-1061",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.3,
+   "condition": "The side signalling lighting performs a direction indicator function.",
+   "quote": "Minimum luminous intensity within the angles of geometric visibility See Table 8.",
+   "text": "The minimum luminous intensity of direction indicator lamps within the angles of geometric visibility shall be as given in Table 8.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 21,
+    "paragraph": "5.6.2"
+   }
+  },
+  {
+   "id": "R-1062",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.4,
+   "condition": "The side signalling lighting performs a direction indicator function.",
+   "quote": "Measurement: In general, the intensities shall be measured with the light source(s) continuously alight. However, depending on the construction of the lamp, for example, the use of light-emitting diodes (LED), or the need to take precautions to avoid overheating, it is allowed to measure the lamps in flashing mode.",
+   "text": "The intensities of direction indicator lamps shall in general be measured with the light source(s) continuously alight, except that depending on the construction of the lamp, for example, the use of light-emitting diodes (LED), or the need to take precautions to avoid overheating, it is allowed to measure the lamps in flashing mode.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 21,
+    "paragraph": "5.6.4"
+   }
+  },
+  {
+   "id": "R-1151",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp is a category 1, 2, 11 or 12 direction indicator",
+   "quote": "Direction Indicator Cat 1, 2, 11, 12 0.2 HV",
+   "text": "For direction indicator Cat 1, 2, 11, 12, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 0.2 seconds after switch ON with reference coordinate HV, as listed in Table A8-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 47,
+    "paragraph": "Annex 8 2.1"
+   }
+  },
+  {
+   "id": "R-1156",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp is a side marker lamp",
+   "quote": "Side marker 4 HV",
+   "text": "For side marker lamps, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 4 seconds after switch ON with reference coordinate HV, as listed in Table A8-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 48,
+    "paragraph": "Annex 8 2.1"
+   }
+  },
+  {
+   "id": "R-0984",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp is a direction indicator of category 1, 1a or 1b containing more than one light source",
+   "quote": "For direction-indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12, instead of the requirements of paragraph 4.6.1.2. and in addition to the requirements of paragraph 4.6.1.1., the following provisions apply: A signal for activation of the tell-tale prescribed in paragraph 6.5.8. of Regulation No. 48 or paragraph 6.3.8. of Regulation No. 53 shall be produced on the basis of either option a), b) or c) (notwithstanding the provisions stated in paragraph 4.6.): (a) Any one light source has failed; (b) In the case of a lamp designed for only two light sources, the intensity in the axis of reference is less than 50 per cent of the minimum intensity required; (c) As a consequence of a failure of one or more light sources, the intensity in one of the following directions as indicated in paragraph 2.1. of Annex 3, is less than the minimum intensity required: (i) H=0°, V=0° (ii) H=20° outwards to the outside of the vehicle, V= +5° (iii) H=10° inwards to the inside of the vehicle, V= 0°.",
+   "text": "For direction-indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c and 12, instead of the requirements of paragraph 4.6.1.2. and in addition to the requirements of paragraph 4.6.1.1., a signal for activation of the tell-tale prescribed in paragraph 6.5.8. of Regulation No. 48 or paragraph 6.3.8. of Regulation No. 53 shall be produced on the basis of either option a), b) or c) (notwithstanding the provisions stated in paragraph 4.6.): (a) any one light source has failed; (b) in the case of a lamp designed for only two light sources, the intensity in the axis of reference is less than 50 per cent of the minimum intensity required; (c) as a consequence of a failure of one or more light sources, the intensity in one of the following directions as indicated in paragraph 2.1. of Annex 3, is less than the minimum intensity required: (i) H=0°, V=0° (ii) H=20° outwards to the outside of the vehicle, V= +5° (iii) H=10° inwards to the inside of the vehicle, V= 0°.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.6.1.4"
+   }
+  },
+  {
+   "id": "R-0983",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp is a DRL containing more than one light source",
+   "quote": "For daytime running lamps, instead of the requirements of paragraph 4.6.1.2. and in addition to the requirements of paragraph 4.6.1.1., the following provisions apply: In case of failure of any one light source in a single lamp containing more than one light source, at least one of the following provisions shall apply: (a) The light intensity at the points of standard light distribution defined in paragraph 2.2. of Annex 3 shall be at least 80 per cent of the minimum intensity required; or (b) A signal for activation of a tell-tale indicating failure, as indicated in paragraph 6.19.8. of UN Regulation No. 48, is produced.",
+   "text": "For daytime running lamps, instead of the requirements of paragraph 4.6.1.2. and in addition to the requirements of paragraph 4.6.1.1., in case of failure of any one light source in a single lamp containing more than one light source, at least one of the following provisions shall apply: (a) the light intensity at the points of standard light distribution defined in paragraph 2.2. of Annex 3 shall be at least 80 per cent of the minimum intensity required; or (b) a signal for activation of a tell-tale indicating failure, as indicated in paragraph 6.19.8. of UN Regulation No. 48, is produced.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.6.1.3"
+   }
+  },
+  {
+   "id": "R-1081",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp is a side marker lamp",
+   "quote": "Minimum luminous intensity within the angles of geometric visibility See Table 9.",
+   "text": "The minimum luminous intensity of the side marker lamps within the angles of geometric visibility shall be as specified in Table 9.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 22,
+    "paragraph": "5.7.2"
+   }
+  },
+  {
+   "id": "R-0916",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "",
+   "quote": "A separate approval is required for each lamp listed in paragraph 1.",
+   "text": "A separate approval shall be required for each lamp listed in paragraph 1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 4,
+    "paragraph": "3.2.1"
+   }
+  },
+  {
+   "id": "R-0917",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "The side signalling lamp is grouped, combined or reciprocally incorporated with another lamp (e.g. the decorative grill lighting) in the same unit.",
+   "quote": "Lamps not satisfying the provisions of any of those Regulations shall not be part of such unit of grouped, combined or reciprocally incorporated lamps.",
+   "text": "Lamps not satisfying the provisions of any of those Regulations shall not be part of such unit of grouped, combined or reciprocally incorporated lamps.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 4,
+    "paragraph": "3.2.2"
+   }
+  },
+  {
+   "id": "R-0921",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.35,
+   "condition": "Side signalling lamp performs the front direction indicator function",
+   "quote": "Front direction indicator lamp 1, 1a, 1b, 11, 11a, 11b, 11c 5.6.",
+   "text": "The symbol identifying the front direction indicator lamp (function) for which type approval has been granted shall be 1, 1a, 1b, 11, 11a, 11b or 11c (paragraph 5.6.).",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 4,
+    "paragraph": "3.2.4"
+   }
+  },
+  {
+   "id": "R-0924",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.35,
+   "condition": "Side signalling lamp performs the side direction indicator function",
+   "quote": "Side direction indicator lamp 5, 6 5.6.",
+   "text": "The symbol identifying the side direction indicator lamp (function) for which type approval has been granted shall be 5 or 6 (paragraph 5.6.).",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 5,
+    "paragraph": "3.2.4"
+   }
+  },
+  {
+   "id": "R-0925",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.35,
+   "condition": "Side signalling lamp performs the side marker lamp function",
+   "quote": "Side marker lamp for all vehicle categories SM1 5.7. Side marker lamp for M1 vehicles SM2 5.7.",
+   "text": "The symbol identifying the side marker lamp (function) for which type approval has been granted shall be SM1 for side marker lamps for all vehicle categories or SM2 for side marker lamps for M1 vehicles (paragraph 5.7.).",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 5,
+    "paragraph": "3.2.4"
+   }
+  },
+  {
+   "id": "R-1001",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "During photometric measurements, stray reflections shall be avoided by appropriate masking.",
+   "text": "During photometric measurements, stray reflections shall be avoided by appropriate masking.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 13,
+    "paragraph": "4.8.1.4"
+   }
+  },
+  {
+   "id": "R-1004",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "If not otherwise specified, the intensities shall be measured with the light source continuously lit.",
+   "text": "If not otherwise specified, the intensities shall be measured with the light source continuously lit.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 14,
+    "paragraph": "4.8.1.7"
+   }
+  },
+  {
+   "id": "R-1037",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "The side signalling lamp is a front position lamp (A, MA) or front end-outline marker lamp (AM).",
+   "quote": "Failure provisions: See paragraph 4.6.",
+   "text": "The front position lamps and front end-outline marker lamps shall meet the failure provisions of paragraph 4.6.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 17,
+    "paragraph": "5.1.6"
+   }
+  },
+  {
+   "id": "R-1048",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.4,
+   "condition": "The side signalling lamp is a daytime running lamp (RL).",
+   "quote": "Minimum luminous intensity within the angles of geometric visibility See Table 6.",
+   "text": "The minimum luminous intensity within the angles of geometric visibility of daytime running lamps shall be as specified in Table 6.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 19,
+    "paragraph": "5.4.2"
+   }
+  },
+  {
+   "id": "R-1052",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.3,
+   "condition": "The side signalling lighting performs the daytime running lamp function.",
+   "quote": "Failure provisions: See paragraph 4.6.",
+   "text": "The failure provisions for the daytime running lamp shall be in accordance with paragraph 4.6.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 19,
+    "paragraph": "5.4.6"
+   }
+  },
+  {
+   "id": "R-1153",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp performs a front position lamp function",
+   "quote": "Front and rear position 4 HV",
+   "text": "For front and rear position lamps, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 4 seconds after switch ON with reference coordinate HV, as listed in Table A8-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 47,
+    "paragraph": "Annex 8 2.1"
+   }
+  },
+  {
+   "id": "R-1155",
+   "reason": "R148 logos, reciprocally incorporated DRL/position, DI photometry/failure, symbols, measurement conditions",
+   "probability": 0.45,
+   "condition": "Side signalling lamp performs a daytime running lamp function",
+   "quote": "Daytime running 4 HV",
+   "text": "For daytime running lamps, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 4 seconds after switch ON with reference coordinate HV, as listed in Table A8-1.",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 48,
+    "paragraph": "Annex 8 2.1"
+   }
+  },
+  {
+   "id": "R-0451",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "For the purposes of reducing the geometric visibility angles, the position of a lamp with regard to height above the ground, shall be measured from the H plane.",
+   "text": "For the purposes of reducing the geometric visibility angles, the position of a lamp with regard to height above the ground, shall be measured from the H plane.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 21,
+    "paragraph": "5.8.1"
+   }
+  },
+  {
+   "id": "R-0489",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "If measurements are taken closer to the lamp, the direction of observation shall be shifted parallel to achieve the same accuracy.",
+   "text": "If measurements are taken closer to the lamp, the direction of observation shall be shifted parallel to achieve the same accuracy.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 27,
+    "paragraph": "5.28.2"
+   }
+  },
+  {
+   "id": "R-0439",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "The vehicle/bumper external shape is asymmetrical.",
+   "quote": "On vehicles whose external shape is asymmetrical the above requirements shall be satisfied so far as is possible.",
+   "text": "On vehicles whose external shape is asymmetrical the requirements of paragraphs 5.5. to 5.5.5. shall be satisfied so far as is possible.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 19,
+    "paragraph": "5.6"
+   }
+  },
+  {
+   "id": "R-0559",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.45,
+   "condition": "The side signalling lighting of the bumper is a side direction-indicator lamp.",
+   "quote": "It is permitted to replace category 5 side direction-indicator lamps by category 6 side direction-indicator lamps in all instances",
+   "text": "It shall be permitted to replace category 5 side direction-indicator lamps by category 6 side direction-indicator lamps in all instances.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 41,
+    "paragraph": "6.5.3"
+   }
+  },
+  {
+   "id": "R-0560",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.45,
+   "condition": "The side signalling lighting combines front and side direction-indicator functions.",
+   "quote": "Where lamps combining the functions of front direction-indicator lamps (categories 1, 1a, 1b) and side direction-indicator lamps (categories 5 or 6) are fitted, two additional side direction- indicator lamps (categories 5 or 6) may be fitted to meet the visibility requirements of paragraph 6.5.5.",
+   "text": "Where lamps combining the functions of front direction-indicator lamps (categories 1, 1a, 1b) and side direction-indicator lamps (categories 5 or 6) are fitted, two additional side direction-indicator lamps (categories 5 or 6) may be fitted to meet the visibility requirements of paragraph 6.5.5.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 41,
+    "paragraph": "6.5.3"
+   }
+  },
+  {
+   "id": "R-0567",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lighting is a direction-indicator lamp and the vehicle structure does not permit the 1,500 mm upper limit.",
+   "quote": "If the structure of the vehicle does not permit these upper limits, measured as specified above, to be respected, and if the optional rear lamps are not installed, they may be increased to 2,300 mm for side direction-indicator lamps of categories 5 and 6, and to 2,100 mm for the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b.",
+   "text": "If the structure of the vehicle does not permit the upper height limits of the direction-indicator lamps, measured as specified above, to be respected, and if the optional rear lamps are not installed, the upper limits may be increased to 2,300 mm for side direction-indicator lamps of categories 5 and 6, and to 2,100 mm for the direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 42,
+    "paragraph": "6.5.4.2.3"
+   }
+  },
+  {
+   "id": "R-0582",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a front direction-indicator lamp of category 1, 1a or 1b.",
+   "quote": "Operating tell-tale mandatory for direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b.",
+   "text": "An operating tell-tale shall be mandatory for direction-indicator lamps of categories 1, 1a, 1b, 2a and 2b.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.5.8"
+   }
+  },
+  {
+   "id": "R-0583",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a front direction-indicator lamp of category 1, 1a or 1b.",
+   "quote": "If it is visual it shall be a flashing light which, at least in the event of the malfunction of any of these direction-indicator lamps, is either extinguished, or remains alight without flashing, or shows a marked change of frequency.",
+   "text": "If the operating tell-tale for direction-indicator lamps is visual, it shall be a flashing light which, at least in the event of the malfunction of any of these direction-indicator lamps, is either extinguished, or remains alight without flashing, or shows a marked change of frequency.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.5.8"
+   }
+  },
+  {
+   "id": "R-0584",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a front direction-indicator lamp of category 1, 1a or 1b.",
+   "quote": "It shall be activated by the signal produced according to: - paragraph 6.2.2. of UN Regulation No. 6, or - paragraph 5.6.3. of the 00 series of amendments to UN Regulation No. 148, or - paragraph 4.6.1.4. of the 01 series of amendments to UN Regulation No. 148, or - another suitable way.",
+   "text": "The operating tell-tale for direction-indicator lamps shall be activated by the signal produced according to paragraph 6.2.2. of UN Regulation No. 6, or paragraph 5.6.3. of the 00 series of amendments to UN Regulation No. 148, or paragraph 4.6.1.4. of the 01 series of amendments to UN Regulation No. 148, or another suitable way.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.5.8"
+   }
+  },
+  {
+   "id": "R-0590",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.45,
+   "condition": "The side signalling lamp is a front direction-indicator lamp of category 1, 1a or 1b.",
+   "quote": "All direction indicators of the category 1 (1, 1a, 1b) activated simultaneously shall operate in the same mode; i.e. static or sequential.",
+   "text": "All direction indicators of the category 1 (1, 1a, 1b) activated simultaneously for the hazard warning signal shall operate in the same mode; i.e. static or sequential.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.6.1"
+   }
+  },
+  {
+   "id": "R-0591",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Number As specified in paragraph 6.5.2.",
+   "text": "The number of hazard warning signal lamps shall be as specified in paragraph 6.5.2.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.6.2"
+   }
+  },
+  {
+   "id": "R-0592",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Arrangement As specified in paragraph 6.5.3.",
+   "text": "The arrangement of hazard warning signal lamps shall be as specified in paragraph 6.5.3.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.6.3"
+   }
+  },
+  {
+   "id": "R-0593",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Width: As specified in paragraph 6.5.4.1.",
+   "text": "The position in width of hazard warning signal lamps shall be as specified in paragraph 6.5.4.1.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 44,
+    "paragraph": "6.6.4.1"
+   }
+  },
+  {
+   "id": "R-0594",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Height: As specified in paragraph 6.5.4.2.",
+   "text": "The position in height of hazard warning signal lamps shall be as specified in paragraph 6.5.4.2.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.4.2"
+   }
+  },
+  {
+   "id": "R-0595",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Length: As specified in paragraph 6.5.4.3.",
+   "text": "The position in length of hazard warning signal lamps shall be as specified in paragraph 6.5.4.3.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.4.3"
+   }
+  },
+  {
+   "id": "R-0596",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Geometric visibility As specified in paragraph 6.5.5.",
+   "text": "The geometric visibility of hazard warning signal lamps shall be as specified in paragraph 6.5.5.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.5"
+   }
+  },
+  {
+   "id": "R-0597",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Orientation As specified in paragraph 6.5.6.",
+   "text": "The orientation of hazard warning signal lamps shall be as specified in paragraph 6.5.6.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.6"
+   }
+  },
+  {
+   "id": "R-0598",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "The signal shall be operated by means of a separate manual control enabling all the direction-indicator lamps to flash in phase.",
+   "text": "The hazard warning signal shall be operated by means of a separate manual control enabling all the direction-indicator lamps to flash in phase.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.7.1"
+   }
+  },
+  {
+   "id": "R-0600",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "Other requirements As specified in paragraph 6.5.9.",
+   "text": "The other requirements for the hazard warning signal shall be as specified in paragraph 6.5.9.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.9"
+   }
+  },
+  {
+   "id": "R-0601",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.3,
+   "condition": "The side signalling lamp is a direction-indicator lamp.",
+   "quote": "The hazard warning signal shall be able to function even if the device which starts or stops the propulsion system is in a position which makes it impossible to start the propulsion system.",
+   "text": "The hazard warning signal shall be able to function even if the device which starts or stops the propulsion system is in a position which makes it impossible to start the propulsion system.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 45,
+    "paragraph": "6.6.9"
+   }
+  },
+  {
+   "id": "R-0470",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.45,
+   "condition": "Side signalling lighting functions as a direction-indicator lamp used for the hazard warning signal",
+   "quote": "The colours of the light emitted by the lamps are the following: ... Hazard warning signal: Amber",
+   "text": "The hazard warning signal shall emit amber light.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 23,
+    "paragraph": "5.15"
+   }
+  },
+  {
+   "id": "R-0455",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "Side signalling lamp is a front direction indicator of category 1, 1a or 1b with sequential activation",
+   "quote": "The photometric characteristics of a direction indicator lamp of categories 1, 1a, 1b, 2a or 2b may be varied during a flash by sequential activation of light sources as specified in paragraph 5.6. of UN Regulation No. 6. or paragraph 5.6.11. of UN Regulation No. [LSD].",
+   "text": "The photometric characteristics of a direction indicator lamp of categories 1, 1a, 1b, 2a or 2b may be varied during a flash by sequential activation of light sources as specified in paragraph 5.6. of UN Regulation No. 6. or paragraph 5.6.11. of UN Regulation No. [LSD].",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 21,
+    "paragraph": "5.9.3"
+   }
+  },
+  {
+   "id": "R-0460",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "Bumper lamp is part of an interdependent lamp system",
+   "quote": "In the case of an interdependent lamp system, all light sources shall be switched ON and OFF simultaneously.",
+   "text": "In the case of an interdependent lamp system, all light sources shall be switched ON and OFF simultaneously.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 22,
+    "paragraph": "5.11.2"
+   }
+  },
+  {
+   "id": "R-0481",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.3,
+   "condition": "The side signalling lamp is a front position or front direction-indicator lamp and can be obscured by a movable component (e.g. charge-port flap or towing device cover).",
+   "quote": "The apparent surface in the direction of the reference axis of front and rear position lamps, front and rear direction-indicator lamps and retro-reflectors shall not be hidden more than 50 per cent by any movable component, with or without a light-signalling device installed on it, in any fixed position different from the \"normal position of use\".",
+   "text": "The apparent surface in the direction of the reference axis of front and rear position lamps, front and rear direction-indicator lamps and retro-reflectors shall not be hidden more than 50 per cent by any movable component, with or without a light-signalling device installed on it, in any fixed position different from the \"normal position of use\".",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 25,
+    "paragraph": "5.21"
+   }
+  },
+  {
+   "id": "R-0777",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "In their respective planes, the zones 1 and 2 explored by the eye of the observer are bounded: - In height, by two horizontal planes 1 m and 2.2 m respectively above the ground;",
+   "text": "For the visibility of a red lamp to the front (see paragraph 5.10.4.), the zones 1 and 2 explored by the eye of the observer shall be bounded in their respective planes in height by two horizontal planes 1 m and 2.2 m respectively above the ground.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 107,
+    "paragraph": "Annex 4"
+   }
+  },
+  {
+   "id": "R-0778",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "- In width, by two vertical planes which, forming to the front and to the rear respectively an angle of 15° outwards from the vehicle's median longitudinal plane, pass through the point or points of contact of vertical planes parallel to the vehicle's median longitudinal plane delimiting the vehicle's overall width; if there are several points of contact, the foremost shall correspond to the forward plane and the rearmost to the rearward plane.",
+   "text": "For the visibility of a red lamp to the front (see paragraph 5.10.4.), the zones 1 and 2 explored by the eye of the observer shall be bounded in their respective planes in width by two vertical planes which, forming to the front and to the rear respectively an angle of 15° outwards from the vehicle's median longitudinal plane, pass through the point or points of contact of vertical planes parallel to the vehicle's median longitudinal plane delimiting the vehicle's overall width; if there are several points of contact, the foremost shall correspond to the forward plane and the rearmost to the rearward plane.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 107,
+    "paragraph": "Annex 4"
+   }
+  },
+  {
+   "id": "R-0486",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The bumper carries a lamp of the functions listed in 2.5.1., 2.5.2., 2.5.4., 2.5.6. or 2.5.7. without electronic control gear, integral variable intensity control or only R128 light sources.",
+   "quote": "The voltage supplied at the terminals of devices which, according to their type approval documentation, have been tested by the application of a special power supply/electronic light source control gear, or in a secondary operating mode or at a voltage requested by the applicant, shall not exceed the voltage specified for the relevant devices or functions as they have been approved.",
+   "text": "For vehicles of M and N categories, when the electrical system of the vehicle is in a constant voltage operating condition, the voltage supplied at the terminals of devices indicated in 2.5.1., 2.5.2., 2.5.4., 2.5.6. and 2.5.7. which, according to their type approval documentation, have been tested by the application of a special power supply/electronic light source control gear, or in a secondary operating mode or at a voltage requested by the applicant, shall not exceed the voltage specified for the relevant devices or functions as they have been approved, except devices which include an electronic light source control gear, a variable intensity control being part of the device, or only light source(s) approved according to UN Regulation No. 128.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 27,
+    "paragraph": "5.27.1"
+   }
+  },
+  {
+   "id": "R-0487",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The bumper carries a lamp of the functions listed in 2.5.1., 2.5.2., 2.5.4., 2.5.6. or 2.5.7. without electronic control gear, integral variable intensity control or only R128 light sources.",
+   "quote": "In all cases of electric power supply conditions not covered by paragraph 5.27.1., the voltage at the terminals of the device(s) or function(s) shall not exceed 6.75 V (6 Volt-Systems), 13.5 V (12 Volt-Systems) or 28 V (24 Volt-Systems) by more than 3 per cent.",
+   "text": "For vehicles of M and N categories, when the electrical system of the vehicle is in a constant voltage operating condition, in all cases of electric power supply conditions not covered by paragraph 5.27.1., the voltage at the terminals of the device(s) or function(s) indicated in 2.5.1., 2.5.2., 2.5.4., 2.5.6. and 2.5.7. shall not exceed 6.75 V (6 Volt-Systems), 13.5 V (12 Volt-Systems) or 28 V (24 Volt-Systems) by more than 3 per cent, except devices which include an electronic light source control gear, a variable intensity control being part of the device, or only light source(s) approved according to UN Regulation No. 128.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 27,
+    "paragraph": "5.27.2"
+   }
+  },
+  {
+   "id": "R-0708",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "",
+   "quote": "Prohibited: on vehicles of categories M1 and O1.",
+   "text": "Conspicuity markings shall be prohibited on vehicles of categories M1 and O1.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 63,
+    "paragraph": "6.21.1.1"
+   }
+  },
+  {
+   "id": "R-0728",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "The side signalling lamp is a direction indicator lamp used for the emergency stop signal",
+   "quote": "Presence Mandatory on motor vehicles. Optional on trailers. The emergency stop signal shall be given by the simultaneous operation of all the stop or direction-indicator lamps fitted as described in paragraph 6.23.7.",
+   "text": "The emergency stop signal shall be mandatory on motor vehicles.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 75,
+    "paragraph": "6.23.1"
+   }
+  },
+  {
+   "id": "R-0736",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.4,
+   "condition": "The side signalling lamp is a direction indicator lamp used for the emergency stop signal",
+   "quote": "The emergency stop signal shall operate independently of other lamps.",
+   "text": "The emergency stop signal shall operate independently of other lamps.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 75,
+    "paragraph": "6.23.7.2"
+   }
+  },
+  {
+   "id": "R-0737",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction indicator lamp used for the emergency stop signal",
+   "quote": "The emergency stop signal shall be switched ON and OFF automatically.",
+   "text": "The emergency stop signal shall be switched ON and OFF automatically.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 75,
+    "paragraph": "6.23.7.3"
+   }
+  },
+  {
+   "id": "R-0738",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction indicator lamp used for the emergency stop signal",
+   "quote": "The emergency stop signal shall be switched ON only when the vehicle speed is above 50 km/h and the braking system is providing the emergency braking logic signal defined in UN Regulations Nos. 13 and 13-H.",
+   "text": "The emergency stop signal shall be switched ON only when the vehicle speed is above 50 km/h and the braking system is providing the emergency braking logic signal defined in UN Regulations Nos. 13 and 13-H.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 75,
+    "paragraph": "6.23.7.3.1"
+   }
+  },
+  {
+   "id": "R-0739",
+   "reason": "R48 general provisions, direction-indicator arrangement/tell-tale, hazard warning, emergency stop, red-light zones",
+   "probability": 0.35,
+   "condition": "The side signalling lamp is a direction indicator lamp used for the emergency stop signal",
+   "quote": "The emergency stop signal shall be automatically switched OFF if the emergency braking logic signal as defined in UN Regulations Nos. 13 and 13-H is no longer provided or if the hazard warning signal is activated.",
+   "text": "The emergency stop signal shall be automatically switched OFF if the emergency braking logic signal as defined in UN Regulations Nos. 13 and 13-H is no longer provided or if the hazard warning signal is activated.",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 75,
+    "paragraph": "6.23.7.3.2"
+   }
+  }
+ ],
+ "transplanted": [
+  {
+   "id": "R-0425",
+   "paragraph": "5.1",
+   "similarity": 0.916,
+   "old_text": "The lighting and light-signalling devices shall be so fitted that under normal conditions of use as defined in paragraphs 2.3.10., 2.3.10.1. and 2.3.10.2. and notwithstanding any vibrations to which they may be subjected, the lighting and light-signalling devices retain the characteristics prescribed by this Regulation and enable the vehicle to comply with the requirements of this Regulation.",
+   "new_text": "The lighting and light-signalling devices shall be so fitted that under normal conditions of use as defined in paragraphs 2.3.10., 2.3.10.1. and 2.3.10.2. and notwithstanding any vibrations to which the lighting and light-signalling devices may be subjected, the lighting and light-signalling devices enable the vehicle to comply with the requirements of this Regulation."
+  },
+  {
+   "id": "R-0428",
+   "paragraph": "5.3",
+   "similarity": 0.989,
+   "old_text": "For all light-signalling devices, including those mounted on the side panels, the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road, with a tolerance of ±3° in each direction.",
+   "new_text": "For all light-signalling devices, including those mounted on the side panels, the reference axis of the lamp when fitted to the vehicle shall be parallel to the bearing plane of the vehicle on the road, with a tolerance of ±3° allowed in each direction."
+  },
+  {
+   "id": "R-0431",
+   "paragraph": "5.3",
+   "similarity": 0.828,
+   "old_text": "The reference axis of the lamp when fitted to the vehicle shall be perpendicular to the median longitudinal plane of the vehicle in the case of side retro-reflectors and of side-marker lamps, with a tolerance of ±3° in each direction.",
+   "new_text": "For all light-signalling devices other than side retro-reflectors and side-marker lamps, the reference axis of the lamp when fitted to the vehicle shall be parallel to the median longitudinal plane of the vehicle, with a tolerance of ±3° allowed in each direction."
+  },
+  {
+   "id": "R-0430",
+   "paragraph": "5.3",
+   "similarity": 0.783,
+   "old_text": "Any specific instructions as regards fitting of light-signalling devices laid down by the manufacturer shall be complied with.",
+   "new_text": "For all light-signalling devices, including those mounted on the side panels, any specific instructions as regards fitting laid down by the manufacturer shall be complied with."
+  },
+  {
+   "id": "R-0436",
+   "paragraph": "5.5.4",
+   "similarity": 0.862,
+   "old_text": "In the absence of specific instructions lamps constituting a pair shall have substantially identical photometric characteristics, except that this shall not apply to a matched pair of a function and/or an AFS.",
+   "new_text": "The lamps shall have substantially identical photometric characteristics, except that this shall not apply to a matched pair of a function and/or an AFS."
+  },
+  {
+   "id": "R-0437",
+   "paragraph": "5.5.5",
+   "similarity": 0.821,
+   "old_text": "In case of lamps incorporating a manufacturer logo, only two lateral logos (one on each side) or one central logo can be fitted on the front of the vehicle.",
+   "new_text": "The lamps incorporating a manufacturer logo shall have only two lateral logos (one on each side) or one central logo fitted on the rear of the vehicle."
+  },
+  {
+   "id": "R-0438",
+   "paragraph": "5.5.5",
+   "similarity": 0.667,
+   "old_text": "All logos in lamps that are not vehicle manufacturer or body manufacturer logos shall be prohibited.",
+   "new_text": "The lamps incorporating a manufacturer logo shall not include any logos that are not vehicle manufacturer or body manufacturer logos."
+  },
+  {
+   "id": "R-0440",
+   "paragraph": "5.7.1",
+   "similarity": 0.833,
+   "old_text": "Lamps may be grouped, combined or reciprocally incorporated with one another provided that all requirements regarding colour, position, orientation, geometric visibility, electrical connections and other requirements, if any, are fulfilled.",
+   "new_text": "While lamps are grouped, combined or reciprocally incorporated with one another, the lamps shall fulfill all requirements regarding colour, position, orientation, geometric visibility, electrical connections and other requirements, if any."
+  },
+  {
+   "id": "R-0441",
+   "paragraph": "5.7.1.1",
+   "similarity": 0.852,
+   "old_text": "The photometric and colorimetric requirements of a lamp shall be fulfilled when all other functions with which this lamp is grouped, combined or reciprocally incorporated are switched OFF.",
+   "new_text": "While all other functions with which a lamp is grouped, combined or reciprocally incorporated are switched OFF, the lamp shall fulfill the photometric and colorimetric requirements."
+  },
+  {
+   "id": "R-0442",
+   "paragraph": "5.7.1.1",
+   "similarity": 0.903,
+   "old_text": "When a front or rear position lamp is reciprocally incorporated with one or more other function(s) which can be switched ON together with them, the requirements regarding colour of each of these other functions shall be fulfilled when the reciprocally incorporated function(s) and the front or rear position lamps are switched ON.",
+   "new_text": "When a front or rear position lamp is reciprocally incorporated with one or more other function(s) which can be switched ON together with them, and the reciprocally incorporated function(s) and the front or rear position lamps are switched ON, the front or rear position lamp shall fulfill the requirements regarding colour of each of these other functions."
+  },
+  {
+   "id": "R-0452",
+   "paragraph": "5.9",
+   "similarity": 0.794,
+   "old_text": "In the absence of specific instructions, the photometric characteristics (e.g. intensity, colour, apparent surface, etc.) of a lamp shall not be intentionally varied during the period when the lamp is switched ON.",
+   "new_text": "While specific instructions are absent, the lamp shall not intentionally vary its photometric characteristics (e.g. intensity, colour, apparent surface, etc.) during the period when the lamp is switched ON."
+  },
+  {
+   "id": "R-0454",
+   "paragraph": "5.9.2",
+   "similarity": 0.93,
+   "old_text": "The photometric characteristics of any lamp may vary in relation to the ambient light, as a consequence of other lamps being switched ON or OFF, or when the lamp is being used to provide another lighting function, provided that any variation in the photometric characteristics is in compliance with the technical provisions for the lamp concerned.",
+   "new_text": "When the photometric characteristics of any lamp vary in relation to the ambient light, as a consequence of other lamps being switched ON or OFF, or when the lamp is being used to provide another lighting function, the lamp shall ensure any variation in the photometric characteristics is in compliance with the technical provisions for the lamp concerned."
+  },
+  {
+   "id": "R-0459",
+   "paragraph": "5.11",
+   "similarity": 0.553,
+   "old_text": "The electrical connections shall be such that the front and rear position lamps, the end-outline marker lamps, if they exist, the side-marker lamps, if they exist, and the rear registration plate lamp can only be switched ON and OFF simultaneously, except while one or more of the following conditions exist: (a) Front and rear position lamps, as well as side-marker lamps when combined or reciprocally incorporated with said lamps, are switched ON as parking lamps; (b) Side-marker lamps flash in conjunction with direction indicators; (c) Daytime running lamps are switched ON; (d) Front position lamps function is substituted under the provisions of paragraph 5.12.1.",
+   "new_text": "The electrical connections shall be such that the front and rear position lamps, the end-outline marker lamps, if they exist, the side-marker lamps, if they exist, and the rear registration plate lamp can only be switched ON and OFF simultaneously."
+  },
+  {
+   "id": "R-0488",
+   "paragraph": "5.28.1",
+   "similarity": 0.949,
+   "old_text": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity, except that no account is taken of obstacles, if they were already presented when the lamp was type-approved.",
+   "new_text": "There shall be no obstacle on the inside of the angles of geometric visibility to the propagation of light from any part of the apparent surface of the lamp observed from infinity; no account is taken of obstacles that were already present when the lamp was type-approved."
+  },
+  {
+   "id": "R-0494",
+   "paragraph": "5.30",
+   "similarity": 0.969,
+   "old_text": "All lamps (devices) shall, where applicable, be type approved according to the corresponding device Regulations as specified in the relevant subparagraphs of paragraph 6 of this Regulation when installed on a vehicle.",
+   "new_text": "The lamps (devices) shall be type approved according to the corresponding device Regulations as specified in the relevant subparagraphs of paragraph 6 of this Regulation when installed on a vehicle, where applicable."
+  },
+  {
+   "id": "R-0011",
+   "paragraph": "6.1.1",
+   "similarity": 0.974,
+   "old_text": "A vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation.",
+   "new_text": "The vehicle and its electrical/electronic system(s) or ESA(s) shall be designed, constructed and fitted in such a way as to enable the vehicle, in normal conditions of use, to comply with the requirements of this Regulation."
+  },
+  {
+   "id": "R-0023",
+   "paragraph": "6.5.2.1",
+   "similarity": 1.0,
+   "old_text": "When measurements are made using the method described in Annex 7, the limit in the 400 to 1,000 MHz frequency band shall remain constant at 63 dB microvolts/m.",
+   "new_text": "When measurements are made using the method described in Annex 7, in the 400 to 1,000 MHz frequency band the limit shall remain constant at 63 dB microvolts/m."
+  },
+  {
+   "id": "R-0024",
+   "paragraph": "6.5.2.2",
+   "similarity": 0.884,
+   "old_text": "On the ESA representative of its type, the measured broadband values, expressed in dB microvolts/m, shall be below the type approval limits.",
+   "new_text": "The ESA representative of its type shall have measured values, expressed in dB microvolts/m, below the type approval limits."
+  },
+  {
+   "id": "R-0028",
+   "paragraph": "6.6.2.2",
+   "similarity": 0.864,
+   "old_text": "On the ESA representative of its type, the measured narrowband value, expressed in dB microvolts/m shall be below the type approval limits.",
+   "new_text": "The ESA representative of its type shall have a measured value, expressed in dB microvolts/m, below the type approval limits."
+  },
+  {
+   "id": "R-0029",
+   "paragraph": "6.7.1",
+   "similarity": 0.865,
+   "old_text": "The emission of transient conducted disturbances on 12/24 V supply lines of ESA representative of its type shall be tested by the method(s) according to ISO 7637-2 as described in Annex 10 for the levels given in Table 1.",
+   "new_text": "The emission of ESA representative of its type shall be tested by the method(s) according to ISO 7637-2 as described in Annex 10 for the levels given in Table 1."
+  },
+  {
+   "id": "R-0037",
+   "paragraph": "6.8.2.2",
+   "similarity": 0.787,
+   "old_text": "During the tests performed in accordance with Annex 9, there shall be no degradation of performance of \"immunity related functions\" of the ESA representative of its type.",
+   "new_text": "While tests are performed in accordance with Annex 9, the ESA representative of its type shall be considered as complying with immunity requirements if there is no degradation of performance of \"immunity related functions\"."
+  },
+  {
+   "id": "R-0273",
+   "paragraph": "Annex 9 3.1",
+   "similarity": 0.977,
+   "old_text": "Measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1.",
+   "new_text": "The measurements shall be made in the 20 to 6,000 MHz frequency range with frequency steps according to ISO 11452-1."
+  },
+  {
+   "id": "R-0291",
+   "paragraph": "Annex 10 2",
+   "similarity": 0.961,
+   "old_text": "For immunity against transient disturbances conducted along 12/24 V supply lines, the test pulses 1, 2a, 2b, 3a and 3b according to the International Standard ISO 7637-2 shall be applied to the supply lines as well as to other connections of ESAs which may be operationally connected to supply lines.",
+   "new_text": "For immunity against transient disturbances conducted along 12/24 V supply lines, the test pulses 1, 2a, 2b, 3a and 3b according to ISO 7637-2 shall be applied to the supply lines as well as to other connections of the ESA which may be operationally connected to supply lines."
+  },
+  {
+   "id": "R-0292",
+   "paragraph": "Annex 10 2",
+   "similarity": 0.884,
+   "old_text": "For immunity against transient disturbances conducted along 12/24 V supply lines, the starting profile according to the International Standard ISO 16750-2 shall be applied to the supply lines as well as to other connections of ESAs which may be operationally connected to supply lines, except that ESAs that are exclusively reserved for mounting on electric vehicles (vehicles without 12V/24V starter motor) are not subject to starting profile.",
+   "new_text": "For immunity against transient disturbances conducted along 12/24 V supply lines, the starting profile according to ISO 16750-2 shall be applied to the supply lines as well as to other connections of the ESA which may be operationally connected to supply lines; ESAs exclusively reserved for mounting on electric vehicles (vehicles without a 12 V / 24 V starter motor) are not subject to the starting profile."
+  },
+  {
+   "id": "R-0929",
+   "paragraph": "3.3.1.1.1",
+   "similarity": 0.875,
+   "old_text": "All markings shall be clearly legible and indelible.",
+   "new_text": "The markings shall be clearly legible and indelible."
+  },
+  {
+   "id": "R-0930",
+   "paragraph": "3.3.1.2",
+   "similarity": 1.0,
+   "old_text": "With regard to the size of the approval marking the value for “a” shall be at least 5 mm.",
+   "new_text": "The value for ‘a’ shall be at least 5 mm with regard to the size of the approval marking."
+  },
+  {
+   "id": "R-0932",
+   "paragraph": "3.3.2.2",
+   "similarity": 0.852,
+   "old_text": "The approval marking shall consist of the four to six-digit sequential number, being part of the approval number prescribed in paragraph 3.2.3.2.",
+   "new_text": "The four to six-digit sequential number, being part of the approval number prescribed in paragraph 3.2.3.2., shall be placed close to the approval mark."
+  },
+  {
+   "id": "R-0936",
+   "paragraph": "3.3.2.5.1",
+   "similarity": 0.871,
+   "old_text": "On lamps which cannot be mounted on either side of the vehicle indiscriminately, the approval marking shall consist of a horizontal arrow showing in which position the lamp is to be mounted.",
+   "new_text": "The lamps which cannot be mounted on either side of the vehicle indiscriminately shall be provided with a horizontal arrow showing in which position the lamp is to be mounted."
+  },
+  {
+   "id": "R-0938",
+   "paragraph": "3.3.2.5.1.1",
+   "similarity": 1.0,
+   "old_text": "The arrow shall be directed outwards from the vehicle in the case of front or rear position lamps, front or rear end-outline marker lamps.",
+   "new_text": "In the case of front or rear position lamps, front or rear end-outline marker lamps, the arrow shall be directed outwards from the vehicle."
+  },
+  {
+   "id": "R-0944",
+   "paragraph": "3.3.3.1",
+   "similarity": 0.923,
+   "old_text": "Lamps shall bear the approval marking.",
+   "new_text": "The lamps shall bear the approval marking."
+  },
+  {
+   "id": "R-0945",
+   "paragraph": "3.3.3.2",
+   "similarity": 0.957,
+   "old_text": "Lamps shall bear the trade name or mark of the applicant.",
+   "new_text": "The lamps shall bear the trade name or mark of the applicant."
+  },
+  {
+   "id": "R-0948",
+   "paragraph": "3.3.3.4",
+   "similarity": 0.684,
+   "old_text": "In the case of lamps with an electronic light source control gear, the lamps shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage.",
+   "new_text": "Lamps with an electronic light source control gear, and/or a variable luminous intensity control, and/or a secondary operating mode, and/or non-replaceable light sources shall bear marking of the rated voltage(s) (i.e. 6V, 12V or 24V) or the range of voltage."
+  },
+  {
+   "id": "R-0952",
+   "paragraph": "3.3.3.5",
+   "similarity": 1.0,
+   "old_text": "In case replaceable light source module(s) is/are used, the light source module(s) shall bear the trade name or mark of the applicant.",
+   "new_text": "The light source module(s) shall bear the trade name or mark of the applicant in case replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "R-0953",
+   "paragraph": "3.3.3.5",
+   "similarity": 0.936,
+   "old_text": "In case replaceable light source module(s) is/are used, the light source module(s) shall bear the specific identification code of the module.",
+   "new_text": "The light source module(s) shall bear the specific identification code of the module where replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "R-0954",
+   "paragraph": "3.3.3.5",
+   "similarity": 0.844,
+   "old_text": "The specific identification code of the module shall comprise the starting letters “MD” for “MODULE” followed by the approval mark without the circle as prescribed in paragraph 3.3.2.1.1., followed by additional symbols or characters in case several non-identical light source modules are used.",
+   "new_text": "The specific identification code of the module shall comprise the starting letters “MD” for “MODULE” followed by the approval mark without the circle as prescribed in paragraph 3.3.2.1.1, in case replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "R-0955",
+   "paragraph": "3.3.3.5",
+   "similarity": 1.0,
+   "old_text": "In case replaceable light source module(s) is/are used, the light source module(s) shall bear the rated voltage(s) or the range of voltage.",
+   "new_text": "The light source module(s) shall bear the rated voltage(s) or the range of voltage in case replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "R-0956",
+   "paragraph": "3.3.3.5",
+   "similarity": 1.0,
+   "old_text": "In case replaceable light source module(s) is/are used, the lamp shall bear the specific identification code of the module as prescribed in paragraph 3.3.3.5. (a), (ii).",
+   "new_text": "The lamp shall bear the specific identification code of the module as prescribed in paragraph 3.3.3.5. (a), (ii) in case replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "R-0957",
+   "paragraph": "3.3.3.5",
+   "similarity": 1.0,
+   "old_text": "In case replaceable light source module(s) is/are used, the lamp shall bear the rated voltage(s) or the range of voltage.",
+   "new_text": "The lamp shall bear the rated voltage(s) or the range of voltage in case replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "R-0961",
+   "paragraph": "3.3.4.2",
+   "similarity": 0.969,
+   "old_text": "In any case the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible when the lamp is fitted on the vehicle or when a movable part such as the hood or boot lid or a door is opened.",
+   "new_text": "When the lamp is fitted on the vehicle or when a movable part such as the hood or boot lid or a door is opened, the approval marking as well as the category or categories of LED substitute light source(s) prescribed, if any, shall be visible."
+  },
+  {
+   "id": "R-0962",
+   "paragraph": "3.3.4.3",
+   "similarity": 1.0,
+   "old_text": "If the outer lens of a device is designed to be separated from the main body, the approval marking shall be placed on both, the detachable lens and the main body.",
+   "new_text": "The approval marking shall be placed on both, the detachable lens and the main body, if the outer lens of a device is designed to be separated from the main body."
+  },
+  {
+   "id": "R-0963",
+   "paragraph": "3.3.4.4",
+   "similarity": 1.0,
+   "old_text": "In case an outer lens is used for several devices and bearing different approval markings, the main body of each device shall bear only the approval marking of the function(s) of that device.",
+   "new_text": "The main body of each device shall bear only the approval marking of the function(s) of that device in case an outer lens is used for several devices and bearing different approval markings."
+  },
+  {
+   "id": "R-0965",
+   "paragraph": "3.3.4.6",
+   "similarity": 0.903,
+   "old_text": "The markings in paragraphs 3.3.3.5.(a) shall be affixed on the component.",
+   "new_text": "The component shall have the markings in paragraphs 3.3.3.5.(a) affixed on it."
+  },
+  {
+   "id": "R-0973",
+   "paragraph": "4.3",
+   "similarity": 0.874,
+   "old_text": "The lamps shall be so designed and constructed that in normal conditions of use, and notwithstanding the vibrations to which they may be subjected in such use, their satisfactory operation remains assured and they retain the characteristics prescribed by this Regulation.",
+   "new_text": "The lamps shall be so designed and constructed that in normal conditions of use, and notwithstanding the vibrations to which the lamps may be subjected in such use, the satisfactory operation of the lamps remains assured and the lamps retain the characteristics prescribed by this Regulation."
+  },
+  {
+   "id": "R-0976",
+   "paragraph": "4.5.3",
+   "similarity": 0.987,
+   "old_text": "Position lamps or daytime running lamps, which are reciprocally incorporated with another function, using a common light source, and designed to operate permanently with an additional system to regulate the intensity of the light emitted, shall be permitted.",
+   "new_text": "The position lamps or daytime running lamps, which are reciprocally incorporated with another function, using a common light source, and designed to operate permanently with an additional system to regulate the intensity of the light emitted, shall be permitted."
+  },
+  {
+   "id": "R-0978",
+   "paragraph": "4.5.5",
+   "similarity": 0.774,
+   "old_text": "If the internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of a lamp (function) incorporates a manufacturer logo, irrespective of the marking requirements in paragraph 3.3., only the logo of the brand name of the vehicle manufacturer or the body manufacturer shall be allowed, provided that all requirements for the specific function of this Regulation are fulfilled.",
+   "new_text": "The internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of a lamp (function) shall incorporate only the logo of the brand name of the vehicle manufacturer or the body manufacturer, irrespective of the marking requirements in paragraph 3.3., when incorporating only one manufacturer logo built by transparent or non-transparent components on request of the applicant."
+  },
+  {
+   "id": "R-0979",
+   "paragraph": "4.5.5",
+   "similarity": 0.632,
+   "old_text": "If a lamp (function) incorporates a manufacturer logo, the enclosed light emitting surface of the logo (incorporating transparent and non-transparent components of the logo) of such a lamp in the direction of the reference axis shall not exceed 100 cm2.",
+   "new_text": "The enclosed light emitting surface of the logo (incorporating transparent and non-transparent components of the logo) of a lamp, where the internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of the lamp incorporates only one manufacturer logo built by transparent or non-transparent components on request of the applicant, shall not exceed 100 cm2 in the direction of the reference axis."
+  },
+  {
+   "id": "R-0982",
+   "paragraph": "4.6.1.2",
+   "similarity": 0.934,
+   "old_text": "In case of failure of any one light source in a single lamp containing more than one light source, at least one of the following provisions shall apply: (a) the light intensity complies with the minimum intensity required in the pertinent table of standard light distribution as shown in Annex 3 and when all light sources are illuminated the maximum intensities shall not be exceeded; or (b) a signal for activation of a tell-tale indicating failure, as indicated in paragraphs 6.4.8., 6.7.8., 6.9.8, 6.10.8., 6.11.8., 6.12.8., 6.13.8. and 6.18.8. of UN Regulation No. 48, is produced.",
+   "new_text": "If any one light source in a single lamp containing more than one light source fails, then the single lamp shall ensure that at least one of the following provisions applies: (a) the light intensity complies with the minimum intensity required in the pertinent table of standard light distribution as shown in Annex 3 and when all light sources are illuminated the maximum intensities shall not be exceeded; or (b) a signal for activation of a tell-tale indicating failure, as indicated in paragraphs 6.4.8., 6.7.8., 6.9.8, 6.10.8., 6.11.8., 6.12.8., 6.13.8. and 6.18.8. of UN Regulation No. 48, is produced."
+  },
+  {
+   "id": "R-0990",
+   "paragraph": "4.7.2.3",
+   "similarity": 0.979,
+   "old_text": "Light Signalling Devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle.",
+   "new_text": "The Light Signalling Devices shall not generate radiated or power line disturbances, which cause a malfunction of other electric/electronic systems of the vehicle."
+  },
+  {
+   "id": "R-0991",
+   "paragraph": "4.7.2.4",
+   "similarity": 0.831,
+   "old_text": "In case of replaceable light source module(s), the design of the light source module(s) shall be such that it can only be fitted in the designated and correct position and can only be removed with the use of tool(s).",
+   "new_text": "In case of replaceable light source module(s), the design of the light source module(s) shall be such that the light source module(s) can only be fitted in the designated and correct position."
+  },
+  {
+   "id": "R-0992",
+   "paragraph": "4.7.2.4",
+   "similarity": 0.88,
+   "old_text": "In case of replaceable light source module(s), the design of the light source module(s) shall be such that it is tamperproof.",
+   "new_text": "The design of the light source module(s) shall be such that the light source module(s) is tamperproof in case of replaceable light source module(s)."
+  },
+  {
+   "id": "R-0993",
+   "paragraph": "4.7.2.4",
+   "similarity": 0.945,
+   "old_text": "In case of replaceable light source module(s), the design of the light source module(s) shall be such that, regardless of the use of tool(s), it is not interchangeable with any replaceable UN approved light source and/or any other replaceable light source module having different characteristics that is located in the same lamp housing.",
+   "new_text": "The design of the light source module(s) shall be such that regardless of the use of tool(s), the light source module(s) is not interchangeable with any replaceable UN approved light source and/or any other replaceable light source module having different characteristics that is located in the same lamp housing."
+  },
+  {
+   "id": "R-0994",
+   "paragraph": "4.7.2.4",
+   "similarity": 0.938,
+   "old_text": "In case of replaceable light source module(s), when the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, the photometric requirements of device shall be met.",
+   "new_text": "When the light source module is removed and replaced by another module provided by the applicant and bearing the same light source module identification code, in case of replaceable light source module(s), the device shall meet the photometric requirements."
+  },
+  {
+   "id": "R-0998",
+   "paragraph": "4.8.1.2",
+   "similarity": 0.9,
+   "old_text": "In the case of a lamp equipped with light source module(s) or non-replaceable light source(s), all measurements shall be made with the light source(s) present in the lamp.",
+   "new_text": "The lamp equipped with light source module(s) or non-replaceable light source(s) shall have all measurements made with the light source(s) present in the lamp."
+  },
+  {
+   "id": "R-1009",
+   "paragraph": "4.8.2",
+   "similarity": 0.882,
+   "old_text": "Unless otherwise specified, the voltage supplied at the lamp for testing shall be either 6.75 V (6 Volt-Systems), 13.5 V (12 Volt-Systems) or 28 V (24 Volt-Systems).",
+   "new_text": "Unless otherwise specified, the lamp shall be operated for testing at a supply voltage at the lamp of 6.75 V (6 Volt systems), 13.5 V (12 Volt systems) or 28 V (24 Volt systems)."
+  },
+  {
+   "id": "R-1016",
+   "paragraph": "4.8.3.1",
+   "similarity": 1.0,
+   "old_text": "If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall, on the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+   "new_text": "The intensity of light emitted by each of the two samples supplied shall, if not otherwise specified, on the reference axis (HV), be not less than the minimum specified in the table of the pertinent function in paragraph 5."
+  },
+  {
+   "id": "R-1017",
+   "paragraph": "4.8.3.1",
+   "similarity": 0.975,
+   "old_text": "If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall, in no direction where the lamp is visible, exceed the maximum, specified in the table of the pertinent function in paragraph 5.",
+   "new_text": "The intensity of light emitted by each of the two samples supplied shall, if not otherwise specified and in no direction where the lamp is visible, not exceed the maximum specified in the table of the pertinent function in paragraph 5."
+  },
+  {
+   "id": "R-1018",
+   "paragraph": "4.8.3.1",
+   "similarity": 1.0,
+   "old_text": "If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall, outside the reference axis, be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by the percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in question, or be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in question.",
+   "new_text": "The intensity of light emitted by each of the two samples supplied shall, if not otherwise specified, outside the reference axis, be not less than the product of the minimum specified in the table of the pertinent function in paragraph 5., by the percentage specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in question, or be not less than the intensity value as specified in the pertinent light distribution figure reproduced in Annex 3 for each direction in question."
+  },
+  {
+   "id": "R-1019",
+   "paragraph": "4.8.3.1",
+   "similarity": 0.989,
+   "old_text": "If not otherwise specified, the intensity of light emitted by each of the two samples supplied shall, within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum specified in the table of the pertinent function in paragraph 5.",
+   "new_text": "The intensity of light emitted by each of the two samples supplied shall, if not otherwise specified and within the angles of geometric visibility defined in the tables in Annex 2, be not less than the minimum specified in the table of the pertinent function in paragraph 5."
+  },
+  {
+   "id": "R-1020",
+   "paragraph": "4.8.3.1",
+   "similarity": 0.694,
+   "old_text": "The provisions of the relevant paragraphs of Annex 3 on local variations of intensity shall be observed.",
+   "new_text": "The intensity of light emitted by each of the two samples supplied shall be observed in accordance with the provisions of the relevant paragraphs of Annex 3 on local variations of intensity."
+  },
+  {
+   "id": "R-1030",
+   "paragraph": "4.9",
+   "similarity": 0.59,
+   "old_text": "Outside the field of the light distribution grid no sharp variation of colour shall be observed, except that for lamps equipped with non-replaceable light sources, the colorimetric characteristics should be verified with the light sources present in the lamp, in accordance with relevant subparagraphs of paragraph 4.8.",
+   "new_text": "The lamp shall exhibit no sharp variation of colour outside the field of the light distribution grid defined for the specific function in the relevant paragraph of Annex 3."
+  },
+  {
+   "id": "R-1093",
+   "paragraph": "6.1.3",
+   "similarity": 0.655,
+   "old_text": "When the compliance of the lamps with the requirements set forth in paragraph 5. is verified, no measured value shall deviate unfavourably by more than 20 per cent from the values prescribed in this Regulation.",
+   "new_text": "The measured values shall not deviate unfavourably by more than 20 per cent from the values prescribed in this Regulation."
+  },
+  {
+   "id": "R-1094",
+   "paragraph": "6.1.3",
+   "similarity": 0.945,
+   "old_text": "For the minimum values required throughout the fields specified in Annexes 2 and 3 the measured values of the lamps shall correspond to the values shown in Table 12.",
+   "new_text": "The measured values shall correspond to the values shown in Table 12 for the minimum values required throughout the fields specified in Annexes 2 and 3."
+  },
+  {
+   "id": "R-1114",
+   "paragraph": "Annex 3 1.2",
+   "similarity": 0.961,
+   "old_text": "If not otherwise specified, within the field of light distribution schematically shown as a grid, the light intensity in each direction of a part of the field formed by the grid lines shall meet at least the lowest minimum value being shown on the grid lines surrounding the questioned direction as a percentage.",
+   "new_text": "The light intensity in each direction of a part of the field formed by the grid lines shall meet at least the lowest minimum value being shown on the grid lines surrounding the questioned direction as a percentage, within the field of light distribution schematically shown as a grid."
+  },
+  {
+   "id": "R-1147",
+   "paragraph": "Annex 8 1.2.2",
+   "similarity": 0.756,
+   "old_text": "For lamps (functions) using light source technologies other than incandescent technology only, for all lamps other than reversing lamps and manoeuvring lamps, the luminous intensities measured after 1 min and either after 30 minutes of operation, or after photometric stability has occurred shall comply with the minimum and maximum requirements.",
+   "new_text": "The luminous intensities for all other lamps (other than those mentioned in 1.2.1), measured after 1 min and either after 30 minutes of operation, or after photometric stability has occurred, shall comply with the minimum and maximum requirements."
+  },
+  {
+   "id": "R-1150",
+   "paragraph": "Annex 8 2.1",
+   "similarity": 0.618,
+   "old_text": "Depending on the light source technology, the luminous intensity distribution of the lamp (function) shall, in addition to paragraph 1, be checked for compliance at the point in time listed in Table A8-1.",
+   "new_text": "The luminous intensity distribution shall, depending on the light source technology and in addition to paragraph 1, be checked for compliance at the point in time listed in Table A8-1, where the luminous intensity distributions at a point in time may be calculated from the luminous intensity distribution measured according to paragraph 1 by applying at each test point the ratio of luminous intensities measured at the reference coordinate of the lamp (function) under consideration."
+  }
+ ],
+ "added_from_dev": [
+  {
+   "id": "D-0001",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 19,
+    "paragraph": "5.1"
+   },
+   "text": "The lighting and light-signalling devices shall be so fitted that under normal conditions of use as defined in paragraphs 2.3.10., 2.3.10.1. and 2.3.10.2. and notwithstanding any vibrations to which the lighting and light-signalling devices may be subjected, the lighting and light-signalling devices retain the characteristics prescribed by this Regulation."
+  },
+  {
+   "id": "D-0002",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 19,
+    "paragraph": "5.1"
+   },
+   "text": "The lighting and light-signalling devices shall prevent the lamps from being inadvertently maladjusted under normal conditions of use as defined in paragraphs 2.3.10., 2.3.10.1. and 2.3.10.2. and notwithstanding any vibrations to which the lighting and light-signalling devices may be subjected."
+  },
+  {
+   "id": "D-0003",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 20,
+    "paragraph": "5.7.2.1"
+   },
+   "text": "The single lamps as defined in paragraph 2.14.11.1., subparagraph (a), the apparent surface of which is composed of two or more distinct parts, shall be installed in such a way that either the total area of the projection of the distinct parts of the apparent surface in the direction of the reference axis on a plane tangent to the exterior surface of the outer lens and perpendicular to the reference axis shall occupy not less than 60 per cent of the smallest quadrilateral circumscribing the projection of the said apparent surface in the direction of the reference axis; or the minimum distance between the facing edges of two adjacent/tangential distinct parts of the apparent surface in the direction of the reference axis shall not exceed 75 mm when measured perpendicularly to the reference axis, except that these requirements shall not apply to a single retro-reflector."
+  },
+  {
+   "id": "D-0004",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 21,
+    "paragraph": "5.10.1"
+   },
+   "text": "The vehicle shall not emit red light from a lamp fitted on the rear of the vehicle (as defined in paragraph 2.1.5.) that is visible from the front of the vehicle."
+  },
+  {
+   "id": "D-0005",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 22,
+    "paragraph": "5.10.4.3"
+   },
+   "text": "When there is doubt, the requirement that no red light shall be emitted to the front and no white light shall be emitted to the rear shall be deemed fulfilled if the luminous intensity of the red light emitted to the front and/or the white light emitted to the rear, as verified during type approval of the lamps, is not more than 0.25 cd per lamp taking into account the influence of the vehicle body if applicable."
+  },
+  {
+   "id": "D-0006",
+   "source": {
+    "regulation": "UN R48",
+    "version": "9.3.0",
+    "page": 28,
+    "paragraph": "5.28.4"
+   },
+   "text": "When the vertical angle of geometric visibility below the horizontal is reduced to 5º (lamp at less than 750 mm above the ground measured according to the provisions of paragraph 5.8.1. above), the photometric field of measurements of the installed optical unit shall be permitted to be reduced to 5º below the horizontal."
+  },
+  {
+   "id": "D-0007",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 12,
+    "paragraph": "6.10.1"
+   },
+   "text": "Where a vehicle or electrical/electronic system or ESA does not include an electronic oscillator with an operating frequency greater than 9 kHz, the vehicle or electrical/electronic system or ESA shall be deemed to comply with paragraph 6.3.2. or 6.6.2. and with Annexes 5 and 8."
+  },
+  {
+   "id": "D-0008",
+   "source": {
+    "regulation": "UN R10",
+    "version": "7.2.0",
+    "page": 13,
+    "paragraph": "6.10.5"
+   },
+   "text": "The ESAs that are not switched, contain no switches or do not include inductive load shall be deemed to comply with paragraph 6.7, except that they need not be tested for transient conducted emission."
+  },
+  {
+   "id": "D-0009",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 8,
+    "paragraph": "3.3.3.5"
+   },
+   "text": "Where replaceable light source module(s) is/are used and several non-identical light source modules are used, the specific identification code of the module shall be followed by additional symbols or characters."
+  },
+  {
+   "id": "D-0010",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 8,
+    "paragraph": "3.3.3.5"
+   },
+   "text": "The light source module and the lamp shall both have marks from the same applicant, where the approval mark on the light source module does not have to be the same as the one on the lamp in which the module is used, in case replaceable light source module(s) is/are used."
+  },
+  {
+   "id": "D-0011",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.5.5"
+   },
+   "text": "The internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of a lamp (function) shall fulfill all requirements for the specific function of this Regulation when incorporating only one manufacturer logo built by transparent or non-transparent components on request of the applicant."
+  },
+  {
+   "id": "D-0012",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 11,
+    "paragraph": "4.5.5"
+   },
+   "text": "The logo light emitting surface (incorporating transparent and non-transparent components of the logo) shall not be required to be symmetrical by itself, notwithstanding the requirements of paragraph 5.5.2. of UN Regulation No. 48, when the internal structure of the optical components and/or the texture of the outer lens inside of the apparent surface of a lamp (function) incorporates only one manufacturer logo built by transparent or non-transparent components on request of the applicant."
+  },
+  {
+   "id": "D-0013",
+   "source": {
+    "regulation": "UN R148",
+    "version": "1.6.0",
+    "page": 13,
+    "paragraph": "4.7.2.4"
+   },
+   "text": "The design of the light source module(s) shall be such that the light source module(s) can only be removed with the use of tool(s) in case of replaceable light source module(s)."
+  }
+ ]
+}
