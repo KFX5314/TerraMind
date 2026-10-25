@@ -100,6 +100,8 @@ def locate(target: list[str], segs: list[dict], pids: list[int] | None = None, t
         if not idx:
             continue
         r, i, j = best_window(target, [segs[k] for k in idx])
+        if j <= i:  # no word in common with this paragraph: no window to report
+            continue
         if best is None or r > best["ratio"]:
             sel = [segs[k] for k in idx[i:j]]
             best = {"ratio": r, "label": sel[0]["label"], "pages": sel[0]["pages"], "pid": pid,
