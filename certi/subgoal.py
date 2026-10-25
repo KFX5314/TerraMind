@@ -100,8 +100,10 @@ def locate(target: list[str], segs: list[dict], pids: list[int] | None = None, t
         if not idx:
             continue
         r, i, j = best_window(target, [segs[k] for k in idx])
+        sel = [segs[k] for k in idx[i:j]]
+        if not sel:  # no overlapping window in this paragraph (best_window found nothing): not a candidate
+            continue
         if best is None or r > best["ratio"]:
-            sel = [segs[k] for k in idx[i:j]]
             best = {"ratio": r, "label": sel[0]["label"], "pages": sel[0]["pages"], "pid": pid,
                     "seg_keys": [(s["pid"], s["i"]) for s in sel],
                     "text": " ".join(s["text"] for s in sel), "w": [w for s in sel for w in s["w"]]}

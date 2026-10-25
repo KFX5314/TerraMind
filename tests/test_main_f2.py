@@ -20,3 +20,13 @@ def test_annex_rule_keeps_every_main_body_export_of_the_best_run():
     for c in reqs:
         if not c["paragraph"].startswith(("Annex", "Appendix")):
             assert (c["probability"] >= pipeline.export_threshold(c, 0.5)) == c["exported"]
+
+
+def test_locate_skips_paragraphs_without_any_overlapping_window():
+    from certi import subgoal as S
+    segs = [{"pid": 0, "label": "1", "pages": [1], "i": 0, "text": "", "w": []},
+            {"pid": 1, "label": "2", "pages": [2], "i": 0, "text": "The lamp shall be red.",
+             "w": S.words("The lamp shall be red.")}]
+    hit = S.locate(S.words("The lamp shall be red."), segs, pids=[0, 1])
+    assert hit["label"] == "2"
+    assert S.locate(S.words("unrelated words"), segs[:1], pids=[0]) is None
