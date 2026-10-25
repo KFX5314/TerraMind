@@ -1,0 +1,30 @@
+{
+  "parent": "eval-balanced.json",
+  "parent_sha256": "27c44519ebe72e22ffe8638c538c855d8cf5a8ff1baa6033b720738134b2f9c6",
+  "target": "eval-balanced-source-faithful.json",
+  "target_sha256": "9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936",
+  "changes": {
+    "R-0414": {
+      "before": "For the longitudinal impact test, the vehicle shall be impacted at a speed of 4 km/h +0.25/-0.",
+      "after": "For the longitudinal impact test, the vehicle should be impacted at a speed of 4 km/h +0.25/-0.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.7.5"
+      },
+      "reason": "The cited UN R42 impact-test procedure says 'should', not 'shall'; preserve the numerical speed and tolerance."
+    },
+    "R-0420": {
+      "before": "For the corner impact test, the vehicle shall be impacted at a speed of 2.5 km/h +0.1/-0.",
+      "after": "For the corner impact test, the vehicle should be impacted at a speed of 2.5 km/h +0.1/-0.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 2.8.4"
+      },
+      "reason": "The cited UN R42 impact-test procedure says 'should', not 'shall'; preserve the numerical speed and tolerance."
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "parent": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-side-signal-scope.json",
+  "parent_sha256": "d5b3d5b610bda96504a7aba5709aea3985194e834fbc7e5575ae2508f8a6c3fc",
+  "target": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-side-signal-procedure-trim.json",
+  "target_sha256": "3475760bfd7fd9f51f8c8fed0f2bc98a8b0f155ae938a6622091dc2053cd65a5",
+  "count": 367,
+  "by_regulation": {
+    "UN R10": 81,
+    "UN R26": 26,
+    "UN R42": 20,
+    "UN R48": 78,
+    "UN R94": 14,
+    "UN R127": 26,
+    "UN R148": 92,
+    "UN GTR 9": 30
+  },
+  "removed_vs_parent": [
+    {
+      "id": "R-0780",
+      "text": "For the control of conformity of production, the position of lamps, as defined in paragraph 2.1.6. of this Regulation, in width, in height and in length shall be checked in accordance with the general requirements set out in paragraphs 2.10.2., 2.10.3., 2.10.4., 2.3.3. and 5.4. of this Regulation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 114,
+        "paragraph": "Annex 9 1.1"
+      },
+      "source_quote": "Position of lamps The position of lamps, as defined in paragraph 2.1.6. of this Regulation, in width, in height and in length shall be checked in accordance with the general requirements set out in paragraphs 2.10.2., 2.10.3., 2.10.4., 2.3.3. and 5.4. of this Regulation.",
+      "reason": "Annex 9 production-check procedure repeats lamp positioning requirements already exported from R48 section 5 and the applicable function section."
+    },
+    {
+      "id": "R-0782",
+      "text": "For the control of conformity of production, the angles of geometric visibility of lamps shall be checked in accordance with paragraph 2.10.7. of this Regulation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 114,
+        "paragraph": "Annex 9 1.2.1"
+      },
+      "source_quote": "The angles of geometric visibility shall be checked in accordance with paragraph 2.10.7. of this Regulation.",
+      "reason": "Annex 9 production-check procedure repeats the visibility-angle requirement already exported from the applicable R48 function section."
+    },
+    {
+      "id": "R-0783",
+      "text": "For the control of conformity of production, the visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 114,
+        "paragraph": "Annex 9 1.2.2"
+      },
+      "source_quote": "The visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+      "reason": "Annex 9 production-check procedure repeats the front/rear light-visibility restriction already exported as R48 section 5.10."
+    },
+    {
+      "id": "R-0787",
+      "text": "For the control of conformity of production, the electrical connections shall be checked by switching on every lamp supplied by the electrical system of the vehicle.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 115,
+        "paragraph": "Annex 9 1.4"
+      },
+      "source_quote": "Electrical connections and tell-tales The electrical connections shall be checked by switching on every lamp supplied by the electrical system of the vehicle.",
+      "reason": "Annex 9 instruction to check production electrical connections by switching lamps is an inspection action, not a distinct lamp-design constraint."
+    },
+    {
+      "id": "R-0789",
+      "text": "For the control of conformity of production, the presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 115,
+        "paragraph": "Annex 9 1.6"
+      },
+      "source_quote": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+      "reason": "Annex 9 instruction to inspect production lamps and markings visually repeats presence, colour, number and category obligations."
+    },
+    {
+      "id": "R-1121",
+      "text": "With respect to photometric performances, the conformity of mass-produced lamps shall not be contested, when testing photometric performances of any lamp chosen at random according to paragraph 4.8. of this Regulation.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 42,
+        "paragraph": "Annex 4 1.2"
+      },
+      "source_quote": "With respect to photometric performances, the conformity of mass-produced lamps shall not be contested, when testing photometric performances of any lamp chosen at random according to paragraph 4.8. of this Regulation.",
+      "reason": "Annex 4 statement about when mass-production photometric conformity shall not be contested is a sampling judgment, not an independently specified lamp performance limit."
+    },
+    {
+      "id": "R-1129",
+      "text": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random, no measured value deviates from the values prescribed in paragraph 6.1.3. of this Regulation.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 43,
+        "paragraph": "Annex 5 1.2"
+      },
+      "source_quote": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random: (a) No measured value deviates from the values prescribed in paragraph 6.1.3. of this Regulation.",
+      "reason": "Annex 5 inspector-sampling statement about when photometric conformity shall not be contested is a sampling judgment, not an independently specified lamp performance limit."
+    }
+  ]
+}

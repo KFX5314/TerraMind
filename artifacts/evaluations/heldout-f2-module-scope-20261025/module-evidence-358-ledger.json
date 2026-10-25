@@ -1,0 +1,155 @@
+{
+  "parent": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-side-signal-procedure-trim.json",
+  "parent_sha256": "3475760bfd7fd9f51f8c8fed0f2bc98a8b0f155ae938a6622091dc2053cd65a5",
+  "target": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-evidence-358.json",
+  "target_sha256": "ce5f24b5fdbe3ab9281d89c11fcce07f85659e64a4c1e3b5a8c322dbb7a7bf1f",
+  "count": 358,
+  "by_regulation": {
+    "UN R10": 81,
+    "UN R26": 25,
+    "UN R42": 20,
+    "UN R48": 75,
+    "UN R94": 14,
+    "UN R127": 23,
+    "UN R148": 91,
+    "UN GTR 9": 29
+  },
+  "removed_vs_parent": [
+    {
+      "id": "R-0361",
+      "text": "The projection of fuel tank filler caps and covers shall not exceed 30 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.6.1"
+      },
+      "source_quote": "The projection shall not exceed 40 mm in the case of door or luggage compartment handles and 30 mm in all other cases.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The EV charge-port flap ('Fuel filler cap') is treated as a fuel tank filler cap/cover.",
+      "reason": "The supplied 'fuel filler cap' is explicitly for EVs and denotes a charging flap, not a liquid-fuel tank filler cap governed by this R26 clause."
+    },
+    {
+      "id": "R-0467",
+      "text": "The front position lamp shall emit white light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 23,
+        "paragraph": "5.15"
+      },
+      "source_quote": "The colours of the light emitted by the lamps are the following: ... Front position lamp: White",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper lighting includes a front position lamp function",
+      "reason": "Front-position lamp colour applies to a lamp function not identified in the bumper module; the side lamp colour rule remains."
+    },
+    {
+      "id": "R-0472",
+      "text": "The daytime running lamp shall emit white light.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 24,
+        "paragraph": "5.15"
+      },
+      "source_quote": "Daytime running lamp: White",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper lighting includes a daytime running lamp",
+      "reason": "Daytime-running lamp colour applies to a lamp function not identified in the bumper module; the side lamp colour rule remains."
+    },
+    {
+      "id": "R-0572",
+      "text": "To be considered visible, the direction-indicator lamp shall provide an unobstructed view of the apparent surface of at least 12.5 square centimetres, except for side direction-indicators of categories 5 and 6.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.5.2"
+      },
+      "source_quote": "To be considered visible, the lamp shall provide an unobstructed view of the apparent surface of at least 12.5 square centimetres, except for side direction-indicators of categories 5 and 6.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The side signalling lamp is a direction-indicator lamp (other than category 5 or 6) or side-marker lamp.",
+      "reason": "The source explicitly exempts side direction indicators of categories 5 and 6 from this apparent-surface criterion; only side signalling is identified."
+    },
+    {
+      "id": "R-0877",
+      "text": "In the case of a vehicle fitted with an ARHSS, which could change the vehicle height at the front axle more than 20 mm from the nominal for any vehicle speed between 25 and 40 km/h, the provisions of paragraphs 5.1. and 5.2. shall, in addition to the normal running condition as specified by the manufacturer for a vehicle speed of 40 km/h, be met for all adjustable vehicle steady heights corresponding to vehicle speeds from 25 up to 40 km/h.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 19,
+        "paragraph": "5.3"
+      },
+      "source_quote": "In the case of a vehicle fitted with an ARHSS, which could change the vehicle height at the front axle more than 20 mm from the nominal for any vehicle speed between 25 and 40 km/h, the provisions of paragraphs 5.1. and 5.2. shall, in addition to the normal running condition as specified by the manufacturer for a vehicle speed of 40 km/h, be met for all adjustable vehicle steady heights corresponding to vehicle speeds from 25 up to 40 km/h.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Vehicle is fitted with an ARHSS changing front axle height by more than 20 mm between 25 and 40 km/h",
+      "reason": "The optional active ride-height suspension system (ARHSS) is not identified in the vehicle or bumper specification."
+    },
+    {
+      "id": "R-0891",
+      "text": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.2"
+      },
+      "source_quote": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test. It shall be the responsibility of the manufacturer to show that any devices will act as intended in a pedestrian impact.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Pedestrian impact sensors trigger an active/deployable pedestrian protection device",
+      "reason": "A pedestrian-impact sensor is listed, but no active or deployable pedestrian-protection device is identified; the obligation is conditional on such a device."
+    },
+    {
+      "id": "R-0892",
+      "text": "It shall be the responsibility of the manufacturer to show that any devices designed to protect vulnerable road users will act as intended in a pedestrian impact.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 26,
+        "paragraph": "Annex 3 3.2"
+      },
+      "source_quote": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test. It shall be the responsibility of the manufacturer to show that any devices will act as intended in a pedestrian impact.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Pedestrian impact sensors trigger an active/deployable pedestrian protection device",
+      "reason": "A pedestrian-impact sensor is listed, but no active or deployable pedestrian-protection device is identified; the obligation is conditional on such a device."
+    },
+    {
+      "id": "R-1115",
+      "text": "The front and rear position lamps, parking lamps, front and rear end-outline marker lamps, stop lamps (S1, S2 and MS) and direction indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c, 12 shall meet, for the various directions of measurement, the minimum intensities as a percentage of the minimum intensities required (see Tables 3, 4, 5, 7 and 8) given in Figure A3-I.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 36,
+        "paragraph": "Annex 3 2.1"
+      },
+      "source_quote": "Standard light distribution for front and rear position lamps, parking lamps, front and rear end-outline marker lamps, stop lamps (S1, S2 and MS) and direction indicator lamps of categories 1, 1a, 1b, 2a, 2b, 11, 11a, 11b, 11c, 12. The values shown give, for the various directions of measurement, the minimum intensities as a percentage of the minimum intensities required (see Tables 3, 4, 5, 7 and 8).",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Side signalling lamp is a front position lamp or a direction indicator of category 1, 1a, 1b, 11, 11a, 11b, 11c or 12",
+      "reason": "The listed photometric categories are front/rear position, parking, stop and front/rear direction indicators, not side categories 5/6 or side-marker lamps."
+    },
+    {
+      "id": "R-1194",
+      "text": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test.",
+      "source": {
+        "regulation": "UN GTR 9",
+        "version": "0.3.0",
+        "page": 87,
+        "paragraph": "6.2.2"
+      },
+      "source_quote": "All devices designed to protect vulnerable road users when impacted by the vehicle shall be correctly activated before and/or be active during the relevant test. It shall be the responsibility of the manufacturer to show that any devices will act as intended in a pedestrian impact.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The pedestrian impact sensors trigger a device designed to protect vulnerable road users (e.g. deployable system).",
+      "reason": "GTR9 active-device test condition is conditional on a deployable protection device, which is not identified; passive bumper and impact-test duties remain."
+    }
+  ],
+  "risk": "Product spec may omit optional hardware present in the intended vehicle; official gold matching is unknown."
+}

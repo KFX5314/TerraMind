@@ -1,0 +1,284 @@
+{
+  "method": "Official held-out score arithmetic plus deterministic local structure, source-page quote, citation, numeric-equivalence and duplicate checks. No hidden-gold F2 evaluation is possible offline.",
+  "official_observations": {
+    "450": {
+      "count": 450,
+      "tp_inferred": 157,
+      "f2": 61.2,
+      "precision": 34.9,
+      "recall": 75.5
+    },
+    "438": {
+      "count": 438,
+      "tp_inferred": 155,
+      "f2": 61.0,
+      "precision": 35.4,
+      "recall": 74.5
+    },
+    "expected_total_inferred": 208
+  },
+  "files": {
+    "eval-balanced-source-faithful.json": {
+      "count": 450,
+      "sha256": "9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936",
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 26,
+        "UN R42": 20,
+        "UN R48": 130,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 123,
+        "UN GTR 9": 30
+      },
+      "distinct_regulations": 8,
+      "distinct_pages": 103,
+      "source_quote_check": {
+        "quote_exact": 389,
+        "layout_or_split": 19,
+        "quote_prefix": 42
+      },
+      "identical_text_groups": []
+    },
+    "verified-intermediate-438.json": {
+      "count": 438,
+      "sha256": "5e336e65e02b1211308c09a2a67dab7e485569a308bdc7459172f3cba92da30f",
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 25,
+        "UN R42": 20,
+        "UN R48": 117,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 125,
+        "UN GTR 9": 30
+      },
+      "distinct_regulations": 8,
+      "distinct_pages": 101,
+      "source_quote_check": {
+        "quote_exact": 378,
+        "layout_or_split": 18,
+        "quote_prefix": 42
+      },
+      "identical_text_groups": []
+    },
+    "source-corrected-449.json": {
+      "count": 449,
+      "sha256": "296d63e9d40dd51390d8f07d7f677213615eec397b54a5efd8b788798ae67699",
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 25,
+        "UN R42": 20,
+        "UN R48": 130,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 123,
+        "UN GTR 9": 30
+      },
+      "distinct_regulations": 8,
+      "distinct_pages": 102,
+      "source_quote_check": {
+        "quote_exact": 388,
+        "layout_or_split": 19,
+        "quote_prefix": 42
+      },
+      "identical_text_groups": [],
+      "added_ids": [],
+      "removed_ids": [
+        "R-0361"
+      ],
+      "modified_ids": [
+        "R-0637",
+        "R-1059",
+        "R-1060"
+      ]
+    },
+    "side-signal-recovery-451.json": {
+      "count": 451,
+      "sha256": "43803238fe71a453a109d7ba9f359fc01205eb3ce35781031f4f7c237041588c",
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 25,
+        "UN R42": 20,
+        "UN R48": 130,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 125,
+        "UN GTR 9": 30
+      },
+      "distinct_regulations": 8,
+      "distinct_pages": 102,
+      "source_quote_check": {
+        "quote_exact": 390,
+        "layout_or_split": 19,
+        "quote_prefix": 42
+      },
+      "identical_text_groups": [],
+      "added_ids": [
+        "R-0940",
+        "R-1152"
+      ],
+      "removed_ids": [
+        "R-0361"
+      ],
+      "modified_ids": [
+        "R-0637",
+        "R-1059",
+        "R-1060"
+      ]
+    },
+    "targeted-recovery-452.json": {
+      "count": 452,
+      "sha256": "f10e7f39e10a3439ce564659d20d799d50d0176668c08274a0ab2d7819322383",
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 26,
+        "UN R42": 20,
+        "UN R48": 130,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 125,
+        "UN GTR 9": 30
+      },
+      "distinct_regulations": 8,
+      "distinct_pages": 103,
+      "source_quote_check": {
+        "quote_exact": 391,
+        "layout_or_split": 19,
+        "quote_prefix": 42
+      },
+      "identical_text_groups": [],
+      "added_ids": [
+        "R-0362",
+        "R-0940",
+        "R-1152"
+      ],
+      "removed_ids": [
+        "R-0361"
+      ],
+      "modified_ids": [
+        "R-0637",
+        "R-1059",
+        "R-1060"
+      ]
+    }
+  },
+  "numeric_checks": {
+    "R-1059": {
+      "minimum_cd": [
+        0.6000000000000001,
+        0.6
+      ],
+      "maximum_single_cd": [
+        280.0,
+        280
+      ],
+      "maximum_D_cd": [
+        140.0,
+        140
+      ]
+    },
+    "R-1060": {
+      "minimum_cd": [
+        50.0,
+        50
+      ],
+      "maximum_single_cd": [
+        280.0,
+        280
+      ],
+      "maximum_D_cd": [
+        140.0,
+        140
+      ]
+    }
+  },
+  "hypothetical_scenarios": {
+    "449": [
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 0,
+        "hypothetical_f2_percent": 61.28
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 0,
+        "hypothetical_f2_percent": 60.89
+      }
+    ],
+    "451": [
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 0,
+        "hypothetical_f2_percent": 61.185
+      },
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 1,
+        "hypothetical_f2_percent": 61.574
+      },
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 2,
+        "hypothetical_f2_percent": 61.964
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 0,
+        "hypothetical_f2_percent": 60.795
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 1,
+        "hypothetical_f2_percent": 61.185
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 2,
+        "hypothetical_f2_percent": 61.574
+      }
+    ],
+    "452": [
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 0,
+        "hypothetical_f2_percent": 61.137
+      },
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 1,
+        "hypothetical_f2_percent": 61.526
+      },
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 2,
+        "hypothetical_f2_percent": 61.916
+      },
+      {
+        "removed_baseline_matches": 0,
+        "added_matches": 3,
+        "hypothetical_f2_percent": 62.305
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 0,
+        "hypothetical_f2_percent": 60.748
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 1,
+        "hypothetical_f2_percent": 61.137
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 2,
+        "hypothetical_f2_percent": 61.526
+      },
+      {
+        "removed_baseline_matches": 1,
+        "added_matches": 3,
+        "hypothetical_f2_percent": 61.916
+      }
+    ]
+  }
+}

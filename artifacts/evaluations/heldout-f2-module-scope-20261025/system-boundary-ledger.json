@@ -1,0 +1,176 @@
+{
+  "parent": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-side-signal-procedure-trim.json",
+  "parent_sha256": "3475760bfd7fd9f51f8c8fed0f2bc98a8b0f155ae938a6622091dc2053cd65a5",
+  "target": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-system-boundary.json",
+  "target_sha256": "bd7a7e9d010a6fcfd2582829dcff5a3d31184564f3ca635669cc61bb447de1f9",
+  "count": 355,
+  "by_regulation": {
+    "UN R10": 81,
+    "UN R26": 25,
+    "UN R42": 20,
+    "UN R48": 78,
+    "UN R94": 3,
+    "UN R127": 26,
+    "UN R148": 92,
+    "UN GTR 9": 30
+  },
+  "removed_vs_parent": [
+    {
+      "id": "R-0361",
+      "text": "The projection of fuel tank filler caps and covers shall not exceed 30 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 7,
+        "paragraph": "6.6.1"
+      },
+      "source_quote": "The projection shall not exceed 40 mm in the case of door or luggage compartment handles and 30 mm in all other cases.",
+      "saved_probability": 0.6,
+      "reason": "The product specification describes a charging flap for an EV, not a liquid-fuel tank filler cap; the R26 fuel-filler projection rule addresses a different component."
+    },
+    {
+      "id": "R-0790",
+      "text": "The test of the vehicle carried out in accordance with the method described in Annex 3 shall be considered satisfactory if all the conditions set out in paragraphs 5.2.1. to 5.2.7. are all satisfied at the same time.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2"
+      },
+      "source_quote": "The test of the vehicle carried out in accordance with the method described in Annex 3 shall be considered satisfactory if all the conditions set out in paragraphs 5.2.1. to 5.2.7. below are all satisfied at the same time.",
+      "saved_probability": 0.55,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0795",
+      "text": "The head performance criterion (HPC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,000.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      },
+      "source_quote": "The head performance criterion (HPC) shall not exceed 1,000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms.",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0796",
+      "text": "The resultant head acceleration recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 80 g for more than 3 ms, calculated cumulatively, excluding rebound movement of the head.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.1"
+      },
+      "source_quote": "The head performance criterion (HPC) shall not exceed 1,000 and the resultant head acceleration shall not exceed 80 g for more than 3 ms. The latter shall be calculated cumulatively, excluding rebound movement of the head;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0797",
+      "text": "The Injury Criteria for the neck (NIC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats in the test of the vehicle carried out in accordance with the method described in Annex 3 shall not exceed the values shown in Figures 1 and 2.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 6,
+        "paragraph": "5.2.1.2"
+      },
+      "source_quote": "The Injury Criteria for the neck (NIC) shall not exceed the values shown in Figures 1 and 24;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0798",
+      "text": "The neck bending moment about the y axis recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 57 Nm in extension.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.3"
+      },
+      "source_quote": "The neck bending moment about the y axis shall no exceed 57 Nm in extension3;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0799",
+      "text": "The Thorax Compression Criterion (ThCC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 42 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.4"
+      },
+      "source_quote": "The Thorax Compression Criterion (ThCC) shall not exceed 42 mm;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0800",
+      "text": "The viscous criterion (V * C) for the thorax recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,0 m/s.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.5"
+      },
+      "source_quote": "The viscous criterion (V * C) for the thorax shall not exceed 1,0 m/s;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0801",
+      "text": "The femur force criterion (FFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed the force-time performance criterion shown in Figure 3.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 7,
+        "paragraph": "5.2.1.6"
+      },
+      "source_quote": "The femur force criterion (FFC) shall not exceed the force-time performance criterion shown in Figure 3;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0802",
+      "text": "The tibia compression force criterion (TCFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 8 kN.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.7"
+      },
+      "source_quote": "The tibia compression force criterion (TCFC) shall not exceed 8 kN;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0803",
+      "text": "The tibia index (TI) recorded, in accordance with Annex 8, on the dummies in the front outboard seats, measured at the top and bottom of each tibia, shall not exceed 1,3 at either location.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.8"
+      },
+      "source_quote": "The tibia index (TI), measured at the top and bottom of each tibia, shall not exceed 1,3 at either location;",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    },
+    {
+      "id": "R-0804",
+      "text": "The movement of the sliding knee joints recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 15 mm.",
+      "source": {
+        "regulation": "UN R94",
+        "version": "5.1.0",
+        "page": 8,
+        "paragraph": "5.2.1.9"
+      },
+      "source_quote": "The movement of the sliding knee joints shall not exceed 15 mm.",
+      "saved_probability": 0.5,
+      "reason": "R94 front-occupant injury criteria are measured on seated dummies in a full-vehicle impact; no restraint or passenger compartment is part of the supplied bumper module. This is a system-boundary inference, not proof the criterion is absent from hidden gold."
+    }
+  ],
+  "risk": "High: full-vehicle occupant outcomes may be counted as relevant because the bumper influences frontal crash energy management."
+}

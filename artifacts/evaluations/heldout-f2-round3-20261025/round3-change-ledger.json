@@ -1,0 +1,2050 @@
+{
+ "parent": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-offline-alternatives-20261025\\eval-balanced-source-faithful.json",
+ "parent_sha256": "9c4cbac94ffe34f6ac031744f277d1aade0ce46153f648b2a4d4175725b6b936",
+ "candidates": {
+  "A-precision": {
+   "file": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-round3-20261025\\cand-A-precision.json",
+   "sha256": "45b76b2009a514759d436a71ecf2c8dc29e51c4c7dd9341ad051db2c321c9eb6",
+   "n": 386,
+   "per_regulation": {
+    "UN GTR 9": 30,
+    "UN R10": 55,
+    "UN R127": 26,
+    "UN R148": 107,
+    "UN R26": 26,
+    "UN R42": 21,
+    "UN R48": 121
+   },
+   "validation": "OK: cand-A-precision.json is valid (386 requirements).",
+   "valid": true,
+   "removed": [
+    {
+     "id": "R-0001",
+     "text": "The sample(s) of the ESA shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 6,
+      "paragraph": "3.2.6"
+     },
+     "reason": "UN R10 3.2.6: marking of the samples submitted with the application for approval (paperwork step)."
+    },
+    {
+     "id": "R-0004",
+     "text": "ESAs, which are intentional RF transmitters, which have not received type approval in conjunction with a vehicle manufacturer, shall be supplied with suitable installation guidelines.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 7,
+      "paragraph": "4.1.3"
+     },
+     "reason": "UN R10 4.1.3: approval route for intentional RF transmitters (administrative approval condition)."
+    },
+    {
+     "id": "R-0154",
+     "text": "Vehicles or components or ESAs approved under this Regulation shall be so manufactured as to conform to the type approved by meeting the requirements set forth in paragraph 6. and, if applicable, in paragraph 7.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 25,
+      "paragraph": "9.1"
+     },
+     "reason": "UN R10 9.1: conformity of production (production control duty)."
+    },
+    {
+     "id": "R-0156",
+     "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to broadband electromagnetic disturbances and narrowband electromagnetic disturbances if the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed in paragraphs 6.2.2.1., 6.2.2.2., 6.3.2.1., 6.3.2.2. and, if applicable, paragraphs 7.2.2.1. and 7.2.2.2. for vehicles and paragraphs 6.5.2.1., 6.6.2.1., and, if applicable, paragraph 7.10.2.1. for ESAs (as appropriate).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.1"
+     },
+     "reason": "UN R10 9.3.1: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0157",
+     "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to electromagnetic radiation if the vehicle ESA does not exhibit any degradation relating to the direct control of the vehicle which could be observed by the driver or other road user when the vehicle is in the state defined in Annex 6, paragraph 4., and is subjected to a field strength, expressed in Volts/m, up to 80 per cent of the reference limits prescribed in paragraph 6.4.2.1., and, if applicable, paragraph 7.7.2.1. for vehicles and paragraph 6.8.2.1. and, if applicable, paragraph 7.18.2.1. for ESAs.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.2"
+     },
+     "reason": "UN R10 9.3.2: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0158",
+     "text": "When the conformity of a component, or Separate Technical Unit (STU) taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to conducted disturbances and emission if the component or STU shows no degradation of performance of \"immunity related functions\" up to levels given in paragraph 6.9.1. and, if applicable, paragraph 7.19.1., and does not exceed the levels given in paragraph 6.7.1. and, if applicable, paragraph 7.17.1.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.3"
+     },
+     "reason": "UN R10 9.3.3: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0159",
+     "text": "For the 30-75 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 62 - 25.13 log (F/30) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 33,
+      "paragraph": "Appendix 6"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0160",
+     "text": "For the 75-400 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 52 + 15.13 log (F/75) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 33,
+      "paragraph": "Appendix 6"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0161",
+     "text": "For the 400-1,000 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 63 dBµV/m for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 33,
+      "paragraph": "Appendix 6"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0162",
+     "text": "For the 30-75 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 52 - 25.13 log (F/30) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 34,
+      "paragraph": "Appendix 7"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0163",
+     "text": "For the 75-400 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 42 + 15.13 log (F/75) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 34,
+      "paragraph": "Appendix 7"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0164",
+     "text": "For the 400-1,000 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 53 dBµV/m for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 34,
+      "paragraph": "Appendix 7"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0216",
+     "text": "If not otherwise stated in this Annex, the test of broadband electromagnetic emissions from ESAs shall be performed according to CISPR 25.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 91,
+      "paragraph": "Annex 7 1.2"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0217",
+     "text": "During the Annex 7 broadband electromagnetic-emission test, the ESA under test shall be in normal operation mode, preferably in maximum load.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 91,
+      "paragraph": "Annex 7 2.1"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0219",
+     "text": "For ESA other than involved in \"REESS charging mode coupled to the power grid\" the test shall be performed according to the ALSE method described in Clause 6.4 of CISPR 25.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 91,
+      "paragraph": "Annex 7 3.1"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0222",
+     "text": "To ensure that there is no extraneous noise or signal of a magnitude sufficient to affect materially the measurement, ambient measurements shall be taken before or after the main test.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 3.4"
+     },
+     "reason": "UN R10 Annex 7 3.4: ambient-noise check of the test site."
+    },
+    {
+     "id": "R-0223",
+     "text": "In the ambient measurement, the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation, except for intentional narrowband ambient transmissions.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 3.4"
+     },
+     "reason": "UN R10 Annex 7 3.4: ambient-noise margin of the test site."
+    },
+    {
+     "id": "R-0224",
+     "text": "The limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 4.1"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0225",
+     "text": "If peak detectors are used for the measurements, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 4.2"
+     },
+     "reason": "UN R10 Annex 7 4.2: peak-detector correction factor (measurement equipment)."
+    },
+    {
+     "id": "R-0226",
+     "text": "The measurements shall be performed with a spectrum analyser or a scanning receiver.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 4.3"
+     },
+     "reason": "UN R10 Annex 7 4.3: spectrum analyser / scanning receiver (measurement equipment)."
+    },
+    {
+     "id": "R-0233",
+     "text": "Unless otherwise specified the configuration with the LV harness closer to the antenna shall be tested.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 93,
+      "paragraph": "Annex 7 4.4"
+     },
+     "reason": "UN R10 Annex 7 4.4: harness position relative to the antenna (test set-up)."
+    },
+    {
+     "id": "R-0238",
+     "text": "If not otherwise stated in this Annex, the test to measure the narrowband electromagnetic emissions from the ESA shall be performed according to CISPR 25.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 96,
+      "paragraph": "Annex 8 1.2"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0239",
+     "text": "During the Annex 8 narrowband electromagnetic-emission test, the ESA under test shall be in normal operation mode, preferably in maximum load.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 96,
+      "paragraph": "Annex 8 2"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0240",
+     "text": "The narrowband emission test of the ESA shall be performed according to ALSE method described in paragraph 6.4. of CISPR 25.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 96,
+      "paragraph": "Annex 8 3.1"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0244",
+     "text": "The narrowband emission limits shall apply throughout the frequency range 30 to 1,000 MHz for measurements performed in an absorber lined shielded enclosure (ALSE) or open area test site (OATS).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 96,
+      "paragraph": "Annex 8 4.1"
+     },
+     "reason": "UN R10 Annex 7/8 measurement-method statement (laboratory procedure); dev expert cited none of Annex 7/8."
+    },
+    {
+     "id": "R-0245",
+     "text": "The narrowband emission measurements shall be performed with an average detector.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 96,
+      "paragraph": "Annex 8 4.2"
+     },
+     "reason": "UN R10 Annex 8 4.2: average detector (measurement equipment)."
+    },
+    {
+     "id": "R-0779",
+     "text": "For the control of conformity of production, the values measured for the distances of the position of lamps shall be such that the individual specifications applicable to each lamp are fulfilled.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0780",
+     "text": "For the control of conformity of production, the position of lamps, as defined in paragraph 2.1.6. of this Regulation, in width, in height and in length shall be checked in accordance with the general requirements set out in paragraphs 2.10.2., 2.10.3., 2.10.4., 2.3.3. and 5.4. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0781",
+     "text": "For the control of conformity of production, the values measured for the angles of geometric visibility shall be such that the individual specifications applicable to each lamp are fulfilled, except that the limits of the angles may have an allowance corresponding to the ±3º variation permitted in paragraph 5.3. for the mounting of the light-signalling devices.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0782",
+     "text": "For the control of conformity of production, the angles of geometric visibility of lamps shall be checked in accordance with paragraph 2.10.7. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0783",
+     "text": "For the control of conformity of production, the visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.2"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0786",
+     "text": "The lamps and tell-tales shall function in accordance with the provisions set out in paragraphs 5.11. to 5.14. of this Regulation and with the individual specifications applicable to each lamp.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.4"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0787",
+     "text": "For the control of conformity of production, the electrical connections shall be checked by switching on every lamp supplied by the electrical system of the vehicle.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.4"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0788",
+     "text": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be such that the requirements set out in paragraphs 5.15. and 5.16. as well as in the individual specifications applicable to each lamp are fulfilled.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.6"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0789",
+     "text": "For the control of conformity of production, the presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.6"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0790",
+     "text": "The test of the vehicle carried out in accordance with the method described in Annex 3 shall be considered satisfactory if all the conditions set out in paragraphs 5.2.1. to 5.2.7. are all satisfied at the same time.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0795",
+     "text": "The head performance criterion (HPC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,000.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2.1.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0796",
+     "text": "The resultant head acceleration recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 80 g for more than 3 ms, calculated cumulatively, excluding rebound movement of the head.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2.1.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0797",
+     "text": "The Injury Criteria for the neck (NIC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats in the test of the vehicle carried out in accordance with the method described in Annex 3 shall not exceed the values shown in Figures 1 and 2.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2.1.2"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0798",
+     "text": "The neck bending moment about the y axis recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 57 Nm in extension.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.3"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0799",
+     "text": "The Thorax Compression Criterion (ThCC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 42 mm.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.4"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0800",
+     "text": "The viscous criterion (V * C) for the thorax recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,0 m/s.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.5"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0801",
+     "text": "The femur force criterion (FFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed the force-time performance criterion shown in Figure 3.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.6"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0802",
+     "text": "The tibia compression force criterion (TCFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 8 kN.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 8,
+      "paragraph": "5.2.1.7"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0803",
+     "text": "The tibia index (TI) recorded, in accordance with Annex 8, on the dummies in the front outboard seats, measured at the top and bottom of each tibia, shall not exceed 1,3 at either location.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 8,
+      "paragraph": "5.2.1.8"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0804",
+     "text": "The movement of the sliding knee joints recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 15 mm.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 8,
+      "paragraph": "5.2.1.9"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0837",
+     "text": "Every vehicle approved under this Regulation shall be manufactured so as to conform to the vehicle type approved and satisfy the requirements set forth in paragraphs 5. and 6.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 13,
+      "paragraph": "8.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0839",
+     "text": "The test vehicle shall be representative of the series production.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 17,
+      "paragraph": "Annex 3 1.4.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0847",
+     "text": "The vehicle speed at the moment of impact shall be 56 -0/+1 km/h, except that if the test was performed at a higher impact speed and the vehicle met the requirements, the test shall be considered satisfactory.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 19,
+      "paragraph": "Annex 3 4"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-1101",
+     "text": "For the front direction indicator (1, 1a, 1b), the angles of geometric visibility shall be minimum horizontal angles (inboard / outboard) of 45°/80° (20°/80°, reduced angles used only below the H-plane for lamps mounted with the H-plane below 750 mm) and minimum vertical angles (above / below) of 15°/15° (15°/5° for lamps to be installed with the H-plane of the lamp at a mounting height of less than 750 mm) as specified in Table A2-1.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 32,
+      "paragraph": "Annex 2"
+     },
+     "reason": "UN R148 Annex 2: device-level geometric-visibility table entry; installation visibility is already covered by UN R48 section 6, and front DI / position / DRL / side-marker functions are not established."
+    },
+    {
+     "id": "R-1106",
+     "text": "For the front/rear position lamp (A, R1, R2), the angles of geometric visibility shall be minimum horizontal angles (inboard / outboard) of 45°/80° (20°/80°, reduced angles used only below the H-plane for lamps mounted with the H-plane below 750 mm) and minimum vertical angles (above / below) of 15°/15° (15°/5° for lamps to be installed with the H-plane of the lamp at a mounting height of less than 750 mm; 5°/15° for optional lamps to be installed with the H-plane of the lamp at a mounting height of more than 2,100 mm) as specified in Table A2-1.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 33,
+      "paragraph": "Annex 2"
+     },
+     "reason": "UN R148 Annex 2: device-level geometric-visibility table entry; installation visibility is already covered by UN R48 section 6, and front DI / position / DRL / side-marker functions are not established."
+    },
+    {
+     "id": "R-1107",
+     "text": "For the daytime running lamps (RL), the angles of geometric visibility shall be minimum horizontal angles (inboard / outboard) of 20°/20° and minimum vertical angles (above / below) of 10°/5° as specified in Table A2-1.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 33,
+      "paragraph": "Annex 2"
+     },
+     "reason": "UN R148 Annex 2: device-level geometric-visibility table entry; installation visibility is already covered by UN R48 section 6, and front DI / position / DRL / side-marker functions are not established."
+    },
+    {
+     "id": "R-1110",
+     "text": "For the side marker lamp (SM1), the angles of geometric visibility shall be minimum horizontal angles (A/B) of 45°/45° and minimum vertical angles (above / below) of 10°/10° (10°/5° reduced angles used for lamps mounted with the H-plane below 750 mm) as specified in Table A2-3.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 34,
+      "paragraph": "Annex 2"
+     },
+     "reason": "UN R148 Annex 2: device-level geometric-visibility table entry; installation visibility is already covered by UN R48 section 6, and front DI / position / DRL / side-marker functions are not established."
+    },
+    {
+     "id": "R-1111",
+     "text": "For the side marker lamp (SM2), the angles of geometric visibility shall be minimum horizontal angles (A/B) of 30°/30° and minimum vertical angles (above / below) of 10°/10° (10°/5° reduced angles used for lamps mounted with the H-plane below 750 mm) as specified in Table A2-3.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 34,
+      "paragraph": "Annex 2"
+     },
+     "reason": "UN R148 Annex 2: device-level geometric-visibility table entry; installation visibility is already covered by UN R48 section 6, and front DI / position / DRL / side-marker functions are not established."
+    },
+    {
+     "id": "R-1120",
+     "text": "The conformity requirements shall be considered satisfied from a mechanical and geometric standpoint, if the differences do not exceed inevitable manufacturing deviations within the requirements of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.1"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1121",
+     "text": "With respect to photometric performances, the conformity of mass-produced lamps shall not be contested, when testing photometric performances of any lamp chosen at random according to paragraph 4.8. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.2"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1123",
+     "text": "The chromaticity coordinates of the mass-produced lamps shall be complied with when tested under conditions of paragraph 4.9. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.3"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1128",
+     "text": "The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in accordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable manufacturing deviations.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 43,
+      "paragraph": "Annex 5 1.1"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1129",
+     "text": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random, no measured value deviates from the values prescribed in paragraph 6.1.3. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 43,
+      "paragraph": "Annex 5 1.2"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1131",
+     "text": "The chromaticity coordinates shall be complied when tested under conditions of paragraph 4.9. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 44,
+      "paragraph": "Annex 5 1.4"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1135",
+     "text": "The daytime running lamp shall be subjected to a one-hour test of continuous operation following a warm-up period of 20 minutes.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 1"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1136",
+     "text": "The ambient temperature for the heat resistance test of the daytime running lamp shall be 23 °C ± 5 °C.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 1"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1137",
+     "text": "For daytime running lamps equipped with non-replaceable light sources (filament light sources and other), the heat resistance test shall be made with the light sources present in the lamp, in accordance with paragraph 5.4.5. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 1"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1144",
+     "text": "After the daytime running lamp has been stabilized at the ambient temperature following the heat resistance test, no distortion, deformation, cracking or colour modification shall be perceptible.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 3"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1145",
+     "text": "In case of doubt, the intensity of light of the daytime running lamp shall be measured according to paragraph 5 of this Regulation and the values shall reach at least 90 per cent of the values obtained before the heat resistance test on the same lamp.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 5"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    }
+   ],
+   "added": [
+    {
+     "id": "R-0385",
+     "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 3,
+      "paragraph": "6.1.4"
+     },
+     "quote": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle shall meet the following requirements: The vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 6.1.4: post-impact criterion; siblings 6.1.1, 6.1.2, 6.1.3 and 6.1.5 are already exported."
+    }
+   ]
+  },
+  "B-balanced": {
+   "file": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-round3-20261025\\cand-B-balanced.json",
+   "sha256": "43d68b8ac1172d44a649d6df2c569519123af50d17bd24b9d9f5975af804dd04",
+   "n": 407,
+   "per_regulation": {
+    "UN GTR 9": 30,
+    "UN R10": 63,
+    "UN R127": 30,
+    "UN R148": 112,
+    "UN R26": 26,
+    "UN R42": 25,
+    "UN R48": 121
+   },
+   "validation": "OK: cand-B-balanced.json is valid (407 requirements).",
+   "valid": true,
+   "removed": [
+    {
+     "id": "R-0001",
+     "text": "The sample(s) of the ESA shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 6,
+      "paragraph": "3.2.6"
+     },
+     "reason": "UN R10 3.2.6: marking of the samples submitted with the application for approval (paperwork step)."
+    },
+    {
+     "id": "R-0004",
+     "text": "ESAs, which are intentional RF transmitters, which have not received type approval in conjunction with a vehicle manufacturer, shall be supplied with suitable installation guidelines.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 7,
+      "paragraph": "4.1.3"
+     },
+     "reason": "UN R10 4.1.3: approval route for intentional RF transmitters (administrative approval condition)."
+    },
+    {
+     "id": "R-0154",
+     "text": "Vehicles or components or ESAs approved under this Regulation shall be so manufactured as to conform to the type approved by meeting the requirements set forth in paragraph 6. and, if applicable, in paragraph 7.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 25,
+      "paragraph": "9.1"
+     },
+     "reason": "UN R10 9.1: conformity of production (production control duty)."
+    },
+    {
+     "id": "R-0156",
+     "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to broadband electromagnetic disturbances and narrowband electromagnetic disturbances if the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed in paragraphs 6.2.2.1., 6.2.2.2., 6.3.2.1., 6.3.2.2. and, if applicable, paragraphs 7.2.2.1. and 7.2.2.2. for vehicles and paragraphs 6.5.2.1., 6.6.2.1., and, if applicable, paragraph 7.10.2.1. for ESAs (as appropriate).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.1"
+     },
+     "reason": "UN R10 9.3.1: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0157",
+     "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to electromagnetic radiation if the vehicle ESA does not exhibit any degradation relating to the direct control of the vehicle which could be observed by the driver or other road user when the vehicle is in the state defined in Annex 6, paragraph 4., and is subjected to a field strength, expressed in Volts/m, up to 80 per cent of the reference limits prescribed in paragraph 6.4.2.1., and, if applicable, paragraph 7.7.2.1. for vehicles and paragraph 6.8.2.1. and, if applicable, paragraph 7.18.2.1. for ESAs.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.2"
+     },
+     "reason": "UN R10 9.3.2: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0158",
+     "text": "When the conformity of a component, or Separate Technical Unit (STU) taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to conducted disturbances and emission if the component or STU shows no degradation of performance of \"immunity related functions\" up to levels given in paragraph 6.9.1. and, if applicable, paragraph 7.19.1., and does not exceed the levels given in paragraph 6.7.1. and, if applicable, paragraph 7.17.1.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.3"
+     },
+     "reason": "UN R10 9.3.3: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0159",
+     "text": "For the 30-75 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 62 - 25.13 log (F/30) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 33,
+      "paragraph": "Appendix 6"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0160",
+     "text": "For the 75-400 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 52 + 15.13 log (F/75) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 33,
+      "paragraph": "Appendix 6"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0161",
+     "text": "For the 400-1,000 MHz frequency band, the electrical/electronic sub-assembly (ESA) broadband reference limit shall be E = 63 dBµV/m for a 120 kHz bandwidth (see paragraphs 6.5.2.1. and 7.10.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 33,
+      "paragraph": "Appendix 6"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0162",
+     "text": "For the 30-75 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 52 - 25.13 log (F/30) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 34,
+      "paragraph": "Appendix 7"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0163",
+     "text": "For the 75-400 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 42 + 15.13 log (F/75) dBµV/m at frequency F (MHz) for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 34,
+      "paragraph": "Appendix 7"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0164",
+     "text": "For the 400-1,000 MHz frequency band, the electrical/electronic sub-assembly (ESA) narrowband reference limit shall be E = 53 dBµV/m for a 120 kHz bandwidth (see paragraph 6.6.2.1. of this Regulation).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 34,
+      "paragraph": "Appendix 7"
+     },
+     "reason": "UN R10 Appendix 6/7: reference-limit graph restating the 30-1000 MHz ESA broadband/narrowband limits already exported from the main text (paragraphs 6.5/6.6)."
+    },
+    {
+     "id": "R-0222",
+     "text": "To ensure that there is no extraneous noise or signal of a magnitude sufficient to affect materially the measurement, ambient measurements shall be taken before or after the main test.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 3.4"
+     },
+     "reason": "UN R10 Annex 7 3.4: ambient-noise check of the test site."
+    },
+    {
+     "id": "R-0223",
+     "text": "In the ambient measurement, the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation, except for intentional narrowband ambient transmissions.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 3.4"
+     },
+     "reason": "UN R10 Annex 7 3.4: ambient-noise margin of the test site."
+    },
+    {
+     "id": "R-0225",
+     "text": "If peak detectors are used for the measurements, a correction factor of 20 dB as defined in CISPR 12 shall be applied.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 4.2"
+     },
+     "reason": "UN R10 Annex 7 4.2: peak-detector correction factor (measurement equipment)."
+    },
+    {
+     "id": "R-0226",
+     "text": "The measurements shall be performed with a spectrum analyser or a scanning receiver.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 92,
+      "paragraph": "Annex 7 4.3"
+     },
+     "reason": "UN R10 Annex 7 4.3: spectrum analyser / scanning receiver (measurement equipment)."
+    },
+    {
+     "id": "R-0233",
+     "text": "Unless otherwise specified the configuration with the LV harness closer to the antenna shall be tested.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 93,
+      "paragraph": "Annex 7 4.4"
+     },
+     "reason": "UN R10 Annex 7 4.4: harness position relative to the antenna (test set-up)."
+    },
+    {
+     "id": "R-0245",
+     "text": "The narrowband emission measurements shall be performed with an average detector.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 96,
+      "paragraph": "Annex 8 4.2"
+     },
+     "reason": "UN R10 Annex 8 4.2: average detector (measurement equipment)."
+    },
+    {
+     "id": "R-0779",
+     "text": "For the control of conformity of production, the values measured for the distances of the position of lamps shall be such that the individual specifications applicable to each lamp are fulfilled.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0780",
+     "text": "For the control of conformity of production, the position of lamps, as defined in paragraph 2.1.6. of this Regulation, in width, in height and in length shall be checked in accordance with the general requirements set out in paragraphs 2.10.2., 2.10.3., 2.10.4., 2.3.3. and 5.4. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0781",
+     "text": "For the control of conformity of production, the values measured for the angles of geometric visibility shall be such that the individual specifications applicable to each lamp are fulfilled, except that the limits of the angles may have an allowance corresponding to the ±3º variation permitted in paragraph 5.3. for the mounting of the light-signalling devices.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0782",
+     "text": "For the control of conformity of production, the angles of geometric visibility of lamps shall be checked in accordance with paragraph 2.10.7. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0783",
+     "text": "For the control of conformity of production, the visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.2"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0786",
+     "text": "The lamps and tell-tales shall function in accordance with the provisions set out in paragraphs 5.11. to 5.14. of this Regulation and with the individual specifications applicable to each lamp.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.4"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0787",
+     "text": "For the control of conformity of production, the electrical connections shall be checked by switching on every lamp supplied by the electrical system of the vehicle.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.4"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0788",
+     "text": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be such that the requirements set out in paragraphs 5.15. and 5.16. as well as in the individual specifications applicable to each lamp are fulfilled.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.6"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0789",
+     "text": "For the control of conformity of production, the presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.6"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0790",
+     "text": "The test of the vehicle carried out in accordance with the method described in Annex 3 shall be considered satisfactory if all the conditions set out in paragraphs 5.2.1. to 5.2.7. are all satisfied at the same time.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0795",
+     "text": "The head performance criterion (HPC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,000.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2.1.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0796",
+     "text": "The resultant head acceleration recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 80 g for more than 3 ms, calculated cumulatively, excluding rebound movement of the head.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2.1.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0797",
+     "text": "The Injury Criteria for the neck (NIC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats in the test of the vehicle carried out in accordance with the method described in Annex 3 shall not exceed the values shown in Figures 1 and 2.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 6,
+      "paragraph": "5.2.1.2"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0798",
+     "text": "The neck bending moment about the y axis recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 57 Nm in extension.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.3"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0799",
+     "text": "The Thorax Compression Criterion (ThCC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 42 mm.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.4"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0800",
+     "text": "The viscous criterion (V * C) for the thorax recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 1,0 m/s.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.5"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0801",
+     "text": "The femur force criterion (FFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed the force-time performance criterion shown in Figure 3.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 7,
+      "paragraph": "5.2.1.6"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0802",
+     "text": "The tibia compression force criterion (TCFC) recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 8 kN.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 8,
+      "paragraph": "5.2.1.7"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0803",
+     "text": "The tibia index (TI) recorded, in accordance with Annex 8, on the dummies in the front outboard seats, measured at the top and bottom of each tibia, shall not exceed 1,3 at either location.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 8,
+      "paragraph": "5.2.1.8"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0804",
+     "text": "The movement of the sliding knee joints recorded, in accordance with Annex 8, on the dummies in the front outboard seats shall not exceed 15 mm.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 8,
+      "paragraph": "5.2.1.9"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0837",
+     "text": "Every vehicle approved under this Regulation shall be manufactured so as to conform to the vehicle type approved and satisfy the requirements set forth in paragraphs 5. and 6.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 13,
+      "paragraph": "8.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0839",
+     "text": "The test vehicle shall be representative of the series production.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 17,
+      "paragraph": "Annex 3 1.4.1"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-0847",
+     "text": "The vehicle speed at the moment of impact shall be 56 -0/+1 km/h, except that if the test was performed at a higher impact speed and the vehicle met the requirements, the test shall be considered satisfactory.",
+     "source": {
+      "regulation": "UN R94",
+      "version": "5.1.0",
+      "page": 19,
+      "paragraph": "Annex 3 4"
+     },
+     "reason": "UN R94 is whole-vehicle occupant protection in a frontal collision: every exported item is a dummy injury criterion (HPC, NIC, ThCC, V*C, FFC, TCFC, TI, knee slide) or a full-vehicle crash condition. A bumper is not approved under R94 and cannot be engineered or tested against these limits as a component. Official regulation precision 87.5% with recall 100% says one of the eight cited regulations is not in the reference set; R94 is the only one whose scope is not a product-level obligation of the bumper."
+    },
+    {
+     "id": "R-1120",
+     "text": "The conformity requirements shall be considered satisfied from a mechanical and geometric standpoint, if the differences do not exceed inevitable manufacturing deviations within the requirements of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.1"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1121",
+     "text": "With respect to photometric performances, the conformity of mass-produced lamps shall not be contested, when testing photometric performances of any lamp chosen at random according to paragraph 4.8. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.2"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1123",
+     "text": "The chromaticity coordinates of the mass-produced lamps shall be complied with when tested under conditions of paragraph 4.9. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.3"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1128",
+     "text": "The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in accordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable manufacturing deviations.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 43,
+      "paragraph": "Annex 5 1.1"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1129",
+     "text": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random, no measured value deviates from the values prescribed in paragraph 6.1.3. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 43,
+      "paragraph": "Annex 5 1.2"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1131",
+     "text": "The chromaticity coordinates shall be complied when tested under conditions of paragraph 4.9. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 44,
+      "paragraph": "Annex 5 1.4"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1135",
+     "text": "The daytime running lamp shall be subjected to a one-hour test of continuous operation following a warm-up period of 20 minutes.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 1"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1136",
+     "text": "The ambient temperature for the heat resistance test of the daytime running lamp shall be 23 °C ± 5 °C.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 1"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1137",
+     "text": "For daytime running lamps equipped with non-replaceable light sources (filament light sources and other), the heat resistance test shall be made with the light sources present in the lamp, in accordance with paragraph 5.4.5. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 1"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1144",
+     "text": "After the daytime running lamp has been stabilized at the ambient temperature following the heat resistance test, no distortion, deformation, cracking or colour modification shall be perceptible.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 3"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    },
+    {
+     "id": "R-1145",
+     "text": "In case of doubt, the intensity of light of the daytime running lamp shall be measured according to paragraph 5 of this Regulation and the values shall reach at least 90 per cent of the values obtained before the heat resistance test on the same lamp.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 45,
+      "paragraph": "Annex 6 5"
+     },
+     "reason": "UN R148 Annex 6: heat-resistance laboratory test of a daytime running lamp; a DRL is not identified in the specification or drawing."
+    }
+   ],
+   "added": [
+    {
+     "id": "R-0385",
+     "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 3,
+      "paragraph": "6.1.4"
+     },
+     "quote": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle shall meet the following requirements: The vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 6.1.4: post-impact criterion; siblings 6.1.1, 6.1.2, 6.1.3 and 6.1.5 are already exported."
+    },
+    {
+     "id": "R-0895",
+     "text": "During contact between the flexible lower legform impactor and the vehicle, the impactor shall not contact the ground or any object which is not part of the vehicle.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.11"
+     },
+     "quote": "During contact between the impactor and the vehicle, the impactor shall not contact the ground or any object which is not part of the vehicle.",
+     "saved_probability": 0.3,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.11: lower-legform-to-bumper test condition; siblings 1.4/1.5/1.10/1.12 exported."
+    },
+    {
+     "id": "R-0901",
+     "text": "In the lower legform to bumper test, the direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle, with a tolerance in the horizontal plane and in the longitudinal plane of ±2° at the time of first contact.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.6"
+     },
+     "quote": "The direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle. The tolerance for the direction of the velocity vector in the horizontal plane and in the longitudinal plane shall be ±2° at the time of first contact.",
+     "saved_probability": 0.35,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.6: impact direction of the lower-legform-to-bumper test; siblings exported."
+    },
+    {
+     "id": "R-0902",
+     "text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.7"
+     },
+     "quote": "The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.7: impactor height in the lower-legform-to-bumper test; siblings exported."
+    },
+    {
+     "id": "R-0903",
+     "text": "The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.8"
+     },
+     "quote": "The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact.",
+     "saved_probability": 0.3,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.8: free flight at impact in the lower-legform-to-bumper test; siblings exported."
+    },
+    {
+     "id": "R-0412",
+     "text": "For the longitudinal impact test, the impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal at the reference height of 445 mm.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.7.3"
+     },
+     "quote": "The impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal at the reference height of 445 mm.",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.7.3: impactor placement for the longitudinal impact test; 2.7.1/2.7.2/2.7.5 exported."
+    },
+    {
+     "id": "R-0413",
+     "text": "For the longitudinal impact test, the vehicle should be aligned so that a point between the vehicle corners touches, but does not move, the impactor, the longitudinal median plane of the vehicle being perpendicular to plane A of the impactor.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.7.4"
+     },
+     "quote": "The vehicle should be aligned so that a point between the vehicle corners touches, but does not move, the impactor, the longitudinal median plane of the vehicle being perpendicular to plane A of the impactor.",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.7.4: vehicle alignment for the longitudinal impact test; 2.7.1/2.7.2/2.7.5 exported."
+    },
+    {
+     "id": "R-0416",
+     "text": "For the corner impact test, the impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal and at the reference height of 445 mm.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 8,
+      "paragraph": "Annex 3 2.8.2"
+     },
+     "quote": "The impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal and at the reference height of 445 mm.",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.8.2: impactor placement for the corner impact test; 2.8.1/2.8.3/2.8.4 exported."
+    },
+    {
+     "id": "R-0419",
+     "text": "For the corner impact test, the vehicle should be aligned so that a corner of the vehicle touches the impactor without moving it.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 8,
+      "paragraph": "Annex 3 2.8.3"
+     },
+     "quote": "The vehicle should be aligned so that a corner of the vehicle touches the impactor without moving it. In addition the following conditions shall be met: (a) plane A of the impactor shall make an angle of 60 ± 5º with the longitudinal median plane of the vehicle; (b) the point of the first contact shall be in the vertical median plane of the impactor (within a tolerance of ± 25 mm).",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.8.3: vehicle alignment for the corner impact test; 2.8.1/2.8.3/2.8.4 exported."
+    }
+   ]
+  },
+  "C-recall": {
+   "file": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-round3-20261025\\cand-C-recall.json",
+   "sha256": "627adc0e943e9392930ecec102ee3450d346207e77accb22ede8d75f79925b3b",
+   "n": 450,
+   "per_regulation": {
+    "UN GTR 9": 30,
+    "UN R10": 75,
+    "UN R127": 36,
+    "UN R148": 117,
+    "UN R26": 26,
+    "UN R42": 31,
+    "UN R48": 121,
+    "UN R94": 14
+   },
+   "validation": "OK: cand-C-recall.json is valid (450 requirements).",
+   "valid": true,
+   "removed": [
+    {
+     "id": "R-0001",
+     "text": "The sample(s) of the ESA shall be clearly and indelibly marked with the manufacturer's trade name or mark and the type designation.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 6,
+      "paragraph": "3.2.6"
+     },
+     "reason": "UN R10 3.2.6: marking of the samples submitted with the application for approval (paperwork step)."
+    },
+    {
+     "id": "R-0004",
+     "text": "ESAs, which are intentional RF transmitters, which have not received type approval in conjunction with a vehicle manufacturer, shall be supplied with suitable installation guidelines.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 7,
+      "paragraph": "4.1.3"
+     },
+     "reason": "UN R10 4.1.3: approval route for intentional RF transmitters (administrative approval condition)."
+    },
+    {
+     "id": "R-0154",
+     "text": "Vehicles or components or ESAs approved under this Regulation shall be so manufactured as to conform to the type approved by meeting the requirements set forth in paragraph 6. and, if applicable, in paragraph 7.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 25,
+      "paragraph": "9.1"
+     },
+     "reason": "UN R10 9.1: conformity of production (production control duty)."
+    },
+    {
+     "id": "R-0156",
+     "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to broadband electromagnetic disturbances and narrowband electromagnetic disturbances if the levels measured do not exceed by more than 4 dB (60 per cent) the reference limits prescribed in paragraphs 6.2.2.1., 6.2.2.2., 6.3.2.1., 6.3.2.2. and, if applicable, paragraphs 7.2.2.1. and 7.2.2.2. for vehicles and paragraphs 6.5.2.1., 6.6.2.1., and, if applicable, paragraph 7.10.2.1. for ESAs (as appropriate).",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.1"
+     },
+     "reason": "UN R10 9.3.1: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0157",
+     "text": "When the conformity of a vehicle, component or ESA taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to electromagnetic radiation if the vehicle ESA does not exhibit any degradation relating to the direct control of the vehicle which could be observed by the driver or other road user when the vehicle is in the state defined in Annex 6, paragraph 4., and is subjected to a field strength, expressed in Volts/m, up to 80 per cent of the reference limits prescribed in paragraph 6.4.2.1., and, if applicable, paragraph 7.7.2.1. for vehicles and paragraph 6.8.2.1. and, if applicable, paragraph 7.18.2.1. for ESAs.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.2"
+     },
+     "reason": "UN R10 9.3.2: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0158",
+     "text": "When the conformity of a component, or Separate Technical Unit (STU) taken from the series is being verified, production shall be deemed to conform to the requirements of this Regulation in relation to immunity to conducted disturbances and emission if the component or STU shows no degradation of performance of \"immunity related functions\" up to levels given in paragraph 6.9.1. and, if applicable, paragraph 7.19.1., and does not exceed the levels given in paragraph 6.7.1. and, if applicable, paragraph 7.17.1.",
+     "source": {
+      "regulation": "UN R10",
+      "version": "7.2.0",
+      "page": 26,
+      "paragraph": "9.3.3"
+     },
+     "reason": "UN R10 9.3.3: conformity-of-production verification of series samples."
+    },
+    {
+     "id": "R-0779",
+     "text": "For the control of conformity of production, the values measured for the distances of the position of lamps shall be such that the individual specifications applicable to each lamp are fulfilled.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0780",
+     "text": "For the control of conformity of production, the position of lamps, as defined in paragraph 2.1.6. of this Regulation, in width, in height and in length shall be checked in accordance with the general requirements set out in paragraphs 2.10.2., 2.10.3., 2.10.4., 2.3.3. and 5.4. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0781",
+     "text": "For the control of conformity of production, the values measured for the angles of geometric visibility shall be such that the individual specifications applicable to each lamp are fulfilled, except that the limits of the angles may have an allowance corresponding to the ±3º variation permitted in paragraph 5.3. for the mounting of the light-signalling devices.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0782",
+     "text": "For the control of conformity of production, the angles of geometric visibility of lamps shall be checked in accordance with paragraph 2.10.7. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.1"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0783",
+     "text": "For the control of conformity of production, the visibility of red light towards the front and of white light towards the rear shall be checked in accordance with paragraph 5.10. of this Regulation.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 114,
+      "paragraph": "Annex 9 1.2.2"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0786",
+     "text": "The lamps and tell-tales shall function in accordance with the provisions set out in paragraphs 5.11. to 5.14. of this Regulation and with the individual specifications applicable to each lamp.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.4"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0787",
+     "text": "For the control of conformity of production, the electrical connections shall be checked by switching on every lamp supplied by the electrical system of the vehicle.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.4"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0788",
+     "text": "The presence, number, colour, arrangement and, where applicable, the category of lamps shall be such that the requirements set out in paragraphs 5.15. and 5.16. as well as in the individual specifications applicable to each lamp are fulfilled.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.6"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-0789",
+     "text": "For the control of conformity of production, the presence, number, colour, arrangement and, where applicable, the category of lamps shall be checked by visual inspection of the lamps and their markings.",
+     "source": {
+      "regulation": "UN R48",
+      "version": "9.3.0",
+      "page": 115,
+      "paragraph": "Annex 9 1.6"
+     },
+     "reason": "UN R48 Annex 9: 'For the control of conformity of production' check of installed lamps (production control)."
+    },
+    {
+     "id": "R-1120",
+     "text": "The conformity requirements shall be considered satisfied from a mechanical and geometric standpoint, if the differences do not exceed inevitable manufacturing deviations within the requirements of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.1"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1121",
+     "text": "With respect to photometric performances, the conformity of mass-produced lamps shall not be contested, when testing photometric performances of any lamp chosen at random according to paragraph 4.8. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.2"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1123",
+     "text": "The chromaticity coordinates of the mass-produced lamps shall be complied with when tested under conditions of paragraph 4.9. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 42,
+      "paragraph": "Annex 4 1.3"
+     },
+     "reason": "UN R148 Annex 4: minimum requirements for conformity-of-production control (sampling)."
+    },
+    {
+     "id": "R-1128",
+     "text": "The conformity requirements shall be considered satisfied from a mechanical and a geometric standpoint, in accordance with the requirements of this Regulation, if any, if the differences do not exceed inevitable manufacturing deviations.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 43,
+      "paragraph": "Annex 5 1.1"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1129",
+     "text": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random, no measured value deviates from the values prescribed in paragraph 6.1.3. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 43,
+      "paragraph": "Annex 5 1.2"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    },
+    {
+     "id": "R-1131",
+     "text": "The chromaticity coordinates shall be complied when tested under conditions of paragraph 4.9. of this Regulation.",
+     "source": {
+      "regulation": "UN R148",
+      "version": "1.6.0",
+      "page": 44,
+      "paragraph": "Annex 5 1.4"
+     },
+     "reason": "UN R148 Annex 5: minimum requirements for sampling by an inspector (conformity of production)."
+    }
+   ],
+   "added": [
+    {
+     "id": "R-0385",
+     "text": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 3,
+      "paragraph": "6.1.4"
+     },
+     "quote": "After each impact test made in accordance with the conditions and procedure specified in annex 3 to this Regulation, the vehicle shall meet the following requirements: The vehicle's exhaust system shall not suffer any damage or displacement which would prevent its normal function.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 6.1.4: post-impact criterion; siblings 6.1.1, 6.1.2, 6.1.3 and 6.1.5 are already exported."
+    },
+    {
+     "id": "R-0895",
+     "text": "During contact between the flexible lower legform impactor and the vehicle, the impactor shall not contact the ground or any object which is not part of the vehicle.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.11"
+     },
+     "quote": "During contact between the impactor and the vehicle, the impactor shall not contact the ground or any object which is not part of the vehicle.",
+     "saved_probability": 0.3,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.11: lower-legform-to-bumper test condition; siblings 1.4/1.5/1.10/1.12 exported."
+    },
+    {
+     "id": "R-0901",
+     "text": "In the lower legform to bumper test, the direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle, with a tolerance in the horizontal plane and in the longitudinal plane of ±2° at the time of first contact.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.6"
+     },
+     "quote": "The direction of the impact velocity vector shall be in the horizontal plane and parallel to the longitudinal vertical plane of the vehicle. The tolerance for the direction of the velocity vector in the horizontal plane and in the longitudinal plane shall be ±2° at the time of first contact.",
+     "saved_probability": 0.35,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.6: impact direction of the lower-legform-to-bumper test; siblings exported."
+    },
+    {
+     "id": "R-0902",
+     "text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.7"
+     },
+     "quote": "The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.7: impactor height in the lower-legform-to-bumper test; siblings exported."
+    },
+    {
+     "id": "R-0903",
+     "text": "The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 33,
+      "paragraph": "Annex 5 1.8"
+     },
+     "quote": "The lower legform impactor for the bumper tests shall be in \"free flight\" at the moment of impact.",
+     "saved_probability": 0.3,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 1.8: free flight at impact in the lower-legform-to-bumper test; siblings exported."
+    },
+    {
+     "id": "R-0412",
+     "text": "For the longitudinal impact test, the impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal at the reference height of 445 mm.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.7.3"
+     },
+     "quote": "The impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal at the reference height of 445 mm.",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.7.3: impactor placement for the longitudinal impact test; 2.7.1/2.7.2/2.7.5 exported."
+    },
+    {
+     "id": "R-0413",
+     "text": "For the longitudinal impact test, the vehicle should be aligned so that a point between the vehicle corners touches, but does not move, the impactor, the longitudinal median plane of the vehicle being perpendicular to plane A of the impactor.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.7.4"
+     },
+     "quote": "The vehicle should be aligned so that a point between the vehicle corners touches, but does not move, the impactor, the longitudinal median plane of the vehicle being perpendicular to plane A of the impactor.",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.7.4: vehicle alignment for the longitudinal impact test; 2.7.1/2.7.2/2.7.5 exported."
+    },
+    {
+     "id": "R-0416",
+     "text": "For the corner impact test, the impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal and at the reference height of 445 mm.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 8,
+      "paragraph": "Annex 3 2.8.2"
+     },
+     "quote": "The impactor shown in the figure should be placed so that plane A is vertical and the reference line is horizontal and at the reference height of 445 mm.",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.8.2: impactor placement for the corner impact test; 2.8.1/2.8.3/2.8.4 exported."
+    },
+    {
+     "id": "R-0419",
+     "text": "For the corner impact test, the vehicle should be aligned so that a corner of the vehicle touches the impactor without moving it.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 8,
+      "paragraph": "Annex 3 2.8.3"
+     },
+     "quote": "The vehicle should be aligned so that a corner of the vehicle touches the impactor without moving it. In addition the following conditions shall be met: (a) plane A of the impactor shall make an angle of 60 ± 5º with the longitudinal median plane of the vehicle; (b) the point of the first contact shall be in the vertical median plane of the impactor (within a tolerance of ± 25 mm).",
+     "saved_probability": 0.45,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.8.3: vehicle alignment for the corner impact test; 2.8.1/2.8.3/2.8.4 exported."
+    },
+    {
+     "id": "R-0390",
+     "text": "For the low-speed-impact test, the vehicle shall be placed on a horizontal and level rigid smooth surface.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 6,
+      "paragraph": "Annex 3 2.1"
+     },
+     "quote": "The vehicle shall be placed on a horizontal and level rigid smooth surface.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.1/2.2: vehicle condition for the low-speed impact test of the protective device."
+    },
+    {
+     "id": "R-0391",
+     "text": "For the low-speed-impact test, the vehicle shall be at rest.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 6,
+      "paragraph": "Annex 3 2.2.1"
+     },
+     "quote": "The vehicle shall be at rest.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.1/2.2: vehicle condition for the low-speed impact test of the protective device."
+    },
+    {
+     "id": "R-0392",
+     "text": "For the low-speed-impact test, the front wheels shall be in the straight-ahead position.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.2.2"
+     },
+     "quote": "The front wheels shall be in the straight-ahead position.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.1/2.2: vehicle condition for the low-speed impact test of the protective device."
+    },
+    {
+     "id": "R-0393",
+     "text": "For the low-speed-impact test, the tyres shall be inflated to the pressure recommended by the vehicle manufacturer.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.2.3"
+     },
+     "quote": "The tyres shall be inflated to the pressure recommended by the vehicle manufacturer.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.1/2.2: vehicle condition for the low-speed impact test of the protective device."
+    },
+    {
+     "id": "R-0394",
+     "text": "For the low-speed-impact test, the brakes shall be disengaged.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.2.4"
+     },
+     "quote": "The brakes shall be disengaged and the transmission control shall be in neutral position.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.1/2.2: vehicle condition for the low-speed impact test of the protective device."
+    },
+    {
+     "id": "R-0395",
+     "text": "For the low-speed-impact test, the transmission control shall be in neutral position.",
+     "source": {
+      "regulation": "UN R42",
+      "version": "0.2.0",
+      "page": 7,
+      "paragraph": "Annex 3 2.2.4"
+     },
+     "quote": "The brakes shall be disengaged and the transmission control shall be in neutral position.",
+     "saved_probability": 0.4,
+     "applicability": "applies",
+     "quote_on_cited_page": true,
+     "reason": "UN R42 Annex 3 2.1/2.2: vehicle condition for the low-speed impact test of the protective device."
+    },
+    {
+     "id": "R-0904",
+     "text": "For the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 36,
+      "paragraph": "Annex 5 2.4"
+     },
+     "quote": "The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+     "saved_probability": 0.3,
+     "applicability": "conditional",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 2.4: upper-legform-to-bumper measuring points; 2.5/2.7 already exported."
+    },
+    {
+     "id": "R-0908",
+     "text": "In the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 36,
+      "paragraph": "Annex 5 2.6"
+     },
+     "quote": "The direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact. The tolerance to this direction is ±2°.",
+     "saved_probability": 0.25,
+     "applicability": "conditional",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 2.6: upper-legform impact direction; 2.5/2.7 already exported."
+    },
+    {
+     "id": "R-0909",
+     "text": "At the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 36,
+      "paragraph": "Annex 5 2.6"
+     },
+     "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+     "saved_probability": 0.25,
+     "applicability": "conditional",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 2.6: upper-legform vertical position at first contact; 2.5/2.7 already exported."
+    },
+    {
+     "id": "R-0910",
+     "text": "At the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 36,
+      "paragraph": "Annex 5 2.6"
+     },
+     "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+     "saved_probability": 0.25,
+     "applicability": "conditional",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 Annex 5 2.6: upper-legform lateral position at first contact; 2.5/2.7 already exported."
+    },
+    {
+     "id": "R-0866",
+     "text": "The flexible lower legform impactor shall be certified pursuant to Annex 6, paragraph 1.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 18,
+      "paragraph": "5.1.1"
+     },
+     "quote": "The flexible lower legform impactor shall be certified pursuant to Annex 6, paragraph 1.",
+     "saved_probability": 0.35,
+     "applicability": "conditional",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 5.1.1: the flexible lower legform impactor used for the bumper test shall be certified."
+    },
+    {
+     "id": "R-0869",
+     "text": "The upper legform impactor shall be certified pursuant to Annex 6, paragraph 2.",
+     "source": {
+      "regulation": "UN R127",
+      "version": "4.3.0",
+      "page": 19,
+      "paragraph": "5.1.2"
+     },
+     "quote": "The upper legform impactor shall be certified pursuant to Annex 6, paragraph 2.",
+     "saved_probability": 0.3,
+     "applicability": "conditional",
+     "quote_on_cited_page": true,
+     "reason": "UN R127 5.1.2: the upper legform impactor used for the bumper test shall be certified."
+    }
+   ]
+  }
+ }
+}

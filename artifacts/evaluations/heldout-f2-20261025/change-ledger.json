@@ -1,0 +1,414 @@
+{
+  "baseline_provenance": "heldout-v1 saved run; official upload attribution is unverified",
+  "baseline_sha256": "9a4032c68f56ef036fea417fdcf12ba9dc0f8388d068119fe1304cd6f1ae1729",
+  "added": [
+    {
+      "id": "R-0362",
+      "candidate": "recall-recovery only",
+      "reason": "R26 air-flap edge rules are relevant only if the grille has movable intake or outlet flaps; the spec does not confirm them.",
+      "probability": 0.45,
+      "applicability": "conditional",
+      "model_condition": "The grill/air-guide parts include movable air intake or outlet flaps (e.g. active grille shutters).",
+      "original_text": "Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. in all positions of use.",
+      "submitted_text": "If the bumper grille has movable air intake or outlet flaps, air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. in all positions of use.",
+      "quote": "Air intake and outlet flaps shall meet the requirements of paragraphs 5.2., 5.3. and 5.4. above in all positions of use.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 8,
+        "paragraph": "6.12.1"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R26\\base\\UN_R26_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0368",
+      "candidate": "recall-recovery only",
+      "reason": "R26 aerial end-cap radius applies only to an exposed external aerial; the specified keyless aerial may be internal.",
+      "probability": 0.45,
+      "applicability": "conditional",
+      "model_condition": "Keyless-entry aerial has an external shaft with an unattached end",
+      "original_text": "The unattached ends of aerials shall be fitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm, although shafts of aerials may have radii of curvature of less than 2.5 mm.",
+      "submitted_text": "If an external keyless-entry aerial has an unattached end, the unattached ends of aerials shall be fitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm, although shafts of aerials may have radii of curvature of less than 2.5 mm.",
+      "quote": "Shafts of aerials may have radii of curvature of less than 2.5 mm. However, the unattached ends shall be fitted with fixed cappings, the radii of curvature of which are not less than 2.5 mm.",
+      "source": {
+        "regulation": "UN R26",
+        "version": "4.0.0",
+        "page": 9,
+        "paragraph": "6.17.3"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R26\\base\\UN_R26_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0399",
+      "candidate": "verified-recovery",
+      "reason": "R42 low-speed impactor mass sets an independently testable bumper-test condition.",
+      "probability": 0.4,
+      "applicability": "applies",
+      "model_condition": "",
+      "original_text": "The effective mass of the impactor shall be equal to the mass corresponding to the \"unladen weight\" of the vehicle to be tested.",
+      "submitted_text": "The effective mass of the impactor shall be equal to the mass corresponding to the \"unladen weight\" of the vehicle to be tested.",
+      "quote": "The effective mass shall be equal to the mass corresponding to the “unladen weight\" of the vehicle to be tested.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 7,
+        "paragraph": "Annex 3 2.3.3"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R42\\base\\UN_R42_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0421",
+      "candidate": "verified-recovery",
+      "reason": "R42 recovery time applies if the bumper protective device uses self-restoring material; the EPP absorber makes this plausible.",
+      "probability": 0.4,
+      "applicability": "conditional",
+      "model_condition": "Protective device includes self-restoring materials (e.g. EPP absorber)",
+      "original_text": "If the protective devices include self-restoring materials, the permitted recovery time between tests shall be as stated by the manufacturer.",
+      "submitted_text": "If the protective devices include self-restoring materials, the permitted recovery time between tests shall be as stated by the manufacturer.",
+      "quote": "If the protective devices include self-restoring materials, the permitted recovery time between tests shall be as stated by the manufacturer.",
+      "source": {
+        "regulation": "UN R42",
+        "version": "0.2.0",
+        "page": 8,
+        "paragraph": "Annex 3 3.2"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R42\\base\\UN_R42_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0443",
+      "candidate": "recall-recovery only",
+      "reason": "R48 multipart signalling-lamp geometry applies only if the lamp has distinct apparent-surface parts.",
+      "probability": 0.45,
+      "applicability": "conditional",
+      "model_condition": "The bumper signalling lamp is a single lamp whose apparent surface is composed of two or more distinct parts.",
+      "original_text": "Single lamps as defined in paragraph 2.14.11.1., subparagraph (a), the apparent surface of which is composed of two or more distinct parts, shall be installed in such a way that either the total area of the projection of the distinct parts of the apparent surface in the direction of the reference axis on a plane tangent to the exterior surface of the outer lens and perpendicular to the reference axis shall occupy not less than 60 per cent of the smallest quadrilateral circumscribing the projection of the said apparent surface in the direction of the reference axis, or the minimum distance between the facing edges of two adjacent/tangential distinct parts of the apparent surface in the direction of the reference axis shall not exceed 75 mm when measured perpendicularly to the reference axis, except that these requirements shall not apply to a single retro-reflector.",
+      "submitted_text": "If a bumper signalling lamp has an apparent surface composed of two or more distinct parts, single lamps as defined in paragraph 2.14.11.1., subparagraph (a), the apparent surface of which is composed of two or more distinct parts, shall be installed in such a way that either the total area of the projection of the distinct parts of the apparent surface in the direction of the reference axis on a plane tangent to the exterior surface of the outer lens and perpendicular to the reference axis shall occupy not less than 60 per cent of the smallest quadrilateral circumscribing the projection of the said apparent surface in the direction of the reference axis, or the minimum distance between the facing edges of two adjacent/tangential distinct parts of the apparent surface in the direction of the reference axis shall not exceed 75 mm when measured perpendicularly to the reference axis, except that these requirements shall not apply to a single retro-reflector.",
+      "quote": "Single lamps as defined in paragraph 2.14.11.1., subparagraph (a), the apparent surface of which is composed of two or more distinct parts, shall be installed in such a way that: (a) Either the total area of the projection of the distinct parts of the apparent surface in the direction of the reference axis on a plane tangent to the exterior surface of the outer lens and perpendicular to the reference axis shall occupy not less than 60 per cent of the smallest quadrilateral circumscribing the projection of the said apparent surface in the direction of the reference axis; or (b) The minimum distance between the facing edges of two adjacent/tangential distinct parts of the apparent surface in the direction of the reference axis shall not exceed 75 mm when measured perpendicularly to the reference axis. These requirements shall not apply to a single retro-reflector.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 20,
+        "paragraph": "5.7.2.1"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0581",
+      "candidate": "recall-recovery only",
+      "reason": "R48 mode switching rule applies only if a direction indicator supports static and sequential modes.",
+      "probability": 0.45,
+      "applicability": "conditional",
+      "model_condition": "The side signalling lamp is a direction indicator capable of static and sequential modes.",
+      "original_text": "A direction indicator capable of being activated in different modes (static or sequential) shall not switch between both modes once activated.",
+      "submitted_text": "If a bumper direction indicator supports static and sequential modes, a direction indicator capable of being activated in different modes (static or sequential) shall not switch between both modes once activated.",
+      "quote": "A direction indicator capable of being activated in different modes (static or sequential), shall not switch between both modes once activated.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 43,
+        "paragraph": "6.5.7"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0899",
+      "candidate": "verified-recovery",
+      "reason": "R127 lower-legform test-point spacing is a distinct numerical test condition.",
+      "probability": 0.45,
+      "applicability": "applies",
+      "model_condition": "",
+      "original_text": "The selected lower legform test points shall be a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle.",
+      "submitted_text": "The selected lower legform test points shall be a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle.",
+      "quote": "The selected test points shall be a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.5"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0900",
+      "candidate": "verified-recovery",
+      "reason": "R127 lower-legform tests must sample differing structures across the bumper area.",
+      "probability": 0.4,
+      "applicability": "applies",
+      "model_condition": "",
+      "original_text": "The lower legform to bumper tests shall be to different types of structure, where they vary throughout the area to be assessed.",
+      "submitted_text": "The lower legform to bumper tests shall be to different types of structure, where they vary throughout the area to be assessed.",
+      "quote": "Tests shall be to different types of structure, where they vary throughout the area to be assessed.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.5"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0902",
+      "candidate": "recall-recovery only",
+      "reason": "R127 lower-legform impactor height is a 75 mm plus/minus 10 mm test condition; an equivalent GTR9 condition is already exported.",
+      "probability": 0.4,
+      "applicability": "applies",
+      "model_condition": "",
+      "original_text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+      "submitted_text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+      "quote": "The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.7"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0904",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform measuring points must lie in the bumper test area; upper test is conditional on bumper height.",
+      "probability": 0.3,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "For the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, for the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+      "quote": "The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.4"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0905",
+      "candidate": "verified-recovery",
+      "reason": "R127 requires three upper-legform tests across middle and outer bumper thirds when upper-legform testing applies.",
+      "probability": 0.3,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "A minimum of three upper legform to bumper tests shall be carried out, one each to the middle and the outer thirds of the bumper test area at positions judged to be the most likely to cause injury.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, a minimum of three upper legform to bumper tests shall be carried out, one each to the middle and the outer thirds of the bumper test area at positions judged to be the most likely to cause injury.",
+      "quote": "A minimum of three upper legform to bumper tests shall be carried out, one each to the middle and the outer thirds of the bumper test area at positions judged to be the most likely to cause injury.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.5"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0906",
+      "candidate": "verified-recovery",
+      "reason": "R127 upper-legform tests must sample differing structures when that test applies.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "The upper legform to bumper tests shall be to different types of structure, where they vary throughout the area to be assessed.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, the upper legform to bumper tests shall be to different types of structure, where they vary throughout the area to be assessed.",
+      "quote": "Tests shall be to different types of structure, where they vary throughout the area to be assessed.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.5"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0907",
+      "candidate": "verified-recovery",
+      "reason": "R127 upper-legform test-point spacing is distinct from lower-legform spacing and applies by bumper height.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "The selected upper legform measuring points shall be a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, the selected upper legform measuring points shall be a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle.",
+      "quote": "The selected measuring points shall be a minimum of 84 mm apart as measured horizontally and perpendicular to the longitudinal median plane of the vehicle.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.5"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0908",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform impact direction and two-degree tolerance are independently testable; GTR9 has a similar exported condition.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "In the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, in the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+      "quote": "The direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact. The tolerance to this direction is ±2°.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.6"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0909",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform vertical centreline is constrained to the midpoint within 10 mm; GTR9 has a similar exported condition.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "At the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, at the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+      "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.6"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0910",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform lateral centreline must be within 10 mm of the selected point; GTR9 has a similar exported condition.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "At the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, at the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.6"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0940",
+      "candidate": "recall-recovery only",
+      "reason": "R148 category-6 side indicator marking is mandatory if that category is fitted; exact category is unspecified.",
+      "probability": 0.45,
+      "applicability": "conditional",
+      "model_condition": "Side signalling lamp is a category 6 side direction indicator",
+      "original_text": "For direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+      "submitted_text": "If the side signalling lamp is a category 6 direction indicator, for direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+      "quote": "For direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.3"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-1152",
+      "candidate": "recall-recovery only",
+      "reason": "R148 category-5/6 side indicator photometry has a 0.2-second check; exact category is unspecified.",
+      "probability": 0.45,
+      "applicability": "conditional",
+      "model_condition": "Side signalling lamp is a category 5 or 6 side direction indicator",
+      "original_text": "For direction indicator Cat 5, 6, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 0.2 seconds after switch ON with reference coordinate H5, V0, as listed in Table A8-1.",
+      "submitted_text": "If the side signalling lamp is a category 5 or 6 direction indicator, for direction indicator Cat 5, 6, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 0.2 seconds after switch ON with reference coordinate H5, V0, as listed in Table A8-1.",
+      "quote": "Direction Indicator Cat 5, 6 0.2 H5, V0",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 47,
+        "paragraph": "Annex 8 2.1"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "H-R127-1-9",
+      "candidate": "verified-recovery",
+      "reason": "R127 Annex 5 1.9 is a distinct lower-legform impact condition absent from every saved extracted candidate.",
+      "probability": null,
+      "applicability": "source-reviewed",
+      "model_condition": "",
+      "original_text": null,
+      "submitted_text": "In the flexible lower-legform-to-bumper test, the impactor shall have its intended orientation about the vertical axis at first contact, within a yaw angle tolerance of ±5°.",
+      "quote": "At the time of first contact the impactor shall have the intended orientation about its vertical axis, for the correct operation of its knee joint, with a yaw angle tolerance of ±5° (see Figure 3).",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.9"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "H-R127-1-13",
+      "candidate": "verified-recovery",
+      "reason": "R127 Annex 5 1.13 is a separate pre-impact validity limit absent from every saved extracted candidate.",
+      "probability": null,
+      "applicability": "source-reviewed",
+      "model_condition": "",
+      "original_text": null,
+      "submitted_text": "In the flexible lower-legform-to-bumper test, tibia bending moments shall not exceed ±15 Nm during the 30 ms immediately before impact.",
+      "quote": "The tibia bending moments shall not exceed +/- 15 Nm within an evaluation interval of 30 ms immediately prior to impact.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.13"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    }
+  ],
+  "removed": [],
+  "counts": {
+    "baseline": 470,
+    "verified-recovery": 479,
+    "recall-recovery": 490
+  },
+  "by_regulation": {
+    "verified-recovery": {
+      "UN R10": 81,
+      "UN R26": 26,
+      "UN R42": 20,
+      "UN R48": 156,
+      "UN R94": 14,
+      "UN R127": 25,
+      "UN R148": 127,
+      "UN GTR 9": 30
+    },
+    "recall-recovery": {
+      "UN R10": 81,
+      "UN R26": 28,
+      "UN R42": 20,
+      "UN R48": 158,
+      "UN R94": 14,
+      "UN R127": 30,
+      "UN R148": 129,
+      "UN GTR 9": 30
+    }
+  }
+}

@@ -1,0 +1,1118 @@
+{
+  "scored_baseline": "verified-recovery.json; official score reported by user: F2 59.1%, R 74.5%, P 32.4%",
+  "scored_sha256": "7d97af7fbececfdba7d5e12f878b023eaab66b7c42ccfb132cc05585098232f2",
+  "removal_policy": "Exclude only unconfirmed lamp/reflector functions and detailed lab/approval procedures. This is a scope judgment, not a hidden-gold match.",
+  "removed": [
+    {
+      "id": "R-0222",
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 3.4",
+      "text": "To ensure that there is no extraneous noise or signal of a magnitude sufficient to affect materially the measurement, ambient measurements shall be taken before or after the main test.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.55,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "R-0223",
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 3.4",
+      "text": "In the ambient measurement, the extraneous noise or signal shall be at least 6 dB below the limits of interference given in paragraph 6.5.2.1. of this Regulation, except for intentional narrowband ambient transmissions.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.55,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 3.4"
+      }
+    },
+    {
+      "id": "R-0226",
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.3",
+      "text": "The measurements shall be performed with a spectrum analyser or a scanning receiver.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 92,
+        "paragraph": "Annex 7 4.3"
+      }
+    },
+    {
+      "id": "R-0233",
+      "regulation": "UN R10",
+      "paragraph": "Annex 7 4.4",
+      "text": "Unless otherwise specified the configuration with the LV harness closer to the antenna shall be tested.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 93,
+        "paragraph": "Annex 7 4.4"
+      }
+    },
+    {
+      "id": "R-0277",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 3.1",
+      "text": "Frequency step size and dwell time shall be chosen according to ISO 11452-1.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.6,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 3.1"
+      }
+    },
+    {
+      "id": "R-0279",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.1.2",
+      "text": "For the absorber chamber test, the \"substitution method\" shall be used to establish the test field conditions according to ISO 11452-2.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The absorber chamber test (ISO 11452-2) is among the chosen test methods",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "R-0280",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.1.2",
+      "text": "The absorber chamber test shall be performed with vertical polarization.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The absorber chamber test (ISO 11452-2) is among the chosen test methods",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 99,
+        "paragraph": "Annex 9 4.1.2"
+      }
+    },
+    {
+      "id": "R-0282",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.2.2",
+      "text": "The TEM cell test shall be performed according to ISO 11452-3.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "TEM cell method selected for the radiated immunity test of the bumper ESAs",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.2.2"
+      }
+    },
+    {
+      "id": "R-0283",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.3.2",
+      "text": "The bulk current injection test shall be performed according to ISO 11452-4 on a test bench with the following characteristics: BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA; or BCI test method with closed loop method and injection probe positioned at 900 mm distance to the ESA, except that as an alternative the ESA may be tested while installed in the vehicle according to ISO 11451-4 with the following characteristics: BCI test method with substitution method and injection probe positioned at 150 mm distance to the ESA.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "BCI method selected for the immunity test of the bumper ESAs",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 100,
+        "paragraph": "Annex 9 4.3.2"
+      }
+    },
+    {
+      "id": "R-0284",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.4.2",
+      "text": "The stripline test shall be performed according to ISO 11452-5.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Stripline method selected for the radiated immunity test of the bumper ESAs",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 101,
+        "paragraph": "Annex 9 4.4.2"
+      }
+    },
+    {
+      "id": "R-0285",
+      "regulation": "UN R10",
+      "paragraph": "Annex 9 4.5.2",
+      "text": "The reverberation chamber test shall be performed according to ISO 11452-11.",
+      "reason": "Detailed laboratory setup or measurement-quality step, rather than a design/performance limit on the bumper ESA.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Reverberation chamber method selected for the radiated immunity test of the bumper ESAs",
+      "source": {
+        "regulation": "UN R10",
+        "version": "7.2.0",
+        "page": 101,
+        "paragraph": "Annex 9 4.5.2"
+      }
+    },
+    {
+      "id": "R-0527",
+      "regulation": "UN R48",
+      "paragraph": "6.3.2",
+      "text": "The number of front fog lamps shall be two, Class “F3” and type-approved according to the 03 or subsequent series of amendments to UN Regulation No. 19, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.2"
+      }
+    },
+    {
+      "id": "R-0528",
+      "regulation": "UN R48",
+      "paragraph": "6.3.4.1",
+      "text": "In width, that point on the apparent surface in the direction of the reference axis of the front fog lamp which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.4.1"
+      }
+    },
+    {
+      "id": "R-0529",
+      "regulation": "UN R48",
+      "paragraph": "6.3.4.2",
+      "text": "The front fog lamps shall be at a height of not less than 250 mm above the ground.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.4.2"
+      }
+    },
+    {
+      "id": "R-0530",
+      "regulation": "UN R48",
+      "paragraph": "6.3.4.2",
+      "text": "For M1 and N1 category vehicles, the front fog lamps shall be at a height of not more than 800 mm above the ground.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.4.2"
+      }
+    },
+    {
+      "id": "R-0531",
+      "regulation": "UN R48",
+      "paragraph": "6.3.4.2",
+      "text": "No point on the apparent surface in the direction of the reference axis of the front fog lamp shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.4.2"
+      }
+    },
+    {
+      "id": "R-0532",
+      "regulation": "UN R48",
+      "paragraph": "6.3.4.3",
+      "text": "In length, the front fog lamps shall be at the front of the vehicle; this requirement shall be deemed to be satisfied if the light emitted does not cause discomfort to the driver either directly, or indirectly through the devices for indirect vision and/or other reflecting surfaces of the vehicle.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.4.3"
+      }
+    },
+    {
+      "id": "R-0533",
+      "regulation": "UN R48",
+      "paragraph": "6.3.5",
+      "text": "The geometric visibility of the front fog lamp shall be defined by angles α and ß as specified in paragraph 2.10.7.: α = 5° upwards and downwards, ß = 45° outwards and 10° inwards.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "R-0534",
+      "regulation": "UN R48",
+      "paragraph": "6.3.5",
+      "text": "The presence of partitions or other items of equipment near the front fog lamp shall not give rise to secondary effects causing discomfort to other road users.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.5"
+      }
+    },
+    {
+      "id": "R-0535",
+      "regulation": "UN R48",
+      "paragraph": "6.3.6",
+      "text": "The front fog lamps shall be oriented toward the front.",
+      "reason": "Front fog lamps are not named or shown in the bumper specification; 'functional' lighting has no identified part.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 37,
+        "paragraph": "6.3.6"
+      }
+    },
+    {
+      "id": "R-0637",
+      "regulation": "UN R48",
+      "paragraph": "6.16.2",
+      "text": "The number of front retro-reflectors, non-triangular, shall be two, type-approved according to the requirements concerning Class IA or IB retro-reflectors in the 02 or subsequent series of amendments to UN Regulation No. 3, or in the 00 or subsequent series of amendments to UN Regulation No.150.",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 56,
+        "paragraph": "6.16.2"
+      }
+    },
+    {
+      "id": "R-0639",
+      "regulation": "UN R48",
+      "paragraph": "6.16.4.1",
+      "text": "The point on the illuminating surface of the front retro-reflector which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.4.1"
+      }
+    },
+    {
+      "id": "R-0641",
+      "regulation": "UN R48",
+      "paragraph": "6.16.4.2",
+      "text": "The front retro-reflectors shall be at a height above the ground of not less than 250 mm nor more than 900 mm (1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm).",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.4.2"
+      }
+    },
+    {
+      "id": "R-0642",
+      "regulation": "UN R48",
+      "paragraph": "6.16.4.3",
+      "text": "The front retro-reflectors shall be positioned in length at the front of the vehicle.",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.4.3"
+      }
+    },
+    {
+      "id": "R-0643",
+      "regulation": "UN R48",
+      "paragraph": "6.16.5",
+      "text": "The front retro-reflectors shall have a horizontal angle of geometric visibility of 30° inwards and outwards.",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.5"
+      }
+    },
+    {
+      "id": "R-0644",
+      "regulation": "UN R48",
+      "paragraph": "6.16.5",
+      "text": "The front retro-reflectors shall have a vertical angle of geometric visibility of 10° above and below the horizontal, except that where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1.), the downward angle of 10° may be reduced to 5°.",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.5"
+      }
+    },
+    {
+      "id": "R-0645",
+      "regulation": "UN R48",
+      "paragraph": "6.16.6",
+      "text": "The front retro-reflectors shall be oriented towards the front.",
+      "reason": "Front retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes front retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.16.6"
+      }
+    },
+    {
+      "id": "R-0649",
+      "regulation": "UN R48",
+      "paragraph": "6.17.2",
+      "text": "The side retro-reflectors shall be type-approved according to the requirements concerning Class IA or IB retro-reflectors in the 02 or subsequent series of amendments to UN Regulation No. 3, or in the 00 or subsequent series of amendments to UN Regulation No. 150.",
+      "reason": "Side retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes side retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 57,
+        "paragraph": "6.17.2"
+      }
+    },
+    {
+      "id": "R-0652",
+      "regulation": "UN R48",
+      "paragraph": "6.17.4.2",
+      "text": "The side retro-reflectors shall be at a height above the ground of not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any lamp(s), 1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm or 1,200 mm respectively or if the presence of the device is not mandatory according to paragraph 6.17.1.).",
+      "reason": "Side retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes side retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.4.2"
+      }
+    },
+    {
+      "id": "R-0653",
+      "regulation": "UN R48",
+      "paragraph": "6.17.4.3",
+      "text": "For motor vehicles the length of which does not exceed 6 m, it shall be sufficient to have one side retro-reflector fitted within the first third and/or one within the last third of the vehicle length.",
+      "reason": "Side retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes side retro-reflectors; vehicle length ≤ 6 m",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.4.3"
+      }
+    },
+    {
+      "id": "R-0655",
+      "regulation": "UN R48",
+      "paragraph": "6.17.5",
+      "text": "The side retro-reflectors shall have a horizontal angle of geometric visibility of 45° to the front and to the rear.",
+      "reason": "Side retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes side retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.5"
+      }
+    },
+    {
+      "id": "R-0656",
+      "regulation": "UN R48",
+      "paragraph": "6.17.5",
+      "text": "The side retro-reflectors shall have a vertical angle of geometric visibility of 10° above and below the horizontal, except that where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1.), the downward angle of 10° may be reduced to 5°.",
+      "reason": "Side retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes side retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.5"
+      }
+    },
+    {
+      "id": "R-0657",
+      "regulation": "UN R48",
+      "paragraph": "6.17.6",
+      "text": "The side retro-reflectors shall be oriented towards the side.",
+      "reason": "Side retro-reflectors are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Bumper includes side retro-reflectors",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 58,
+        "paragraph": "6.17.6"
+      }
+    },
+    {
+      "id": "R-0695",
+      "regulation": "UN R48",
+      "paragraph": "6.20.2",
+      "text": "The number of cornering lamps shall be two, type-approved according to the 01 or subsequent series of amendments to UN Regulation No. 119, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.2"
+      }
+    },
+    {
+      "id": "R-0696",
+      "regulation": "UN R48",
+      "paragraph": "6.20.4.1",
+      "text": "In width, one cornering lamp shall be located on each side of the vehicle's median longitudinal plane.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.4.1"
+      }
+    },
+    {
+      "id": "R-0697",
+      "regulation": "UN R48",
+      "paragraph": "6.20.4.2",
+      "text": "The cornering lamps shall be located in length not further than 1,000 mm from the front.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.4.2"
+      }
+    },
+    {
+      "id": "R-0698",
+      "regulation": "UN R48",
+      "paragraph": "6.20.4.3",
+      "text": "The cornering lamps shall be at a height of not less than 250 mm above the ground minimum and not more than 900 mm above the ground maximum.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.4.3"
+      }
+    },
+    {
+      "id": "R-0699",
+      "regulation": "UN R48",
+      "paragraph": "6.20.4.3",
+      "text": "No point on the apparent surface in the direction of the reference axis of the cornering lamp shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.4.3"
+      }
+    },
+    {
+      "id": "R-0700",
+      "regulation": "UN R48",
+      "paragraph": "6.20.5",
+      "text": "The geometric visibility of the cornering lamps shall be defined by angles α and β as specified in paragraph 2.10.7.: α = 10° upwards and downwards, β = 30° to 60° outwards.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.6,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.5"
+      }
+    },
+    {
+      "id": "R-0701",
+      "regulation": "UN R48",
+      "paragraph": "6.20.6",
+      "text": "The cornering lamps shall be oriented such that the lamps meet the requirements for geometric visibility.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.6"
+      }
+    },
+    {
+      "id": "R-0702",
+      "regulation": "UN R48",
+      "paragraph": "6.20.7",
+      "text": "The cornering lamps shall be so connected that the cornering lamps cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps are switched ON at the same time.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 62,
+        "paragraph": "6.20.7"
+      }
+    },
+    {
+      "id": "R-0703",
+      "regulation": "UN R48",
+      "paragraph": "6.20.7.1",
+      "text": "The cornering lamp on one side of the vehicle may only be switched ON automatically when the direction-indicators on the same side of the vehicle are switched ON and/or when the steering angle is changed from the straight-ahead position towards the same side of the vehicle.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.20.7.1"
+      }
+    },
+    {
+      "id": "R-0704",
+      "regulation": "UN R48",
+      "paragraph": "6.20.7.1",
+      "text": "The cornering lamp shall be switched OFF automatically when the direction-indicator is switched OFF and/or the steering angle has returned in the straight-ahead position.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.20.7.1"
+      }
+    },
+    {
+      "id": "R-0707",
+      "regulation": "UN R48",
+      "paragraph": "6.20.9",
+      "text": "The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+      "reason": "Cornering lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The functional lighting includes a cornering lamp",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 63,
+        "paragraph": "6.20.9"
+      }
+    },
+    {
+      "id": "R-0748",
+      "regulation": "UN R48",
+      "paragraph": "6.26.2",
+      "text": "The installed manoeuvring lamps (mounted to the side or rear) shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 23, or to the 00 or subsequent series of amendments to UN Regulation No. 148.",
+      "reason": "Manoeuvring lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26.2"
+      }
+    },
+    {
+      "id": "R-0749",
+      "regulation": "UN R48",
+      "paragraph": "6.26.2",
+      "text": "The number of side mounted manoeuvring lamps shall be one or two (one per side) on vehicles not exceeding 6m in length.",
+      "reason": "Manoeuvring lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Applies only if the bumper side lighting includes a side mounted manoeuvring lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26.2"
+      }
+    },
+    {
+      "id": "R-0752",
+      "regulation": "UN R48",
+      "paragraph": "6.26.4.2",
+      "text": "The side mounted manoeuvring lamps shall be at a height above the ground of not more than 1,500mm.",
+      "reason": "Manoeuvring lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Applies only if the bumper side lighting includes a side mounted manoeuvring lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26.4.2"
+      }
+    },
+    {
+      "id": "R-0755",
+      "regulation": "UN R48",
+      "paragraph": "6.26.6",
+      "text": "The manoeuvring lamps shall be oriented downwards, however the requirements of paragraph 6.26.9. shall apply.",
+      "reason": "Manoeuvring lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26.6"
+      }
+    },
+    {
+      "id": "R-0756",
+      "regulation": "UN R48",
+      "paragraph": "6.26.7",
+      "text": "On motor vehicles, the manoeuvring lamps shall be so connected that they cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps of the motor vehicle are switched ON at the same time.",
+      "reason": "Manoeuvring lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 78,
+        "paragraph": "6.26.7"
+      }
+    },
+    {
+      "id": "R-0760",
+      "regulation": "UN R48",
+      "paragraph": "6.26.9.1",
+      "text": "There shall be no direct visibility of the apparent surface of the manoeuvring lamps, if viewed by an observer moving on the boundary of a zone on a transverse plane 10 m from the front of the vehicle, a transverse plane 10 m from the rear of the vehicle, and two longitudinal planes 10 m from each side of the vehicle; these four planes to extend from 1 m to 3 m above and parallel to the ground as shown in Annex 14.",
+      "reason": "Manoeuvring lamps are not named or shown in the bumper specification or drawing.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 79,
+        "paragraph": "6.26.9.1"
+      }
+    },
+    {
+      "id": "R-0769",
+      "regulation": "UN R48",
+      "paragraph": "6.27.7.2",
+      "text": "If the answer-back signal flashes, the frequency shall not exceed 2.0 Hz.",
+      "reason": "An optical answer-back function is not stated; the keyless aerial alone does not establish one.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The bumper's side signalling lamp or other lighting is used for the answer-back signal and it flashes.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 80,
+        "paragraph": "6.27.7.2"
+      }
+    },
+    {
+      "id": "R-0772",
+      "regulation": "UN R48",
+      "paragraph": "6.27.9.1",
+      "text": "The answer-back signal shall be provided by approved lighting and light-signalling devices and exterior courtesy lamps where in all these cases, the maximum luminous intensity per lamp does not exceed 700 cd on or above the HH line, except that front fog lamps, rear fog lamps and stop lamps are not permitted to be used.",
+      "reason": "An optical answer-back function is not stated; the keyless aerial alone does not establish one.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The bumper's lighting is used for the answer-back signal.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 80,
+        "paragraph": "6.27.9.1"
+      }
+    },
+    {
+      "id": "R-0773",
+      "regulation": "UN R48",
+      "paragraph": "6.27.9.2",
+      "text": "The answer-back signal may only be activated automatically in conjunction with the locking and unlocking of the door(s) and/or the detection of the vehicle user in proximity to the vehicle.",
+      "reason": "An optical answer-back function is not stated; the keyless aerial alone does not establish one.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The bumper's lighting is used for the answer-back signal (e.g. linked to the keyless-entry aerial).",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 80,
+        "paragraph": "6.27.9.2"
+      }
+    },
+    {
+      "id": "R-0775",
+      "regulation": "UN R48",
+      "paragraph": "6.27.9.4",
+      "text": "The duration of the optical indication of the answer-back signal shall not exceed 3 seconds, this time being defined from the beginning to the end of the signal, irrespective of whether it contains flashes, variations of intensity or variations in apparent surface.",
+      "reason": "An optical answer-back function is not stated; the keyless aerial alone does not establish one.",
+      "saved_probability": 0.55,
+      "saved_applicability": "conditional",
+      "saved_condition": "The bumper's lighting is used for the answer-back signal.",
+      "source": {
+        "regulation": "UN R48",
+        "version": "9.3.0",
+        "page": 80,
+        "paragraph": "6.27.9.4"
+      }
+    },
+    {
+      "id": "R-0995",
+      "regulation": "UN R148",
+      "paragraph": "4.8.1",
+      "text": "All measurements, photometric and colorimetric, shall be made with respect to the conditions of paragraphs 4.8.1.1. to 4.8.1.10. (Particulars of the methods of measurement to be used are given in Annex 3).",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.5,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 13,
+        "paragraph": "4.8.1"
+      }
+    },
+    {
+      "id": "R-1028",
+      "regulation": "UN R148",
+      "paragraph": "4.8.3.6",
+      "text": "Tests for compliance of the luminous intensities shall be carried out according to Annex 8.",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.7,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "4.8.3.6"
+      }
+    },
+    {
+      "id": "R-1031",
+      "regulation": "UN R148",
+      "paragraph": "4.9",
+      "text": "To check the colorimetric characteristics, the test procedure described in paragraph 4.8. shall be applied.",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.65,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 16,
+        "paragraph": "4.9"
+      }
+    },
+    {
+      "id": "R-1091",
+      "regulation": "UN R148",
+      "paragraph": "6.1.1",
+      "text": "For verification of the compliance of the lamps with the requirements set forth in paragraph 5., the minimum requirements for conformity of production control procedures set forth in Annex 4 shall be complied with.",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.6,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 27,
+        "paragraph": "6.1.1"
+      }
+    },
+    {
+      "id": "R-1092",
+      "regulation": "UN R148",
+      "paragraph": "6.1.2",
+      "text": "For verification of the compliance of the lamps with the requirements set forth in paragraph 5., the minimum requirements for sampling by an inspector set forth in Annex 5 shall be complied with.",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.5,
+      "saved_applicability": "applies",
+      "saved_condition": "",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 27,
+        "paragraph": "6.1.2"
+      }
+    },
+    {
+      "id": "R-1122",
+      "regulation": "UN R148",
+      "paragraph": "Annex 4 1.2.1",
+      "text": "In the case of a lamp equipped with a replaceable light source, if results of the photometric test of a lamp chosen at random according to paragraph 4.8. of this Regulation do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "Side signalling lamp is equipped with a replaceable light source",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 42,
+        "paragraph": "Annex 4 1.2.1"
+      }
+    },
+    {
+      "id": "R-1130",
+      "regulation": "UN R148",
+      "paragraph": "Annex 5 1.2",
+      "text": "With respect to photometric performance, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+      "reason": "Approval sampling, retest, or generic measurement procedure; no distinct device performance limit.",
+      "saved_probability": 0.5,
+      "saved_applicability": "conditional",
+      "saved_condition": "The side signalling lamp is equipped with a replaceable light source.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 43,
+        "paragraph": "Annex 5 1.2"
+      }
+    }
+  ],
+  "added_to_balanced": [
+    {
+      "id": "R-0902",
+      "candidate": "recall-recovery only",
+      "reason": "R127 lower-legform impactor height is a 75 mm plus/minus 10 mm test condition; an equivalent GTR9 condition is already exported.",
+      "probability": 0.4,
+      "applicability": "applies",
+      "model_condition": "",
+      "original_text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+      "submitted_text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+      "quote": "The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 33,
+        "paragraph": "Annex 5 1.7"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0904",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform measuring points must lie in the bumper test area; upper test is conditional on bumper height.",
+      "probability": 0.3,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "For the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, for the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+      "quote": "The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.4"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0908",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform impact direction and two-degree tolerance are independently testable; GTR9 has a similar exported condition.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "In the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, in the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+      "quote": "The direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact. The tolerance to this direction is ±2°.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.6"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0909",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform vertical centreline is constrained to the midpoint within 10 mm; GTR9 has a similar exported condition.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "At the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, at the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+      "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.6"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    },
+    {
+      "id": "R-0910",
+      "candidate": "recall-recovery only",
+      "reason": "R127 upper-legform lateral centreline must be within 10 mm of the selected point; GTR9 has a similar exported condition.",
+      "probability": 0.25,
+      "applicability": "conditional",
+      "model_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+      "original_text": "At the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "submitted_text": "Where upper-legform-to-bumper testing applies based on lower bumper height, at the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+      "source": {
+        "regulation": "UN R127",
+        "version": "4.3.0",
+        "page": 36,
+        "paragraph": "Annex 5 2.6"
+      },
+      "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+      "quote_on_cited_pdf_page": true
+    }
+  ],
+  "counts": {
+    "scored": 479,
+    "removed": 61,
+    "scope_screened": 418,
+    "balanced": 423
+  },
+  "removal_groups": {
+    "R10 lab procedure": 11,
+    "R48 6.3": 9,
+    "R48 6.16": 7,
+    "R48 6.17": 6,
+    "R48 6.20": 11,
+    "R48 6.26": 6,
+    "R48 6.27": 4,
+    "R148 procedure": 7
+  },
+  "by_regulation": {
+    "scope-screened-418": {
+      "UN R10": 70,
+      "UN R26": 26,
+      "UN R42": 20,
+      "UN R48": 113,
+      "UN R94": 14,
+      "UN R127": 25,
+      "UN R148": 120,
+      "UN GTR 9": 30
+    },
+    "balanced-423": {
+      "UN R10": 70,
+      "UN R26": 26,
+      "UN R42": 20,
+      "UN R48": 113,
+      "UN R94": 14,
+      "UN R127": 30,
+      "UN R148": 120,
+      "UN GTR 9": 30
+    }
+  }
+}

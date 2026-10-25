@@ -1,0 +1,1489 @@
+{
+  "baseline": "Officially scored 479-requirement upload; F2 59.1%, recall 74.5%, precision 32.4%",
+  "baseline_sha256": "7d97af7fbececfdba7d5e12f878b023eaab66b7c42ccfb132cc05585098232f2",
+  "candidates": {
+    "eval-scope-conservative": {
+      "count": 437,
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 26,
+        "UN R42": 20,
+        "UN R48": 117,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 123,
+        "UN GTR 9": 30
+      },
+      "removed": [
+        {
+          "id": "R-0527",
+          "text": "The number of front fog lamps shall be two, Class “F3” and type-approved according to the 03 or subsequent series of amendments to UN Regulation No. 19, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Two Class “F3” and type-approved according to the 03 or subsequent series of amendments to UN Regulation No. 19, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0528",
+          "text": "In width, that point on the apparent surface in the direction of the reference axis of the front fog lamp which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In width: that point on the apparent surface in the direction of the reference axis which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0529",
+          "text": "The front fog lamps shall be at a height of not less than 250 mm above the ground.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: Minimum: Not less than 250 mm above the ground.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0530",
+          "text": "For M1 and N1 category vehicles, the front fog lamps shall be at a height of not more than 800 mm above the ground.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Maximum: For M1 and N1 category vehicles: not more than 800 mm above the ground.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0531",
+          "text": "No point on the apparent surface in the direction of the reference axis of the front fog lamp shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "No point on the apparent surface in the direction of the reference axis shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0532",
+          "text": "In length, the front fog lamps shall be at the front of the vehicle; this requirement shall be deemed to be satisfied if the light emitted does not cause discomfort to the driver either directly, or indirectly through the devices for indirect vision and/or other reflecting surfaces of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In length: at the front of the vehicle. This requirement shall be deemed to be satisfied if the light emitted does not cause discomfort to the driver either directly, or indirectly through the devices for indirect vision and/or other reflecting surfaces of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0533",
+          "text": "The geometric visibility of the front fog lamp shall be defined by angles α and ß as specified in paragraph 2.10.7.: α = 5° upwards and downwards, ß = 45° outwards and 10° inwards.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Geometric visibility Defined by angles α and ß as specified in paragraph 2.10.7.: α = 5° upwards and downwards, ß = 45° outwards and 10° inwards.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0534",
+          "text": "The presence of partitions or other items of equipment near the front fog lamp shall not give rise to secondary effects causing discomfort to other road users.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The presence of partitions or other items of equipment near the front fog lamp shall not give rise to secondary effects causing discomfort to other road users.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0535",
+          "text": "The front fog lamps shall be oriented toward the front.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Toward the front.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+          "reason": "No front fog lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0637",
+          "text": "The number of front retro-reflectors, non-triangular, shall be two, type-approved according to the requirements concerning Class IA or IB retro-reflectors in the 02 or subsequent series of amendments to UN Regulation No. 3, or in the 00 or subsequent series of amendments to UN Regulation No.150.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 56,
+            "paragraph": "6.16.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Two, type-approved according to the requirements concerning Class IA or IB retro-reflectors in the 02 or subsequent series of amendments to UN Regulation No. 3, or in the 00 or subsequent series of amendments to UN Regulation No.150.",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0639",
+          "text": "The point on the illuminating surface of the front retro-reflector which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.16.4.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In width: that point on the illuminating surface which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0641",
+          "text": "The front retro-reflectors shall be at a height above the ground of not less than 250 mm nor more than 900 mm (1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm).",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.16.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: above the ground, not less than 250 mm nor more than 900 mm (1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm).",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0642",
+          "text": "The front retro-reflectors shall be positioned in length at the front of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.16.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In length: at the front of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0643",
+          "text": "The front retro-reflectors shall have a horizontal angle of geometric visibility of 30° inwards and outwards.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.16.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Geometric visibility Horizontal angle: 30° inwards and outwards.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0644",
+          "text": "The front retro-reflectors shall have a vertical angle of geometric visibility of 10° above and below the horizontal, except that where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1.), the downward angle of 10° may be reduced to 5°.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.16.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Vertical angle: 10° above and below the horizontal. However, where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 10° may be reduced to 5°.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0645",
+          "text": "The front retro-reflectors shall be oriented towards the front.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.16.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Towards the front.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes front retro-reflectors",
+          "reason": "No front retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0649",
+          "text": "The side retro-reflectors shall be type-approved according to the requirements concerning Class IA or IB retro-reflectors in the 02 or subsequent series of amendments to UN Regulation No. 3, or in the 00 or subsequent series of amendments to UN Regulation No. 150.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 57,
+            "paragraph": "6.17.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "These devices shall be type-approved according to the requirements concerning Class IA or IB retro-reflectors in the 02 or subsequent series of amendments to UN Regulation No. 3, or in the 00 or subsequent series of amendments to UN Regulation No. 150.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes side retro-reflectors",
+          "reason": "No side retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0652",
+          "text": "The side retro-reflectors shall be at a height above the ground of not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any lamp(s), 1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm or 1,200 mm respectively or if the presence of the device is not mandatory according to paragraph 6.17.1.).",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 58,
+            "paragraph": "6.17.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: Above the ground, not less than 250 mm nor more than 900 mm (not more than 1,200 mm if grouped with any lamp(s), 1,500 mm if the shape of the bodywork makes it impossible to keep within 900 mm or 1,200 mm respectively or if the presence of the device is not mandatory according to paragraph 6.17.1.).",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes side retro-reflectors",
+          "reason": "No side retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0653",
+          "text": "For motor vehicles the length of which does not exceed 6 m, it shall be sufficient to have one side retro-reflector fitted within the first third and/or one within the last third of the vehicle length.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 58,
+            "paragraph": "6.17.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "However, for motor vehicles the length of which does not exceed 6 m, it is sufficient to have one side retro-reflector fitted within the first third and/or one within the last third of the vehicle length.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes side retro-reflectors; vehicle length ≤ 6 m",
+          "reason": "No side retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0655",
+          "text": "The side retro-reflectors shall have a horizontal angle of geometric visibility of 45° to the front and to the rear.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 58,
+            "paragraph": "6.17.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Geometric visibility Horizontal angle: 45° to the front and to the rear.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes side retro-reflectors",
+          "reason": "No side retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0656",
+          "text": "The side retro-reflectors shall have a vertical angle of geometric visibility of 10° above and below the horizontal, except that where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1.), the downward angle of 10° may be reduced to 5°.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 58,
+            "paragraph": "6.17.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Vertical angle: 10° above and below the horizontal. However, where a retro-reflector is mounted below 750 mm (measured according to the provisions of paragraph 5.8.1. above), the downward angle of 10° may be reduced to 5°.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes side retro-reflectors",
+          "reason": "No side retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0657",
+          "text": "The side retro-reflectors shall be oriented towards the side.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 58,
+            "paragraph": "6.17.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Towards the side.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "Bumper includes side retro-reflectors",
+          "reason": "No side retro-reflector is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0695",
+          "text": "The number of cornering lamps shall be two, type-approved according to the 01 or subsequent series of amendments to UN Regulation No. 119, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Two, type-approved according to the 01 or subsequent series of amendments to UN Regulation No. 119, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0696",
+          "text": "In width, one cornering lamp shall be located on each side of the vehicle's median longitudinal plane.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In width: one cornering lamp shall be located on each side of the vehicle's median longitudinal plane.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0697",
+          "text": "The cornering lamps shall be located in length not further than 1,000 mm from the front.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In length: not further than 1,000 mm from the front.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0698",
+          "text": "The cornering lamps shall be at a height of not less than 250 mm above the ground minimum and not more than 900 mm above the ground maximum.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: minimum: Not less than 250 mm above the ground; maximum: Not more than 900 mm above the ground.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0699",
+          "text": "No point on the apparent surface in the direction of the reference axis of the cornering lamp shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "However, no point on the apparent surface in the direction of the reference axis shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0700",
+          "text": "The geometric visibility of the cornering lamps shall be defined by angles α and β as specified in paragraph 2.10.7.: α = 10° upwards and downwards, β = 30° to 60° outwards.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Geometric visibility Defined by angles α and β as specified in paragraph 2.10.7.: α = 10° upwards and downwards, β = 30° to 60° outwards.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0701",
+          "text": "The cornering lamps shall be oriented such that the lamps meet the requirements for geometric visibility.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Such that the lamps meet the requirements for geometric visibility.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0702",
+          "text": "The cornering lamps shall be so connected that the cornering lamps cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps are switched ON at the same time.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.7"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Electrical connections The cornering lamps shall be so connected that they cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps are switched ON at the same time.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0703",
+          "text": "The cornering lamp on one side of the vehicle may only be switched ON automatically when the direction-indicators on the same side of the vehicle are switched ON and/or when the steering angle is changed from the straight-ahead position towards the same side of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 63,
+            "paragraph": "6.20.7.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The cornering lamp on one side of the vehicle may only be switched ON automatically when the direction-indicators on the same side of the vehicle are switched ON and/or when the steering angle is changed from the straight-ahead position towards the same side of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0704",
+          "text": "The cornering lamp shall be switched OFF automatically when the direction-indicator is switched OFF and/or the steering angle has returned in the straight-ahead position.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 63,
+            "paragraph": "6.20.7.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The cornering lamp shall be switched OFF automatically when the direction-indicator is switched OFF and/or the steering angle has returned in the straight-ahead position.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0707",
+          "text": "The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 63,
+            "paragraph": "6.20.9"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Other requirements The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "No cornering lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0748",
+          "text": "The installed manoeuvring lamps (mounted to the side or rear) shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 23, or to the 00 or subsequent series of amendments to UN Regulation No. 148.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "However, installed lamps (mounted to the side or rear) shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 23, or to the 00 or subsequent series of amendments to UN Regulation No. 148.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "No manoeuvring lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0749",
+          "text": "The number of side mounted manoeuvring lamps shall be one or two (one per side) on vehicles not exceeding 6m in length.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Side mounted: One or two (one per side) on vehicles not exceeding 6m in length.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a side mounted manoeuvring lamp.",
+          "reason": "No manoeuvring lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0752",
+          "text": "The side mounted manoeuvring lamps shall be at a height above the ground of not more than 1,500mm.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: Side mounted: above the ground, not more than 1,500mm.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a side mounted manoeuvring lamp.",
+          "reason": "No manoeuvring lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0755",
+          "text": "The manoeuvring lamps shall be oriented downwards, however the requirements of paragraph 6.26.9. shall apply.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Downwards, however the requirements of paragraph 6.26.9. apply.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "No manoeuvring lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0756",
+          "text": "On motor vehicles, the manoeuvring lamps shall be so connected that they cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps of the motor vehicle are switched ON at the same time.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.7"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Motor vehicles: Manoeuvring lamps shall be so connected that they cannot be switched ON unless the-main-beam headlamps or the dipped-beam headlamps of the motor vehicle are switched ON at the same time.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "No manoeuvring lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-0760",
+          "text": "There shall be no direct visibility of the apparent surface of the manoeuvring lamps, if viewed by an observer moving on the boundary of a zone on a transverse plane 10 m from the front of the vehicle, a transverse plane 10 m from the rear of the vehicle, and two longitudinal planes 10 m from each side of the vehicle; these four planes to extend from 1 m to 3 m above and parallel to the ground as shown in Annex 14.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 79,
+            "paragraph": "6.26.9.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The Technical Service shall, to the satisfaction of the Type Approval Authority, perform a visual test to verify that there is no direct visibility of the apparent surface of these lamps, if viewed by an observer moving on the boundary of a zone on a transverse plane 10 m from the front of the vehicle, a transverse plane 10 m from the rear of the vehicle , and two longitudinal planes 10 m from each side of the vehicle; these four planes to extend from 1 m to 3 m above and parallel to the ground as shown in Annex 14.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "No manoeuvring lamp is specified or labelled in the product drawing."
+        },
+        {
+          "id": "R-1091",
+          "text": "For verification of the compliance of the lamps with the requirements set forth in paragraph 5., the minimum requirements for conformity of production control procedures set forth in Annex 4 shall be complied with.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 27,
+            "paragraph": "6.1.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "The compliance with the requirements set forth in paragraph 5. shall be verified as follows: The minimum requirements for conformity of production control procedures set forth in Annex 4 shall be complied with;",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.6,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "Conformity-of-production control procedure, rather than a device performance or marking obligation."
+        },
+        {
+          "id": "R-1092",
+          "text": "For verification of the compliance of the lamps with the requirements set forth in paragraph 5., the minimum requirements for sampling by an inspector set forth in Annex 5 shall be complied with.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 27,
+            "paragraph": "6.1.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "The compliance with the requirements set forth in paragraph 5. shall be verified as follows: The minimum requirements for sampling by an inspector set forth in Annex 5 shall be complied with;",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.5,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "Inspector sampling procedure, rather than a device performance or marking obligation."
+        },
+        {
+          "id": "R-1122",
+          "text": "In the case of a lamp equipped with a replaceable light source, if results of the photometric test of a lamp chosen at random according to paragraph 4.8. of this Regulation do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 42,
+            "paragraph": "Annex 4 1.2.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "If, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Side signalling lamp is equipped with a replaceable light source",
+          "reason": "A retest with another standard light source after a failed random sample; laboratory sampling action."
+        },
+        {
+          "id": "R-1130",
+          "text": "With respect to photometric performance, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 43,
+            "paragraph": "Annex 5 1.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random: ... (b) If, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The side signalling lamp is equipped with a replaceable light source.",
+          "reason": "A retest with another standard light source after a failed random sample; laboratory sampling action."
+        }
+      ],
+      "added": [
+        {
+          "id": "R-0894",
+          "text": "For the lower legform testing, a horizontal and vertical impact tolerance of ±10 mm shall apply.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 33,
+            "paragraph": "Annex 5 1.10"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "For the lower legform testing, a horizontal and vertical impact tolerance of ±10 mm shall apply.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.3,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "R127 ±10 mm lower-legform impact tolerance is source-supported."
+        }
+      ],
+      "modified": {},
+      "sha256": "4a9d20e72ac87742aaeb150574b98cfbeac6fd2c069b6bc3f1e535696ea01ace"
+    },
+    "eval-balanced": {
+      "count": 450,
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 26,
+        "UN R42": 20,
+        "UN R48": 130,
+        "UN R94": 14,
+        "UN R127": 26,
+        "UN R148": 123,
+        "UN GTR 9": 30
+      },
+      "removed": [
+        {
+          "id": "R-0527",
+          "text": "The number of front fog lamps shall be two, Class “F3” and type-approved according to the 03 or subsequent series of amendments to UN Regulation No. 19, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Two Class “F3” and type-approved according to the 03 or subsequent series of amendments to UN Regulation No. 19, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0528",
+          "text": "In width, that point on the apparent surface in the direction of the reference axis of the front fog lamp which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In width: that point on the apparent surface in the direction of the reference axis which is farthest from the vehicle's median longitudinal plane shall not be more than 400 mm from the extreme outer edge of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0529",
+          "text": "The front fog lamps shall be at a height of not less than 250 mm above the ground.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: Minimum: Not less than 250 mm above the ground.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0530",
+          "text": "For M1 and N1 category vehicles, the front fog lamps shall be at a height of not more than 800 mm above the ground.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Maximum: For M1 and N1 category vehicles: not more than 800 mm above the ground.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0531",
+          "text": "No point on the apparent surface in the direction of the reference axis of the front fog lamp shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "No point on the apparent surface in the direction of the reference axis shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0532",
+          "text": "In length, the front fog lamps shall be at the front of the vehicle; this requirement shall be deemed to be satisfied if the light emitted does not cause discomfort to the driver either directly, or indirectly through the devices for indirect vision and/or other reflecting surfaces of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In length: at the front of the vehicle. This requirement shall be deemed to be satisfied if the light emitted does not cause discomfort to the driver either directly, or indirectly through the devices for indirect vision and/or other reflecting surfaces of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting of the bumper includes front fog lamps.",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0533",
+          "text": "The geometric visibility of the front fog lamp shall be defined by angles α and ß as specified in paragraph 2.10.7.: α = 5° upwards and downwards, ß = 45° outwards and 10° inwards.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Geometric visibility Defined by angles α and ß as specified in paragraph 2.10.7.: α = 5° upwards and downwards, ß = 45° outwards and 10° inwards.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0534",
+          "text": "The presence of partitions or other items of equipment near the front fog lamp shall not give rise to secondary effects causing discomfort to other road users.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The presence of partitions or other items of equipment near the front fog lamp shall not give rise to secondary effects causing discomfort to other road users.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0535",
+          "text": "The front fog lamps shall be oriented toward the front.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 37,
+            "paragraph": "6.3.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Toward the front.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The unspecified 'functional' lighting in the bumper includes a front fog lamp",
+          "reason": "Front fog lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0695",
+          "text": "The number of cornering lamps shall be two, type-approved according to the 01 or subsequent series of amendments to UN Regulation No. 119, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Two, type-approved according to the 01 or subsequent series of amendments to UN Regulation No. 119, or to the 00 or subsequent series of amendments to UN Regulation No. 149.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0696",
+          "text": "In width, one cornering lamp shall be located on each side of the vehicle's median longitudinal plane.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In width: one cornering lamp shall be located on each side of the vehicle's median longitudinal plane.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0697",
+          "text": "The cornering lamps shall be located in length not further than 1,000 mm from the front.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In length: not further than 1,000 mm from the front.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0698",
+          "text": "The cornering lamps shall be at a height of not less than 250 mm above the ground minimum and not more than 900 mm above the ground maximum.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: minimum: Not less than 250 mm above the ground; maximum: Not more than 900 mm above the ground.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0699",
+          "text": "No point on the apparent surface in the direction of the reference axis of the cornering lamp shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.4.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "However, no point on the apparent surface in the direction of the reference axis shall be higher than the highest point on the apparent surface in the direction of the reference axis of the dipped-beam headlamp.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0700",
+          "text": "The geometric visibility of the cornering lamps shall be defined by angles α and β as specified in paragraph 2.10.7.: α = 10° upwards and downwards, β = 30° to 60° outwards.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.5"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Geometric visibility Defined by angles α and β as specified in paragraph 2.10.7.: α = 10° upwards and downwards, β = 30° to 60° outwards.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.6,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0701",
+          "text": "The cornering lamps shall be oriented such that the lamps meet the requirements for geometric visibility.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Such that the lamps meet the requirements for geometric visibility.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0702",
+          "text": "The cornering lamps shall be so connected that the cornering lamps cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps are switched ON at the same time.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 62,
+            "paragraph": "6.20.7"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Electrical connections The cornering lamps shall be so connected that they cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps are switched ON at the same time.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0703",
+          "text": "The cornering lamp on one side of the vehicle may only be switched ON automatically when the direction-indicators on the same side of the vehicle are switched ON and/or when the steering angle is changed from the straight-ahead position towards the same side of the vehicle.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 63,
+            "paragraph": "6.20.7.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The cornering lamp on one side of the vehicle may only be switched ON automatically when the direction-indicators on the same side of the vehicle are switched ON and/or when the steering angle is changed from the straight-ahead position towards the same side of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0704",
+          "text": "The cornering lamp shall be switched OFF automatically when the direction-indicator is switched OFF and/or the steering angle has returned in the straight-ahead position.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 63,
+            "paragraph": "6.20.7.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The cornering lamp shall be switched OFF automatically when the direction-indicator is switched OFF and/or the steering angle has returned in the straight-ahead position.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0707",
+          "text": "The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 63,
+            "paragraph": "6.20.9"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Other requirements The cornering lamps shall not be switched ON at vehicle speeds above 40 km/h.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "The functional lighting includes a cornering lamp",
+          "reason": "Cornering lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0748",
+          "text": "The installed manoeuvring lamps (mounted to the side or rear) shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 23, or to the 00 or subsequent series of amendments to UN Regulation No. 148.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "However, installed lamps (mounted to the side or rear) shall be type-approved according to the 00 or subsequent series of amendments to UN Regulation No. 23, or to the 00 or subsequent series of amendments to UN Regulation No. 148.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.55,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "Manoeuvring lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0749",
+          "text": "The number of side mounted manoeuvring lamps shall be one or two (one per side) on vehicles not exceeding 6m in length.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Number Side mounted: One or two (one per side) on vehicles not exceeding 6m in length.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a side mounted manoeuvring lamp.",
+          "reason": "Manoeuvring lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0752",
+          "text": "The side mounted manoeuvring lamps shall be at a height above the ground of not more than 1,500mm.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.4.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "In height: Side mounted: above the ground, not more than 1,500mm.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a side mounted manoeuvring lamp.",
+          "reason": "Manoeuvring lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0755",
+          "text": "The manoeuvring lamps shall be oriented downwards, however the requirements of paragraph 6.26.9. shall apply.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Orientation Downwards, however the requirements of paragraph 6.26.9. apply.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "Manoeuvring lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0756",
+          "text": "On motor vehicles, the manoeuvring lamps shall be so connected that they cannot be switched ON unless the main-beam headlamps or the dipped-beam headlamps of the motor vehicle are switched ON at the same time.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 78,
+            "paragraph": "6.26.7"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "Motor vehicles: Manoeuvring lamps shall be so connected that they cannot be switched ON unless the-main-beam headlamps or the dipped-beam headlamps of the motor vehicle are switched ON at the same time.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "Manoeuvring lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-0760",
+          "text": "There shall be no direct visibility of the apparent surface of the manoeuvring lamps, if viewed by an observer moving on the boundary of a zone on a transverse plane 10 m from the front of the vehicle, a transverse plane 10 m from the rear of the vehicle, and two longitudinal planes 10 m from each side of the vehicle; these four planes to extend from 1 m to 3 m above and parallel to the ground as shown in Annex 14.",
+          "source": {
+            "regulation": "UN R48",
+            "version": "9.3.0",
+            "page": 79,
+            "paragraph": "6.26.9.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R48\\base\\UN_R48_base.pdf",
+          "source_quote": "The Technical Service shall, to the satisfaction of the Type Approval Authority, perform a visual test to verify that there is no direct visibility of the apparent surface of these lamps, if viewed by an observer moving on the boundary of a zone on a transverse plane 10 m from the front of the vehicle, a transverse plane 10 m from the rear of the vehicle , and two longitudinal planes 10 m from each side of the vehicle; these four planes to extend from 1 m to 3 m above and parallel to the ground as shown in Annex 14.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Applies only if the bumper side lighting includes a manoeuvring lamp.",
+          "reason": "Manoeuvring lamp function is absent from the written parts list and exploded drawing."
+        },
+        {
+          "id": "R-1091",
+          "text": "For verification of the compliance of the lamps with the requirements set forth in paragraph 5., the minimum requirements for conformity of production control procedures set forth in Annex 4 shall be complied with.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 27,
+            "paragraph": "6.1.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "The compliance with the requirements set forth in paragraph 5. shall be verified as follows: The minimum requirements for conformity of production control procedures set forth in Annex 4 shall be complied with;",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.6,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "Conformity-of-production control procedure, rather than a device performance or marking obligation."
+        },
+        {
+          "id": "R-1092",
+          "text": "For verification of the compliance of the lamps with the requirements set forth in paragraph 5., the minimum requirements for sampling by an inspector set forth in Annex 5 shall be complied with.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 27,
+            "paragraph": "6.1.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "The compliance with the requirements set forth in paragraph 5. shall be verified as follows: The minimum requirements for sampling by an inspector set forth in Annex 5 shall be complied with;",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.5,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "Inspector sampling procedure, rather than a device performance or marking obligation."
+        },
+        {
+          "id": "R-1122",
+          "text": "In the case of a lamp equipped with a replaceable light source, if results of the photometric test of a lamp chosen at random according to paragraph 4.8. of this Regulation do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 42,
+            "paragraph": "Annex 4 1.2.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "If, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "Side signalling lamp is equipped with a replaceable light source",
+          "reason": "A retest with another standard light source after a failed random sample; laboratory sampling action."
+        },
+        {
+          "id": "R-1130",
+          "text": "With respect to photometric performance, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 43,
+            "paragraph": "Annex 5 1.2"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "With respect to photometric performance, the conformity of mass-produced lamps shall not be contested if, when testing the photometric performances set forth in paragraph 4.8. of this Regulation of any lamp chosen at random: ... (b) If, in the case of a lamp equipped with a replaceable light source and if results of the test described above do not meet the requirements, tests on lamps shall be repeated using another standard light source.",
+          "exact_quote_on_cited_page": false,
+          "saved_probability": 0.5,
+          "saved_applicability": "conditional",
+          "saved_condition": "The side signalling lamp is equipped with a replaceable light source.",
+          "reason": "A retest with another standard light source after a failed random sample; laboratory sampling action."
+        }
+      ],
+      "added": [
+        {
+          "id": "R-0894",
+          "text": "For the lower legform testing, a horizontal and vertical impact tolerance of ±10 mm shall apply.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 33,
+            "paragraph": "Annex 5 1.10"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "For the lower legform testing, a horizontal and vertical impact tolerance of ±10 mm shall apply.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.3,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "R127 ±10 mm lower-legform impact tolerance is source-supported."
+        }
+      ],
+      "modified": {
+        "R-0217": {
+          "before": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+          "after": "During the Annex 7 broadband electromagnetic-emission test, the ESA under test shall be in normal operation mode, preferably in maximum load.",
+          "reason": "Annex 7 addresses broadband ESA emissions; the original stand-alone sentence omitted that context."
+        },
+        "R-0239": {
+          "before": "The ESA under test shall be in normal operation mode, preferably in maximum load.",
+          "after": "During the Annex 8 narrowband electromagnetic-emission test, the ESA under test shall be in normal operation mode, preferably in maximum load.",
+          "reason": "Annex 8 addresses narrowband ESA emissions; the original stand-alone sentence omitted that context."
+        },
+        "R-0029": {
+          "before_page": 10,
+          "after_page": 11,
+          "reason": "The cited ESA emissions-method sentence continues on PDF page 11; page 10 contains the paragraph heading."
+        }
+      },
+      "sha256": "27c44519ebe72e22ffe8638c538c855d8cf5a8ff1baa6033b720738134b2f9c6"
+    },
+    "eval-high-recall": {
+      "count": 487,
+      "by_regulation": {
+        "UN R10": 81,
+        "UN R26": 26,
+        "UN R42": 20,
+        "UN R48": 156,
+        "UN R94": 14,
+        "UN R127": 31,
+        "UN R148": 129,
+        "UN GTR 9": 30
+      },
+      "removed": [],
+      "added": [
+        {
+          "id": "R-0894",
+          "text": "For the lower legform testing, a horizontal and vertical impact tolerance of ±10 mm shall apply.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 33,
+            "paragraph": "Annex 5 1.10"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "For the lower legform testing, a horizontal and vertical impact tolerance of ±10 mm shall apply.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.3,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "R127 lower-legform test horizontal and vertical impact tolerance ±10 mm; absent from the scored file."
+        },
+        {
+          "id": "R-0902",
+          "text": "The bottom of the flexible lower legform impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 33,
+            "paragraph": "Annex 5 1.7"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "The bottom of the impactor (without parts needed for the purposes of launching and/or protection) shall be at 75 mm above ground reference plane at the time of first contact with the bumper (see Figure 4), with a ±10 mm tolerance.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.4,
+          "saved_applicability": "applies",
+          "saved_condition": "",
+          "reason": "R127 lower-legform impactor bottom height 75 ±10 mm; R127 source independently states it."
+        },
+        {
+          "id": "R-0904",
+          "text": "Where upper-legform-to-bumper testing applies based on lower bumper height, for the upper legform to bumper tests, the selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 36,
+            "paragraph": "Annex 5 2.4"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "The selected measuring points shall be in the bumper test area as defined in paragraph 2.14. of this Regulation.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.3,
+          "saved_applicability": "conditional",
+          "saved_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+          "reason": "R127 upper-legform measuring points must be in the defined bumper test area when that test applies."
+        },
+        {
+          "id": "R-0908",
+          "text": "Where upper-legform-to-bumper testing applies based on lower bumper height, in the upper legform to bumper test, the direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact, with a tolerance to this direction of ±2°.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 36,
+            "paragraph": "Annex 5 2.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "The direction of impact shall be parallel to the longitudinal axis of the vehicle, with the axis of the upper legform vertical at the time of first contact. The tolerance to this direction is ±2°.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.25,
+          "saved_applicability": "conditional",
+          "saved_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+          "reason": "R127 upper-legform impact axis and ±2° direction tolerance are independently testable."
+        },
+        {
+          "id": "R-0909",
+          "text": "Where upper-legform-to-bumper testing applies based on lower bumper height, at the time of first contact the upper legform impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 36,
+            "paragraph": "Annex 5 2.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.25,
+          "saved_applicability": "conditional",
+          "saved_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+          "reason": "R127 upper-legform vertical centreline midpoint has a ±10 mm tolerance, unlike GTR9's printed +10 mm wording."
+        },
+        {
+          "id": "R-0910",
+          "text": "Where upper-legform-to-bumper testing applies based on lower bumper height, at the time of first contact the upper legform impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+          "source": {
+            "regulation": "UN R127",
+            "version": "4.3.0",
+            "page": 36,
+            "paragraph": "Annex 5 2.6"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R127\\base\\UN_R127_base.pdf",
+          "source_quote": "At the time of first contact the impactor centre line shall be vertically midway between the upper bumper reference line and the lower bumper reference line with a ±10 mm tolerance and the impactor vertical centre line shall be positioned laterally with the selected impact location with a tolerance of ±10 mm.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.25,
+          "saved_applicability": "conditional",
+          "saved_condition": "Upper legform to bumper test applies (depends on lower bumper height of the vehicle)",
+          "reason": "R127 upper-legform lateral centreline has a distinct ±10 mm location tolerance."
+        },
+        {
+          "id": "R-0940",
+          "text": "If the side signalling lamp is a category 6 direction indicator, for direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 7,
+            "paragraph": "3.3.2.5.1.3"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "For direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.45,
+          "saved_applicability": "conditional",
+          "saved_condition": "Side signalling lamp is a category 6 side direction indicator",
+          "reason": "If a category 6 side direction indicator is installed, R148 requires an R/L side indication."
+        },
+        {
+          "id": "R-1152",
+          "text": "If the side signalling lamp is a category 5 or 6 direction indicator, for direction indicator Cat 5, 6, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 0.2 seconds after switch ON with reference coordinate H5, V0, as listed in Table A8-1.",
+          "source": {
+            "regulation": "UN R148",
+            "version": "1.6.0",
+            "page": 47,
+            "paragraph": "Annex 8 2.1"
+          },
+          "source_pdf": "C:\\Users\\saish\\Certivity\\industrial-ai-hackathon\\regulations\\pdf\\UN_R148\\base\\UN_R148_base.pdf",
+          "source_quote": "Direction Indicator Cat 5, 6 0.2 H5, V0",
+          "exact_quote_on_cited_page": true,
+          "saved_probability": 0.45,
+          "saved_applicability": "conditional",
+          "saved_condition": "Side signalling lamp is a category 5 or 6 side direction indicator",
+          "reason": "If a category 5/6 side direction indicator is installed, R148 Annex 8 specifies the 0.2-second intensity check."
+        }
+      ],
+      "modified": {},
+      "sha256": "1b371371e935181c16efd9a66d54109e67e453c6a57f763f1bc8ab213a7791a0"
+    }
+  }
+}

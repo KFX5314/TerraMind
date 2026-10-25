@@ -1,0 +1,48 @@
+{
+  "parent": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-evidence-358.json",
+  "parent_sha256": "ce5f24b5fdbe3ab9281d89c11fcce07f85659e64a4c1e3b5a8c322dbb7a7bf1f",
+  "target": "C:\\Users\\saish\\Certivity\\main-f2-eval\\artifacts\\evaluations\\heldout-f2-module-scope-20261025\\module-evidence-side-recovery-360.json",
+  "target_sha256": "02500e7caaab14aa63bd7ee3a0e509f557a781b4f6aeb34c98005af6b4931a5b",
+  "count": 360,
+  "by_regulation": {
+    "UN R10": 81,
+    "UN R26": 25,
+    "UN R42": 20,
+    "UN R48": 75,
+    "UN R94": 14,
+    "UN R127": 23,
+    "UN R148": 93,
+    "UN GTR 9": 29
+  },
+  "added_vs_parent": [
+    {
+      "id": "R-0940",
+      "text": "If the side signalling lamp is a category 6 direction indicator, for direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 7,
+        "paragraph": "3.3.2.5.1.3"
+      },
+      "source_quote": "For direction indicators of category 6 an indication \"R\" or \"L\" shall be shown on the lamp, indicating the right or left side of the vehicle.",
+      "saved_probability": 0.45,
+      "saved_condition": "Side signalling lamp is a category 6 side direction indicator",
+      "reason": "Category-6 side direction indicator R/L marking is mandatory when that lamp category is installed."
+    },
+    {
+      "id": "R-1152",
+      "text": "If the side signalling lamp is a category 5 or 6 direction indicator, for direction indicator Cat 5, 6, the luminous intensity distribution shall, in addition to paragraph 1, be checked for compliance at 0.2 seconds after switch ON with reference coordinate H5, V0, as listed in Table A8-1.",
+      "source": {
+        "regulation": "UN R148",
+        "version": "1.6.0",
+        "page": 47,
+        "paragraph": "Annex 8 2.1"
+      },
+      "source_quote": "Direction Indicator Cat 5, 6 0.2 H5, V0",
+      "saved_probability": 0.45,
+      "saved_condition": "Side signalling lamp is a category 5 or 6 side direction indicator",
+      "reason": "Annex 8 Table A8-1 requires a category-5/6 side-indicator check 0.2 s after switch-on at H5,V0 when that lamp category is installed."
+    }
+  ],
+  "risk": "Both duties are conditional on the side-indicator category; the supplied product specification does not identify the category."
+}
