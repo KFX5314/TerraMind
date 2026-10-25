@@ -544,10 +544,10 @@ async def analyse(case_id: str, team_id: str, out_dir: Path) -> dict:
         applied = apply_diff(x["text"], x["old"]["text"], x["new"]["text"])
         if applied is None or len(applied) > 2000 or x["expanded_source"] or re.search(r"\.[ ]+[a-z]", applied):
             need_model.append(x)
-        elif applied == x["text"]:
-            x["status"], x["note"] = "unchanged", "amendment does not touch this requirement's words"
-        else:
+        elif applied != x["text"]:
             x["det_new_text"] = applied
+        # careful mode: a substantive source change is never dropped just because the requirement's own words do not
+        # contain the edited words (status stays "modified"; the model writes the text, no draft is given)
     def heading_path(doc: dict, label: str) -> str:
         hits = [p for p in doc["paragraphs"] if p["label"] == label]
         if not hits:
@@ -583,9 +583,10 @@ async def analyse(case_id: str, team_id: str, out_dir: Path) -> dict:
         if x["status"] == "modified":
             rw = rewrites.get(x["id"])
             if rw and not rw["affected"]:
-                x["status"] = "unchanged"
-                x["note"] = "wording changed outside this requirement"
-                continue
+                # careful mode: the code found a substantive change in this requirement's source; the model may not
+                # drop it. Keep it as modified with the aligned NEW source text and record the disagreement.
+                x["note"] = "model said not affected; kept because the source changed substantively"
+                rw = dict(rw, new_text=x["new"]["text"][:2000])
             moved = f" (formerly {x['old']['label']})" if x["old"]["label"] != x["new"]["label"] else ""
             reason = (f"Paragraph {x['new']['label']}{moved} of {regulation} was amended in version {new_v}: "
                       f"{diff_reason(x['old']['text'], x['new']['text'])}.")
@@ -641,6 +642,10 @@ async def analyse(case_id: str, team_id: str, out_dir: Path) -> dict:
                         "source": {"page": page_of(new_pdf_doc, new_label_pages.get(lab, [1]), a["quote"]),
                                    "paragraph": lab}})
 
+    # modified / removed must reference a requirement of requirements_old.json; added changes (requirement_id None)
+    # cover new text and are kept
+    old_ids = {r["id"] for r in old_reqs}
+    changes = [c for c in changes if c.get("requirement_id") is None or c.get("requirement_id") in old_ids]
     sub = {"team_id": team_id, "case_id": case_id, "changes": changes}
     meta = {"case_id": case_id, "regulation": regulation, "old_version": old_v, "new_version": new_v, "rows": rows,
             "new_groups": group_list, "n_old": len(old_reqs), "n_skipped_old_sentences": len(skipped),
