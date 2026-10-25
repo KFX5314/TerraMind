@@ -39,6 +39,17 @@ Rollback: the 360-item file (F2 65.0%).
 
 ## Sub-goal (regulation change, UN R171)
 
+**Final leaderboard file:** `artifacts/subgoal/heldout 5 subgoal annex/changes.json`: 85 changes (14 modified, 4
+removed, 67 added), SHA-256 `e68138d33167f6f9a3ab12261999eb158026dbf593bbb5b186f248c7e3d01699`. It is the best
+63-change file plus 22 new obligations from Annexes 3 and 4. Reproduce it with:
+
+```
+CERTI_SUBGOAL_ANNEX=1 python -m certi subgoal --case subgoal-heldout --team team-10
+```
+
+The code on `main` reproduces this file exactly, from the cached model answers. The official result for this file
+was not recorded here.
+
 Code: `certi/subgoal.py` is v12 plus the held-out crash fix. It reproduces `artifacts/subgoal/subgoal-heldout-fresh`
 exactly (63 changes; official 81.2% flag recall, 82.5% flag precision, 72.9% change accuracy). The optional switch
 `CERTI_SUBGOAL_ANNEX=1` lets new annex obligations pass the covered-section gate.
